@@ -7,12 +7,14 @@ export default function WaterPumpsPage() {
     {
       name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
-      description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance."
+      description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
+      href: "/product/water-pumps/owp35hfr"
     },
     {
       name: "OWP7MQL8 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMPS",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/water-pmp111_tskzi4.jpg",
-      description: "Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations."
+      description: "Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations.",
+      href: "/product/water-pumps/owp7mql8"
     }
   ];
 
@@ -189,7 +191,7 @@ export default function WaterPumpsPage() {
                   <div className="w-full flex-1 flex flex-col justify-between">
                     <div>
                       <h3 className="text-xl font-bold text-slate-800 mb-3 hover:text-[#0047b3] transition-colors">
-                        <Link href="#">{product.name}</Link>
+                        <Link href={product.href}>{product.name}</Link>
                       </h3>
                       <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-4">
                         {product.description}
@@ -197,7 +199,7 @@ export default function WaterPumpsPage() {
                     </div>
                     <div className="flex flex-wrap gap-3 mt-auto">
                       <Link 
-                        href="#inquiry"
+                        href={product.href}
                         className="inline-flex items-center justify-center px-6 py-2 bg-[#0047b3] text-white text-sm font-medium rounded-full hover:bg-blue-800 transition-colors"
                       >
                         View More &gt;&gt;

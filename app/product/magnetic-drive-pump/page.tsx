@@ -7,7 +7,8 @@ export default function MagneticDrivePumpPage() {
     {
       name: "MIPA9X2K MAGNETIC PUMP",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
-      description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk."
+      description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
+      href: "/product/magnetic-drive-pump/mipa9x2k"
     }
   ];
 
@@ -179,7 +180,7 @@ export default function MagneticDrivePumpPage() {
                   <div className="w-full flex-1 flex flex-col justify-between">
                     <div>
                       <h3 className="text-xl font-bold text-slate-800 mb-3 hover:text-[#0047b3] transition-colors">
-                        <Link href="#">{product.name}</Link>
+                        <Link href={product.href}>{product.name}</Link>
                       </h3>
                       <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-4">
                         {product.description}
@@ -187,7 +188,7 @@ export default function MagneticDrivePumpPage() {
                     </div>
                     <div className="flex flex-wrap gap-3 mt-auto">
                       <Link 
-                        href="#inquiry"
+                        href={product.href}
                         className="inline-flex items-center justify-center px-6 py-2 bg-[#0047b3] text-white text-sm font-medium rounded-full hover:bg-blue-800 transition-colors"
                       >
                         View More &gt;&gt;

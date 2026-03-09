@@ -7,12 +7,14 @@ export default function ScrewPumpsPage() {
     {
       name: "OTT SINGLE SCREW PUMPS",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
-      description: "Open Top Type Single Screw Pumps are designed for handling highly viscous and non-flowing materials. They feature an open hopper with a coupling rod and an auger to force the material into the pumping elements."
+      description: "Open Top Type Single Screw Pumps are designed for handling highly viscous and non-flowing materials. They feature an open hopper with a coupling rod and an auger to force the material into the pumping elements.",
+      href: "/product/screwpumps/ott"
     },
     {
       name: "GPT7MQL8 GPT SINGLE SCREW PUMPS",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg",
-      description: "General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications, including the transfer of liquids with varying viscosities, containing solids, or requiring gentle handling."
+      description: "General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications, including the transfer of liquids with varying viscosities, containing solids, or requiring gentle handling.",
+      href: "/product/screwpumps/gpt7mql8"
     }
   ];
 
@@ -197,7 +199,7 @@ export default function ScrewPumpsPage() {
                   <div className="w-full flex-1 flex flex-col justify-between">
                     <div>
                       <h3 className="text-xl font-bold text-slate-800 mb-3 hover:text-[#0047b3] transition-colors">
-                        <Link href="#">{product.name}</Link>
+                        <Link href={product.href}>{product.name}</Link>
                       </h3>
                       <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-4">
                         {product.description}
@@ -205,7 +207,7 @@ export default function ScrewPumpsPage() {
                     </div>
                     <div className="flex flex-wrap gap-3 mt-auto">
                       <Link 
-                        href="#inquiry"
+                        href={product.href}
                         className="inline-flex items-center justify-center px-6 py-2 bg-[#0047b3] text-white text-sm font-medium rounded-full hover:bg-blue-800 transition-colors"
                       >
                         View More &gt;&gt;
