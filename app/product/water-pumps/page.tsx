@@ -144,12 +144,12 @@ export default function WaterPumpsPage() {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "TIP OH1 Horizontal Centrifugal Pumps For Oil And Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg" },
-                  { title: "TIP OH1 Horizontal Centrifugal Pumps For Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg" },
-                  { title: "TIP OH1 Overhung Type Horizontal Centrifugal Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg" },
-                  { title: "Open Top Type Single Screw Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg" }
+                  { title: "TIP OH1 Horizontal Centrifugal Pumps For Oil And Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/product/tipcentrifugalpumps/g2ap" },
+                  { title: "TIP OH1 Horizontal Centrifugal Pumps For Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", link: "/product/tipcentrifugalpumps/tip7rkc9x4" },
+                  { title: "TIP OH1 Overhung Type Horizontal Centrifugal Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/product/tipcentrifugalpumps/tip9aq2kx" },
+                  { title: "Open Top Type Single Screw Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/product/screwpumps/ott" }
                 ].map((np, i) => (
-                  <Link href="#" key={i} className="flex items-center gap-4 group">
+                  <Link href={np.link} key={i} className="flex items-center gap-4 group">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
                       <Image 
                         src={np.img}

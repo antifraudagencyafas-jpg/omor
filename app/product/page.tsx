@@ -139,37 +139,37 @@ export default function ProductsPage() {
                 name: "TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS", 
                 image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
                 description: "The Omron Tech Pumps TIP series of TIP9A7Q2KX overhung type horizontal centrifugal pumps is a high - performance product developed by our company.",
-                link: "/product/tipcentrifugalpumps"
+                link: "/product/tipcentrifugalpumps/tip9aq2kx"
               },
               { 
                 name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP", 
                 image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
                 description: "TIP Horizontal Centrifugal Pumps for Chemical Flow are meticulously manufactured in strict accordance with the TIP standard.",
-                link: "/product/tipcentrifugalpumps"
+                link: "/product/tipcentrifugalpumps/tip7rkc9x4"
               },
               { 
                 name: "OTT SINGLE SCREW PUMPS", 
                 image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
                 description: "Open Top Type Single Screw Pumps are designed for handling highly viscous and non-flowing materials.",
-                link: "/product/screwpumps"
+                link: "/product/screwpumps/ott"
               },
               { 
                 name: "GPT7MQL8 GPT SINGLE SCREW PUMPS", 
                 image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg",
                 description: "General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications.",
-                link: "/product/screwpumps"
+                link: "/product/screwpumps/gpt7mql8"
               },
               { 
                 name: "MIPA9X2K MAGNETIC PUMP", 
                 image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
                 description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
-                link: "/product/magnetic-drive-pump"
+                link: "/product/magnetic-drive-pump/mipa9x2k"
               },
               { 
                 name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS", 
                 image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
                 description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
-                link: "/product/water-pumps"
+                link: "/product/water-pumps/owp35hfr"
               },
             ].map((product, idx) => (
               <div key={idx} className="bg-white rounded-lg border border-slate-200 overflow-hidden hover:shadow-lg transition-shadow flex flex-col">

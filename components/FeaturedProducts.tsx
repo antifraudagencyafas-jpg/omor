@@ -21,7 +21,7 @@ const placeholderProducts = [
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
     performance: "Flow rate up to 1200 m³/h, Head up to 300m",
-    link: "/product/tipcentrifugalpumps"
+    link: "/product/tipcentrifugalpumps/tip7rkc9x4"
   },
   { 
     name: "OTT SINGLE SCREW PUMPS", 
@@ -29,7 +29,7 @@ const placeholderProducts = [
     materials: "Cast Iron, Bronze, Stainless Steel",
     dimensions: "1000mm x 600mm x 800mm",
     performance: "Flow rate up to 300 m³/h, Head up to 150m",
-    link: "/product/screwpumps"
+    link: "/product/screwpumps/ott"
   },
   { 
     name: "GPT7MQL8 GPT SINGLE SCREW PUMPS", 
@@ -37,7 +37,7 @@ const placeholderProducts = [
     materials: "Cast Iron, Carbon Steel, Stainless Steel",
     dimensions: "1800mm x 700mm x 900mm",
     performance: "Flow rate up to 2000 m³/h, Pressure up to 100 bar",
-    link: "/product/screwpumps"
+    link: "/product/screwpumps/gpt7mql8"
   },
   { 
     name: "MIPA9X2K MAGNETIC PUMP", 
@@ -45,7 +45,7 @@ const placeholderProducts = [
     materials: "Polypropylene, ETFE, PFA lined",
     dimensions: "800mm x 400mm x 600mm",
     performance: "Flow rate up to 100 m³/h, Head up to 80m",
-    link: "/product/magnetic-drive-pump"
+    link: "/product/magnetic-drive-pump/mipa9x2k"
   },
   { 
     name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS", 
@@ -53,7 +53,7 @@ const placeholderProducts = [
     materials: "PTFE, PVDF, Hastelloy",
     dimensions: "900mm x 500mm x 700mm",
     performance: "Flow rate up to 150 m³/h, Head up to 100m",
-    link: "/product/water-pumps"
+    link: "/product/water-pumps/owp35hfr"
   },
 ];
 
