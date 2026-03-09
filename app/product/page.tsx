@@ -32,15 +32,16 @@ export default function ProductsPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
             {/* Category 1 */}
             <div className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
-              <div className="relative h-64 w-full bg-slate-100 overflow-hidden">
+              <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
                 <Image 
-                  src="https://picsum.photos/seed/centrifugal/800/600" 
+                  src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg" 
                   alt="TIP Centrifugal Pumps" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
+                <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-500"></div>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">TIP Centrifugal Pumps</h3>
@@ -55,15 +56,16 @@ export default function ProductsPage() {
 
             {/* Category 2 */}
             <div className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
-              <div className="relative h-64 w-full bg-slate-100 overflow-hidden">
+              <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
                 <Image 
-                  src="https://picsum.photos/seed/screw/800/600" 
+                  src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-4_jl919r.jpg" 
                   alt="Screw Pumps" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
+                <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-500"></div>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Screw Pumps</h3>
@@ -78,15 +80,16 @@ export default function ProductsPage() {
 
             {/* Category 3 */}
             <div className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
-              <div className="relative h-64 w-full bg-slate-100 overflow-hidden">
+              <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
                 <Image 
-                  src="https://picsum.photos/seed/magnetic/800/600" 
+                  src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image_neo1zb.jpg" 
                   alt="Magnetic Drive Pumps" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
+                <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-500"></div>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Magnetic Drive Pumps</h3>
@@ -101,15 +104,16 @@ export default function ProductsPage() {
 
             {/* Category 4 */}
             <div className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
-              <div className="relative h-64 w-full bg-slate-100 overflow-hidden">
+              <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
                 <Image 
-                  src="https://picsum.photos/seed/waterpump/800/600" 
+                  src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image-1_yfttp1.jpg" 
                   alt="Water Pumps" 
                   fill 
                   sizes="(max-width: 768px) 100vw, 50vw"
                   className="object-cover group-hover:scale-105 transition-transform duration-500"
                   referrerPolicy="no-referrer"
                 />
+                <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-500"></div>
               </div>
               <div className="p-8 flex flex-col flex-grow">
                 <h3 className="text-2xl font-bold text-slate-900 mb-4">Water Pumps</h3>
@@ -117,6 +121,30 @@ export default function ProductsPage() {
                   High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.
                 </p>
                 <Link href="/product/water-pumps" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors w-max">
+                  View Products <ArrowRight className="ml-2 w-4 h-4" />
+                </Link>
+              </div>
+            </div>
+
+            {/* Category 5 */}
+            <div className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col">
+              <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
+                <Image 
+                  src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078721/image-2_mx5ywi.jpg" 
+                  alt="Solar Pumps" 
+                  fill 
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                  referrerPolicy="no-referrer"
+                />
+                <div className="absolute inset-0 bg-slate-900/10 group-hover:bg-transparent transition-colors duration-500"></div>
+              </div>
+              <div className="p-8 flex flex-col flex-grow">
+                <h3 className="text-2xl font-bold text-slate-900 mb-4">Solar Pumps</h3>
+                <p className="text-slate-600 mb-8 flex-grow">
+                  Eco-friendly solar-powered pumping solutions for remote locations, agriculture, and sustainable water management systems. Reliable operation independent of the grid.
+                </p>
+                <Link href="/product/solar-pumps" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors w-max">
                   View Products <ArrowRight className="ml-2 w-4 h-4" />
                 </Link>
               </div>

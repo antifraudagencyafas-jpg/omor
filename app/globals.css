@@ -2,14 +2,14 @@
 
 @theme {
   /* Accent Blue */
-  --color-blue-500: #2E6FD8;
+  --color-blue-500: #1F5FBF;
   
-  /* Primary Blue */
-  --color-blue-600: #1F5FBF;
+  /* Primary Blue (Logo Color) */
+  --color-blue-600: #0047b3;
   
   /* Hover states for Primary Blue */
-  --color-blue-700: #184a96;
-  --color-blue-800: #12366e;
+  --color-blue-700: #003380;
+  --color-blue-800: #002255;
   
   /* Dark Blue */
   --color-blue-900: #0B1F3A;
@@ -27,4 +27,9 @@
   /* Light Gray */
   --color-gray-50: #F2F2F2;
   --color-gray-100: #F2F2F2;
+}
+
+::selection {
+  background-color: #0047b3;
+  color: white;
 }

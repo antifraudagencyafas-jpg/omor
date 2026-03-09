@@ -66,7 +66,7 @@ export default function TIPCentrifugalPumpsPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://picsum.photos/seed/centrifugal/1920/1080"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg"
             alt="TIP Centrifugal Pumps Background"
             fill
             className="object-cover"
@@ -147,12 +147,12 @@ export default function TIPCentrifugalPumpsPage() {
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="#" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           TIP Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           TIP Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>

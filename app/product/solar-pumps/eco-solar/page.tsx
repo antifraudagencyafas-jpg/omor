@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function EcoSolarPumpPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -14,9 +14,9 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/product" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/product/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/product/solar-pumps" className="hover:text-blue-600 transition-colors">Solar Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">G2AP HORIZONTAL CENTRIFUGAL PUMPS</span>
+          <span className="text-slate-900 font-medium truncate">ECO-SOLAR PUMP SYSTEM</span>
         </div>
       </div>
 
@@ -45,24 +45,10 @@ export default function ProductPage() {
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
-                  <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
-                      <span>TIP Centrifugal Pumps</span>
-                      <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
-                    </summary>
-                    <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
-                      <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
-                        </Link>
-                      </li>
-                    </ul>
-                  </details>
+                  <Link href="/product/tipcentrifugalpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                    <span>TIP Centrifugal Pumps</span>
+                    <ChevronRight className="w-4 h-4" />
+                  </Link>
                 </li>
                 <li>
                   <Link href="/product/screwpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
@@ -81,6 +67,21 @@ export default function ProductPage() {
                     <span>Magnetic Drive Pump</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
+                </li>
+                <li>
+                  <details className="group" open>
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
+                      <span>Solar Pumps</span>
+                      <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
+                    </summary>
+                    <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
+                      <li>
+                        <Link href="/product/solar-pumps/eco-solar" className="block text-sm text-slate-500 hover:text-blue-600">
+                          Eco-Solar Pump System
+                        </Link>
+                      </li>
+                    </ul>
+                  </details>
                 </li>
               </ul>
             </div>
@@ -113,7 +114,7 @@ export default function ProductPage() {
                   </Link>
                 ))}
                 <div className="pt-2">
-                  <Link href="/product" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
+                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
                     View More <ChevronRight className="w-4 h-4 ml-1" />
                   </Link>
                 </div>
@@ -128,8 +129,8 @@ export default function ProductPage() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg"
-                    alt="G2AP HORIZONTAL CENTRIFUGAL PUMPS"
+                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg"
+                    alt="ECO-SOLAR PUMP SYSTEM"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -138,14 +139,14 @@ export default function ProductPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  G2AP HORIZONTAL CENTRIFUGAL PUMPS
+                  ECO-SOLAR PUMP SYSTEM
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: G2AP
+                  Model: ECO-SOLAR-100
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP OH1 Horizontal Centrifugal Pumps for Oil and Chemical Flow play a crucial role in the industry. Among them, the Omron Tech Pumps series strictly adheres to the TIP standard. Specifically crafted for the intricate technological processes in the petrochemical field, this series is highly efficient and reliable. Its flow rate ranges from 2 to 2600 cubic meters per hour, and the maximum head can reach up to 250 meters, which can precisely meet the transportation requirements of various media in petrochemical production.
+                    The Eco-Solar Pump System is an innovative, eco-friendly solution for remote water supply. Designed to operate completely off-grid, it harnesses solar energy to provide a reliable and continuous water flow for agriculture, livestock, and rural communities. With high-efficiency solar panels and a durable pump mechanism, it ensures maximum performance with minimal maintenance.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -162,81 +163,30 @@ export default function ProductPage() {
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
               <p className="text-slate-700 leading-relaxed mb-8">
-                TIP OH1 Horizontal Centrifugal Pumps for Oil and Chemical Flow play a crucial role in the industry. Among them, the Omron Tech Pumps series strictly adheres to the TIP standard. Specifically crafted for the intricate technological processes in the petrochemical field, this series is highly efficient and reliable. Its flow rate ranges from 2 to 2600 cubic meters per hour, and the maximum head can reach up to 250 meters, which can precisely meet the transportation requirements of various media in petrochemical production.
+                Our Eco-Solar Pump System integrates advanced MPPT (Maximum Power Point Tracking) technology to optimize energy conversion from solar panels to the pump motor. This ensures that the pump operates efficiently even under varying sunlight conditions. The system is built with corrosion-resistant materials, making it suitable for harsh environments and ensuring a long operational lifespan.
               </p>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
-                  <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
-                    fill 
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
               <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
+                The Eco-Solar Pump System is highly versatile and can be deployed in various scenarios where grid power is unavailable or unreliable.
               </p>
               
               <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Agriculture:</strong> Ideal for drip irrigation, sprinkler systems, and general crop watering in remote fields.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Livestock Watering:</strong> Provides a steady supply of drinking water for cattle and other livestock in off-grid pastures.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Rural Water Supply:</strong> Ensures access to clean drinking water for communities without reliable electricity infrastructure.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Water Transfer:</strong> Useful for transferring water from wells, rivers, or reservoirs to storage tanks.</li>
               </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "Solar Pump",
+                  "Eco-Friendly",
+                  "Off-Grid",
+                  "Agriculture",
+                  "Water Supply",
+                  "Renewable Energy"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

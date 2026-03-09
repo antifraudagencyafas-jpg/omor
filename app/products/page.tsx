@@ -40,6 +40,13 @@ const categories = [
     products: [
       { name: "MIPA9X2K MAGNETIC PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg", href: "/product/magnetic-drive-pump/mipa9x2k" },
     ]
+  },
+  {
+    title: "Solar Pumps",
+    href: "/product/solar-pumps",
+    products: [
+      { name: "ECO-SOLAR PUMP SYSTEM", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/product/solar-pumps/eco-solar" },
+    ]
   }
 ];
 

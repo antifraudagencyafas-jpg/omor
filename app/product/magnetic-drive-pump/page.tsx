@@ -18,7 +18,7 @@ export default function MagneticDrivePumpPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://picsum.photos/seed/magnetic/1920/1080"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image_neo1zb.jpg"
             alt="Magnetic Drive Pumps Background"
             fill
             className="object-cover"
@@ -116,7 +116,7 @@ export default function MagneticDrivePumpPage() {
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="#" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           MIPA9X2K MAGNETIC PUMP
                         </Link>
                       </li>

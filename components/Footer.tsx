@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail, MapPin, Facebook, Twitter, Linkedin, Youtube } from "lucide-react";
 
 export default function Footer() {
@@ -8,9 +9,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Company Info */}
           <div>
-            <div className="text-2xl font-bold text-white tracking-tight mb-6">
-              <span className="text-blue-500 mr-1">Omron</span>TechPumps
-            </div>
+            <Link href="/" className="inline-block mb-6 bg-white p-2 rounded-lg">
+              <Image
+                src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773049630/Ommm_p2g9w8.jpg"
+                alt="Omron Tech Pumps Logo"
+                width={240}
+                height={80}
+                className="h-12 w-auto object-contain"
+              />
+            </Link>
             <p className="text-slate-400 mb-6 leading-relaxed">
               Global leader in advanced industrial pump solutions, providing reliable high-performance equipment for the most demanding applications worldwide.
             </p>

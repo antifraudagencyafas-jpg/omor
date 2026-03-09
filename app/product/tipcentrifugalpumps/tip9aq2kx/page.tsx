@@ -52,12 +52,12 @@ export default function TIP9AQ2KXPage() {
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="#" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="#" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
@@ -240,7 +240,7 @@ export default function TIP9AQ2KXPage() {
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 
-                    href="#" 
+                    href="/products" 
                     className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
                   >
                     {tag}
