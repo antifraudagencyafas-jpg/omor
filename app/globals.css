@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@theme {
+  /* Accent Blue */
+  --color-blue-500: #2E6FD8;
+  
+  /* Primary Blue */
+  --color-blue-600: #1F5FBF;
+  
+  /* Hover states for Primary Blue */
+  --color-blue-700: #184a96;
+  --color-blue-800: #12366e;
+  
+  /* Dark Blue */
+  --color-blue-900: #0B1F3A;
+  --color-slate-900: #0B1F3A;
+  --color-slate-950: #0B1F3A;
+  
+  /* Slightly lighter than Dark Blue for borders and icon backgrounds */
+  --color-slate-800: #12366e;
+  
+  /* Text Gray */
+  --color-slate-500: #555555;
+  --color-slate-600: #555555;
+  --color-slate-700: #555555;
+  
+  /* Light Gray */
+  --color-gray-50: #F2F2F2;
+  --color-gray-100: #F2F2F2;
+}
