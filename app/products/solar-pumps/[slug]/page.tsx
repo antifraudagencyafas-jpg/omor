@@ -165,9 +165,6 @@ export default async function SolarPumpDetailPage({ params }: PageProps) {
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
                   {product.title}
                 </h1>
-                <p className="text-slate-600 font-medium mb-4">
-                  Model: {product.code}
-                </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8 whitespace-pre-line">
                   {product.description}
                 </div>

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ChevronRight } from "lucide-react";
+import solarProducts from "@/solar_products.json";
 
 const categories = [
   {
@@ -12,12 +13,9 @@ const categories = [
       { name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/tipcentrifugalpumps/tip9a2kx" },
       { name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/tipcentrifugalpumps/tip7rkc9x4" },
       { name: "TIP4M2BRDL CHEMICAL VERTICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/tipcentrifugalpumps/tip4m2brdl" },
-      { name: "TIPA6W9MQL TEMPERATURE CONTROLLER HIGH CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
-      { name: "TIPX2C9W7A CHEMICAL VERTICAL PROCESSING PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
-      { name: "G2AP HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
-      { name: "TIPQ9L4A7M HORIZONTAL CENTRIFUGAL PUMP WITH TEMPERATURE SENSOR", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", href: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-      { name: "TIPL8Q5N2M HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/8pvb-1_uvxvdo.jpg", href: "/products/tipcentrifugalpumps/tipl8q5n2m" },
-      { name: "TIP8C2XKWR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", href: "/products/tipcentrifugalpumps/tip8c2xkwr" },
+      { name: "TIPA6W9MQL TEMPERATURE CONTROLLER HIGH CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
+      { name: "TIPX2C9W7A CHEMICAL VERTICAL PROCESSING PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
+      { name: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
     ]
   },
   {
@@ -54,19 +52,19 @@ const categories = [
     href: "/products/solar-pumps",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078721/image-2_mx5ywi.jpg",
     description: "Eco-friendly solar-powered pumping solutions for remote locations, agriculture, and sustainable water management systems. Reliable operation independent of the grid.",
-    products: [
-      { name: "OTP-TS9DZQ2V AC DC SOLAR CENTRIFUGAL PUMP", image: "https://leopump.com/en/bocupload/2023/07/19/ACm75-dc-solar-centrifugal-pump.png", href: "/products/solar-pumps/ac-dc-solar-centrifugal-pump" },
-      { name: "OTP-MQD5AIV8 AP DC SOLAR PERIPHERAL PUMP", image: "https://leopump.com/en/bocupload/2023/07/19/AP-dc-solar-peripheral-pump.png", href: "/products/solar-pumps/ap-dc-solar-peripheral-pump" },
-      { name: "OTP-LUOCNQCV HYBRID AC/DC SOLAR CENTRIFUGAL PUMP", image: "https://leopump.com/en/bocupload/2023/07/19/AC-AD-hybrid-ac-dc-solar-centrifugal-pump.png", href: "/products/solar-pumps/ac-ad-hybrid-ac-dc-solar-centrifugal-pump" },
-    ]
+    products: solarProducts.map(p => ({
+      name: p.name,
+      image: p.image,
+      href: `/products/solar-pumps/${p.slug}`
+    }))
   }
 ];
 
 const featuredProducts = [
   {
-    name: "OTP-TS9DZQ2V AC DC SOLAR CENTRIFUGAL PUMP",
-    image: "https://leopump.com/en/bocupload/2023/07/19/ACm75-dc-solar-centrifugal-pump.png",
-    link: "/products/solar-pumps/ac-dc-solar-centrifugal-pump"
+    name: "OTP-C0IV3AIX XSTP HORIZONTAL SINGLE-STAGE CENTRIFUGAL PUMP",
+    image: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump.png",
+    link: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump"
   },
   {
     name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
