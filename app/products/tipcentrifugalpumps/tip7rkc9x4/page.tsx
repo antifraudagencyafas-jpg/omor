@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP Horizontal Centrifugal Pumps for Chemical Flow are meticulously manufactured in strict accordance with the TIP standard. They are specifically designed for the complex technological processes in the chemical industry and belong to the category of high - performance centrifugal pumps. Their flow rate ranges from 2 cubic meters per hour to 2000 cubic meters per hour, and the maximum head can reach 160 meters. They are suitable for transporting media that are low - temperature or high - temperature, neutral or corrosive, clean or containing solid particles, toxic, flammable, and explosive.
+                    The Omron Tech Pumps TIP series of Horizontal Centrifugal Pumps is specifically designed for transporting slurries containing impurities such as solid particles and fibers. It is widely used in various industries, including chemical, papermaking, mining, metallurgy, and power generation. It features high efficiency, minimal or no leakage, excellent anti-clogging performance, stable operation, and a compact structure.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,19 +161,27 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                As a TIP Horizontal Centrifugal Pumps, it has unique designs in key components. The impeller adopts a large-channel structure, with wide and smooth flow passages and carefully optimized blades, which greatly reduces the risk of slurry clogging and significantly improves the conveying efficiency.
+              </p>
               <p className="text-slate-700 leading-relaxed mb-8">
-                TIP Horizontal Centrifugal Pumps for Chemical Flow are meticulously manufactured in strict accordance with the TIP standard. They are specifically designed for the complex technological processes in the chemical industry and belong to the category of high - performance centrifugal pumps. Their flow rate ranges from 2 cubic meters per hour to 2000 cubic meters per hour, and the maximum head can reach 160 meters. They are suitable for transporting media that are low - temperature or high - temperature, neutral or corrosive, clean or containing solid particles, toxic, flammable, and explosive.
+                The pump body is made of wear-resistant and corrosion-resistant materials, with a compact interior and a reasonable flow passage design to ensure smooth feeding and discharging. The shaft seal is available in two forms: mechanical seal and packing seal. It has excellent sealing performance and effectively extends the service life of the equipment.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
+              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12">
+                <li>● <strong>Chemical Industry:</strong> Transporting various chemical raw material slurries, discharging materials from reaction kettles, and sludge slurries in wastewater treatment.</li>
+                <li>● <strong>Papermaking Industry:</strong> Mainly used in processes such as pulp transportation and waste paper treatment slurry transportation. The large-channel impeller prevents fiber clogging.</li>
+                <li>● <strong>Power Industry:</strong> In the ash removal system of thermal power plants, used for transporting fly ash slurries.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-no-clogging-slurry--3--537469.webp"
+                    alt="TIP Centrifugal Pump Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,62 +189,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "TIP Horizontal Centrifugal Pump",
+                  "No Clogging Slurry Pump",
+                  "Industrial Slurry Pump",
+                  "Wear-Resistant Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

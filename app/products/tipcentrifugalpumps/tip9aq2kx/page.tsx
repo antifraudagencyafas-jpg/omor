@@ -169,10 +169,9 @@ export default function TIP9AQ2KXPage() {
               <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
               
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh4-overhung-type-horizontal-centrifugal-pumps--2--940998.webp"
                     alt="Schematic Diagram" 
                     fill 
                     className="object-contain"
@@ -200,13 +199,12 @@ export default function TIP9AQ2KXPage() {
 
               <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
               
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
+                  <div className="relative w-full aspect-[4/3]">
                     <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
+                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/p1c-1.jpg"
+                      alt="Performance Parameter 1"
                       fill 
                       className="object-contain"
                       referrerPolicy="no-referrer"
@@ -214,10 +212,32 @@ export default function TIP9AQ2KXPage() {
                   </div>
                 </div>
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
+                  <div className="relative w-full aspect-[4/3]">
                     <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
+                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/p2c-1.jpg"
+                      alt="Performance Parameter 2"
+                      fill
+                      className="object-contain"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                </div>
+                <div className="border border-slate-200 rounded-lg p-2 bg-white">
+                  <div className="relative w-full aspect-[4/3]">
+                    <Image
+                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/p3c-1.jpg"
+                      alt="Performance Parameter 3"
+                      fill
+                      className="object-contain"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                </div>
+                <div className="border border-slate-200 rounded-lg p-2 bg-white">
+                  <div className="relative w-full aspect-[4/3]">
+                    <Image
+                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/cent1.jpg"
+                      alt="Performance Parameter 4"
                       fill 
                       className="object-contain"
                       referrerPolicy="no-referrer"

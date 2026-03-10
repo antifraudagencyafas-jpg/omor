@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP Horizontal Centrifugal Pumps For Heat Preservation for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in Omron Tech Pumps series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise tempera control, ensuring efficient and stable transportation, and demonstrating excellent performance under cor working conditions, thus facilitating the smooth o DeFNDG of chemical production processes. We adhere to the principle of putting customers first, providing professional selection advice and customized services, making every effort to maintain equipment stability. Our prices are also highly competitive, allowing you to obtain high - quality products at an affordable cost.
+                    Temperature Controller High Centrifugal Pumps For Heat Preservation are crafted by Omron Tech Pumps. Featuring an ingenious hollow sandwich structure compatible with a variety of insulating media, these pumps enable precise temperature control, ensuring efficient and stable transportation under complex working conditions.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,19 +161,45 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                TIP Horizontal Centrifugal Pumps For Heat Preservation for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in Omron Tech Pumps series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise tempera control, ensuring efficient and stable transportation, and demonstrating excellent performance under cor working conditions, thus facilitating the smooth o DeFNDG of chemical production processes. We adhere to the principle of putting customers first, providing professional selection advice and customized services, making every effort to maintain equipment stability. Our prices are also highly competitive, allowing you to obtain high - quality products at an affordable cost.
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The Omron Tech Pumps TIP series of TIP Temperature Controller High Centrifugal Pumps for Heat Preservation are suitable for transporting media with requirements for maintaining a certain temperature at the freezing point (or crystallization point).
               </p>
+              <ul className="space-y-4 text-slate-700 mb-8">
+                <li>● <strong>Insulated Pump Body:</strong> Combines with the insulated pump cover to maintain a constant temperature.</li>
+                <li>● <strong>Impeller:</strong> Closed type. Axial force is balanced by balance holes or auxiliary vanes.</li>
+                <li>● <strong>Insulated Pump Cover:</strong> Forms a standard seal chamber with the insulated seal gland, maintaining constant temperature.</li>
+                <li>● <strong>Shaft:</strong> Protected by a shaft sleeve to prevent corrosion and extend service life.</li>
+                <li>● <strong>Bearings:</strong> Lubricated with thin oil with a constant level oil cup for optimal lubrication.</li>
+              </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Petrochemical:</strong> High-temp crude oil, asphalt insulation.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Fine Chemical:</strong> Molten sulfur, liquid phenolic resin.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical:</strong> Heat-sensitive APIs and syrup-like media.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Sugar Industry:</strong> Syrup, sugar paste, and molasses.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Plants:</strong> Boiler feed water, desulfurization slurries.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper Mills:</strong> High-temp pulp, coating liquid.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
+                  <li><strong>Flow Rate:</strong> 2 - 2000 m³/h</li>
+                  <li><strong>Head:</strong> Up to 160 m</li>
+                  <li><strong>Pressure:</strong> ≤ 2.5 MPa</li>
+                  <li><strong>Temperature:</strong> - 40℃ - 260℃</li>
+                  <li><strong>Rotation Speed:</strong> 1450 rpm/min, 2950 rpm/min</li>
+                </ul>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1horizontal-centrifugal-pumps-for-heat-preservation--2--409967.webp"
+                    alt="TIP Centrifugal Pump Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,62 +207,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "Temperature Controller Pump",
+                  "Heat Preservation Pump",
+                  "Insulated Centrifugal Pump",
+                  "Industrial Process Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

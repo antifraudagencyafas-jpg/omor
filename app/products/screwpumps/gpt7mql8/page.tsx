@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications, including the transfer of liquids with varying viscosities, containing solids, or requiring gentle handling.
+                    General Type Single Screw Pumps are powerful industrial transportation tools. Their unique structure enables application in diverse working conditions, handling high-viscosity, particle-laden, and corrosive media with stable flow rates and low energy consumption.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,52 +161,32 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications, including the transfer of liquids with varying viscosities, containing solids, or requiring gentle handling.
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The Omron Tech Pumps GPT Single Screw Pumps are designed for continuous and stable transportation without periodic pressure fluctuations. They feature low-agitation transport that does not damage the inherent structure of the media.
               </p>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Screw Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Single Screw Pump Structure</p>
-              
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
-                  <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
-                    fill 
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                Screw pumps are highly suitable for transporting highly viscous liquids, sludges, and media containing solid particles.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
+              <ul className="space-y-4 text-slate-700 mb-12">
+                <li>● <strong>High Viscosity:</strong> Capable of handling media from 20,000 to 200,000 MPa·s.</li>
+                <li>● <strong>Solid Handling:</strong> Transports particles up to 16 mm and fibers up to 100 mm. Solid phase content up to 60%.</li>
+                <li>● <strong>Low Noise:</strong> Engineered to satisfy stringent low-noise requirements in industrial environments.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-slate-700 list-none pl-0 mb-12">
+                <li>● <strong>Environmental:</strong> Industrial and domestic sewage, sludge-laden water.</li>
+                <li>● <strong>Petroleum:</strong> Crude oil and coalbed methane-water mixtures.</li>
+                <li>● <strong>Food Industry:</strong> Starches, honey, jams, and creams.</li>
+                <li>● <strong>Construction:</strong> Pasty substances like mortar and coatings.</li>
+                <li>● <strong>Chemical:</strong> Suspensions, oils, and adhesives.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagrams</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
+                  <div className="relative w-full aspect-square">
                     <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
+                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-05-4444.jpg"
+                      alt="GPT Structure 1"
                       fill 
                       className="object-contain"
                       referrerPolicy="no-referrer"
@@ -214,10 +194,10 @@ export default function ProductPage() {
                   </div>
                 </div>
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
+                  <div className="relative w-full aspect-square">
                     <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
+                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-06-231804.jpg"
+                      alt="GPT Structure 2"
                       fill 
                       className="object-contain"
                       referrerPolicy="no-referrer"
@@ -229,10 +209,10 @@ export default function ProductPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "Screw Pumps",
-                  "Single Screw Pump",
-                  "High Viscosity Pump",
-                  "Industrial Pump"
+                  "GPT Single Screw Pump",
+                  "General Type Screw Pump",
+                  "High Viscosity Media Pump",
+                  "Industrial Sludge Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

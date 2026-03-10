@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.
+                    The OWP vertical multistage stainless steel centrifugal pump is non-self-priming and compatible with standard motors. The motor shaft and pump shaft are directly connected by a coupling. It is fixed between the bracket and the water inlet/outlet body by tie rods and nuts.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,19 +161,36 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The OWP series is a multi-functional product capable of transporting various media such as tap water and slightly corrosive industrial liquids. It is suitable for different temperature, flow rate, and pressure scenarios.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Water Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Multistage Water Pump Structure</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Water Supply:</strong> Filtration, transportation, and zoned supply.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Industrial:</strong> Pressurization and process water systems.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Cleaning:</strong> High-pressure flushing and cleaning systems.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Fire Fighting:</strong> Dedicated fire protection systems.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Agriculture:</strong> Farmland, sprinkler, and drip irrigation.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operating Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
+                  <li><strong>Liquid Temp (Normal):</strong> -15°C ~ +70°C</li>
+                  <li><strong>Liquid Temp (Hot):</strong> -15°C ~ +120°C</li>
+                  <li><strong>Ambient Temp:</strong> Up to +40°C</li>
+                  <li><strong>Altitude:</strong> Up to 1000m</li>
+                </ul>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
                 <div className="relative w-full max-w-2xl aspect-[4/3]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-stainless-steel-centrifugal-pump--2--770423.webp"
+                    alt="OWP Series Structure"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,58 +198,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                Water pumps are highly suitable for transporting clean water and other non-corrosive liquids.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "Water Pumps",
-                  "Multistage Pump",
-                  "Vertical Pump",
-                  "Industrial Pump"
+                  "OWP35HFR Multistage Pump",
+                  "Vertical Centrifugal Pump",
+                  "Stainless Steel Pump",
+                  "Industrial Water Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

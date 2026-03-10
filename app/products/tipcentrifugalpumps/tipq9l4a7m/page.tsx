@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    As a global leader in industrial fluid technology Oron Tech Pumps has newly launched the TIPQ9L4A7M overhung type horizontal centrifugal pumps series. his series is centered around strict compliance with the international standard of the American Petroleum Institute. It is specifically designed for scenarios in petrochemical industry, energy extraction, and transportation of highly corrosive media, redefining the industry benchmark for reliability and efficiency.
+                    As a global leader in industrial fluid technology, Omron Tech Pumps has newly launched the TIPQ9L4A7M overhung type horizontal centrifugal pumps series. This series is centered around strict compliance with international standards. It is specifically designed for scenarios in petrochemical industry, energy extraction, and transportation of highly corrosive media, redefining the industry benchmark for reliability and efficiency.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,82 +161,57 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The horizontal centrifugal pump with Temperature Sensor is a new series of products designed and developed by Omron Tech Pumps. It features a horizontal, single - stage, single - suction, and radial partial volute structure.
+              </p>
               <p className="text-slate-700 leading-relaxed mb-8">
-                As a global leader in industrial fluid technology Oron Tech Pumps has newly launched the TIPQ9L4A7M overhung type horizontal centrifugal pumps series. his series is centered around strict compliance with the international standard of the American Petroleum Institute. It is specifically designed for scenarios in petrochemical industry, energy extraction, and transportation of highly corrosive media, redefining the industry benchmark for reliability and efficiency.
+                It can transport various liquids with high or low temperatures, neutral or corrosive properties, such as inorganic and organic acids like nitric acid, sulfuric acid, hydrochloric acid, and phosphoric acid. It is mainly used in the refining industry, petrochemical industry, coal processing industry, paper and pulp industry, sugar industry, heating and water supply industry, etc.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
-                  <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
-                    fill 
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
+              <ul className="space-y-6 text-slate-700 list-none pl-0 mb-12">
+                <li>● <strong>Petrochemical Industry:</strong> In refineries for processes like crude oil distillation, catalytic cracking, and hydro - refining. Used to transfer crude oil, intermediate products, and various chemical agents.</li>
+                <li>● <strong>Coal Processing Industry:</strong> In processes including coal - to - liquid, coal - to - gas, and coal - to - methanol, transporting media such as coal slurry, syngas, and methanol.</li>
+                <li>● <strong>Power Industry:</strong> Used to transport boiler make - up water, condensate water, and circulating cooling water. Also used for acid - base solutions in desulfurization.</li>
+                <li>● <strong>Paper and Pulp Industry:</strong> Transferring pulp from storage to cooking equipment, and qualified pulp to the headbox of the paper machine.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operating Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
+                  <li><strong>Flow rate:</strong> 3 - 2600 m³/h</li>
+                  <li><strong>Head:</strong> 4 - 250 m</li>
+                  <li><strong>Pressure:</strong> Up to 5.0 MPa</li>
+                  <li><strong>Temperature:</strong> -20°C - 450°C</li>
+                  <li><strong>Rotational speed:</strong> 2950 rpm/min, 1450 rpm/min</li>
+                </ul>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameters</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+                {[1, 2, 3, 4, 5, 6].map((i) => (
+                  <div key={i} className="border border-slate-200 rounded-lg p-2 bg-white">
+                    <div className="relative w-full aspect-square">
+                      <Image
+                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/ys${i}.jpg`}
+                        alt={`Performance Parameter ${i}`}
+                        fill
+                        className="object-contain"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
                   </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
+                ))}
               </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "TIP Horizontal Centrifugal Pump",
+                  "Temperature Sensor Pump",
+                  "High Temperature Pump",
+                  "Petrochemical Process Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

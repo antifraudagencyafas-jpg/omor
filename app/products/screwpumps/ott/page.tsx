@@ -141,11 +141,11 @@ export default function ProductPage() {
                   OTT SINGLE SCREW PUMPS
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OTT
+                  Model: OTTA9X2K
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Open Top Type Single Screw Pumps are designed for handling highly viscous and non-flowing materials. They feature an open hopper with a coupling rod and an auger to force the material into the pumping elements.
+                    The Omron Tech Pumps OTT series, inclusive of Open Top Type OTT single screw pumps, is engineered for harsh conditions. It has stable flow, flexible adjustment, and runs quietly. Built with top-tier wear & corrosion-resistant materials, it adapts well to complex and tough environments.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,19 +161,34 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                When procuring raw materials, the company strictly manages quality, carrying out multiple inspections. In production, advanced equipment is used, and a professional team assembles meticulously. Multiple inspection points are set at crucial stages.
+              </p>
               <p className="text-slate-700 leading-relaxed mb-8">
-                Open Top Type Single Screw Pumps are designed for handling highly viscous and non-flowing materials. They feature an open hopper with a coupling rod and an auger to force the material into the pumping elements.
+                Finished products are tested under simulated extreme conditions. Only fully compliant ones are permitted to leave the factory. This ensures the series meets diverse industrial needs with reliable, efficient performance.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Screw Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Single Screw Pump Structure</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Principle</h3>
+              <p className="text-slate-700 mb-6">
+                Screw pumps are positive-displacement pumps that operate by the meshing and rotation of screws. sealed cavities move axially, sucking in liquid at the inlet and discharging at the outlet, achieving smooth and continuous transportation with low pressure pulsation.
+              </p>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-slate-700 list-none pl-0 mb-12">
+                <li>● <strong>Oil and Gas:</strong> Transporting high-viscosity crude oil and oilfield water injection.</li>
+                <li>● <strong>Chemical Industry:</strong> Transporting corrosive, high-viscosity, or solid-containing materials.</li>
+                <li>● <strong>Food and Beverage:</strong> Gentle transport of sauces, dairy products, etc.</li>
+                <li>● <strong>Marine Industry:</strong> Fuel oil transportation and sewage discharge on ships.</li>
+                <li>● <strong>Sewage Treatment:</strong> Transporting sewage and sludge.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
                 <div className="relative w-full max-w-2xl aspect-[4/3]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250411/----4-04-979280.jpg"
+                    alt="OTT Screw Pump Structure"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,58 +196,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                Screw pumps are highly suitable for transporting highly viscous liquids, sludges, and media containing solid particles.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "Screw Pumps",
-                  "Single Screw Pump",
+                  "OTT Single Screw Pump",
+                  "Open Top Type Pump",
                   "High Viscosity Pump",
-                  "Industrial Pump"
+                  "Industrial Screw Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

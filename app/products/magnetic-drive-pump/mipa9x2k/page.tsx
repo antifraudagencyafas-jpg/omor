@@ -140,7 +140,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.
+                    With its profound technical foundation, Omron Tech Pumps has launched the MIPA9X2K Magnetic Pump for the global market. This pump uses a magnetic coupling to transfer power, achieving comprehensive sealing and fundamentally eliminating the leakage problem.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -156,19 +156,30 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                Thanks to its excellent design and high-quality material selection, the MIPA9X2K provides users with a reliable and efficient solution for handling hazardous fluids.
+              </p>
+              <ul className="space-y-4 text-slate-700 mb-12">
+                <li>● <strong>Suitable Material Selection:</strong> Pump body lining and inner rotor molded from pure F46 material. Pump shaft and bearing sleeves made of pressure-less sintered silicon carbide.</li>
+                <li>● <strong>Excellent Performance:</strong> Ductile iron shell with high mechanical strength. Spiral groove design in the bearing sleeve facilitates lubrication and heat dissipation.</li>
+                <li>● <strong>Convenient Maintenance:</strong> Rear-pull-out structure allows a single person to easily perform internal maintenance without disassembling the pipeline.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Scope of Application</h3>
+              <p className="text-slate-700 mb-4">
+                The fluorine-lined magnetic pump can transport strong corrosive media such as sulfuric acid, hydrochloric acid, nitric acid, strong alkalis, and aqua regia at any concentration, without suspended particles and at temperatures below 100°C.
+              </p>
+              <p className="text-slate-700 mb-12">
+                It is the first choice for chemical engineering, petroleum refining, nuclear power, electroplating, pharmaceuticals, and other valuable or toxic liquid processing industries.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Magnetic Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Magnetic Drive Pump Structure</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250407/fluoroplastic-corrosion-resistant-magnetic-pump--2--126988.webp"
+                    alt="MIPA9X2K Structure Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -176,58 +187,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                Magnetic drive pumps are highly suitable for transporting hazardous, toxic, or highly corrosive chemicals where leakage is not permitted.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "Magnetic Drive Pump",
-                  "Sealless Pump",
-                  "Chemical Pump",
-                  "Industrial Pump"
+                  "MIPA9X2K Magnetic Pump",
+                  "Fluorine-Lined Pump",
+                  "Corrosion Resistant Pump",
+                  "Leak-Free Magnetic Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

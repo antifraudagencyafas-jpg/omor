@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP OH1 Horizontal Centrifugal Pumps for Oil and Chemical Flow play a crucial role in the industry. Among them, the Omron Tech Pumps series strictly adheres to the TIP standard. Specifically crafted for the intricate technological processes in the petrochemical field, this series is highly efficient and reliable. Its flow rate ranges from 2 to 2600 cubic meters per hour, and the maximum head can reach up to 250 meters, which can precisely meet the transportation requirements of various media in petrochemical production.
+                    G2AP Horizontal Centrifugal Pumps play a crucial role in the industry. Specifically crafted for the intricate technological processes in the petrochemical field, this series is highly efficient and reliable. Its flow rate ranges from 2 to 2600 cubic meters per hour, and the maximum head can reach up to 250 meters.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,19 +161,40 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                TIP OH1 Horizontal Centrifugal Pumps for Oil and Chemical Flow play a crucial role in the industry. Among them, the Omron Tech Pumps series strictly adheres to the TIP standard. Specifically crafted for the intricate technological processes in the petrochemical field, this series is highly efficient and reliable. Its flow rate ranges from 2 to 2600 cubic meters per hour, and the maximum head can reach up to 250 meters, which can precisely meet the transportation requirements of various media in petrochemical production.
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The Omron Tech Pumps G2AP series stands out with its foot-supported structure along with open or semi-open impellers. With a designed pressure of 2.5 MPa, it is suitable for general industrial processes. Meticulous consideration has been given to hydraulic performance, connections, and cooling methods.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Main Features</h3>
+              <ul className="space-y-4 text-slate-700 mb-12">
+                <li>● <strong>Enhanced Efficiency:</strong> Increased inlet diameter effectively reduces flow rate and enhances cavitation resistance.</li>
+                <li>● <strong>Low Maintenance:</strong> Wearing parts like wear rings and shaft sleeves are easily replaceable, extending the life of main components.</li>
+                <li>● <strong>Flexible Configuration:</strong> Sealing forms can be configured for different working conditions, with air-cooled or water-cooled bearing brackets.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
+              <p className="text-slate-700 mb-4">
+                Widely used in refineries, petrochemicals, cryogenic engineering, coal mining, chemical fiber, power plants, desalination plants, and environmental protection facilities.
+              </p>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
+                  <li><strong>Flow rate:</strong> 2 - 2,600 m³/h</li>
+                  <li><strong>Head:</strong> Up to 250 m</li>
+                  <li><strong>Pressure:</strong> Up to 5.0 MPa</li>
+                  <li><strong>Temperature:</strong> -80°C - 350°C</li>
+                  <li><strong>Rotation speed:</strong> Up to 2,900 rpm/min</li>
+                </ul>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
+                    alt="G2AP Centrifugal Pump Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,62 +202,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "G2AP Centrifugal Pump",
+                  "Oil and Chemical Flow Pump",
+                  "Petrochemical Process Pump",
+                  "Industrial Horizontal Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

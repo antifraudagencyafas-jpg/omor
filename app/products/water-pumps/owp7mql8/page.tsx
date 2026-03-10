@@ -145,7 +145,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations.
+                    The OWP7MQL8 vertical multistage fire fighting centrifugal pump is designed based on classic models, integrating fire protection standards. It features an innovative detachable structure, greatly simplifying subsequent maintenance work.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -161,19 +161,40 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                Designed vertically with inlet and outlet on the same horizontal line, this pump can be installed in pipelines like valves. It combines the high pressure of multistage pumps with the space-saving benefits of vertical design.
+              </p>
               <p className="text-slate-700 leading-relaxed mb-8">
-                Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations.
+                The detachable pump body structure retains all advantages of traditional products while simplifying replacement of vulnerable parts like mechanical seals, reducing maintenance difficulty.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Water Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Multistage Water Pump Structure</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Main Applications</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Circulation:</strong> Cold and hot clean water in high-pressure systems.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>High-Rise:</strong> Parallel water supply for buildings.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Fire Protection:</strong> Dedicated fire-fighting water systems.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Boiler Systems:</strong> Feed water and cooling water systems.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operating Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
+                  <li><strong>Flow rate:</strong> 1.4 - 192 m³/h</li>
+                  <li><strong>Head:</strong> ≤ 230 m</li>
+                  <li><strong>Operating Voltage:</strong> 380V</li>
+                  <li><strong>Ambient Temp:</strong> Not exceeding 40°C</li>
+                  <li><strong>Altitude:</strong> Up to 1000m</li>
+                  <li><strong>Relative Humidity:</strong> ≤ 95%</li>
+                </ul>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
                 <div className="relative w-full max-w-2xl aspect-[4/3]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-fire-fighting-centrifugal-pump--2--276824.webp"
+                    alt="OWP7MQL8 Structure Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,58 +202,13 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                Water pumps are highly suitable for transporting clean water and other non-corrosive liquids.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "Water Pumps",
-                  "Multistage Pump",
-                  "Vertical Pump",
-                  "Industrial Pump"
+                  "OWP7MQL8 Fire Fighting Pump",
+                  "Vertical Multistage Pump",
+                  "Emergency Water Pump",
+                  "Industrial Fire Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 

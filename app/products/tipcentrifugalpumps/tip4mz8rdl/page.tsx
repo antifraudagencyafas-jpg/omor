@@ -161,52 +161,55 @@ export default function ProductPage() {
 
             {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                The Omron Tech Pumps TIP series of TIP4MZ8RDL Overhung Type Vertical Centrifugal Pumps is a high Performance product developed by our company. Based on chemical pumps, we have fully considered the special structural requirements of chemical pumps during operation, drawn on advanced structural experiences at home and abroad, and created it through repeated research and optimization.
+              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The Omron Tech Pumps TIP series of TIP Chemical Vertical Centrifugal Pumps features excellent design and manufacturing processes. The shaft is connected by a flange and positioned with a spigot, ensuring high concentricity, low vibration, reliable operation, and convenient maintenance.
               </p>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
-                  <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
-                    fill 
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The hydraulic flow - through components adopt a high - efficiency and energy - saving hydraulic model. The pump efficiency is 5 - 8% higher than that of ordinary pumps, which can save operating costs for enterprises. The pump body is made by precision casting, with accurate internal structure and an aesthetically pleasing appearance.
+              </p>
+              <p className="text-slate-700 leading-relaxed mb-8">
+                This pump is a newly developed generation of single - stage and single - suction chemical pumps. With excellent performance, beautiful appearance, and easy maintenance, it is an ideal choice for pump equipment in the chemical industry.
+              </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
               <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
+                The TIP cantilever vertical centrifugal pump is suitable for transporting chemically corrosive liquids (with no or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
               </p>
               
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> Transport various corrosive fluids in chemical production.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> Responsible for transporting fluid raw materials in food processing.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> Transports raw materials and fermentation broth.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> Transportation of crude oil and refined oil products.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> Transports various liquids required for drug production.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> Transports pulp, white water, and chemical additives.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> Transports metallurgical liquids, flushing water, and other liquids.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> Transports boiler make - up water and cooling circulating water.</li>
+                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> Transports sewage, sludge, and absorption liquids.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
+                  <li><strong>Flow rate:</strong> 1.8 - 900 m³/h</li>
+                  <li><strong>Head:</strong> 135 m</li>
+                  <li><strong>Suction pressure (P1W):</strong> ≤ 0.3MPa</li>
+                  <li><strong>Discharge pressure (P2W):</strong> ≤ 1.6MPa</li>
+                  <li><strong>Ambient temperature:</strong> Not exceeding 40°C</li>
+                  <li><strong>Altitude:</strong> Not exceeding 1000 m</li>
+                  <li><strong>Rotational speed:</strong> 2960 rpm/min, 1480 rpm/min</li>
+                </ul>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameters</h3>
               
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
+                  <div className="relative w-full aspect-[4/3]">
                     <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
+                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Capture1.jpg"
+                      alt="Performance Parameter 1"
                       fill 
                       className="object-contain"
                       referrerPolicy="no-referrer"
@@ -214,10 +217,10 @@ export default function ProductPage() {
                   </div>
                 </div>
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
+                  <div className="relative w-full aspect-[4/3]">
                     <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
+                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Capture2.jpg"
+                      alt="Performance Parameter 2"
                       fill 
                       className="object-contain"
                       referrerPolicy="no-referrer"
@@ -229,14 +232,10 @@ export default function ProductPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "TIP Chemical Vertical Centrifugal Pumps",
+                  "TIP Type Centrifugal Pumps",
+                  "Chemical Vertical Centrifugal Pumps",
+                  "Vertical Centrifugal Pump"
                 ].map((tag, idx) => (
                   <Link 
                     key={idx} 
