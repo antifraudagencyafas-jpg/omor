@@ -88,34 +88,6 @@ export default async function NewsPage() {
           ))}
         </div>
 
-        {/* Pagination - Keep static for now or hide if not fully implemented */}
-        <div className="mt-16 flex justify-center items-center space-x-2">
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-600 transition-colors">
-            &laquo;
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded bg-blue-600 text-white font-medium shadow-sm">
-            1
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-            2
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-            3
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-            4
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-            5
-          </button>
-          <span className="px-2 text-slate-500">...</span>
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-700 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-            33
-          </button>
-          <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-600 transition-colors">
-            &raquo;
-          </button>
-        </div>
       </div>
       </section>
     </main>

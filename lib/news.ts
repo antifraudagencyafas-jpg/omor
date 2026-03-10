@@ -47,36 +47,68 @@ function makeAbsolute(url: string): string {
 
 export async function getNewsItems(): Promise<NewsItem[]> {
   try {
-    const response = await fetch(`${BASE_URL}/news.html`, {
-      next: { revalidate: 3600 } // Cache for 1 hour
-    });
-    const html = await response.text();
-    const $ = cheerio.load(html);
-    const newsItems: NewsItem[] = [];
+    const allNewsItems: NewsItem[] = [];
+    let currentPage = 1;
+    let hasNextPage = true;
 
-    $('.sep-news-list .item').each((_, element) => {
-      const $el = $(element);
-      const title = replaceBrand($el.find('.title').text().trim());
-      const description = replaceBrand($el.find('.summary').text().trim());
-      const dateDay = $el.find('.day').text().trim();
-      const dateMonthYear = $el.find('.ym').text().trim();
-      const rawLink = $el.find('a.thumb').attr('href') || '';
-      const image = makeAbsolute($el.find('img').attr('src') || '');
+    while (hasNextPage && currentPage <= 50) { // Safety limit
+      const url = currentPage === 1
+        ? `${BASE_URL}/news.html`
+        : `${BASE_URL}/news${currentPage}.html`;
 
-      const slug = rawLink.replace(/^\//, '').replace(/\.html$/, '');
-
-      newsItems.push({
-        title,
-        description,
-        dateDay,
-        dateMonthYear,
-        link: `/news/${slug.replace(/^news\//, '')}`,
-        image,
-        slug
+      const response = await fetch(url, {
+        next: { revalidate: 3600 }
       });
-    });
 
-    return newsItems;
+      if (!response.ok) break;
+
+      const html = await response.text();
+      const $ = cheerio.load(html);
+      const items = $('.sep-news-list .item');
+
+      if (items.length === 0) {
+        hasNextPage = false;
+        break;
+      }
+
+      items.each((_, element) => {
+        const $el = $(element);
+        const title = replaceBrand($el.find('.title').text().trim());
+        const description = replaceBrand($el.find('.summary').text().trim());
+        const dateDay = $el.find('.day').text().trim();
+        const dateMonthYear = $el.find('.ym').text().trim();
+        const rawLink = $el.find('a.thumb').attr('href') || '';
+        const image = makeAbsolute($el.find('img').attr('src') || '');
+
+        const slug = rawLink.replace(/^\//, '').replace(/\.html$/, '');
+
+        allNewsItems.push({
+          title,
+          description,
+          dateDay,
+          dateMonthYear,
+          link: `/news/${slug.replace(/^news\//, '')}`,
+          image,
+          slug
+        });
+      });
+
+      // Check if there is a next page in the pagination
+      const nextLink = $(`.pagination li a:contains("»")`).attr('href');
+      const lastPageLink = $(`.pagination li:last-child a`).attr('href');
+
+      // If we are at the last page indicated by the "..." or numbers
+      const maxPageText = $('.pagination li').last().prev().text();
+      const maxPage = parseInt(maxPageText);
+
+      if (currentPage >= maxPage || !nextLink) {
+        hasNextPage = false;
+      } else {
+        currentPage++;
+      }
+    }
+
+    return allNewsItems;
   } catch (error) {
     console.error('Error fetching news items:', error);
     return [];
@@ -104,6 +136,8 @@ export async function getNewsDetail(slug: string): Promise<NewsDetail | null> {
     let $contentEl = $('.sep-news-detail .info-box');
     if ($contentEl.length === 0) $contentEl = $('.sep-news-detail .datal');
     if ($contentEl.length === 0) $contentEl = $('.sep-news-detail .sep-primary');
+    if ($contentEl.length === 0) $contentEl = $('.elementor-widget-container'); // Common for some pages
+    if ($contentEl.length === 0) $contentEl = $('.news-detail');
     if ($contentEl.length === 0) $contentEl = $('.datal');
     if ($contentEl.length === 0) $contentEl = $('.info-box');
     if ($contentEl.length === 0) $contentEl = $('.sep-primary');
@@ -131,10 +165,14 @@ export async function getNewsDetail(slug: string): Promise<NewsDetail | null> {
     // Replace brand only in text nodes
     replaceBrandInHtml($, $contentEl);
 
+    let date = $('.sep-news-detail .date').text().trim();
+    if (!date) date = $('.richtext .date span:first-child').text().trim();
+    if (!date) date = $('.date').first().text().trim();
+
     return {
       title,
       content: $contentEl.html() || '',
-      date: $('.sep-news-detail .date').text().trim()
+      date: date.replace(/Leave me a message/gi, '').trim()
     };
   } catch (error) {
     console.error(`Error fetching news detail for ${slug}:`, error);
