@@ -5,6 +5,17 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 
+// BOLT: Moved static navLinks outside component to prevent re-allocation on scroll-triggered re-renders
+const navLinks = [
+  { name: "Home", href: "/" },
+  { name: "About Us", href: "/about" },
+  { name: "Products", href: "/product" },
+  { name: "News", href: "/news" },
+  { name: "Downloads", href: "/downloads" },
+  { name: "Send Inquiry", href: "/inquiry" },
+  { name: "Contact Us", href: "/contact" },
+];
+
 export default function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -23,16 +34,6 @@ export default function Navbar() {
     window.addEventListener("scroll", handleScroll, { passive: true });
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
-  const navLinks = [
-    { name: "Home", href: "/" },
-    { name: "About Us", href: "/about" },
-    { name: "Products", href: "/product" },
-    { name: "News", href: "/news" },
-    { name: "Downloads", href: "/downloads" },
-    { name: "Send Inquiry", href: "/inquiry" },
-    { name: "Contact Us", href: "/contact" },
-  ];
 
   return (
     <nav

@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Calendar, ArrowRight, Loader2 } from "lucide-react";
+import { Calendar, ArrowRight } from "lucide-react";
 import { motion } from "motion/react";
 
 const placeholderNews = [
@@ -31,17 +31,8 @@ const placeholderNews = [
 ];
 
 export default function News() {
-  const [newsItems, setNewsItems] = useState<typeof placeholderNews>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    // Simulate fetching data
-    const timer = setTimeout(() => {
-      setNewsItems(placeholderNews);
-      setLoading(false);
-    }, 1500);
-    return () => clearTimeout(timer);
-  }, []);
+  // BOLT: Removed artificial 1.5s loading delay to improve Time to Interactive (TTI)
+  // Also changed to direct use of placeholderNews instead of useState since data is static.
 
   return (
     <section id="news" className="py-20 bg-white">
@@ -56,18 +47,13 @@ export default function News() {
           </Link>
         </div>
 
-        {loading ? (
-          <div className="flex justify-center items-center py-20">
-            <Loader2 className="w-8 h-8 text-blue-600 animate-spin" />
-          </div>
-        ) : (
-          <motion.div 
+        <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
             className="grid grid-cols-1 gap-8"
           >
-            {newsItems.map((item, index) => (
+            {placeholderNews.map((item, index) => (
               <motion.div 
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -108,7 +94,6 @@ export default function News() {
               </motion.div>
             ))}
           </motion.div>
-        )}
         
         <div className="mt-8 text-center md:hidden">
           <Link href="/news" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors">
