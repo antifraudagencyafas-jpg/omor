@@ -16,15 +16,13 @@ export default function TIPX2C9W7APage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIPX2C9W7A Chemical Vertical Processing Pumps</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIPX2C9W7A Chemical Vertical Processing Pump</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function TIPX2C9W7APage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,14 +83,13 @@ export default function TIPX2C9W7APage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg"
-                    alt="TIPX2C9W7A Chemical Vertical Processing Pumps"
+                    alt="TIPX2C9W7A Chemical Vertical Processing Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -102,14 +98,14 @@ export default function TIPX2C9W7APage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIPX2C9W7A Chemical Vertical Processing Pumps
+                  TIPX2C9W7A Chemical Vertical Processing Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: TIPX2C9W7A
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP chemical vertical process pumps are specifically designed for vertical installation scenarios with limited space and high - reliability requirements. The maximum operating pressure is 2.5 Mpa. They are applicable in fields such as petrochemical, energy, and cryogenic engineering, and are suitable for transporting clean or slightly contaminated media. The operating pressure and temperature vary depending on the pump materials.
+                    TIP chemical vertical process pumps are specifically designed for vertical installation scenarios with limited space and high-reliability requirements. They are applicable in fields such as petrochemical, energy, and cryogenic engineering, and are suitable for transporting clean or slightly contaminated media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -124,65 +120,75 @@ export default function TIPX2C9W7APage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps TIP series of TIP cantilever vertical centrifugal pumps are suitable for transporting clean or slightly contaminated media. With a compact vertical layout, the motor is directly connected to the pump body, reducing the floor area by 60% compared to horizontal pumps.
+                The Omron Tech Pumps TIP series cantilever vertical centrifugal pumps feature a compact vertical layout where the motor is directly connected to the pump body, reducing floor area by 60% compared to horizontal pumps.
               </p>
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-8">
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Impeller:</strong> It has a single - suction, radial, and closed - type structure, equipped with replaceable impeller wear rings and casing wear rings, which can save the cost of maintenance spare parts.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Shaft Seal:</strong> Depending on different working conditions, packing seals can be flexibly selected.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Pump Body:</strong> Radially split, sealed with a restricted gasket between the pump body and the pump cover. Pump bodies with a diameter of over 80 mm adopt a double - volute design.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Pump Cover:</strong> A cooling chamber can be configured when necessary to cool the shaft seal chamber.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Bearings:</strong> Lubricated with grease, there is a grease filling cup on the bearing cover, and the bearing bracket is normally designed without a cooling function.</li>
-              </ul>
+
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                  <h4 className="font-bold text-slate-900 mb-2">Impeller Design</h4>
+                  <p className="text-sm text-slate-600 leading-relaxed">Single-suction radial closed structure with replaceable wear rings for cost-effective maintenance.</p>
+                </div>
+                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                  <h4 className="font-bold text-slate-900 mb-2">Pump Body</h4>
+                  <p className="text-sm text-slate-600 leading-relaxed">Radially split with restricted gasket sealing. Double-volute design for bodies over 80mm.</p>
+                </div>
+                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                  <h4 className="font-bold text-slate-900 mb-2">Bearings</h4>
+                  <p className="text-sm text-slate-600 leading-relaxed">Grease lubricated with easy-access filling cups on the bearing cover.</p>
+                </div>
+                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
+                  <h4 className="font-bold text-slate-900 mb-2">Shaft Seal</h4>
+                  <p className="text-sm text-slate-600 leading-relaxed">Flexible selection of packing seals or mechanical seals based on conditions.</p>
+                </div>
+              </div>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
               <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">1. Cryogenic Factories:</span>
-                    <span>Used to transport cryogenic media such as liquid ammonia and liquid nitrogen. The pump has excellent sealing performance and can adapt to low - temperature environments, ensuring the refrigeration system works properly, maintaining a low - temperature environment, and guaranteeing the freezing and storage quality of food.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">2. Coal Mining Industry:</span>
-                    <span>Used to handle mine water containing impurities and corrosive substances. The pump is wear - resistant, corrosion - resistant, and has a large flow rate, ensuring coal mining safety. It is also used in coal washing to assist in efficient separation.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">3. Power Plants:</span>
-                    <span>Used for boiler water make - up to meet the water demand; used in desulfurization and denitration systems to reduce harmful gas emissions. With stable performance, it ensures the continuous operation of power plants.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">4. Marine Industry:</span>
-                    <span>The vertical centrifugal pump is resistant to seawater corrosion. It can transport various media on offshore platforms and is used to convey seawater and fresh water during seawater desalination.</span>
-                  </div>
-                </li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">1. Cryogenic Factories:</span> Transporting liquid ammonia and nitrogen with high sealing performance.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">2. Coal Mining:</span> Handling corrosive mine water and coal washing processes.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">3. Power Plants:</span> Boiler water make-up and desulfurization/denitration systems.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">4. Marine Industry:</span> Offshore platforms and seawater desalination plants.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
-              <ul className="space-y-1 text-slate-700 list-disc pl-5 mb-12">
-                <li>Flow rate: 2 - 2600 m³/h</li>
-                <li>Head: 0 - 250 m</li>
-                <li>Pressure: ≤ 2.5 MPa</li>
-                <li>Temperature: - 20°C - 250°C</li>
-                <li>Maximum Rotational Speed: 2900 rpm/min</li>
-              </ul>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Working Conditions</h3>
+              <div className="overflow-x-auto">
+                <table className="min-w-full border-collapse border border-slate-200">
+                  <tbody className="text-sm text-slate-700">
+                    <tr>
+                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold w-48">Flow Rate</td>
+                      <td className="border border-slate-200 px-4 py-2">2 - 2600 m³/h</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Head</td>
+                      <td className="border border-slate-200 px-4 py-2">0 - 250 m</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Max Pressure</td>
+                      <td className="border border-slate-200 px-4 py-2">≤ 2.5 MPa</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Temperature</td>
+                      <td className="border border-slate-200 px-4 py-2">-20°C to 250°C</td>
+                    </tr>
+                    <tr>
+                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Max Speed</td>
+                      <td className="border border-slate-200 px-4 py-2">2900 rpm</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP Vertical Chemical Process Pumps",
-                  "Vertical Centrifugal Pump",
-                  "TIP Centrifugal Pumps",
-                  "TIP Between Bearing Type Centrifugal Pumps",
-                  "Vertical Chemical Transfer Pump",
-                  "TIP Compact Pump Design",
-                  "Omron Tech Pumps Leak-Proof Vertical Pump"
+                  "TIPX2C9W7A",
+                  "Vertical Processing Pump",
+                  "Space-Saving Design",
+                  "Cryogenic Engineering",
+                  "Chemical Fiber Industry",
+                  "Compact Pump"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

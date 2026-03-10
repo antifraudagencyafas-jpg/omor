@@ -5,22 +5,22 @@ import { ArrowLeft, Search, ChevronDown, ChevronRight, List, Grid } from "lucide
 export default function TIPCentrifugalPumpsPage() {
   const products = [
     {
-      name: "TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS",
+      name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
-      description: "The Omron Tech Pumps TIP series of TIP9A7Q2KX overhung type horizontal centrifugal pumps is a high - performance product developed by our company. Based on traditional centrifugal pumps, we have carefully considered the unique structural requirements during operation, integrated advanced structural concepts from home and abroad, and created it through extensive research and optimization. It has become an ideal choice for pump equipment in many industries, ensuring stable production.",
-      href: "/products/tipcentrifugalpumps/tip9aq2kx"
+      description: "The Omron Tech Pumps TIP series of TIP9A2KX high mount horizontal centrifugal pumps is a high-performance product developed by our company. Based on traditional centrifugal pumps, we have integrated advanced structural concepts to create an ideal choice for stable production in demanding industrial processes.",
+      href: "/products/tipcentrifugalpumps/tip9a2kx"
     },
     {
       name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
-      description: "TIP Horizontal Centrifugal Pumps for Chemical Flow are meticulously manufactured in strict accordance with the TIP standard. They are specifically designed for the complex technological processes in the chemical industry and belong to the category of high - performance centrifugal pumps. Their flow rate ranges from 2 cubic meters per hour to 2000 cubic meters per hour, and the maximum head can reach 160 meters. They are suitable for transporting media that are low - temperature or high - temperature, neutral or corrosive, clean or containing solid particles, toxic, flammable, and explosive.",
+      description: "Specifically designed for transporting slurries containing impurities such as solid particles and fibers. It features high efficiency, minimal leakage, and exceptional anti-clogging performance for chemical, mining, and power industries.",
       href: "/products/tipcentrifugalpumps/tip7rkc9x4"
     },
     {
-      name: "TIP4MZ8RDL CHEMICAL VERTICAL CENTRIFUGAL PUMPS",
+      name: "TIP4M2BRDL CHEMICAL VERTICAL CENTRIFUGAL PUMP",
       image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg",
-      description: "The Omron Tech Pumps TIP series of TIP4MZ8RDL Overhung Type Vertical Centrifugal Pumps is a high Performance product developed by our company. Based on chemical pumps, we have fully considered the special structural requirements of chemical pumps during operation, drawn on advanced structural experiences at home and abroad, and created it through repeated research and optimization.",
-      href: "/products/tipcentrifugalpumps/tip4mz8rdl"
+      description: "A high-performance overhung type vertical centrifugal pump engineered for chemical processing. It features a flange-connected shaft and high-efficiency hydraulic model, ensuring stable operation under complex corrosive conditions.",
+      href: "/products/tipcentrifugalpumps/tip4m2brdl"
     },
     {
       name: "TIPA6W9MQL TEMPERATURE CONTROLLER HIGH CENTRIFUGAL PUMPS",
@@ -186,7 +186,7 @@ export default function TIPCentrifugalPumpsPage() {
                 {[
                   { title: "TIP OH1 Horizontal Centrifugal Pumps For Oil And Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
                   { title: "TIP OH1 Horizontal Centrifugal Pumps For Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", link: "/products/tipcentrifugalpumps/tip7rkc9x4" },
-                  { title: "TIP OH1 Overhung Type Horizontal Centrifugal Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/tipcentrifugalpumps/tip9aq2kx" },
+                  { title: "TIP OH1 Overhung Type Horizontal Centrifugal Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/tipcentrifugalpumps/tip9a2kx" },
                   { title: "Open Top Type Single Screw Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">

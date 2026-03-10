@@ -16,15 +16,13 @@ export default function TIPA6W9MQLPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIPA6W9MQL Temperature Controller High Centrifugal Pumps</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIPA6W9MQL Temperature Controller High Centrifugal Pump</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function TIPA6W9MQLPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,14 +83,13 @@ export default function TIPA6W9MQLPage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg"
-                    alt="TIPA6W9MQL Temperature Controller High Centrifugal Pumps"
+                    alt="TIPA6W9MQL Temperature Controller High Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -102,14 +98,14 @@ export default function TIPA6W9MQLPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIPA6W9MQL Temperature Controller High Centrifugal Pumps
+                  TIPA6W9MQL Temperature Controller High Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: TIPA6W9MQL
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The Temperature Controller High Centrifugal Pumps for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in this series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise temperature control, ensuring efficient and stable transportation, and demonstrating excellent performance under complex working conditions.
+                    An innovative upgrade from traditional chemical pumps, the TIPA6W9MQL series features a hollow sandwich structure for precise temperature control. It is designed for transporting media that require constant temperature maintenance at their crystallization or freezing point.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -124,38 +120,61 @@ export default function TIPA6W9MQLPage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps TIP series of TIP Temperature Controller High Centrifugal Pumps for Heat Preservation are suitable for transporting media with requirements for maintaining a certain temperature at the freezing point (or crystallization point), including neutral or corrosive media, those containing solid particles, toxic media, and flammable and explosive media.
+                The insulated pump body and cover form a thermal jacket that can be filled with steam, hot water, or heat-transfer oil. It is suitable for high-viscosity media, toxic substances, and flammable liquids. The back-supported design allows for maintenance without disturbing the piping.
               </p>
 
-              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-8">
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">● Insulated Pump Body:</span>
-                    <span>Combines with the insulated pump cover to maintain a constant temperature and is supported by feet.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">● Impeller:</span>
-                    <span>Closed type. Axial force is balanced by balance holes or auxiliary vanes, and the remaining force is borne by the bearings.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">● Shaft Seal:</span>
-                    <span>Depending on the working conditions, packing, single and double end face, and tandem mechanical seals can be selected.</span>
-                  </div>
-                </li>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded">
+                  <h4 className="font-bold text-slate-900 mb-1">Thermal Jacket</h4>
+                  <p className="text-sm text-slate-600">Hollow sandwich structure compatible with various insulating media.</p>
+                </div>
+                <div className="p-4 bg-slate-50 border border-slate-200 rounded">
+                  <h4 className="font-bold text-slate-900 mb-1">Precision Bearings</h4>
+                  <p className="text-sm text-slate-600">Thin oil lubrication with constant-level oil cup control.</p>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> High-temperature crude oil & heavy oil</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Molten sulfur & liquid phenolic resin</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Heat-sensitive APIs & sterile syrups</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Asphalt insulation & sugar molasses</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> High-temperature pulp & coating liquids</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">TIP Centrifugal Pump Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Working Conditions</h3>
+              <div className="overflow-x-auto mb-12">
+                <table className="min-w-full border border-slate-200 text-sm">
+                  <tbody>
+                    <tr>
+                      <td className="px-4 py-2 bg-slate-50 font-bold w-48 border border-slate-200">Flow Rate</td>
+                      <td className="px-4 py-2 border border-slate-200">2 - 2000 m³/h</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 bg-slate-50 font-bold border border-slate-200">Head</td>
+                      <td className="px-4 py-2 border border-slate-200">Up to 160 m</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 bg-slate-50 font-bold border border-slate-200">Pressure</td>
+                      <td className="px-4 py-2 border border-slate-200">≤ 2.5 MPa</td>
+                    </tr>
+                    <tr>
+                      <td className="px-4 py-2 bg-slate-50 font-bold border border-slate-200">Temperature</td>
+                      <td className="px-4 py-2 border border-slate-200">-40°C to 260°C</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1horizontal-centrifugal-pumps-for-heat-preservation--2--409967.webp"
-                    alt="Api Oh1 Horizontal Centrifugal Pump Diagram"
+                    alt="TIPA6W9MQL Thermal Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -163,32 +182,15 @@ export default function TIPA6W9MQLPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Petrochemical Industry:</strong> Transportation of high-temperature crude oil, heavy oil circulation, and asphalt insulation.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Fine Chemical Industry:</strong> Constant-temperature transportation of molten sulfur and liquid phenolic resin.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Pharmaceutical Field:</strong> Aseptic insulation transportation of heat-sensitive APIs and syrup-like media.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Sugar Industry:</strong> Used for the transportation of syrup, sugar paste, and molasses.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Paper Mills:</strong> For the transportation of high-temperature pulp, coating liquid, and white water.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
-              <ul className="space-y-1 text-slate-700 list-disc pl-5 mb-12">
-                <li>Flow Rate: 2 - 2000 m³/h</li>
-                <li>Head: Up to 160 m</li>
-                <li>Pressure: ≤ 2.5 MPa</li>
-                <li>Temperature: - 40℃ - 260℃</li>
-                <li>Rotation Speed: 1450 rpm/min, 2950 rpm/min</li>
-              </ul>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
                   "TIPA6W9MQL",
-                  "Temperature Controller High Centrifugal Pumps",
                   "Heat Preservation",
-                  "Horizontal Centrifugal Pumps",
-                  "TIP Horizontal Centrifugal Pumps For Heat Preservation"
+                  "Temperature Control",
+                  "Crystallization Prevention",
+                  "Molten Sulfur",
+                  "Insulated Pump"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

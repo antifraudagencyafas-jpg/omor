@@ -9,15 +9,15 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
-      { name: "TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/tipcentrifugalpumps/tip9aq2kx" },
+      { name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/tipcentrifugalpumps/tip9a2kx" },
       { name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/tipcentrifugalpumps/tip7rkc9x4" },
-      { name: "TIP4MZ8RDL CHEMICAL VERTICAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/tipcentrifugalpumps/tip4mz8rdl" },
-      { name: "TIPA6W9MQL TEMPERATURE CONTROLLER HIGH CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
-      { name: "TIPX2C9W7A CHEMICAL VERTICAL PROCESSING PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
-      { name: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
-      { name: "TIPQ9L4A7M HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", href: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-      { name: "TIPL8Q5N2M HORIZONTAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/8pvb-1_uvxvdo.jpg", href: "/products/tipcentrifugalpumps/tipl8q5n2m" },
-      { name: "TIP8C2XKWR HORIZONTAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", href: "/products/tipcentrifugalpumps/tip8c2xkwr" },
+      { name: "TIP4M2BRDL CHEMICAL VERTICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/tipcentrifugalpumps/tip4m2brdl" },
+      { name: "TIPA6W9MQL TEMPERATURE CONTROLLER HIGH CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
+      { name: "TIPX2C9W7A CHEMICAL VERTICAL PROCESSING PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
+      { name: "G2AP HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
+      { name: "TIPQ9L4A7M HORIZONTAL CENTRIFUGAL PUMP WITH TEMPERATURE SENSOR", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", href: "/products/tipcentrifugalpumps/tipq9l4a7m" },
+      { name: "TIPL8Q5N2M HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/8pvb-1_uvxvdo.jpg", href: "/products/tipcentrifugalpumps/tipl8q5n2m" },
+      { name: "TIP8C2XKWR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", href: "/products/tipcentrifugalpumps/tip8c2xkwr" },
     ]
   },
   {

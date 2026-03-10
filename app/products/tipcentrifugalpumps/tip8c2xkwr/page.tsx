@@ -22,9 +22,7 @@ export default function TIP8C2XKWRPage() {
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function TIP8C2XKWRPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,13 +83,12 @@ export default function TIP8C2XKWRPage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/8pvb.jpg"
                     alt="TIP8C2XKWR Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -105,11 +101,11 @@ export default function TIP8C2XKWRPage() {
                   TIP8C2XKWR Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP8C2XKWR (API 610 BB1)
+                  Model: TIP8C2XKWR
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The TIP8C2XKWR Series is an API 610 (BB1 type) Horizontal Centrifugal Pump. This between-bearing, single-stage, axially split pump is designed for high-capacity applications requiring high reliability and ease of maintenance.
+                    The TIP8C2XKWR series horizontal single-stage single-suction centrifugal pumps are high-performance tools for chemical synthesis, refining, and power generation. They strictly follow TIP standards to provide efficient transportation for both clean and particle-laden hazardous media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -124,47 +120,61 @@ export default function TIP8C2XKWRPage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The TIP8C2XKWR Axially Split Centrifugal Pump is engineered for transporting water and other liquids with physical and chemical properties similar to water. Its split casing design allows for easy inspection and maintenance of internal components without disturbing the piping or the motor.
+                With a robust foot-supported structure and a high-efficiency closed-type impeller, the TIP8C2XKWR ensures high head and stable operation across wide application ranges. The shaft seal is configurable for various hazardous environments, including packing, single/double mechanical, or tandem seals.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Applications</h3>
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-8">
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Water Works:</strong> Large-scale water supply and distribution.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Industrial Water Supply:</strong> Circulating water systems in power plants and factories.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Drainage Systems:</strong> Municipal drainage and irrigation projects.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Petrochemical:</strong> Transportation of crude oil and refinery process liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Fire Fighting:</strong> High-capacity fire water pumps.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/10]">
-                  <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api610bb1horizontal-centrifugal-pumps--2--734415.webp"
-                    alt="TIP8C2XKWR API 610 BB1 Pump Diagram"
-                    fill 
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Core Features</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
+                  <h4 className="font-bold text-slate-900 mb-2">Back-Pull-Out Design</h4>
+                  <p className="text-sm text-slate-600">Perform maintenance without adjusting the pump's inlet or outlet piping.</p>
+                </div>
+                <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
+                  <h4 className="font-bold text-slate-900 mb-2">Universal Components</h4>
+                  <p className="text-sm text-slate-600">Standardized design across the TIP series reduces inventory costs and downtime.</p>
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
-              <ul className="space-y-1 text-slate-700 list-disc pl-5 mb-12">
-                <li>Flow Rate: Up to 10000 m³/h</li>
-                <li>Head: Up to 300 m</li>
-                <li>Pressure: 2.5 MPa / 5.0 MPa</li>
-                <li>Temperature: -20℃ to +150℃</li>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Application Categories</h3>
+              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12 border-b border-slate-100 pb-8">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Petrochemical:</span> Crude oil, refined products, and various additives.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Fine Chemicals:</span> Pharmaceuticals, pesticides, and fragrances.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Sugar Industry:</span> Extraction, purification, and production water cycles.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Power Generation:</span> Condenser circulating water and cooling systems.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Performance Range</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Technical Operating Conditions</h3>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center mb-12">
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Flow</div>
+                  <div className="text-sm font-bold">2000 m³/h</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Head</div>
+                  <div className="text-sm font-bold">160 m</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Pressure</div>
+                  <div className="text-sm font-bold">2.5 MPa</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Temp</div>
+                  <div className="text-sm font-bold">260°C</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">RPM</div>
+                  <div className="text-sm font-bold">2960</div>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api610bb1horizontal-centrifugal-pumps--3--836171.webp"
-                    alt="TIP8C2XKWR Performance Chart"
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
+                    alt="TIP8C2XKWR Schematic Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -176,11 +186,11 @@ export default function TIP8C2XKWRPage() {
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
                   "TIP8C2XKWR",
-                  "API 610 BB1",
-                  "Axially Split Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Between Bearing Pump",
-                  "High Capacity Pump"
+                  "API OH1 Standard",
+                  "Hazardous Media",
+                  "Chemical Process",
+                  "High Head Pump",
+                  "Industrial Reliability"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

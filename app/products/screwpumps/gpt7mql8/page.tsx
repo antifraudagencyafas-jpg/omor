@@ -16,15 +16,13 @@ export default function GPT7MQL8Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/screwpumps" className="hover:text-blue-600 transition-colors">Screw Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">GPT7MQL8 GPT Single Screw Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">GPT7MQL8 GPT SINGLE SCREW PUMP</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function GPT7MQL8Page() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -58,18 +55,13 @@ export default function GPT7MQL8Page() {
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products/screwpumps" className="block text-sm text-blue-600 font-medium">
-                          Single Screw Pumps
+                        <Link href="/products/screwpumps/ott" className="block text-sm text-slate-500 hover:text-blue-600">
+                          OTT Single Screw Pump
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products/screwpumps" className="block text-sm text-slate-500 hover:text-blue-600 transition-colors">
-                          Twin Screw Pumps
-                        </Link>
-                      </li>
-                      <li>
-                        <Link href="/products/screwpumps" className="block text-sm text-slate-500 hover:text-blue-600 transition-colors">
-                          Three Screw Pumps
+                        <Link href="/products/screwpumps/gpt7mql8" className="block text-sm text-blue-600 font-medium">
+                          GPT Single Screw Pump
                         </Link>
                       </li>
                     </ul>
@@ -91,14 +83,13 @@ export default function GPT7MQL8Page() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3-1.jpg"
-                    alt="GPT7MQL8 GPT Single Screw Pump"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg"
+                    alt="GPT7MQL8 GPT Single Screw Pumps"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -107,14 +98,14 @@ export default function GPT7MQL8Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  GPT7MQL8 GPT Single Screw Pump
+                  GPT7MQL8 GPT SINGLE SCREW PUMPS
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: GPT7MQL8 (GPT Series)
+                  Model: GPT7MQL8
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The GPT7MQL8 is a high-performance single screw pump specifically designed for the most challenging industrial applications. Part of the GPT series, it excels in precision dosing and the transportation of highly viscous, abrasive, and shear-sensitive fluids.
+                    General Type Single Screw Pumps are powerful industrial transportation tools. Their unique structure enables application in diverse working conditions, from high-viscosity sludge to corrosive chemical media. These pumps offer stable flow rates, low energy consumption, and flexible adjustment.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -129,70 +120,116 @@ export default function GPT7MQL8Page() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4 border-b pb-2">Technical Characteristics</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The GPT7MQL8 utilizes a precision-machined rotor and a high-durability elastomer stator. This combination ensures consistent flow rates and high pressure capability, even when handling fluids with high solid content or entrained gases.
+                The Omron Tech Pumps GPT series is engineered for stable transportation without periodic pressure fluctuations. It is ideal for media ranging from 20,000 to 200,000 MPa·s and can handle solid content up to 60% with particle sizes up to 16mm.
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
-                <div className="bg-slate-50 p-6 rounded-lg border border-slate-100">
-                  <h4 className="font-bold text-blue-700 mb-3 flex items-center">
-                    <span className="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
-                    Key Features
-                  </h4>
-                  <ul className="text-sm space-y-2 text-slate-600 list-disc pl-4">
-                    <li>Minimal pulsation for accurate dosing</li>
-                    <li>Excellent suction lift (up to 8.5m)</li>
-                    <li>Compact design with high power density</li>
-                    <li>Wear-resistant internal components</li>
-                    <li>Easy maintenance with plug-in connections</li>
-                  </ul>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-700 list-none pl-0 mb-12">
+                <li className="bg-slate-50 p-3 rounded border border-slate-100"><span className="text-blue-600 font-bold">● High Viscosity:</span> Up to 200,000 MPa·s</li>
+                <li className="bg-slate-50 p-3 rounded border border-slate-100"><span className="text-blue-600 font-bold">● Solid Content:</span> Generally 40%, up to 60% powder</li>
+                <li className="bg-slate-50 p-3 rounded border border-slate-100"><span className="text-blue-600 font-bold">● Low Agitation:</span> Preserves inherent media structure</li>
+                <li className="bg-slate-50 p-3 rounded border border-slate-100"><span className="text-blue-600 font-bold">● Low Noise:</span> Meets high industrial silence standards</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Structure Diagrams</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+                <div className="border border-slate-200 rounded-lg p-4 bg-white flex flex-col items-center">
+                  <div className="relative w-full aspect-[16/10]">
+                    <Image
+                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-04-979280.jpg"
+                      alt="GPT Single-screw Pump Structure 1"
+                      fill
+                      className="object-contain"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                  <p className="text-xs text-slate-400 mt-2">Standard Transmission Structure</p>
                 </div>
-                <div className="bg-slate-50 p-6 rounded-lg border border-slate-100">
-                  <h4 className="font-bold text-blue-700 mb-3 flex items-center">
-                    <span className="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
-                    Typical Media
-                  </h4>
-                  <ul className="text-sm space-y-2 text-slate-600 list-disc pl-4">
-                    <li>Industrial Sludge and Wastewater</li>
-                    <li>Adhesives and Resins</li>
-                    <li>Paints and Coatings</li>
-                    <li>Dairy and Food Pastes</li>
-                    <li>Chemical Slurries</li>
-                  </ul>
+                <div className="border border-slate-200 rounded-lg p-4 bg-white flex flex-col items-center">
+                  <div className="relative w-full aspect-[16/10]">
+                    <Image
+                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-05-4444.jpg"
+                      alt="GPT Single-screw Pump Structure 2"
+                      fill
+                      className="object-contain"
+                      referrerPolicy="no-referrer"
+                    />
+                  </div>
+                  <p className="text-xs text-slate-400 mt-2">Gearbox Connection Structure</p>
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Performance Range</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 text-center">
-                <div className="border border-slate-200 p-4">
-                  <span className="block text-xs text-slate-500 uppercase font-bold">Max Flow</span>
-                  <span className="text-lg font-bold text-slate-800">150 m³/h</span>
-                </div>
-                <div className="border border-slate-200 p-4">
-                  <span className="block text-xs text-slate-500 uppercase font-bold">Max Pressure</span>
-                  <span className="text-lg font-bold text-slate-800">2.4 MPa</span>
-                </div>
-                <div className="border border-slate-200 p-4">
-                  <span className="block text-xs text-slate-500 uppercase font-bold">Temp Range</span>
-                  <span className="text-lg font-bold text-slate-800">up to 120℃</span>
-                </div>
-                <div className="border border-slate-200 p-4">
-                  <span className="block text-xs text-slate-500 uppercase font-bold">Max Solids</span>
-                  <span className="text-lg font-bold text-slate-800">40 mm</span>
+              <h3 className="text-xl font-bold text-slate-800 mb-6 mt-12">Performance Parameter Tables</h3>
+
+              <div className="mb-8">
+                <h4 className="font-bold text-slate-900 mb-3 text-sm">Selection of GPT-type pump with 6-pole motor (Standard)</h4>
+                <div className="overflow-x-auto border border-slate-200 rounded-lg">
+                  <table className="min-w-full divide-y divide-slate-200 text-xs">
+                    <thead className="bg-slate-50">
+                      <tr>
+                        <th className="px-3 py-3 text-left font-bold text-slate-900 border-r">Pump Model</th>
+                        <th className="px-3 py-3 text-center font-bold text-slate-900 border-r">Flow (m³/h)</th>
+                        <th className="px-3 py-3 text-center font-bold text-slate-900 border-r">Pressure (MPa)</th>
+                        <th className="px-3 py-3 text-center font-bold text-slate-900 border-r">Speed (rpm)</th>
+                        <th className="px-3 py-3 text-center font-bold text-slate-900 border-r">Power (kW)</th>
+                        <th className="px-3 py-3 text-left font-bold text-slate-900">Function</th>
+                      </tr>
+                    </thead>
+                    <tbody className="bg-white divide-y divide-slate-200">
+                      {[
+                        ['GPT7MQL8-V15', '0.1', '0.6', '960', '0.55', 'transport PAM'],
+                        ['GPT7MQL8-V20', '0.4', '0.6', '960', '0.55', 'transport PAM'],
+                        ['GPT7MQL8-V35', '2.0', '0.6', '960', '1.5', 'Transport sludge'],
+                        ['GPT7MQL8-V40', '5.0', '0.6', '960', '2.2', 'Transport sludge'],
+                        ['GPT7MQL8-V50', '8.0', '0.6', '960', '3.0', 'Transport sludge'],
+                        ['GPT7MQL8-V60', '30.0', '0.6', '960', '11', 'Transport sludge']
+                      ].map((row, idx) => (
+                        <tr key={idx}>
+                          <td className="px-3 py-2 text-slate-700 border-r font-medium">{row[0]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[1]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[2]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[3]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[4]}</td>
+                          <td className="px-3 py-2 text-slate-600 italic">{row[5]}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/9]">
-                  <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250320/single-screw-pumps--2--789880.webp"
-                    alt="GPT7MQL8 Single Screw Pump Diagram"
-                    fill
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
+              <div className="mb-8">
+                <h4 className="font-bold text-slate-900 mb-3 text-sm">Selection of GPT-type with 8-pole motor (High-Voltage Stage 2)</h4>
+                <div className="overflow-x-auto border border-slate-200 rounded-lg">
+                  <table className="min-w-full divide-y divide-slate-200 text-xs">
+                    <thead className="bg-slate-50 text-blue-600">
+                      <tr>
+                        <th className="px-3 py-3 text-left font-bold border-r">Pump Model</th>
+                        <th className="px-3 py-3 text-center font-bold border-r">Flow (m³/h)</th>
+                        <th className="px-3 py-3 text-center font-bold border-r">Pressure (MPa)</th>
+                        <th className="px-3 py-3 text-center font-bold border-r">Power (kW)</th>
+                        <th className="px-3 py-3 text-left font-bold">Application</th>
+                      </tr>
+                    </thead>
+                    <tbody className="bg-white divide-y divide-slate-200">
+                      {[
+                        ['GPT25-2-V', '1.5', '1.2', '1.5', 'High-Voltage Sludge'],
+                        ['GPT30-2-V', '4.0', '1.2', '2.2', 'High-Voltage Sludge'],
+                        ['GPT40-2-V', '9.0', '1.2', '4.0', 'High-Voltage Sludge'],
+                        ['GPT60-2-V', '25.0', '1.2', '11', 'High-Voltage Sludge'],
+                        ['GPT70-2-V', '40.0', '1.2', '18.5', 'High-Voltage Sludge']
+                      ].map((row, idx) => (
+                        <tr key={idx}>
+                          <td className="px-3 py-2 text-slate-700 border-r font-medium">{row[0]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[1]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[2]}</td>
+                          <td className="px-3 py-2 text-center text-slate-700 border-r">{row[3]}</td>
+                          <td className="px-3 py-2 text-slate-600 italic">{row[4]}</td>
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
                 </div>
               </div>
 
@@ -200,11 +237,12 @@ export default function GPT7MQL8Page() {
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
                   "GPT7MQL8",
-                  "GPT Series",
                   "Single Screw Pump",
-                  "Precision Dosing",
-                  "Progressive Cavity Pump",
-                  "Industrial Pumping"
+                  "High Viscosity",
+                  "Sludge Transport",
+                  "PAM Delivery",
+                  "Environmental Engineering",
+                  "8-Pole Motor"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

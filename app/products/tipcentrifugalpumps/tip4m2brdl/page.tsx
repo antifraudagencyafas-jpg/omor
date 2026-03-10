@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function TIP4MZ8RDLPage() {
+export default function TIP4M2BRDLPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,20 +16,18 @@ export default function TIP4MZ8RDLPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIP4MZ8RDL Chemical Vertical Centrifugal Pumps</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIP4M2BRDL Chemical Vertical Centrifugal Pump</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
-                <input 
-                  type="text" 
-                  placeholder="Search" 
+                <input
+                  type="text"
+                  placeholder="Search"
                   className="w-full pl-4 pr-10 py-3 border-none focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm bg-slate-50"
                 />
                 <button type="submit" className="absolute right-0 top-0 bottom-0 px-4 bg-slate-200 text-slate-600 hover:bg-slate-300 transition-colors flex items-center justify-center">
@@ -38,7 +36,6 @@ export default function TIP4MZ8RDLPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,14 +83,13 @@ export default function TIP4MZ8RDLPage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
-                  <Image 
+                  <Image
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg"
-                    alt="TIP4MZ8RDL Chemical Vertical Centrifugal Pumps"
+                    alt="TIP4M2BRDL Chemical Vertical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -102,19 +98,19 @@ export default function TIP4MZ8RDLPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIP4MZ8RDL Chemical Vertical Centrifugal Pumps
+                  TIP4M2BRDL Chemical Vertical Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP4MZ8RDL
+                  Model: TIP4M2BRDL
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The Omron Tech Pumps TIP series of TIP Overhung Type Vertical Centrifugal Pumps is a high - performance product developed by our company. Based on chemical pumps, we have fully considered the special structural requirements of chemical pumps during operation, drawn on advanced structural experiences at home and abroad, and created it through repeated research and optimization.
+                    The Omron Tech Pumps TIP series of Overhung Type Vertical Centrifugal Pumps is a high-performance product developed through repeated research and optimization. It has been specifically engineered to meet the unique structural requirements of chemical processing environments, ensuring high reliability and efficiency.
                   </p>
                 </div>
                 <div className="mt-auto">
-                  <Link 
-                    href="/inquiry" 
+                  <Link
+                    href="/inquiry"
                     className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition-colors"
                   >
                     Send Inquiry
@@ -124,54 +120,42 @@ export default function TIP4MZ8RDLPage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps TIP series of TIP Chemical Vertical Centrifugal Pumps features excellent design and manufacturing processes. The shaft is connected by a flange and positioned with a spigot, ensuring high concentricity, low vibration, reliable operation, and convenient maintenance.
-              </p>
-              <p className="text-slate-700 leading-relaxed mb-6">
-                The hydraulic flow - through components adopt a high - efficiency and energy - saving hydraulic model. The pump efficiency is 5 - 8% higher than that of ordinary pumps, which can save operating costs for enterprises. The pump body is made by precision casting, with accurate internal structure and an aesthetically pleasing appearance.
-              </p>
-              <p className="text-slate-700 leading-relaxed mb-8">
-                This pump is a newly developed generation of single - stage and single - suction chemical pumps. With excellent performance, beautiful appearance, and easy maintenance, it is an ideal choice for pump equipment in the chemical industry.
+                The Omron Tech Pumps TIP Chemical Vertical Centrifugal Pumps feature exceptional design and manufacturing processes. The shaft is connected by a flange and positioned with a spigot, ensuring high concentricity, low vibration, and reliable operation. The hydraulic flow-through components adopt a high-efficiency energy-saving model, with efficiency 5-8% higher than ordinary pumps.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The TIP cantilever vertical centrifugal pump is suitable for transporting chemically corrosive liquids (with no or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids in chemical production.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials in the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Brewing Industry:</strong> It transports raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Pharmaceutical Industry:</strong> It transports various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Power Industry:</strong> It transports boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge, and absorption liquids for waste treatment.</li>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-700 list-none pl-0 mb-12 border-b border-slate-100 pb-8">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Chemical Industry:</span> Transporting corrosive fluids in production.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Refining Industry:</span> Crude oil and refined oil transportation.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Pharmaceutical:</span> Drug production fluid conveyance.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Metallurgical:</span> Flushing water and related liquids.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Power Plants:</span> Boiler make-up and cooling water.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Environmental:</span> Sewage and sludge treatment.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
-              <ul className="space-y-1 text-slate-700 list-disc pl-5 mb-12">
-                <li>Flow rate: 1.8 - 900 m³/h</li>
-                <li>Head: 135 m</li>
-                <li>Suction pressure of the pump: P1W ≤ 0.3MPa</li>
-                <li>Discharge pressure of the pump: P2W ≤ 1.6MPa</li>
-                <li>Ambient temperature: Not exceeding 40°C</li>
-                <li>Altitude: Not exceeding 1000 m</li>
-                <li>Rotational speed: 2960 rpm/min, 1480 rpm/min</li>
-              </ul>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Working Conditions</h3>
+              <div className="bg-slate-50 p-6 rounded-lg border border-slate-200 mb-12">
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-3 text-sm text-slate-700 list-none pl-0">
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Flow Rate:</span> 1.8 - 900 m³/h</li>
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Head:</span> 135 m</li>
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Suction P1W:</span> ≤ 0.3 MPa</li>
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Discharge P2W:</span> ≤ 1.6 MPa</li>
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Ambient Temp:</span> ≤ 40°C</li>
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Altitude:</span> ≤ 1000 m</li>
+                  <li className="flex items-center"><span className="w-32 font-bold text-slate-900">Speed:</span> 2960 / 1480 rpm</li>
+                </ul>
+              </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter</h3>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
                   <div className="relative w-full aspect-[4/3]">
-                    <Image 
+                    <Image
                       src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Capture1.jpg"
                       alt="Performance Parameter 1"
-                      fill 
+                      fill
                       className="object-contain"
                       referrerPolicy="no-referrer"
                     />
@@ -179,10 +163,10 @@ export default function TIP4MZ8RDLPage() {
                 </div>
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
                   <div className="relative w-full aspect-[4/3]">
-                    <Image 
+                    <Image
                       src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Capture2.jpg"
                       alt="Performance Parameter 2"
-                      fill 
+                      fill
                       className="object-contain"
                       referrerPolicy="no-referrer"
                     />
@@ -193,13 +177,15 @@ export default function TIP4MZ8RDLPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP Chemical Vertical Centrifugal Pumps",
-                  "TIP Type Centrifugal Pumps",
-                  "Chemical Vertical Centrifugal Pumps",
-                  "Vertical Centrifugal Pump"
+                  "TIP4M2BRDL",
+                  "Vertical Centrifugal",
+                  "Overhung Type",
+                  "Chemical Vertical Pump",
+                  "Power Plant Pump",
+                  "High Concentricity"
                 ].map((tag, idx) => (
                   <span
-                    key={idx} 
+                    key={idx}
                     className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}

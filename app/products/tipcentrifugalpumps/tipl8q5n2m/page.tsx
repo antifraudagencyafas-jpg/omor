@@ -22,9 +22,7 @@ export default function TIPL8Q5N2MPage() {
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function TIPL8Q5N2MPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,13 +83,12 @@ export default function TIPL8Q5N2MPage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/4pvb-1.jpg"
                     alt="TIPL8Q5N2M Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -105,11 +101,11 @@ export default function TIPL8Q5N2MPage() {
                   TIPL8Q5N2M Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIPL8Q5N2M (API 610 OH2)
+                  Model: TIPL8Q5N2M
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The TIPL8Q5N2M Series is a high-performance horizontal, single-stage, single-suction, centerline-supported centrifugal pump designed according to API 610 (OH2 type) standards. It is engineered for heavy-duty process applications requiring high reliability under extreme temperatures and pressures.
+                    Manufactured in strict accordance with the TIP standard, the TIPL8Q5N2M series is designed for complex chemical technological processes. These high-performance centrifugal pumps are suitable for low or high temperatures, neutral or corrosive media, and liquids containing solid particles.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -124,48 +120,45 @@ export default function TIPL8Q5N2MPage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Overview</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                TIPL8Q5N2M is designed for maximum safety and efficiency in refineries and chemical plants. Its centerline support minimizes thermal expansion effects on alignment, ensuring long-term bearing and seal life.
+                The TIPL8Q5N2M features a horizontal single-stage single-suction design with a compact layout for easy maintenance. The back-pull-out design allows for internal service without disturbing suction or discharge piping.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Design Features</h3>
-              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">● Centerline Support:</span>
-                    <span>Reduces piping stress and maintains alignment at high temperatures.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">● Heavy Duty Shaft:</span>
-                    <span>Designed for minimum deflection at the seal faces, exceeding API 610 requirements.</span>
-                  </div>
-                </li>
-                <li className="flex items-start">
-                  <div className="flex flex-col">
-                    <span className="font-bold text-slate-800">● Versatile Sealing:</span>
-                    <span>Compatible with API 682 seal plans to meet diverse environmental and safety standards.</span>
-                  </div>
-                </li>
+              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-8 border-l-2 border-slate-100 pl-6">
+                <li><span className="font-bold text-slate-900">API OH1 Standard:</span> Designed and tested to reach international advanced industrial levels.</li>
+                <li><span className="font-bold text-slate-900">Universal Components:</span> Standardized parts facilitate global maintenance and reduced downtime.</li>
+                <li><span className="font-bold text-slate-900">Advanced Lubrication:</span> Constant-level oil cups control lubrication for long bearing life.</li>
+                <li><span className="font-bold text-slate-900">Shaft Protection:</span> Integrated shaft sleeve prevents direct corrosion from media.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-center"><span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> Oil Refineries</li>
-                <li className="flex items-center"><span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> Petrochemical Processing</li>
-                <li className="flex items-center"><span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> Gas Processing</li>
-                <li className="flex items-center"><span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> High Temperature Services</li>
-                <li className="flex items-center"><span className="w-2 h-2 bg-blue-600 rounded-full mr-3"></span> Heavy Oil Transportation</li>
-              </ul>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Ranges</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-sm text-slate-600 mb-12">
+                <div className="flex items-center gap-2"><div className="w-1 h-1 bg-blue-500"></div> Petrochemical Distillation</div>
+                <div className="flex items-center gap-2"><div className="w-1 h-1 bg-blue-500"></div> Fine Chemical Synthesis</div>
+                <div className="flex items-center gap-2"><div className="w-1 h-1 bg-blue-500"></div> Sugar Refinery Extraction</div>
+                <div className="flex items-center gap-2"><div className="w-1 h-1 bg-blue-500"></div> Paper Machine Headbox Supply</div>
+                <div className="flex items-center gap-2"><div className="w-1 h-1 bg-blue-500"></div> Power Plant Cooling Systems</div>
+                <div className="flex items-center gap-2"><div className="w-1 h-1 bg-blue-500"></div> High-Purity Raw Material Transfer</div>
+              </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Operating Conditions</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded p-6 mb-12">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-6 text-sm">
+                  <div><div className="text-slate-400 mb-1">Flow Rate</div><div className="font-bold">2 - 2000 m³/h</div></div>
+                  <div><div className="text-slate-400 mb-1">Head</div><div className="font-bold">Up to 160 m</div></div>
+                  <div><div className="text-slate-400 mb-1">Pressure</div><div className="font-bold">Up to 2.5 MPa</div></div>
+                  <div><div className="text-slate-400 mb-1">Temperature</div><div className="font-bold">-40°C to 260°C</div></div>
+                  <div><div className="text-slate-400 mb-1">Speed</div><div className="font-bold">2960 / 1480 r/min</div></div>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api610oh2horizontal-centrifugal-pumps--2--772391.webp"
-                    alt="TIPL8Q5N2M API 610 OH2 Pump Diagram"
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
+                    alt="TIPL8Q5N2M Chemical Flow Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -173,34 +166,15 @@ export default function TIPL8Q5N2MPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operational Parameters</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
-                <div className="bg-slate-50 p-4 border border-slate-200">
-                  <span className="block text-sm font-bold text-slate-500 uppercase">Capacity</span>
-                  <span className="text-lg font-bold text-slate-800">Up to 2600 m³/h</span>
-                </div>
-                <div className="bg-slate-50 p-4 border border-slate-200">
-                  <span className="block text-sm font-bold text-slate-500 uppercase">Head</span>
-                  <span className="text-lg font-bold text-slate-800">Up to 300 m</span>
-                </div>
-                <div className="bg-slate-50 p-4 border border-slate-200">
-                  <span className="block text-sm font-bold text-slate-500 uppercase">Pressure</span>
-                  <span className="text-lg font-bold text-slate-800">Up to 5.0 MPa</span>
-                </div>
-                <div className="bg-slate-50 p-4 border border-slate-200">
-                  <span className="block text-sm font-bold text-slate-500 uppercase">Temperature</span>
-                  <span className="text-lg font-bold text-slate-800">-80℃ to +450℃</span>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
                   "TIPL8Q5N2M",
-                  "API 610 OH2",
-                  "Horizontal Centrifugal Pump",
-                  "Centerline Supported",
-                  "High Temperature Pump"
+                  "Chemical Flow Pump",
+                  "API OH1",
+                  "Back-Pull-Out",
+                  "Petrochemical Grade",
+                  "Horizontal Centrifugal"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

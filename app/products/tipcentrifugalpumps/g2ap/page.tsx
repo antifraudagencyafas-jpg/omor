@@ -22,9 +22,7 @@ export default function G2APPage() {
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function G2APPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,13 +83,12 @@ export default function G2APPage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg"
                     alt="G2AP Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -109,7 +105,7 @@ export default function G2APPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The G2AP Series API 610 (OH1 type) Horizontal Centrifugal Pump is a single-stage, single-suction, overhung, foot-mounted centrifugal pump. It is designed for reliability and efficiency in demanding industrial environments.
+                    Specifically crafted for the intricate technological processes in the petrochemical field, the G2AP series is highly efficient and reliable. It features a foot-supported structure with open or semi-open impellers, designed for high-performance fluid transportation in demanding industrial environments.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -124,63 +120,51 @@ export default function G2APPage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The G2AP series is an API 610 standard compliant pump, specifically OH1 configuration. It is suitable for transportation of neutral or corrosive media, clean or media containing small amount of solid particles.
+                The G2AP series stands out with its meticulously engineered hydraulic performance. It solves usage and installation defects often found in standard process pumps. The increased inlet diameter reduces flow rate at the entry, significantly enhancing cavitation resistance. Wearing parts like rings and sleeves are easily replaceable, drastically reducing long-term maintenance costs.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-8">
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Refinery:</strong> Process pump for various oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Petrochemical Industry:</strong> Transportation of chemical raw materials and intermediates.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Coal Chemical Industry:</strong> Handling coal tar and other coal-derived liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Offshore Engineering:</strong> Seawater desalination and other offshore platform applications.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Chemical Industry:</strong> General chemical processing.</li>
-              </ul>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Industrial Application Fields</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mb-12">
+                {[
+                  "Refineries", "Petrochemicals", "Cryogenics",
+                  "Coal Mining", "Chemical Fiber", "Power Plants",
+                  "Desalination", "Offshore Industry", "Environmental Protection"
+                ].map((field, i) => (
+                  <div key={i} className="flex items-center p-3 bg-slate-50 border border-slate-100 rounded text-sm text-slate-700 font-medium">
+                    <span className="w-2 h-2 bg-blue-600 rounded-full mr-2"></span>
+                    {field}
+                  </div>
+                ))}
+              </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/10]">
-                  <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api610oh1horizontal-centrifugal-pumps--3--865243.webp"
-                    alt="G2AP Horizontal Centrifugal Pump Diagram"
-                    fill
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Technical Operating Range</h3>
+              <div className="bg-slate-900 text-white p-6 rounded-lg mb-12 grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div className="text-center">
+                  <div className="text-blue-400 text-xs uppercase mb-1">Flow Rate</div>
+                  <div className="text-lg font-bold">2-2600 m³/h</div>
+                </div>
+                <div className="text-center border-l border-slate-700">
+                  <div className="text-blue-400 text-xs uppercase mb-1">Max Head</div>
+                  <div className="text-lg font-bold">250 m</div>
+                </div>
+                <div className="text-center border-l border-slate-700">
+                  <div className="text-blue-400 text-xs uppercase mb-1">Pressure</div>
+                  <div className="text-lg font-bold">≤ 5.0 MPa</div>
+                </div>
+                <div className="text-center border-l border-slate-700">
+                  <div className="text-blue-400 text-xs uppercase mb-1">Temp Range</div>
+                  <div className="text-lg font-bold">-80 to 350°C</div>
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
-              <div className="overflow-x-auto">
-                <table className="min-w-full divide-y divide-slate-200 border border-slate-200">
-                  <tbody className="divide-y divide-slate-200">
-                    <tr>
-                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700 w-1/3">Flow Rate</td>
-                      <td className="px-6 py-4 text-slate-600">Up to 2600 m³/h</td>
-                    </tr>
-                    <tr>
-                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700">Head</td>
-                      <td className="px-6 py-4 text-slate-600">Up to 300 m</td>
-                    </tr>
-                    <tr>
-                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700">Pressure</td>
-                      <td className="px-6 py-4 text-slate-600">Up to 2.5 MPa</td>
-                    </tr>
-                    <tr>
-                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700">Temperature</td>
-                      <td className="px-6 py-4 text-slate-600">-80℃ ~ +300℃</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Performance Chart</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Centrifugal Pump Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api610oh1horizontal-centrifugal-pumps--4--351722.webp"
-                    alt="G2AP Performance Chart"
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
+                    alt="G2AP Oil and Chemical Flow Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -192,11 +176,11 @@ export default function G2APPage() {
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
                   "G2AP",
-                  "Horizontal Centrifugal Pump",
-                  "API 610",
-                  "OH1",
-                  "Refinery Pump",
-                  "Petrochemical Industry"
+                  "Oil and Chemical Flow",
+                  "Semi-Open Impeller",
+                  "High Efficiency",
+                  "Petrochemical Grade",
+                  "Cavitation Resistant"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

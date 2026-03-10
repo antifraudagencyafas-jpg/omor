@@ -16,15 +16,13 @@ export default function TIPQ9L4A7MPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIPQ9L4A7M Horizontal Centrifugal Pumps With Temperature Sensor</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIPQ9L4A7M Horizontal Centrifugal Pump with Temperature Sensor</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,7 +36,6 @@ export default function TIPQ9L4A7MPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
               <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
                 Products Catalog
@@ -86,14 +83,13 @@ export default function TIPQ9L4A7MPage() {
             </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg"
-                    alt="TIPQ9L4A7M Horizontal Centrifugal Pumps With Temperature Sensor"
+                    alt="TIPQ9L4A7M Horizontal Centrifugal Pump with Temperature Sensor"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -102,14 +98,14 @@ export default function TIPQ9L4A7MPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIPQ9L4A7M Horizontal Centrifugal Pumps With Temperature Sensor
+                  TIPQ9L4A7M Horizontal Centrifugal Pump with Temperature Sensor
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: TIPQ9L4A7M
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    As a global leader in industrial fluid technology, Omron Tech Pumps has newly launched the TIPQ9L4A7M overhung type horizontal centrifugal pumps series. This series is centered around strict compliance with the international standard of the American Petroleum Institute. It is specifically designed for scenarios in petrochemical industry, energy extraction, and transportation of highly corrosive media, redefining the industry benchmark for reliability and efficiency.
+                    Redefining industry benchmarks for reliability and efficiency, the TIPQ9L4A7M overhung type horizontal centrifugal pump series is engineered for strict compliance with international standards. It is specifically designed for high-stakes scenarios in the petrochemical industry, energy extraction, and the transportation of highly corrosive media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -124,17 +120,46 @@ export default function TIPQ9L4A7MPage() {
             </div>
 
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The horizontal centrifugal pump with Temperature Sensor is a new series of products designed and developed by Omron Tech Pumps. It features a horizontal, single - stage, single - suction, and radial partial volute structure. It can transport various liquids with high or low temperatures, neutral or corrosive properties, such as inorganic and organic acids like nitric acid, sulfuric acid, hydrochloric acid, and phosphoric acid. It is mainly used in the refining industry, petrochemical industry, coal processing industry, paper and pulp industry, sugar industry, heating and water supply industry, etc.
+                This pump features a single-stage, single-suction, radial partial volute structure. It is equipped with an integrated Temperature Sensor for real-time monitoring of fluid conditions. It can transport inorganic and organic acids like nitric, sulfuric, and phosphoric acid across a wide range of temperatures.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">TIP Diagram Centrifugal Pump</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Industrial Applications</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm text-slate-700 mb-12">
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Petrochemical & Refining</h4>
+                  <p>Crude oil distillation, catalytic cracking, hydro-refining, and intermediate product transfer (ethylene, propylene, benzene, xylene).</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Coal Processing</h4>
+                  <p>Coal-to-liquid, coal-to-gas, and coal-to-methanol processes, involving coal slurry and syngas conveyance.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Power Industry</h4>
+                  <p>Boiler make-up water, condensate systems, and desulfurization/denigration process slurries.</p>
+                </div>
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Pulp & Paper</h4>
+                  <p>Raw material conveyance from storage to workshops and qualified pulp delivery to the headbox.</p>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Operating Conditions</h3>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li><span className="font-bold">Flow Rate:</span> 3 - 2600 m³/h</li>
+                <li><span className="font-bold">Head:</span> 4 - 250 m</li>
+                <li><span className="font-bold">Pressure:</span> Up to 5.0 MPa</li>
+                <li><span className="font-bold">Temperature:</span> -20°C to 450°C</li>
+                <li><span className="font-bold">Speed:</span> 2950 / 1450 rpm</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh2-overhung-type-horizontal-centrifugal-pumps--2--698125.webp"
-                    alt="Api Oh2 Schematic"
+                    alt="TIPQ9L4A7M Structure Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -142,50 +167,14 @@ export default function TIPQ9L4A7MPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
-              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12">
-                <li><span className="font-bold text-slate-800 block">● Petrochemical Industry</span></li>
-                <li className="pl-6">
-                  <span className="font-bold text-slate-800">Refineries:</span> In processes like crude oil distillation, catalytic cracking, and hydro - refining, chemical process pumps are utilized to transfer crude oil, intermediate products, refined oil, and various chemical agents.
-                </li>
-                <li className="pl-6">
-                  <span className="font-bold text-slate-800">Petrochemical Industry:</span> During the production of basic chemical raw materials such as ethylene and propylene, as well as in polymer production and the synthesis of fine - chemical products, these pumps are employed to convey various reaction raw materials, intermediates, and products.
-                </li>
-                <li className="pl-6">
-                  <span className="font-bold text-slate-800">Coal Processing Industry:</span> In processes including coal - to - liquid, coal - to - gas, and coal - to - methanol, these pumps can transport media such as coal slurry, syngas, and methanol.
-                </li>
-
-                <li><span className="font-bold text-slate-800 block">● Power Industry</span></li>
-                <li className="pl-6">
-                  <span className="font-bold text-slate-800">Power Plants:</span> Process pumps are used to transport boiler make - up water, condensate water, and circulating cooling water. They can also be used to convey acid - base solutions and slurries in the desulfurization and denigration processes.
-                </li>
-
-                <li><span className="font-bold text-slate-800 block">● Paper and Pulp Industry</span></li>
-                <li className="pl-6">
-                  <span className="font-bold text-slate-800">Raw Material Conveyance:</span> Pumps are used to transfer the pulp, wood chips, etc., ensuring a stable supply of raw materials.
-                </li>
-                <li className="pl-6">
-                  <span className="font-bold text-slate-800">Pulp Conveyance:</span> Pumps are used to transport the qualified pulp to the headbox of the paper machine.
-                </li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operating Conditions</h3>
-              <ul className="space-y-1 text-slate-700 list-disc pl-5 mb-12">
-                <li>Flow rate: 3 - 2600 m³/h</li>
-                <li>Head: 4 - 250 m</li>
-                <li>Pressure: Up to 5.0 MPa</li>
-                <li>Temperature: -20°C - 450°C</li>
-                <li>Rotational speed: 2950 rpm/min, 1450 rpm/min</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameters</h3>
               <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
-                {['ys1', 'ys2', 'ys3', 'ys4', 'ys5', 'ys6'].map((id) => (
-                  <div key={id} className="border border-slate-200 rounded-lg p-1 bg-white">
-                    <div className="relative w-full aspect-[4/3]">
+                {[1, 2, 3, 4, 5, 6].map((i) => (
+                  <div key={i} className="border border-slate-200 rounded p-2 bg-white">
+                    <div className="relative aspect-[4/3] w-full">
                       <Image
-                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/${id}.jpg`}
-                        alt={`Parameter ${id}`}
+                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/ys${i}.jpg`}
+                        alt={`Parameter Chart ${i}`}
                         fill
                         className="object-contain"
                         referrerPolicy="no-referrer"
@@ -199,10 +188,11 @@ export default function TIPQ9L4A7MPage() {
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
                   "TIPQ9L4A7M",
-                  "Horizontal Centrifugal Pumps",
                   "Temperature Sensor",
-                  "TIP Centrifugal Pumps",
-                  "Overhung Type Centrifugal Pumps"
+                  "Monitoring Integrated",
+                  "API Standard",
+                  "High Temperature Pump",
+                  "Chemical Processing"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 
