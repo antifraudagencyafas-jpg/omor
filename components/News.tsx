@@ -77,9 +77,9 @@ export default function News() {
                   <p className="text-slate-600 line-clamp-2 mb-4">
                     {item.description}
                   </p>
-                  <a href="#read-more" className="inline-flex items-center text-blue-600 font-medium hover:underline w-max">
+                  <Link href="/news" className="inline-flex items-center text-blue-600 font-medium hover:underline w-max">
                     Read More <ArrowRight className="ml-1 w-4 h-4" />
-                  </a>
+                  </Link>
                 </div>
                 <div className="relative h-48 md:h-auto md:w-64 flex-shrink-0 overflow-hidden">
                   <Image
