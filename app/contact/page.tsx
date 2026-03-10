@@ -30,91 +30,87 @@ export default function ContactPage() {
         <div className="max-w-7xl mx-auto px-4 md:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             
-            {/* Contact Form */}
-            <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-xl">
-              <h2 className="text-3xl font-bold text-slate-900 mb-4">Get in Touch</h2>
-              <p className="text-slate-600 mb-8">Welcome to use our contact form for your inquiry. Omron Tech Pumps will contact you ASAP.</p>
-              
+            {/* Contact Form (LEO Pump Style) */}
+            <div className="bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-slate-100">
+              <h2 className="text-3xl font-bold text-slate-900 mb-8">Get in Touch</h2>
               <form className="space-y-6">
-                <div>
-                  <label className="block text-sm font-bold text-slate-900 mb-3">Request types</label>
-                  <div className="space-y-2">
-                    <div className="flex items-center">
-                      <input type="radio" id="Request" name="requestType" value="Request" defaultChecked className="w-4 h-4 text-blue-600 focus:ring-blue-500 border-slate-300" />
-                      <label htmlFor="Request" className="ml-2 text-sm text-slate-700 font-medium">Request about product/service</label>
-                    </div>
-                    <div className="flex items-center">
-                      <input type="radio" id="Become" name="requestType" value="Become" className="w-4 h-4 text-blue-600 focus:ring-blue-500 border-slate-300" />
-                      <label htmlFor="Become" className="ml-2 text-sm text-slate-700 font-medium">Become a distributor</label>
-                    </div>
-                  </div>
+                <div className="flex flex-wrap gap-6 mb-8">
+                  <label className="flex items-center gap-2 cursor-pointer group">
+                    <input type="radio" name="request_type" className="w-5 h-5 border-gray-300 text-blue-600 focus:ring-blue-500" defaultChecked />
+                    <span className="text-gray-700 group-hover:text-blue-600 transition-colors">Request about product/service</span>
+                  </label>
+                  <label className="flex items-center gap-2 cursor-pointer group">
+                    <input type="radio" name="request_type" className="w-5 h-5 border-gray-300 text-blue-600 focus:ring-blue-500" />
+                    <span className="text-gray-700 group-hover:text-blue-600 transition-colors">Become a distributor</span>
+                  </label>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">* Name :</label>
                     <input 
                       type="text" 
+                      placeholder="Name *"
                       required
-                      className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-200 rounded focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">Company :</label>
                     <input
                       type="text"
-                      className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                      placeholder="Company"
+                      className="w-full px-4 py-3 border border-gray-200 rounded focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
                     />
                   </div>
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">* E-mail :</label>
                     <input 
                       type="email" 
+                      placeholder="Email *"
                       required
-                      className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-200 rounded focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
                     />
                   </div>
                   <div>
-                    <label className="block text-sm font-medium text-slate-700 mb-2">* Phone Number :</label>
                     <input
                       type="tel"
+                      placeholder="Phone Number *"
                       required
-                      className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-gray-200 rounded focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
                     />
                   </div>
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">Country :</label>
                   <input 
                     type="text" 
-                    className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all"
+                    placeholder="Country"
+                    className="w-full px-4 py-3 border border-gray-200 rounded focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all"
                   />
                 </div>
 
                 <div>
-                  <label className="block text-sm font-medium text-slate-700 mb-2">* Message :</label>
                   <textarea 
-                    rows={4}
+                    placeholder="Message *"
                     required
-                    placeholder="The more info you message, the quicker Omron Tech Pumps team arrange for feedback"
-                    className="w-full px-4 py-3 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 focus:border-transparent transition-all resize-none"
+                    rows={5}
+                    className="w-full px-4 py-3 border border-gray-200 rounded focus:border-blue-500 focus:ring-1 focus:ring-blue-500 outline-none transition-all resize-none"
                   ></textarea>
+                  <p className="text-sm text-gray-500 mt-2 italic">The more info you message, the quicker Omron Tech Pumps team arrange for feedback</p>
                 </div>
 
-                <button 
-                  type="button"
-                  className="w-full px-8 py-4 bg-blue-600 text-white font-bold rounded-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/30 uppercase tracking-wide"
-                >
-                  Get Started
-                </button>
+                <div className="pt-4">
+                  <button
+                    type="submit"
+                    className="bg-[#00529b] hover:bg-[#00427c] text-white font-bold py-4 px-12 rounded transition-colors uppercase tracking-widest text-sm"
+                  >
+                    Get Started
+                  </button>
+                </div>
 
-                <p className="text-xs text-slate-500 leading-relaxed mt-4">
-                  In order to respond to inquiries received, we may provide your information to our domestic and overseas group companies.
-                  You agree with the above notes once you click &apos;Get Started&apos;.
+                <p className="text-xs text-gray-400 mt-8 leading-relaxed">
+                  The info you submit will be shared with the relevant departments in Omron Tech Pumps and its group companies to handle your requests. We ensure that your info is only used to address your inquiries.
                 </p>
               </form>
             </div>
@@ -180,6 +176,18 @@ export default function ContactPage() {
 
           </div>
         </div>
+      </section>
+
+      {/* Map Section */}
+      <section className="h-[400px] w-full bg-slate-200">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.1583594874094!2d29.043322!3d41.021156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab82955555555%3A0x8888888888888888!2sBurhaniye%2C%20Tunuslu%20Mahmut%20Pa%C5%9Fa%20Cd.%20No%3A10%2C%2034676%20%C3%9Csk%C3%BCdar%2F%C4%B0stanbul%2C%20T%C3%BCrkiye!5e0!3m2!1sen!2str!4v1710000000000!5m2!1sen!2str"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          allowFullScreen
+          loading="lazy"
+        ></iframe>
       </section>
     </main>
   );

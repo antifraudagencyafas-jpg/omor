@@ -17,7 +17,18 @@ export default function SendInquiry() {
           <p>Tunuslu Mahmut Pasa Cd. No: 10 Burhaniye, 34676 Uskudar/Istanbul, Turkiye</p>
         </div>
         
-        <form className="max-w-2xl mx-auto bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 shadow-2xl">
+        <form className="max-w-2xl mx-auto bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 shadow-2xl text-left">
+          <div className="flex flex-wrap gap-6 mb-8">
+            <label className="flex items-center gap-2 cursor-pointer group">
+              <input type="radio" name="request_type" className="w-5 h-5 border-white/20 bg-white/10 text-blue-600 focus:ring-blue-500" defaultChecked />
+              <span className="text-gray-300 group-hover:text-blue-400 transition-colors">Request about product/service</span>
+            </label>
+            <label className="flex items-center gap-2 cursor-pointer group">
+              <input type="radio" name="request_type" className="w-5 h-5 border-white/20 bg-white/10 text-blue-600 focus:ring-blue-500" />
+              <span className="text-gray-300 group-hover:text-blue-400 transition-colors">Become a distributor</span>
+            </label>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <input 
               type="text" 
@@ -25,20 +36,36 @@ export default function SendInquiry() {
               required
               className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
             />
+            <input
+              type="text"
+              placeholder="Company"
+              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+            />
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
             <input 
               type="email" 
               placeholder="Email *" 
               required
               className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
             />
-          </div>
-          <div className="mb-6">
-            <input 
-              type="text" 
-              placeholder="Subject" 
+            <input
+              type="tel"
+              placeholder="Phone Number *"
+              required
               className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
             />
           </div>
+
+          <div className="mb-6">
+            <input 
+              type="text" 
+              placeholder="Country"
+              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+            />
+          </div>
+
           <div className="mb-6">
             <textarea 
               placeholder="Message *" 
@@ -46,13 +73,21 @@ export default function SendInquiry() {
               rows={5}
               className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors resize-none"
             ></textarea>
+            <p className="text-sm text-gray-400 mt-2 italic">The more info you message, the quicker Omron Tech Pumps team arrange for feedback</p>
           </div>
-          <button 
-            type="button"
-            className="w-full md:w-auto px-10 py-4 bg-blue-600 text-white font-bold rounded hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/30 uppercase tracking-widest text-sm"
-          >
-            Send
-          </button>
+
+          <div className="pt-4">
+            <button
+              type="button"
+              className="w-full md:w-auto px-10 py-4 bg-blue-600 text-white font-bold rounded hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/30 uppercase tracking-widest text-sm"
+            >
+              Get Started
+            </button>
+          </div>
+
+          <p className="text-[10px] text-gray-500 mt-8 leading-relaxed">
+            The info you submit will be shared with the relevant departments in Omron Tech Pumps and its group companies to handle your requests. We ensure that your info is only used to address your inquiries.
+          </p>
         </form>
       </div>
     </section>
