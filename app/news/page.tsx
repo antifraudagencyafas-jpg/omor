@@ -1,58 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { getNewsItems } from "@/lib/news";
 
-export default function NewsPage() {
-  const newsItems = [
-    {
-      title: "Join Athena Engineering & Teffiko at IRAQ EXPO OGEP 2026",
-      description: "Join Athena Engineering & Teffiko at IRAQ EXPO OGEP 2026",
-      dateDay: "05",
-      dateMonthYear: "2026-03",
-      link: "#",
-      imageSeed: "iraq-expo"
-    },
-    {
-      title: "Athena Industrial Joins Hands with TEFFIKO to Shine at ADIPEC 2025",
-      description: "Athena Industrial Joins Hands with TEFFIKO to Shine at ADIPEC 2025",
-      dateDay: "23",
-      dateMonthYear: "2025-12",
-      link: "#",
-      imageSeed: "adipec-2025"
-    },
-    {
-      title: "TEFFIKO Pumps Take Center Stage at ADIPEC 2025, with ATHENA Valves Showcased Simultaneously",
-      description: "TEFFIKO Pumps Take Center Stage at ADIPEC 2025, with ATHENA Valves Showcased Simultaneously",
-      dateDay: "14",
-      dateMonthYear: "2025-10",
-      link: "#",
-      imageSeed: "teffiko-pumps"
-    },
-    {
-      title: "Teffiko Shines at Oil and Gas Asia (OGA) 2025 in Malaysia: A Resounding Success with Outstanding Achievements",
-      description: "Teffiko Shines at Oil and Gas Asia (OGA) 2025 in Malaysia: A Resounding Success with Outstanding Achievements",
-      dateDay: "23",
-      dateMonthYear: "2025-09",
-      link: "#",
-      imageSeed: "oga-2025"
-    },
-    {
-      title: "TEFFIKO Invites You to the 21st OGA Asian Oil & Gas Exhibition",
-      description: "TEFFIKO Invites You to the 21st OGA Asian Oil & Gas Exhibition",
-      dateDay: "17",
-      dateMonthYear: "2025-06",
-      link: "#",
-      imageSeed: "oga-exhibition"
-    },
-    {
-      title: "What is Net Positive Suction Head (NPSH)?",
-      description: "What is Net Positive Suction Head (NPSH)?",
-      dateDay: "09",
-      dateMonthYear: "2026-03",
-      link: "#",
-      imageSeed: "npsh"
-    }
-  ];
+export default async function NewsPage() {
+  const newsItems = await getNewsItems();
 
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900">
@@ -96,7 +48,7 @@ export default function NewsPage() {
               {/* Image */}
               <div className="w-full md:w-1/4 relative min-h-[200px] bg-slate-100 overflow-hidden">
                 <Image 
-                  src={`https://picsum.photos/seed/${item.imageSeed}/600/400`}
+                  src={item.image}
                   alt={item.title}
                   fill
                   sizes="(max-width: 768px) 100vw, 25vw"
@@ -136,7 +88,7 @@ export default function NewsPage() {
           ))}
         </div>
 
-        {/* Pagination */}
+        {/* Pagination - Keep static for now or hide if not fully implemented */}
         <div className="mt-16 flex justify-center items-center space-x-2">
           <button className="w-10 h-10 flex items-center justify-center rounded border border-slate-200 text-slate-500 hover:bg-slate-50 hover:text-blue-600 transition-colors">
             &laquo;
