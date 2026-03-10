@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function TIP8C2XKWRPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,15 +16,13 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">TIP8C2XKWR HORIZONTAL CENTRIFUGAL PUMPS</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIP8C2XKWR Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,26 +36,25 @@ export default function ProductPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
                   <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
                       <span>TIP Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
@@ -84,52 +81,15 @@ export default function ProductPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg"
-                    alt="TIP8C2XKWR HORIZONTAL CENTRIFUGAL PUMPS"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/8pvb.jpg"
+                    alt="TIP8C2XKWR Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -137,15 +97,15 @@ export default function ProductPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  TIP8C2XKWR HORIZONTAL CENTRIFUGAL PUMPS
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
+                  TIP8C2XKWR Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: TIP8C2XKWR
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP Horizontal Centrifugal Pumps For Heat Preserva for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in Omron Tech Pumps series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise temperature control, ensuring efficient and stable transportation, and demonstrating excellent performance under complex working conditions, thus facilitating the smooth operation of chemical production processes. We adhere to the principle of putting customers first, providing professional selection advice and customized services, making every effort to maintain equipment stability. Our prices are also highly competitive, allowing you to obtain high - quality products at an affordable cost.
+                    The TIP8C2XKWR series horizontal single-stage single-suction centrifugal pumps are high-performance tools for chemical synthesis, refining, and power generation. They strictly follow TIP standards to provide efficient transportation for both clean and particle-laden hazardous media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -159,92 +119,85 @@ export default function ProductPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                TIP Horizontal Centrifugal Pumps For Heat Preserva for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in Omron Tech Pumps series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise temperature control, ensuring efficient and stable transportation, and demonstrating excellent performance under complex working conditions, thus facilitating the smooth operation of chemical production processes. We adhere to the principle of putting customers first, providing professional selection advice and customized services, making every effort to maintain equipment stability. Our prices are also highly competitive, allowing you to obtain high - quality products at an affordable cost.
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                With a robust foot-supported structure and a high-efficiency closed-type impeller, the TIP8C2XKWR ensures high head and stable operation across wide application ranges. The shaft seal is configurable for various hazardous environments, including packing, single/double mechanical, or tandem seals.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">High Mount horizontal Centrifugal Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Api Oh4 Overhung Type Horizontal Centrifugal Pumps</p>
-              
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Core Features</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
+                <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
+                  <h4 className="font-bold text-slate-900 mb-2">Back-Pull-Out Design</h4>
+                  <p className="text-sm text-slate-600">Perform maintenance without adjusting the pump's inlet or outlet piping.</p>
+                </div>
+                <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
+                  <h4 className="font-bold text-slate-900 mb-2">Universal Components</h4>
+                  <p className="text-sm text-slate-600">Standardized design across the TIP series reduces inventory costs and downtime.</p>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Application Categories</h3>
+              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12 border-b border-slate-100 pb-8">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Petrochemical:</span> Crude oil, refined products, and various additives.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Fine Chemicals:</span> Pharmaceuticals, pesticides, and fragrances.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Sugar Industry:</span> Extraction, purification, and production water cycles.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Power Generation:</span> Condenser circulating water and cooling systems.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Technical Operating Conditions</h3>
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-4 text-center mb-12">
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Flow</div>
+                  <div className="text-sm font-bold">2000 m³/h</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Head</div>
+                  <div className="text-sm font-bold">160 m</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Pressure</div>
+                  <div className="text-sm font-bold">2.5 MPa</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">Temp</div>
+                  <div className="text-sm font-bold">260°C</div>
+                </div>
+                <div className="p-3 border border-slate-100 rounded bg-slate-50/50">
+                  <div className="text-xs text-slate-400">RPM</div>
+                  <div className="text-sm font-bold">2960</div>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
-                  <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
-                    fill 
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
+                    alt="TIP8C2XKWR Schematic Diagram"
+                    fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
                   />
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The TIP HIGH MOUNT type horizontal centrifugal pump is highly suitable for transporting chemically corrosive liquids (either containing no solid particles or a small amount of solid particles), and the viscosity of the transported medium is similar to that of water.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP High Mount Type Centrifugal Pumps",
-                  "TIP Bearing Type Centrifugal Pumps",
-                  "Cent Pump",
-                  "Centrifugal Pumps",
-                  "corrosion Resistant Centrifugal Pump",
-                  "Horizontal Centrifugal Pump",
-                  "Centrifugal Pump",
-                  "Diagram of A Centrifugal Pump."
+                  "TIP8C2XKWR",
+                  "API OH1 Standard",
+                  "Hazardous Media",
+                  "Chemical Process",
+                  "High Head Pump",
+                  "Industrial Reliability"
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>

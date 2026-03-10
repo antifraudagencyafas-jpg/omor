@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function TIP7RKC9X4Page() {
+export default function TIP9A2KXPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,7 +16,7 @@ export default function TIP7RKC9X4Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIP7RKC9X4 Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
         </div>
       </div>
 
@@ -25,9 +25,9 @@ export default function TIP7RKC9X4Page() {
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
-                <input 
-                  type="text" 
-                  placeholder="Search" 
+                <input
+                  type="text"
+                  placeholder="Search"
                   className="w-full pl-4 pr-10 py-3 border-none focus:outline-none focus:ring-1 focus:ring-blue-500 text-sm bg-slate-50"
                 />
                 <button type="submit" className="absolute right-0 top-0 bottom-0 px-4 bg-slate-200 text-slate-600 hover:bg-slate-300 transition-colors flex items-center justify-center">
@@ -87,9 +87,9 @@ export default function TIP7RKC9X4Page() {
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
-                  <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg"
-                    alt="TIP7RKC9X4 Horizontal Centrifugal Pump"
+                  <Image
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg"
+                    alt="TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -98,19 +98,19 @@ export default function TIP7RKC9X4Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIP7RKC9X4 Horizontal Centrifugal Pump
+                  TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP7RKC9X4
+                  Model: TIP9A2KX
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Specifically designed for transporting slurries containing impurities such as solid particles and fibers, the TIP7RKC9X4 series is widely used in chemical, papermaking, mining, and power industries. It features high efficiency, minimal leakage, and exceptional anti-clogging performance.
+                    The Omron Tech Pumps TIP series of High Mount horizontal centrifugal pumps is a high-performance product developed by our company. Based on traditional High Mount Horizontal Centrifugal pumps, we have carefully considered the unique structural requirements during operation, integrated advanced structural concepts from home and abroad, and created it through extensive research and optimization.
                   </p>
                 </div>
                 <div className="mt-auto">
-                  <Link 
-                    href="/inquiry" 
+                  <Link
+                    href="/inquiry"
                     className="inline-flex items-center justify-center px-8 py-3 bg-blue-600 text-white font-medium rounded hover:bg-blue-700 transition-colors"
                   >
                     Send Inquiry
@@ -121,29 +121,18 @@ export default function TIP7RKC9X4Page() {
 
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
-              <p className="text-slate-700 leading-relaxed mb-6">
-                The impeller adopts a large-channel structure with wide, smooth flow passages and optimized blades, greatly reducing clogging risks. The pump body is constructed from wear-resistant and corrosion-resistant materials. The shaft seal is available in both mechanical and packing forms to extend equipment service life.
+              <p className="text-slate-700 leading-relaxed mb-8">
+                The Omron Tech Pumps TIP series features excellent craftsmanship. The horizontal structure gives it a low center of gravity and uniform stress distribution. The High mount horizontal centrifugal pump shaft is connected and positioned precisely, resulting in minimal vibration, strong stability during operation, and convenient maintenance. Its hydraulic flow-through components adopt an advanced model, with an efficiency 5-8% higher than that of ordinary pumps, which can reduce enterprise costs.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Model Significance & Operating Conditions</h3>
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/6]">
-                  <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250411/twsp-02-165817.jpg"
-                    alt="Model Significance"
-                    fill
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
+              <p className="text-slate-700 mb-6 uppercase text-sm font-semibold">Api Oh4 Overhung Type Horizontal Centrifugal Pump</p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Structural Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-no-clogging-slurry--3--537469.webp"
-                    alt="Structural Diagram"
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh4-overhung-type-horizontal-centrifugal-pumps--2--940998.webp"
+                    alt="TIP9A2KX Schematic Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -151,62 +140,51 @@ export default function TIP7RKC9X4Page() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6 mt-12">Performance Parameter Table (1450 r/min)</h3>
-              <div className="overflow-x-auto border border-slate-200 rounded-lg mb-12">
-                <table className="min-w-full divide-y divide-slate-200 text-xs text-center">
-                  <thead className="bg-slate-50">
-                    <tr>
-                      <th className="px-3 py-3 text-left font-bold text-slate-900 border-r">Pump model</th>
-                      <th colSpan={3} className="px-3 py-2 font-bold text-slate-900 border-b border-r">Flow (Q) m³/h</th>
-                      <th colSpan={3} className="px-3 py-2 font-bold text-slate-900 border-b border-r">Head (H) m</th>
-                      <th colSpan={3} className="px-3 py-2 font-bold text-slate-900 border-b">Power (kW)</th>
-                    </tr>
-                    <tr className="bg-slate-50/50">
-                      <th className="px-3 py-2 border-r">SG/Density</th>
-                      <th className="px-2 py-2 border-r">1.0</th>
-                      <th className="px-2 py-2 border-r">1.35</th>
-                      <th className="px-2 py-2 border-r">1.85</th>
-                      <th className="px-2 py-2 border-r">1.0</th>
-                      <th className="px-2 py-2 border-r">1.35</th>
-                      <th className="px-2 py-2 border-r">1.85</th>
-                      <th className="px-2 py-2 border-r">1.0</th>
-                      <th className="px-2 py-2 border-r">1.35</th>
-                      <th className="px-2 py-2">1.85</th>
-                    </tr>
-                  </thead>
-                  <tbody className="bg-white divide-y divide-slate-200">
-                    {[
-                      ['50TIP6.3-12.5', '3.75', '6.30', '7.50', '12.9', '12.5', '12.0', '1.1', '1.1', '1.5'],
-                      ['50TIP6.3-20', '3.75', '6.30', '7.50', '20.5', '20.0', '19.6', '2.2', '2.2', '3.0'],
-                      ['65TIP12-12.5', '7.50', '12.5', '15.0', '13.3', '12.5', '11.9', '1.5', '2.2', '2.2'],
-                      ['65TIP12-20', '7.50', '12.5', '15.0', '20.3', '20.0', '19.6', '2.2', '3', '4'],
-                      ['80TIP25-12.5', '15.0', '25.0', '30.0', '13.5', '12.5', '11.5', '2.2', '3', '4'],
-                      ['80TIP25-20', '15.0', '25.0', '30.0', '21.0', '20.0', '19.0', '4', '5.5', '7.5'],
-                      ['100TIP50-20', '30.0', '50.0', '60.0', '22.0', '20.0', '18.5', '5.5', '7.5', '11']
-                    ].map((row, idx) => (
-                      <tr key={idx}>
-                        <td className="px-3 py-2 text-left text-slate-700 border-r font-medium">{row[0]}</td>
-                        {row.slice(1).map((cell, cIdx) => (
-                          <td key={cIdx} className="px-2 py-2 text-slate-600 border-r last:border-r-0">{cell}</td>
-                        ))}
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
+              <p className="text-slate-700 mb-4 font-medium italic">
+                Highly suitable for transporting chemically corrosive liquids with viscosity similar to water.
+              </p>
+
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Chemical Industry:</span> Transporting various corrosive fluids during chemical production.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Food Industry:</span> Transporting fluid raw materials during food processing.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Brewing Industry:</span> Raw materials and fermentation broth transport.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Refining Industry:</span> Crude oil and refined oil products transportation.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Pharmaceutical:</span> Liquids required for drug production.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Paper-making:</span> Pulp, white water, and chemical additives.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Metallurgical:</span> Metallurgical liquids and flushing water.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">● Power Industry:</span> Boiler make-up and cooling circulating water.</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+                {['p1c-1', 'p2c-1', 'p3c-1', 'cent1'].map((img, i) => (
+                  <div key={i} className="border border-slate-200 rounded-lg p-2 bg-white">
+                    <div className="relative w-full aspect-[4/3]">
+                      <Image
+                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/${img}.jpg`}
+                        alt={`Performance Parameter ${i+1}`}
+                        fill
+                        className="object-contain"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                  </div>
+                ))}
               </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP7RKC9X4",
-                  "Slurry Pump",
-                  "Anti-Clogging",
-                  "Large-Channel Impeller",
-                  "Mining Industry",
-                  "Industrial Waste Management"
+                  "TIP9A2KX",
+                  "High Mount Centrifugal",
+                  "Horizontal Pump",
+                  "Chemical Industry",
+                  "Corrosion Resistant",
+                  "Precision Casting"
                 ].map((tag, idx) => (
                   <span
-                    key={idx} 
+                    key={idx}
                     className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}

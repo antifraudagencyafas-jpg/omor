@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function MIPA9X2KPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,15 +16,13 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/magnetic-drive-pump" className="hover:text-blue-600 transition-colors">Magnetic Drive Pump</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">MIPA9X2K MAGNETIC PUMP</span>
+          <span className="text-slate-900 font-medium truncate uppercase">MIPA9X2K MAGNETIC PUMP</span>
         </div>
       </div>
 
       <div className="max-w-7xl mx-auto px-4 md:px-8 py-12">
         <div className="flex flex-col lg:flex-row gap-8">
-          {/* Left Sidebar */}
           <aside className="w-full lg:w-[300px] flex-shrink-0 space-y-8">
-            {/* Search Box */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm">
               <form className="relative flex items-center">
                 <input 
@@ -38,10 +36,9 @@ export default function ProductPage() {
               </form>
             </div>
 
-            {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
@@ -64,14 +61,14 @@ export default function ProductPage() {
                 </li>
                 <li>
                   <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
                       <span>Magnetic Drive Pump</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
-                          Magnetic Pumps
+                        <Link href="/products/magnetic-drive-pump/mipa9x2k" className="block text-sm text-blue-600 font-medium">
+                          MIPA9X2K Magnetic Pump
                         </Link>
                       </li>
                     </ul>
@@ -79,52 +76,15 @@ export default function ProductPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
-          {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg"
-                    alt="MIPA9X2K MAGNETIC PUMP"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg"
+                    alt="MIPA9X2K Magnetic Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -132,7 +92,7 @@ export default function ProductPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
                   MIPA9X2K MAGNETIC PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
@@ -140,7 +100,7 @@ export default function ProductPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.
+                    Fundamental elimination of leakage: the MIPA9X2K uses magnetic coupling to transfer power, achieving comprehensive sealing. This fluorine-lined magnetic pump is specifically designed for the global processing industry of highly valuable and hazardous liquids.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -154,21 +114,52 @@ export default function ProductPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
+              <p className="text-slate-700 leading-relaxed mb-6">
+                The MIPA9X2K series utilizes high-quality material selection to ensure 100% leak-free operation. The pump body shell is made of high-strength ductile iron, while all flow-through parts are molded from pure F46 material for maximum corrosion resistance.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Magnetic Pump Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6">Magnetic Drive Pump Structure</p>
-              
+              <div className="space-y-6 mb-12">
+                <div className="flex gap-4 p-4 border border-slate-100 rounded bg-slate-50">
+                  <span className="text-2xl font-bold text-blue-200">01</span>
+                  <div>
+                    <h4 className="font-bold text-slate-900 mb-1">Superior Materials</h4>
+                    <p className="text-sm text-slate-600">Pure F46 lining, sintered silicon carbide shafts, and Neodymium-iron-boron magnets.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4 p-4 border border-slate-100 rounded bg-slate-50">
+                  <span className="text-2xl font-bold text-blue-200">02</span>
+                  <div>
+                    <h4 className="font-bold text-slate-900 mb-1">Advanced Thermal Management</h4>
+                    <p className="text-sm text-slate-600">Spiral grooves in the bearing sleeve for lubrication and eddy current heat dissipation.</p>
+                  </div>
+                </div>
+                <div className="flex gap-4 p-4 border border-slate-100 rounded bg-slate-50">
+                  <span className="text-2xl font-bold text-blue-200">03</span>
+                  <div>
+                    <h4 className="font-bold text-slate-900 mb-1">Rear-Pull-Out Maintenance</h4>
+                    <p className="text-sm text-slate-600">Single-person internal maintenance without disassembling the pipeline system.</p>
+                  </div>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Chemical Compatibility</h3>
+              <p className="text-sm text-slate-600 mb-6 italic">Handles strong corrosive media at concentrations up to 100°C:</p>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12">
+                {["Sulfuric Acid", "Hydrochloric Acid", "Nitric Acid", "Strong Alkalis", "Aqua Regia", "Hydrofluoric", "Strong Oxidants", "Reducing Agents"].map((chem, i) => (
+                  <div key={i} className="px-3 py-2 bg-white border border-slate-200 rounded text-center text-xs font-bold text-slate-700">
+                    {chem}
+                  </div>
+                ))}
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Structure Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                {/* Schematic Placeholder */}
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://picsum.photos/seed/schematic/800/600" 
-                    alt="Schematic Diagram" 
+                    src="https://www.teffiko.com/upload/8025/image/20250407/fluoroplastic-corrosion-resistant-magnetic-pump--2--126988.webp"
+                    alt="MIPA9X2K Magnetic Pump Structure"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -176,66 +167,23 @@ export default function ProductPage() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                Magnetic drive pumps are highly suitable for transporting hazardous, toxic, or highly corrosive chemicals where leakage is not permitted.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              
-              <div className="space-y-8 mb-12">
-                {/* Performance Curves Placeholders */}
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve1/800/400" 
-                      alt="Performance Curve 1" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-[2/1]">
-                    <Image 
-                      src="https://picsum.photos/seed/curve2/800/400" 
-                      alt="Performance Curve 2" 
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
-                </div>
-              </div>
-
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "Magnetic Drive Pump",
-                  "Sealless Pump",
-                  "Chemical Pump",
-                  "Industrial Pump"
+                  "MIPA9X2K",
+                  "Magnetic Drive",
+                  "Zero Leakage",
+                  "Fluorine Lined",
+                  "F46 Material",
+                  "Corrosive Chemical Transfer",
+                  "Sealless Technology"
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>
