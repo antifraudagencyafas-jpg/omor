@@ -43,7 +43,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><Link href="/" className="text-slate-400 hover:text-blue-500 transition-colors">Home</Link></li>
               <li><Link href="/about" className="text-slate-400 hover:text-blue-500 transition-colors">About Us</Link></li>
-              <li><Link href="/product" className="text-slate-400 hover:text-blue-500 transition-colors">Products</Link></li>
+              <li><Link href="/products" className="text-slate-400 hover:text-blue-500 transition-colors">Products</Link></li>
               <li><Link href="/news" className="text-slate-400 hover:text-blue-500 transition-colors">News</Link></li>
               <li><Link href="/downloads" className="text-slate-400 hover:text-blue-500 transition-colors">Downloads</Link></li>
               <li><Link href="/contact" className="text-slate-400 hover:text-blue-500 transition-colors">Contact Us</Link></li>
@@ -54,11 +54,11 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">Products</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-slate-400 hover:text-blue-500 transition-colors">Centrifugal Pumps</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-blue-500 transition-colors">Twin Screw Pumps</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-blue-500 transition-colors">Magnetic Drive Pumps</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-blue-500 transition-colors">Chemical Process Pumps</a></li>
-              <li><a href="#" className="text-slate-400 hover:text-blue-500 transition-colors">Vertical Pumps</a></li>
+              <li><Link href="/products/tipcentrifugalpumps" className="text-slate-400 hover:text-blue-500 transition-colors">Centrifugal Pumps</Link></li>
+              <li><Link href="/products/screwpumps" className="text-slate-400 hover:text-blue-500 transition-colors">Screw Pumps</Link></li>
+              <li><Link href="/products/magnetic-drive-pump" className="text-slate-400 hover:text-blue-500 transition-colors">Magnetic Drive Pumps</Link></li>
+              <li><Link href="/products/tipcentrifugalpumps" className="text-slate-400 hover:text-blue-500 transition-colors">Chemical Process Pumps</Link></li>
+              <li><Link href="/products/water-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Vertical Pumps</Link></li>
             </ul>
           </div>
 

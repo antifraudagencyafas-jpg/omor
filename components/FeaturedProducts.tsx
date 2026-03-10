@@ -13,7 +13,7 @@ const placeholderProducts = [
     materials: "Stainless Steel 316, Duplex Stainless Steel, Titanium",
     dimensions: "1200mm x 800mm x 2100mm",
     performance: "Flow rate up to 500 m³/h, Head up to 250m",
-    link: "/product/tipcentrifugalpumps/tip9aq2kx"
+    link: "/products/tipcentrifugalpumps/tip9aq2kx"
   },
   { 
     name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP", 
@@ -21,7 +21,7 @@ const placeholderProducts = [
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
     performance: "Flow rate up to 1200 m³/h, Head up to 300m",
-    link: "/product/tipcentrifugalpumps/tip7rkc9x4"
+    link: "/products/tipcentrifugalpumps/tip7rkc9x4"
   },
   { 
     name: "OTT SINGLE SCREW PUMPS", 
@@ -29,7 +29,7 @@ const placeholderProducts = [
     materials: "Cast Iron, Bronze, Stainless Steel",
     dimensions: "1000mm x 600mm x 800mm",
     performance: "Flow rate up to 300 m³/h, Head up to 150m",
-    link: "/product/screwpumps/ott"
+    link: "/products/screwpumps/ott"
   },
   { 
     name: "GPT7MQL8 GPT SINGLE SCREW PUMPS", 
@@ -37,7 +37,7 @@ const placeholderProducts = [
     materials: "Cast Iron, Carbon Steel, Stainless Steel",
     dimensions: "1800mm x 700mm x 900mm",
     performance: "Flow rate up to 2000 m³/h, Pressure up to 100 bar",
-    link: "/product/screwpumps/gpt7mql8"
+    link: "/products/screwpumps/gpt7mql8"
   },
   { 
     name: "MIPA9X2K MAGNETIC PUMP", 
@@ -45,7 +45,7 @@ const placeholderProducts = [
     materials: "Polypropylene, ETFE, PFA lined",
     dimensions: "800mm x 400mm x 600mm",
     performance: "Flow rate up to 100 m³/h, Head up to 80m",
-    link: "/product/magnetic-drive-pump/mipa9x2k"
+    link: "/products/magnetic-drive-pump/mipa9x2k"
   },
   { 
     name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS", 
@@ -53,7 +53,7 @@ const placeholderProducts = [
     materials: "PTFE, PVDF, Hastelloy",
     dimensions: "900mm x 500mm x 700mm",
     performance: "Flow rate up to 150 m³/h, Head up to 100m",
-    link: "/product/water-pumps/owp35hfr"
+    link: "/products/water-pumps/owp35hfr"
   },
 ];
 
@@ -154,7 +154,7 @@ export default function FeaturedProducts() {
         
         <div className="mt-12 text-center">
           <Link
-            href="/product"
+            href="/products"
             className="inline-flex items-center px-6 py-3 bg-slate-900 text-white font-semibold rounded hover:bg-slate-800 transition-colors"
           >
             View All Products
