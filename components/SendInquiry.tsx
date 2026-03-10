@@ -18,75 +18,81 @@ export default function SendInquiry() {
         </div>
         
         <form className="max-w-2xl mx-auto bg-white/5 backdrop-blur-md p-8 rounded-xl border border-white/10 shadow-2xl text-left">
-          <div className="flex flex-wrap gap-6 mb-8">
-            <label className="flex items-center gap-2 cursor-pointer group">
-              <input type="radio" name="request_type" className="w-5 h-5 border-white/20 bg-white/10 text-blue-600 focus:ring-blue-500" defaultChecked />
-              <span className="text-gray-300 group-hover:text-blue-400 transition-colors">Request about product/service</span>
-            </label>
-            <label className="flex items-center gap-2 cursor-pointer group">
-              <input type="radio" name="request_type" className="w-5 h-5 border-white/20 bg-white/10 text-blue-600 focus:ring-blue-500" />
-              <span className="text-gray-300 group-hover:text-blue-400 transition-colors">Become a distributor</span>
-            </label>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <input 
-              type="text" 
-              placeholder="Name *" 
-              required
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
-            />
-            <input
-              type="text"
-              placeholder="Company"
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
-            />
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-            <input 
-              type="email" 
-              placeholder="Email *" 
-              required
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
-            />
-            <input
-              type="tel"
-              placeholder="Phone Number *"
-              required
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
-            />
-          </div>
-
           <div className="mb-6">
-            <input 
-              type="text" 
-              placeholder="Country"
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
-            />
+            <p className="text-sm font-bold text-white mb-4">Request types</p>
+            <div className="flex flex-wrap gap-6">
+              <label className="flex items-center gap-2 cursor-pointer group">
+                <input type="radio" id="RequestInq" name="infp" value="Request" className="w-5 h-5 border-white/20 bg-white/10 text-blue-600 focus:ring-blue-500" defaultChecked />
+                <span className="text-gray-300 group-hover:text-blue-400 transition-colors">Request about product/service</span>
+              </label>
+              <label className="flex items-center gap-2 cursor-pointer group">
+                <input type="radio" id="BecomeInq" name="infp" value="Become" className="w-5 h-5 border-white/20 bg-white/10 text-blue-600 focus:ring-blue-500" />
+                <span className="text-gray-300 group-hover:text-blue-400 transition-colors">Become a distributor</span>
+              </label>
+            </div>
           </div>
 
-          <div className="mb-6">
-            <textarea 
-              placeholder="Message *" 
-              required
-              rows={5}
-              className="w-full px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors resize-none"
-            ></textarea>
-            <p className="text-sm text-gray-400 mt-2 italic">The more info you message, the quicker Omron Tech Pumps team arrange for feedback</p>
+          <div className="grid grid-cols-1 gap-6 mb-6">
+            <div className="flex flex-col md:flex-row md:items-center gap-4">
+              <span className="w-32 text-sm font-bold text-gray-300">* Name :</span>
+              <input
+                type="text"
+                required
+                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+              />
+            </div>
+            <div className="flex flex-col md:flex-row md:items-center gap-4">
+              <span className="w-32 text-sm font-bold text-gray-300">Company :</span>
+              <input
+                type="text"
+                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+              />
+            </div>
+            <div className="flex flex-col md:flex-row md:items-center gap-4">
+              <span className="w-32 text-sm font-bold text-gray-300">* E-mail :</span>
+              <input
+                type="email"
+                required
+                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+              />
+            </div>
+            <div className="flex flex-col md:flex-row md:items-center gap-4">
+              <span className="w-32 text-sm font-bold text-gray-300">* Phone Number :</span>
+              <input
+                type="tel"
+                required
+                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+              />
+            </div>
+            <div className="flex flex-col md:flex-row md:items-center gap-4">
+              <span className="w-32 text-sm font-bold text-gray-300">Country :</span>
+              <input
+                type="text"
+                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors"
+              />
+            </div>
+            <div className="flex flex-col md:flex-row gap-4">
+              <span className="w-32 text-sm font-bold text-gray-300 mt-3">* Message :</span>
+              <textarea
+                placeholder="The more info you message, the quicker Omron Tech Pumps team arrange for feedback"
+                required
+                rows={4}
+                className="flex-1 px-4 py-3 bg-white/10 border border-white/20 rounded text-white placeholder-gray-400 focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors resize-none"
+              ></textarea>
+            </div>
           </div>
 
           <div className="pt-4">
             <button
               type="button"
-              className="w-full md:w-auto px-10 py-4 bg-blue-600 text-white font-bold rounded hover:bg-blue-500 transition-colors shadow-lg shadow-blue-600/30 uppercase tracking-widest text-sm"
+              className="w-full md:w-auto px-10 py-4 bg-[#ff6600] text-white font-bold rounded hover:bg-[#e65c00] transition-colors shadow-lg shadow-orange-600/30 uppercase tracking-widest text-sm"
             >
               Get Started
             </button>
           </div>
 
           <p className="text-[10px] text-gray-500 mt-8 leading-relaxed">
-            The info you submit will be shared with the relevant departments in Omron Tech Pumps and its group companies to handle your requests. We ensure that your info is only used to address your inquiries.
+            In order to respond to inquiries received, we may provide your information to our domestic and overseas group companies. You agree with the above notes once you click ‘Get Started’.
           </p>
         </form>
       </div>
