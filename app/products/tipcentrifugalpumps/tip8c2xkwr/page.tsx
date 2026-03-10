@@ -129,7 +129,7 @@ export default function TIP8C2XKWRPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
                 <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
                   <h4 className="font-bold text-slate-900 mb-2">Back-Pull-Out Design</h4>
-                  <p className="text-sm text-slate-600">Perform maintenance without adjusting the pump's inlet or outlet piping.</p>
+                  <p className="text-sm text-slate-600">Perform maintenance without adjusting the pump&apos;s inlet or outlet piping.</p>
                 </div>
                 <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
                   <h4 className="font-bold text-slate-900 mb-2">Universal Components</h4>
