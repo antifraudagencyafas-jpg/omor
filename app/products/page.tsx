@@ -60,6 +60,39 @@ const categories = [
   }
 ];
 
+const featuredProducts = [
+  {
+    name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
+    link: "/products/tipcentrifugalpumps/tip9a2kx"
+  },
+  {
+    name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
+    link: "/products/tipcentrifugalpumps/tip7rkc9x4"
+  },
+  {
+    name: "OTT SINGLE SCREW PUMPS",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
+    link: "/products/screwpumps/ott"
+  },
+  {
+    name: "GPT7MQL8 GPT SINGLE SCREW PUMPS",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg",
+    link: "/products/screwpumps/gpt7mql8"
+  },
+  {
+    name: "MIPA9X2K MAGNETIC PUMP",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
+    link: "/products/magnetic-drive-pump/mipa9x2k"
+  },
+  {
+    name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
+    link: "/products/water-pumps/owp35hfr"
+  },
+];
+
 export default function ProductsPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900">
@@ -93,96 +126,91 @@ export default function ProductsPage() {
         </div>
       </div>
 
-      {/* Main Content */}
-      <section className="py-12">
-        <div className="max-w-7xl mx-auto px-4 md:px-8 flex flex-col lg:flex-row gap-8">
-          
-          {/* Sidebar */}
-          <aside className="w-full lg:w-1/4 flex-shrink-0">
-            <div className="bg-slate-50 border border-slate-200 rounded-lg overflow-hidden">
-              <h3 className="bg-blue-600 text-white font-bold text-lg px-6 py-4">
-                Categories
-              </h3>
-              <ul className="divide-y divide-slate-200">
-                {categories.map((category, idx) => (
-                  <li key={idx}>
-                    <Link 
-                      href={category.href}
-                      className="block px-6 py-3 text-slate-700 hover:bg-white hover:text-blue-600 transition-colors font-medium"
-                    >
-                      {category.title}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-            
-            {/* Contact Info in Sidebar */}
-            <div className="mt-8 bg-slate-50 border border-slate-200 rounded-lg overflow-hidden">
-              <h3 className="bg-slate-800 text-white font-bold text-lg px-6 py-4">
-                Contact Us
-              </h3>
-              <div className="p-6 text-sm text-slate-600 space-y-4">
-                <p>
-                  <strong className="block text-slate-900 mb-1">Tel:</strong>
-                  +90 212 900 85 53
-                </p>
-                <p>
-                  <strong className="block text-slate-900 mb-1">E-mail:</strong>
-                  sales@omrontechpumps.com
-                </p>
-                <p>
-                  <strong className="block text-slate-900 mb-1">Address:</strong>
-                  Tunuslu Mahmut Pasa Cd. No: 10 Burhaniye, 34676 Uskudar/istanbul, Turkiye
-                </p>
-              </div>
-            </div>
-          </aside>
+      <div className="max-w-7xl mx-auto px-4 md:px-8 py-16">
+        {/* Categories Section */}
+        <section className="mb-24">
+          <div className="flex items-center justify-between mb-10">
+            <h2 className="text-3xl font-bold text-slate-900">Product Categories</h2>
+            <div className="h-px flex-grow mx-8 bg-slate-200 hidden md:block"></div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {categories.map((category, idx) => (
+              <div key={idx} className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col">
+                <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
+                  <Image
+                    src={category.image}
+                    alt={category.title}
+                    fill
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    className="object-cover hover:scale-105 transition-transform duration-500"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+                <div className="p-8 flex flex-col flex-grow">
+                  <h3 className="text-2xl font-bold text-slate-900 mb-4">{category.title}</h3>
+                  <p className="text-slate-600 mb-6 line-clamp-3">{category.description}</p>
 
-          {/* Products List */}
-          <div className="w-full lg:w-3/4">
-            <div className="space-y-12">
-              {categories.map((category, idx) => (
-                <div key={idx} className="bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all duration-300 flex flex-col mb-10">
-                  <div className="relative h-64 w-full bg-slate-100 overflow-hidden border-b border-slate-100">
-                    <Image
-                      src={category.image}
-                      alt={category.title}
-                      fill
-                      sizes="(max-width: 768px) 100vw, 50vw"
-                      className="object-cover hover:scale-105 transition-transform duration-500"
-                      referrerPolicy="no-referrer"
-                    />
+                  <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
+                    {category.products.slice(0, 3).map((product, pIdx) => (
+                      <Link key={pIdx} href={product.href} className="flex flex-col items-center text-center group/item">
+                        <div className="relative w-full aspect-square bg-slate-50 border border-slate-100 rounded-lg overflow-hidden mb-2">
+                          <Image src={product.image} alt={product.name} fill className="object-contain p-2 group-hover/item:scale-110 transition-transform" />
+                        </div>
+                        <span className="text-[10px] font-medium text-slate-500 line-clamp-2 uppercase">{product.name}</span>
+                      </Link>
+                    ))}
                   </div>
-                  <div className="p-8 flex flex-col flex-grow">
-                    <h3 className="text-2xl font-bold text-slate-900 mb-4">{category.title}</h3>
-                    <p className="text-slate-600 mb-6">{category.description}</p>
 
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-8">
-                      {category.products.slice(0, 3).map((product, pIdx) => (
-                        <Link key={pIdx} href={product.href} className="flex items-center gap-3 p-2 rounded hover:bg-slate-50 transition-colors">
-                          <div className="relative w-12 h-12 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                            <Image src={product.image} alt={product.name} fill className="object-contain p-1" />
-                          </div>
-                          <span className="text-xs font-medium text-slate-700 line-clamp-2">{product.name}</span>
-                        </Link>
-                      ))}
-                    </div>
-
-                    <Link href={category.href} className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors w-max">
-                      View All {category.title} <ArrowRight className="ml-2 w-4 h-4" />
+                  <div className="mt-auto">
+                    <Link href={category.href} className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors">
+                      Explore Category <ArrowRight className="ml-2 w-4 h-4" />
                     </Link>
                   </div>
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
           </div>
+        </section>
 
-        </div>
-      </section>
+        {/* Featured Products Section */}
+        <section>
+          <div className="flex items-center justify-between mb-10">
+            <h2 className="text-3xl font-bold text-slate-900">Featured Products</h2>
+            <div className="h-px flex-grow mx-8 bg-slate-200 hidden md:block"></div>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {featuredProducts.map((product, idx) => (
+              <Link
+                key={idx}
+                href={product.link}
+                className="group bg-slate-50 border border-slate-200 rounded-xl overflow-hidden flex flex-col sm:flex-row hover:border-blue-300 hover:shadow-md transition-all duration-300"
+              >
+                <div className="relative w-full sm:w-48 h-48 bg-white flex-shrink-0">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, 192px"
+                    className="object-contain p-4 group-hover:scale-110 transition-transform duration-500"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+                <div className="p-6 flex flex-col justify-center">
+                  <h3 className="text-lg font-bold text-slate-900 mb-2 group-hover:text-blue-600 transition-colors line-clamp-2 uppercase">
+                    {product.name}
+                  </h3>
+                  <p className="text-sm text-blue-600 font-semibold flex items-center">
+                    View Details <ArrowRight className="ml-2 w-3 h-3 group-hover:translate-x-1 transition-transform" />
+                  </p>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </section>
+      </div>
 
       {/* CALL TO ACTION */}
-      <section className="py-20 bg-blue-600 text-white">
+      <section className="py-20 bg-blue-600 text-white mt-12">
         <div className="max-w-4xl mx-auto px-4 md:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Need Help Selecting the Right Pump?</h2>
           <p className="text-xl text-blue-100 mb-10">
