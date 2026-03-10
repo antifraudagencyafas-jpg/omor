@@ -55,12 +55,19 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078721/image-2_mx5ywi.jpg",
     description: "Eco-friendly solar-powered pumping solutions for remote locations, agriculture, and sustainable water management systems. Reliable operation independent of the grid.",
     products: [
-      { name: "ECO-SOLAR PUMP SYSTEM", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/solar-pumps/eco-solar" },
+      { name: "OTP-TS9DZQ2V AC DC SOLAR CENTRIFUGAL PUMP", image: "https://leopump.com/en/bocupload/2023/07/19/ACm75-dc-solar-centrifugal-pump.png", href: "/products/solar-pumps/ac-dc-solar-centrifugal-pump" },
+      { name: "OTP-MQD5AIV8 AP DC SOLAR PERIPHERAL PUMP", image: "https://leopump.com/en/bocupload/2023/07/19/AP-dc-solar-peripheral-pump.png", href: "/products/solar-pumps/ap-dc-solar-peripheral-pump" },
+      { name: "OTP-LUOCNQCV HYBRID AC/DC SOLAR CENTRIFUGAL PUMP", image: "https://leopump.com/en/bocupload/2023/07/19/AC-AD-hybrid-ac-dc-solar-centrifugal-pump.png", href: "/products/solar-pumps/ac-ad-hybrid-ac-dc-solar-centrifugal-pump" },
     ]
   }
 ];
 
 const featuredProducts = [
+  {
+    name: "OTP-TS9DZQ2V AC DC SOLAR CENTRIFUGAL PUMP",
+    image: "https://leopump.com/en/bocupload/2023/07/19/ACm75-dc-solar-centrifugal-pump.png",
+    link: "/products/solar-pumps/ac-dc-solar-centrifugal-pump"
+  },
   {
     name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
@@ -75,11 +82,6 @@ const featuredProducts = [
     name: "OTT SINGLE SCREW PUMPS",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
     link: "/products/screwpumps/ott"
-  },
-  {
-    name: "GPT7MQL8 GPT SINGLE SCREW PUMPS",
-    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg",
-    link: "/products/screwpumps/gpt7mql8"
   },
   {
     name: "MIPA9X2K MAGNETIC PUMP",

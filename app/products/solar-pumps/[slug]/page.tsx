@@ -1,8 +1,27 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import solarProducts from "@/solar_products.json";
+import { notFound } from "next/navigation";
 
-export default function EcoSolarPumpPage() {
+interface PageProps {
+  params: Promise<{ slug: string }>;
+}
+
+export async function generateStaticParams() {
+  return solarProducts.map((product) => ({
+    slug: product.slug,
+  }));
+}
+
+export default async function SolarPumpDetailPage({ params }: PageProps) {
+  const { slug } = await params;
+  const product = solarProducts.find((p) => p.slug === slug);
+
+  if (!product) {
+    notFound();
+  }
+
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,7 +35,7 @@ export default function EcoSolarPumpPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/solar-pumps" className="hover:text-blue-600 transition-colors">Solar Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">ECO-SOLAR PUMP SYSTEM</span>
+          <span className="text-slate-900 font-medium truncate">{product.name}</span>
         </div>
       </div>
 
@@ -75,11 +94,16 @@ export default function EcoSolarPumpPage() {
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
-                      <li>
-                        <Link href="/products/solar-pumps/eco-solar" className="block text-sm text-slate-500 hover:text-blue-600">
-                          Eco-Solar Pump System
-                        </Link>
-                      </li>
+                      {solarProducts.map((p, i) => (
+                        <li key={i}>
+                          <Link
+                            href={`/products/solar-pumps/${p.slug}`}
+                            className={`block text-sm hover:text-blue-600 ${p.slug === slug ? 'text-blue-600 font-bold' : 'text-slate-500'}`}
+                          >
+                            {p.name}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </details>
                 </li>
@@ -129,8 +153,8 @@ export default function EcoSolarPumpPage() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg"
-                    alt="ECO-SOLAR PUMP SYSTEM"
+                    src={product.image}
+                    alt={product.name}
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -139,15 +163,13 @@ export default function EcoSolarPumpPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  ECO-SOLAR PUMP SYSTEM
+                  {product.title}
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: ECO-SOLAR-100
+                  Model: {product.code}
                 </p>
-                <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
-                  <p>
-                    The Eco-Solar Pump System is an innovative, eco-friendly solution for remote water supply. Designed to operate completely off-grid, it harnesses solar energy to provide a reliable and continuous water flow for agriculture, livestock, and rural communities. With high-efficiency solar panels and a durable pump mechanism, it ensures maximum performance with minimal maintenance.
-                  </p>
+                <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8 whitespace-pre-line">
+                  {product.description}
                 </div>
                 <div className="mt-auto">
                   <Link 
@@ -161,42 +183,29 @@ export default function EcoSolarPumpPage() {
             </div>
 
             {/* Detailed Content Section */}
-            <div className="prose prose-slate max-w-none">
-              <p className="text-slate-700 leading-relaxed mb-8">
-                Our Eco-Solar Pump System integrates advanced MPPT (Maximum Power Point Tracking) technology to optimize energy conversion from solar panels to the pump motor. This ensures that the pump operates efficiently even under varying sunlight conditions. The system is built with corrosion-resistant materials, making it suitable for harsh environments and ensuring a long operational lifespan.
-              </p>
+            <div className="prose prose-slate max-w-none [&_img]:max-w-full [&_img]:h-auto [&_img]:my-8 [&_img]:mx-auto [&_img]:block [&_p]:mb-6 [&_strong]:text-slate-800 [&_strong]:text-xl">
+              <div dangerouslySetInnerHTML={{ __html: product.fullContent }} />
+            </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <p className="text-slate-700 mb-4">
-                The Eco-Solar Pump System is highly versatile and can be deployed in various scenarios where grid power is unavailable or unreliable.
-              </p>
-              
-              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Agriculture:</strong> Ideal for drip irrigation, sprinkler systems, and general crop watering in remote fields.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Livestock Watering:</strong> Provides a steady supply of drinking water for cattle and other livestock in off-grid pastures.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Rural Water Supply:</strong> Ensures access to clean drinking water for communities without reliable electricity infrastructure.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Water Transfer:</strong> Useful for transferring water from wells, rivers, or reservoirs to storage tanks.</li>
-              </ul>
-
-              {/* Tags */}
-              <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
-                {[
-                  "Solar Pump",
-                  "Eco-Friendly",
-                  "Off-Grid",
-                  "Agriculture",
-                  "Water Supply",
-                  "Renewable Energy"
-                ].map((tag, idx) => (
-                  <Link 
-                    key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
-                  >
-                    {tag}
-                  </Link>
-                ))}
-              </div>
+            {/* Tags */}
+            <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
+              {[
+                "Solar Pump",
+                "Omron Tech Pumps",
+                "Eco-Friendly",
+                "Off-Grid",
+                "Agriculture",
+                "Water Supply",
+                "Renewable Energy"
+              ].map((tag, idx) => (
+                <Link
+                  key={idx}
+                  href="/products"
+                  className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                >
+                  {tag}
+                </Link>
+              ))}
             </div>
           </div>
         </div>

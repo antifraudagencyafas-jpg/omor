@@ -1,16 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Search, ChevronDown, ChevronRight } from "lucide-react";
+import solarProducts from "@/solar_products.json";
 
 export default function SolarPumpsPage() {
-  const products = [
-    {
-      name: "ECO-SOLAR PUMP SYSTEM",
-      image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
-      description: "Eco-friendly solar-powered pumping solutions for remote locations, agriculture, and sustainable water management systems. Reliable operation independent of the grid. Designed for maximum energy efficiency and minimal maintenance.",
-      href: "/products/solar-pumps/eco-solar"
-    }
-  ];
+  const products = solarProducts.map(p => ({
+    name: p.name,
+    image: p.image,
+    description: p.description,
+    href: `/products/solar-pumps/${p.slug}`
+  }));
 
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
@@ -99,11 +98,13 @@ export default function SolarPumpsPage() {
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
-                      <li>
-                        <Link href="/products/solar-pumps" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          Eco-Solar Pump System
-                        </Link>
-                      </li>
+                      {products.map((p, i) => (
+                        <li key={i}>
+                          <Link href={p.href} className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                            {p.name}
+                          </Link>
+                        </li>
+                      ))}
                     </ul>
                   </details>
                 </li>
@@ -119,7 +120,7 @@ export default function SolarPumpsPage() {
                 {[
                   { title: "TIP OH1 Horizontal Centrifugal Pumps For Oil And Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
                   { title: "TIP OH1 Horizontal Centrifugal Pumps For Chemical Flow", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", link: "/products/tipcentrifugalpumps/tip7rkc9x4" },
-                  { title: "TIP OH1 Overhung Type Horizontal Centrifugal Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/tipcentrifugalpumps/tip9aq2kx" },
+                  { title: "TIP OH1 Overhung Type Horizontal Centrifugal Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/tipcentrifugalpumps/tip9a2kx" },
                   { title: "Open Top Type Single Screw Pumps", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">
@@ -166,7 +167,7 @@ export default function SolarPumpsPage() {
                       <h3 className="text-xl font-bold text-slate-800 mb-3 hover:text-[#0047b3] transition-colors">
                         <Link href={product.href}>{product.name}</Link>
                       </h3>
-                      <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-4">
+                      <p className="text-slate-600 text-sm leading-relaxed mb-4 line-clamp-4 whitespace-pre-line">
                         {product.description}
                       </p>
                     </div>
@@ -178,7 +179,7 @@ export default function SolarPumpsPage() {
                         View More &gt;&gt;
                       </Link>
                       <Link 
-                        href="#inquiry" 
+                        href="/inquiry"
                         className="inline-flex items-center justify-center px-6 py-2 bg-[#0047b3] text-white text-sm font-medium rounded-full hover:bg-blue-800 transition-colors"
                       >
                         Send Inquiry &gt;&gt;
