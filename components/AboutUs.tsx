@@ -2,14 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
 
-export default function AboutUs() {
-  const features = [
-    "Over 20 years of engineering expertise",
-    "Global manufacturer and supplier",
-    "ISO 9001 Certified Quality Management",
-    "Customized fluid transfer solutions",
-  ];
+// BOLT: Moved static features outside component to prevent re-allocation on re-renders
+const features = [
+  "Over 20 years of engineering expertise",
+  "Global manufacturer and supplier",
+  "ISO 9001 Certified Quality Management",
+  "Customized fluid transfer solutions",
+];
 
+export default function AboutUs() {
   return (
     <section id="about" className="py-16 bg-[#f8f9fa]">
       <div className="max-w-7xl mx-auto px-4 md:px-8 mb-10">

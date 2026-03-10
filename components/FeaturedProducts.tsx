@@ -1,9 +1,9 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, X, Loader2, ChevronLeft, ChevronRight } from "lucide-react";
+import { ArrowRight, X, ChevronLeft, ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 
 const placeholderProducts = [
@@ -58,19 +58,10 @@ const placeholderProducts = [
 ];
 
 export default function FeaturedProducts() {
-  const [products, setProducts] = useState<typeof placeholderProducts>([]);
-  const [loading, setLoading] = useState(true);
+  // BOLT: Removed artificial 1.5s loading delay to improve Time to Interactive (TTI)
+  // Also changed to direct use of placeholderProducts instead of useState since data is static.
   const [selectedProduct, setSelectedProduct] = useState<typeof placeholderProducts[0] | null>(null);
   const scrollContainerRef = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    // Simulate fetching data
-    const timer = setTimeout(() => {
-      setProducts(placeholderProducts);
-      setLoading(false);
-    }, 1500);
-    return () => clearTimeout(timer);
-  }, []);
 
   const scrollLeft = () => {
     if (scrollContainerRef.current) {
@@ -96,12 +87,7 @@ export default function FeaturedProducts() {
           </p>
         </div>
 
-        {loading ? (
-          <div className="flex justify-center items-center py-20">
-            <Loader2 className="w-8 h-8 text-[#004b9a] animate-spin" />
-          </div>
-        ) : (
-          <div className="relative flex items-center group/slider">
+        <div className="relative flex items-center group/slider">
             {/* Left Arrow */}
             <button 
               onClick={scrollLeft}
@@ -118,7 +104,7 @@ export default function FeaturedProducts() {
               className="flex overflow-x-auto snap-x snap-mandatory gap-6 w-full pb-4 [&::-webkit-scrollbar]:hidden"
               style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
             >
-              {products.map((product, index) => (
+              {placeholderProducts.map((product, index) => (
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -165,7 +151,6 @@ export default function FeaturedProducts() {
               <ChevronRight className="w-6 h-6" />
             </button>
           </div>
-        )}
         
         <div className="mt-12 text-center">
           <Link
