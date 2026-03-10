@@ -4,6 +4,7 @@ import TopHeader from "@/components/TopHeader";
 import Navbar from "@/components/Navbar";
 import FloatingContact from "@/components/FloatingContact";
 import Footer from "@/components/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: 'Omron Tech Pumps',
@@ -19,6 +20,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
         {children}
         <FloatingContact />
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
