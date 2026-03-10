@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function G2APPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,7 +16,7 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">G2AP HORIZONTAL CENTRIFUGAL PUMPS</span>
+          <span className="text-slate-900 font-medium truncate uppercase">G2AP Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -40,24 +40,24 @@ export default function ProductPage() {
 
             {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
                   <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
                       <span>TIP Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
@@ -84,52 +84,16 @@ export default function ProductPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
           {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg"
-                    alt="G2AP HORIZONTAL CENTRIFUGAL PUMPS"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg"
+                    alt="G2AP Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -137,15 +101,15 @@ export default function ProductPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  G2AP HORIZONTAL CENTRIFUGAL PUMPS
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
+                  G2AP Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: G2AP
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    G2AP Horizontal Centrifugal Pumps play a crucial role in the industry. Specifically crafted for the intricate technological processes in the petrochemical field, this series is highly efficient and reliable. Its flow rate ranges from 2 to 2600 cubic meters per hour, and the maximum head can reach up to 250 meters.
+                    The G2AP Series API 610 (OH1 type) Horizontal Centrifugal Pump is a single-stage, single-suction, overhung, foot-mounted centrifugal pump. It is designed for reliability and efficiency in demanding industrial environments.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -159,43 +123,65 @@ export default function ProductPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps G2AP series stands out with its foot-supported structure along with open or semi-open impellers. With a designed pressure of 2.5 MPa, it is suitable for general industrial processes. Meticulous consideration has been given to hydraulic performance, connections, and cooling methods.
+                The G2AP series is an API 610 standard compliant pump, specifically OH1 configuration. It is suitable for transportation of neutral or corrosive media, clean or media containing small amount of solid particles.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Main Features</h3>
-              <ul className="space-y-4 text-slate-700 mb-12">
-                <li>● <strong>Enhanced Efficiency:</strong> Increased inlet diameter effectively reduces flow rate and enhances cavitation resistance.</li>
-                <li>● <strong>Low Maintenance:</strong> Wearing parts like wear rings and shaft sleeves are easily replaceable, extending the life of main components.</li>
-                <li>● <strong>Flexible Configuration:</strong> Sealing forms can be configured for different working conditions, with air-cooled or water-cooled bearing brackets.</li>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
+              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-8">
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Refinery:</strong> Process pump for various oil products.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Petrochemical Industry:</strong> Transportation of chemical raw materials and intermediates.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Coal Chemical Industry:</strong> Handling coal tar and other coal-derived liquids.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Offshore Engineering:</strong> Seawater desalination and other offshore platform applications.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Chemical Industry:</strong> General chemical processing.</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
-              <p className="text-slate-700 mb-4">
-                Widely used in refineries, petrochemicals, cryogenic engineering, coal mining, chemical fiber, power plants, desalination plants, and environmental protection facilities.
-              </p>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
-              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
-                  <li><strong>Flow rate:</strong> 2 - 2,600 m³/h</li>
-                  <li><strong>Head:</strong> Up to 250 m</li>
-                  <li><strong>Pressure:</strong> Up to 5.0 MPa</li>
-                  <li><strong>Temperature:</strong> -80°C - 350°C</li>
-                  <li><strong>Rotation speed:</strong> Up to 2,900 rpm/min</li>
-                </ul>
-              </div>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
-                  <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
-                    alt="G2AP Centrifugal Pump Diagram"
-                    fill 
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api610oh1horizontal-centrifugal-pumps--3--865243.webp"
+                    alt="G2AP Horizontal Centrifugal Pump Diagram"
+                    fill
+                    className="object-contain"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Conditions</h3>
+              <div className="overflow-x-auto">
+                <table className="min-w-full divide-y divide-slate-200 border border-slate-200">
+                  <tbody className="divide-y divide-slate-200">
+                    <tr>
+                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700 w-1/3">Flow Rate</td>
+                      <td className="px-6 py-4 text-slate-600">Up to 2600 m³/h</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700">Head</td>
+                      <td className="px-6 py-4 text-slate-600">Up to 300 m</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700">Pressure</td>
+                      <td className="px-6 py-4 text-slate-600">Up to 2.5 MPa</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 bg-slate-50 font-bold text-slate-700">Temperature</td>
+                      <td className="px-6 py-4 text-slate-600">-80℃ ~ +300℃</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Performance Chart</h3>
+              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api610oh1horizontal-centrifugal-pumps--4--351722.webp"
+                    alt="G2AP Performance Chart"
+                    fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
                   />
@@ -205,18 +191,19 @@ export default function ProductPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "G2AP Centrifugal Pump",
-                  "Oil and Chemical Flow Pump",
-                  "Petrochemical Process Pump",
-                  "Industrial Horizontal Pump"
+                  "G2AP",
+                  "Horizontal Centrifugal Pump",
+                  "API 610",
+                  "OH1",
+                  "Refinery Pump",
+                  "Petrochemical Industry"
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>

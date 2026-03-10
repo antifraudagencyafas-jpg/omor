@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function GPT7MQL8Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,7 +16,7 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/screwpumps" className="hover:text-blue-600 transition-colors">Screw Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">GPT7MQL8 GPT SINGLE SCREW PUMPS</span>
+          <span className="text-slate-900 font-medium truncate uppercase">GPT7MQL8 GPT Single Screw Pump</span>
         </div>
       </div>
 
@@ -40,8 +40,8 @@ export default function ProductPage() {
 
             {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
@@ -52,19 +52,24 @@ export default function ProductPage() {
                 </li>
                 <li>
                   <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
                       <span>Screw Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/screwpumps" className="block text-sm text-blue-600 font-medium">
                           Single Screw Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/screwpumps" className="block text-sm text-slate-500 hover:text-blue-600 transition-colors">
                           Twin Screw Pumps
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/products/screwpumps" className="block text-sm text-slate-500 hover:text-blue-600 transition-colors">
+                          Three Screw Pumps
                         </Link>
                       </li>
                     </ul>
@@ -84,52 +89,16 @@ export default function ProductPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
           {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg"
-                    alt="GPT7MQL8 GPT SINGLE SCREW PUMPS"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3-1.jpg"
+                    alt="GPT7MQL8 GPT Single Screw Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -137,15 +106,15 @@ export default function ProductPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  GPT7MQL8 GPT SINGLE SCREW PUMPS
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
+                  GPT7MQL8 GPT Single Screw Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: GPT7MQL8
+                  Model: GPT7MQL8 (GPT Series)
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    General Type Single Screw Pumps are powerful industrial transportation tools. Their unique structure enables application in diverse working conditions, handling high-viscosity, particle-laden, and corrosive media with stable flow rates and low energy consumption.
+                    The GPT7MQL8 is a high-performance single screw pump specifically designed for the most challenging industrial applications. Part of the GPT series, it excels in precision dosing and the transportation of highly viscous, abrasive, and shear-sensitive fluids.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -159,68 +128,90 @@ export default function ProductPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <h2 className="text-xl font-bold text-slate-800 mb-4 border-b pb-2">Technical Characteristics</h2>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps GPT Single Screw Pumps are designed for continuous and stable transportation without periodic pressure fluctuations. They feature low-agitation transport that does not damage the inherent structure of the media.
+                The GPT7MQL8 utilizes a precision-machined rotor and a high-durability elastomer stator. This combination ensures consistent flow rates and high pressure capability, even when handling fluids with high solid content or entrained gases.
               </p>
-              <ul className="space-y-4 text-slate-700 mb-12">
-                <li>● <strong>High Viscosity:</strong> Capable of handling media from 20,000 to 200,000 MPa·s.</li>
-                <li>● <strong>Solid Handling:</strong> Transports particles up to 16 mm and fibers up to 100 mm. Solid phase content up to 60%.</li>
-                <li>● <strong>Low Noise:</strong> Engineered to satisfy stringent low-noise requirements in industrial environments.</li>
-              </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-slate-700 list-none pl-0 mb-12">
-                <li>● <strong>Environmental:</strong> Industrial and domestic sewage, sludge-laden water.</li>
-                <li>● <strong>Petroleum:</strong> Crude oil and coalbed methane-water mixtures.</li>
-                <li>● <strong>Food Industry:</strong> Starches, honey, jams, and creams.</li>
-                <li>● <strong>Construction:</strong> Pasty substances like mortar and coatings.</li>
-                <li>● <strong>Chemical:</strong> Suspensions, oils, and adhesives.</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagrams</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-square">
-                    <Image 
-                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-05-4444.jpg"
-                      alt="GPT Structure 1"
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
+                <div className="bg-slate-50 p-6 rounded-lg border border-slate-100">
+                  <h4 className="font-bold text-blue-700 mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
+                    Key Features
+                  </h4>
+                  <ul className="text-sm space-y-2 text-slate-600 list-disc pl-4">
+                    <li>Minimal pulsation for accurate dosing</li>
+                    <li>Excellent suction lift (up to 8.5m)</li>
+                    <li>Compact design with high power density</li>
+                    <li>Wear-resistant internal components</li>
+                    <li>Easy maintenance with plug-in connections</li>
+                  </ul>
                 </div>
-                <div className="border border-slate-200 rounded-lg p-2 bg-white">
-                  <div className="relative w-full aspect-square">
-                    <Image 
-                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-06-231804.jpg"
-                      alt="GPT Structure 2"
-                      fill 
-                      className="object-contain"
-                      referrerPolicy="no-referrer"
-                    />
-                  </div>
+                <div className="bg-slate-50 p-6 rounded-lg border border-slate-100">
+                  <h4 className="font-bold text-blue-700 mb-3 flex items-center">
+                    <span className="w-2 h-2 bg-blue-700 rounded-full mr-2"></span>
+                    Typical Media
+                  </h4>
+                  <ul className="text-sm space-y-2 text-slate-600 list-disc pl-4">
+                    <li>Industrial Sludge and Wastewater</li>
+                    <li>Adhesives and Resins</li>
+                    <li>Paints and Coatings</li>
+                    <li>Dairy and Food Pastes</li>
+                    <li>Chemical Slurries</li>
+                  </ul>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Performance Range</h3>
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-12 text-center">
+                <div className="border border-slate-200 p-4">
+                  <span className="block text-xs text-slate-500 uppercase font-bold">Max Flow</span>
+                  <span className="text-lg font-bold text-slate-800">150 m³/h</span>
+                </div>
+                <div className="border border-slate-200 p-4">
+                  <span className="block text-xs text-slate-500 uppercase font-bold">Max Pressure</span>
+                  <span className="text-lg font-bold text-slate-800">2.4 MPa</span>
+                </div>
+                <div className="border border-slate-200 p-4">
+                  <span className="block text-xs text-slate-500 uppercase font-bold">Temp Range</span>
+                  <span className="text-lg font-bold text-slate-800">up to 120℃</span>
+                </div>
+                <div className="border border-slate-200 p-4">
+                  <span className="block text-xs text-slate-500 uppercase font-bold">Max Solids</span>
+                  <span className="text-lg font-bold text-slate-800">40 mm</span>
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
+              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
+                <div className="relative w-full max-w-2xl aspect-[16/9]">
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250320/single-screw-pumps--2--789880.webp"
+                    alt="GPT7MQL8 Single Screw Pump Diagram"
+                    fill
+                    className="object-contain"
+                    referrerPolicy="no-referrer"
+                  />
                 </div>
               </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "GPT Single Screw Pump",
-                  "General Type Screw Pump",
-                  "High Viscosity Media Pump",
-                  "Industrial Sludge Pump"
+                  "GPT7MQL8",
+                  "GPT Series",
+                  "Single Screw Pump",
+                  "Precision Dosing",
+                  "Progressive Cavity Pump",
+                  "Industrial Pumping"
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>

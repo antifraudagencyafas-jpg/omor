@@ -16,7 +16,7 @@ export default function TIP9AQ2KXPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS</span>
+          <span className="text-slate-900 font-medium truncate uppercase">TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS</span>
         </div>
       </div>
 
@@ -40,8 +40,8 @@ export default function TIP9AQ2KXPage() {
 
             {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
@@ -52,12 +52,12 @@ export default function TIP9AQ2KXPage() {
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           TIP Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
@@ -84,51 +84,15 @@ export default function TIP9AQ2KXPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
           {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg"
                     alt="TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS"
                     fill
                     className="object-contain p-4"
@@ -137,7 +101,7 @@ export default function TIP9AQ2KXPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
                   TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
@@ -159,7 +123,6 @@ export default function TIP9AQ2KXPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
               <p className="text-slate-700 leading-relaxed mb-8">
                 The Omron Tech Pumps TIP series of High Mount horizontal centrifugal pumps features excellent craftsmanship. The horizontal structure gives it a low center of gravity and uniform stress distribution. The High mount horizontal centrifugal pump shaft is connected and positioned precisely, resulting in minimal vibration, strong stability during operation, and convenient maintenance. Its hydraulic flow - through components adopt an advanced model, with an efficiency 5 - 8% higher than that of ordinary pumps, which can reduce enterprise costs. The pump body is made by precision casting, with both excellent internal structure and appearance.
@@ -186,15 +149,15 @@ export default function TIP9AQ2KXPage() {
               </p>
               
               <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Chemical Industry:</strong> It is used to transport various corrosive fluids during the chemical production process.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Food Industry:</strong> It is responsible for transporting fluid raw materials during the food processing process.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Brewing Industry:</strong> It is used to transport raw materials and fermentation broth during the brewing process.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Refining Industry:</strong> It undertakes the transportation of crude oil and refined oil products.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Pharmaceutical Industry:</strong> It is responsible for transporting various liquids required for drug production.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Paper - making Industry:</strong> It transports pulp, white water, and chemical additives.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Metallurgical Industry:</strong> It transports metallurgical liquids, flushing water, and other related liquids.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Power Industry:</strong> It is used to transport boiler make - up water and cooling circulating water.</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600">●</span> <strong>Environmental Protection Industry:</strong> It transports sewage, sludge during sewage treatment, and absorption liquids for waste gas treatment.</li>
               </ul>
 
               <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
@@ -258,13 +221,12 @@ export default function TIP9AQ2KXPage() {
                   "Centrifugal Pump",
                   "Diagram of A Centrifugal Pump."
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>

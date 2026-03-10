@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function OWP35HFRPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,7 +16,7 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/water-pumps" className="hover:text-blue-600 transition-colors">Water Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OWP35HFR Multistage Vertical Centrifugal Pump</span>
         </div>
       </div>
 
@@ -40,8 +40,8 @@ export default function ProductPage() {
 
             {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
@@ -58,18 +58,18 @@ export default function ProductPage() {
                 </li>
                 <li>
                   <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
                       <span>Water Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
-                          Multistage Water Pumps
+                        <Link href="/products/water-pumps" className="block text-sm text-blue-600 font-medium">
+                          Multistage Vertical Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/water-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
                           Fire Fighting Pumps
                         </Link>
                       </li>
@@ -84,52 +84,16 @@ export default function ProductPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
           {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg"
-                    alt="OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/5.jpg"
+                    alt="OWP35HFR Multistage Vertical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -137,15 +101,15 @@ export default function ProductPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
+                  OWP35HFR Multistage Vertical Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: OWP35HFR
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The OWP vertical multistage stainless steel centrifugal pump is non-self-priming and compatible with standard motors. The motor shaft and pump shaft are directly connected by a coupling. It is fixed between the bracket and the water inlet/outlet body by tie rods and nuts.
+                    The OWP35HFR is a high-efficiency multistage vertical centrifugal pump designed for industrial water supply and pressure boosting. Its vertical design ensures a small footprint while providing exceptional performance for high-head applications.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -159,38 +123,49 @@ export default function ProductPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <h2 className="text-xl font-bold text-slate-800 mb-4">Product Description</h2>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The OWP series is a multi-functional product capable of transporting various media such as tap water and slightly corrosive industrial liquids. It is suitable for different temperature, flow rate, and pressure scenarios.
+                The OWP Series Multistage Vertical Centrifugal Pumps are engineered for reliability and energy efficiency. They are suitable for transporting thin, clean, non-flammable, and non-explosive liquids without solid particles or fibers.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Water Supply:</strong> Filtration, transportation, and zoned supply.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Industrial:</strong> Pressurization and process water systems.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Cleaning:</strong> High-pressure flushing and cleaning systems.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Fire Fighting:</strong> Dedicated fire protection systems.</li>
-                <li className="flex items-start"><span className="mr-2 text-slate-400">●</span> <strong>Agriculture:</strong> Farmland, sprinkler, and drip irrigation.</li>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Advantages</h3>
+              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-8">
+                <li className="flex items-start">
+                  <div className="flex flex-col">
+                    <span className="font-bold text-slate-800">● Space-Saving Design:</span>
+                    <span>The vertical structure allows for installation in areas with limited floor space.</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="flex flex-col">
+                    <span className="font-bold text-slate-800">● Corrosion Resistance:</span>
+                    <span>Wetted parts are typically made of high-quality stainless steel (SS304/SS316) for durability.</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="flex flex-col">
+                    <span className="font-bold text-slate-800">● High Efficiency:</span>
+                    <span>Optimized hydraulic model ensures low power consumption and stable operation.</span>
+                  </div>
+                </li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operating Conditions</h3>
-              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
-                <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm text-slate-700 list-none pl-0">
-                  <li><strong>Liquid Temp (Normal):</strong> -15°C ~ +70°C</li>
-                  <li><strong>Liquid Temp (Hot):</strong> -15°C ~ +120°C</li>
-                  <li><strong>Ambient Temp:</strong> Up to +40°C</li>
-                  <li><strong>Altitude:</strong> Up to 1000m</li>
-                </ul>
-              </div>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
+              <ul className="space-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Industrial water supply and pressure boosting</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> High-rise building water supply systems</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Water treatment and filtration systems</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Boiler feed and condensate systems</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">●</span> Irrigation and fire fighting systems</li>
+              </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-md aspect-[3/4]">
                   <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-stainless-steel-centrifugal-pump--2--770423.webp"
-                    alt="OWP Series Structure"
+                    src="https://www.teffiko.com/upload/8025/image/20250320/multistage-vertical-centrifugal-pumps--2--376036.webp"
+                    alt="OWP35HFR Multistage Vertical Pump Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -198,21 +173,44 @@ export default function ProductPage() {
                 </div>
               </div>
 
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Operating Data</h3>
+              <div className="bg-slate-50 border border-slate-200 rounded-lg p-6 mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <span className="block text-sm font-bold text-slate-500 uppercase mb-1">Flow Rate</span>
+                    <span className="text-xl font-bold text-slate-800">Up to 240 m³/h</span>
+                  </div>
+                  <div>
+                    <span className="block text-sm font-bold text-slate-500 uppercase mb-1">Head</span>
+                    <span className="text-xl font-bold text-slate-800">Up to 300 m</span>
+                  </div>
+                  <div>
+                    <span className="block text-sm font-bold text-slate-500 uppercase mb-1">Pressure</span>
+                    <span className="text-xl font-bold text-slate-800">Up to 3.3 MPa</span>
+                  </div>
+                  <div>
+                    <span className="block text-sm font-bold text-slate-500 uppercase mb-1">Temperature</span>
+                    <span className="text-xl font-bold text-slate-800">-15℃ to +120℃</span>
+                  </div>
+                </div>
+              </div>
+
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OWP35HFR Multistage Pump",
-                  "Vertical Centrifugal Pump",
-                  "Stainless Steel Pump",
-                  "Industrial Water Pump"
+                  "OWP35HFR",
+                  "Multistage Vertical Pump",
+                  "Water Pump",
+                  "High Head Pump",
+                  "Pressure Booster",
+                  "Stainless Steel Pump"
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>

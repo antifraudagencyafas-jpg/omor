@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 
-export default function ProductPage() {
+export default function OTTPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -16,7 +16,7 @@ export default function ProductPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/screwpumps" className="hover:text-blue-600 transition-colors">Screw Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate">OTT SINGLE SCREW PUMPS</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OTT Single Screw Pump</span>
         </div>
       </div>
 
@@ -40,8 +40,8 @@ export default function ProductPage() {
 
             {/* Products Accordion */}
             <div className="bg-white border border-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-white text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
-                Products
+              <h3 className="bg-slate-100 text-slate-800 font-bold text-lg px-6 py-4 border-b border-slate-200">
+                Products Catalog
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
@@ -52,19 +52,24 @@ export default function ProductPage() {
                 </li>
                 <li>
                   <details className="group" open>
-                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none transition-colors">
+                    <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
                       <span>Screw Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/screwpumps" className="block text-sm text-blue-600 font-medium">
                           Single Screw Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-500 hover:text-blue-600">
+                        <Link href="/products/screwpumps" className="block text-sm text-slate-500 hover:text-blue-600 transition-colors">
                           Twin Screw Pumps
+                        </Link>
+                      </li>
+                      <li>
+                        <Link href="/products/screwpumps" className="block text-sm text-slate-500 hover:text-blue-600 transition-colors">
+                          Three Screw Pumps
                         </Link>
                       </li>
                     </ul>
@@ -84,52 +89,16 @@ export default function ProductPage() {
                 </li>
               </ul>
             </div>
-
-            {/* New Products */}
-            <div className="bg-slate-200 rounded-none shadow-sm overflow-hidden">
-              <h3 className="bg-slate-300 text-slate-700 font-bold text-lg px-6 py-4">
-                New Products
-              </h3>
-              <div className="p-4 space-y-4">
-                {[
-                  { title: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "TIP8C2XKWR Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "HORIZONTAL CENTRIFUGAL PUMPS WITH TEMPERATURE SENSOR.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OTT SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
-                ].map((np, i) => (
-                  <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
-                    <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
-                      <Image 
-                        src={np.img}
-                        alt={np.title}
-                        fill
-                        className="object-contain p-1 group-hover:scale-110 transition-transform duration-300"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                    <h4 className="text-xs font-medium text-slate-600 group-hover:text-blue-600 line-clamp-3 transition-colors leading-snug uppercase">
-                      {np.title}
-                    </h4>
-                  </Link>
-                ))}
-                <div className="pt-2">
-                  <Link href="/products" className="inline-flex items-center justify-center px-4 py-2 bg-blue-600 text-white hover:bg-blue-700 rounded transition-colors text-sm font-medium">
-                    View More <ChevronRight className="w-4 h-4 ml-1" />
-                  </Link>
-                </div>
-              </div>
-            </div>
           </aside>
 
           {/* Right Content Area - Product Details */}
           <div className="w-full flex-1">
-            {/* Top Section: Image and Basic Info */}
             <div className="flex flex-col md:flex-row gap-8 mb-12">
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg"
-                    alt="OTT SINGLE SCREW PUMPS"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3-1.jpg"
+                    alt="OTT Single Screw Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -137,15 +106,15 @@ export default function ProductPage() {
                 </div>
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
-                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight">
-                  OTT SINGLE SCREW PUMPS
+                <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
+                  OTT Single Screw Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OTTA9X2K
+                  Model: OTT Series
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The Omron Tech Pumps OTT series, inclusive of Open Top Type OTT single screw pumps, is engineered for harsh conditions. It has stable flow, flexible adjustment, and runs quietly. Built with top-tier wear & corrosion-resistant materials, it adapts well to complex and tough environments.
+                    The OTT Single Screw Pump is a positive displacement pump that uses one or more screws to move fluids or solids along the screw axis. It is designed for reliability in transporting various media, especially high-viscosity and abrasive materials.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -159,37 +128,88 @@ export default function ProductPage() {
               </div>
             </div>
 
-            {/* Detailed Content Section */}
             <div className="prose prose-slate max-w-none">
-              <h2 className="text-2xl font-bold text-slate-800 mb-6">Product Description</h2>
+              <h2 className="text-xl font-bold text-slate-800 mb-4 border-b pb-2">Product Description</h2>
               <p className="text-slate-700 leading-relaxed mb-6">
-                When procuring raw materials, the company strictly manages quality, carrying out multiple inspections. In production, advanced equipment is used, and a professional team assembles meticulously. Multiple inspection points are set at crucial stages.
-              </p>
-              <p className="text-slate-700 leading-relaxed mb-8">
-                Finished products are tested under simulated extreme conditions. Only fully compliant ones are permitted to leave the factory. This ensures the series meets diverse industrial needs with reliable, efficient performance.
+                Omron Tech Pumps series Single Screw Pumps can transport various media, including low-viscosity to high-viscosity media, neutral or corrosive media, and media containing solid particles. It is particularly suitable for handling sensitive media that require gentle, low-pulsation pumping.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Working Principle</h3>
-              <p className="text-slate-700 mb-6">
-                Screw pumps are positive-displacement pumps that operate by the meshing and rotation of screws. sealed cavities move axially, sucking in liquid at the inlet and discharging at the outlet, achieving smooth and continuous transportation with low pressure pulsation.
-              </p>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Fields</h3>
-              <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-slate-700 list-none pl-0 mb-12">
-                <li>● <strong>Oil and Gas:</strong> Transporting high-viscosity crude oil and oilfield water injection.</li>
-                <li>● <strong>Chemical Industry:</strong> Transporting corrosive, high-viscosity, or solid-containing materials.</li>
-                <li>● <strong>Food and Beverage:</strong> Gentle transport of sauces, dairy products, etc.</li>
-                <li>● <strong>Marine Industry:</strong> Fuel oil transportation and sewage discharge on ships.</li>
-                <li>● <strong>Sewage Treatment:</strong> Transporting sewage and sludge.</li>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Design Characteristics</h3>
+              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-8">
+                <li className="flex items-start">
+                  <div className="flex flex-col">
+                    <span className="font-bold text-slate-800">● Gentle Pumping:</span>
+                    <span>Low internal velocities and minimal shear force during transportation.</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="flex flex-col">
+                    <span className="font-bold text-slate-800">● Self-Priming:</span>
+                    <span>Excellent self-priming capability even with gas-liquid mixed media.</span>
+                  </div>
+                </li>
+                <li className="flex items-start">
+                  <div className="flex flex-col">
+                    <span className="font-bold text-slate-800">● Reversible:</span>
+                    <span>The pumping direction can be changed by reversing the rotation direction.</span>
+                  </div>
+                </li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Structure Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-y-2 gap-x-8 text-slate-700 list-none pl-0 mb-12">
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">»</span> Environmental protection (sludge/sewage)</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">»</span> Food and beverage industry</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">»</span> Chemical and pharmaceutical industries</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">»</span> Paper and pulp industry</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">»</span> Petroleum industry (crude oil/slop oil)</li>
+                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">»</span> Construction industry</li>
+              </ul>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Technical Diagram</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[4/3]">
+                <div className="relative w-full max-w-2xl aspect-[16/9]">
                   <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250411/----4-04-979280.jpg"
-                    alt="OTT Screw Pump Structure"
+                    src="https://www.teffiko.com/upload/8025/image/20250320/single-screw-pumps--2--789880.webp"
+                    alt="OTT Single Screw Pump Diagram"
                     fill 
+                    className="object-contain"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Performance Data</h3>
+              <div className="overflow-x-auto mb-8">
+                <table className="min-w-full border border-slate-200 text-sm">
+                  <tbody className="divide-y divide-slate-200">
+                    <tr className="bg-slate-50">
+                      <td className="px-6 py-4 font-bold text-slate-700">Flow Rate</td>
+                      <td className="px-6 py-4 text-slate-600">Up to 400 m³/h</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 font-bold text-slate-700">Pressure</td>
+                      <td className="px-6 py-4 text-slate-600">Up to 4.8 MPa</td>
+                    </tr>
+                    <tr className="bg-slate-50">
+                      <td className="px-6 py-4 font-bold text-slate-700">Temperature</td>
+                      <td className="px-6 py-4 text-slate-600">-20℃ to +200℃</td>
+                    </tr>
+                    <tr>
+                      <td className="px-6 py-4 font-bold text-slate-700">Viscosity</td>
+                      <td className="px-6 py-4 text-slate-600">Up to 1,000,000 mm²/s</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Selection Chart</h3>
+              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250320/single-screw-pumps--3--842345.webp"
+                    alt="OTT Performance Selection Chart"
+                    fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
                   />
@@ -199,18 +219,18 @@ export default function ProductPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OTT Single Screw Pump",
-                  "Open Top Type Pump",
-                  "High Viscosity Pump",
-                  "Industrial Screw Pump"
+                  "OTT",
+                  "Single Screw Pump",
+                  "Positive Displacement Pump",
+                  "Sludge Pump",
+                  "High Viscosity Pump"
                 ].map((tag, idx) => (
-                  <Link 
+                  <span
                     key={idx} 
-                    href="/products" 
-                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded hover:bg-blue-50 hover:text-blue-600 transition-colors"
+                    className="px-3 py-1.5 bg-slate-100 text-slate-600 text-sm rounded transition-colors"
                   >
                     {tag}
-                  </Link>
+                  </span>
                 ))}
               </div>
             </div>
