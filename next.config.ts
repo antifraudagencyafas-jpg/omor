@@ -35,6 +35,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'leopump.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
   output: 'standalone',
