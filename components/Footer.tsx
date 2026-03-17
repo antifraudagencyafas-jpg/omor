@@ -123,12 +123,12 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-500 text-sm mb-4 md:mb-0">
-            &copy; 2026 OmronTechPumps. All Rights Reserved.
+            &copy; {new Date().getFullYear()} OmronTechPumps. All Rights Reserved.
           </p>
           <div className="flex space-x-6 text-sm">
-            <a href="#" className="text-slate-500 hover:text-white transition-colors">Privacy Policy</a>
-            <a href="#" className="text-slate-500 hover:text-white transition-colors">Terms of Service</a>
-            <a href="#" className="text-slate-500 hover:text-white transition-colors">Sitemap</a>
+            <Link href="/privacy" className="text-slate-500 hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms" className="text-slate-500 hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="#" className="text-slate-500 hover:text-white transition-colors">Sitemap</Link>
           </div>
         </div>
       </div>
