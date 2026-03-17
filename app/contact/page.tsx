@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
+import MapSection from "@/components/MapSection";
 
 export default function ContactPage() {
   return (
@@ -176,12 +177,8 @@ export default function ContactPage() {
         </div>
       </section>
 
-      {/* Map Section Placeholder */}
-      <section className="h-[400px] w-full bg-slate-200 relative grayscale">
-        <div className="absolute inset-0 flex items-center justify-center">
-           <p className="text-slate-500 font-medium">[ Interactive Map Integration ]</p>
-        </div>
-      </section>
+      {/* Map Section */}
+      <MapSection />
     </main>
   );
 }
