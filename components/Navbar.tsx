@@ -47,7 +47,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773049630/Ommm_p2g9w8.jpg"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773742819/Picsart_26-03-17_11-05-57-578_lb0wyl.png"
             alt="Omron Tech Pumps Logo"
             width={240}
             height={80}

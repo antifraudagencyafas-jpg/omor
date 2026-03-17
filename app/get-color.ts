@@ -1,6 +1,6 @@
 import https from 'https';
 
-https.get('https://res.cloudinary.com/dccvdkffu/image/upload/v1773049630/Ommm_p2g9w8.jpg', (res) => {
+https.get('https://res.cloudinary.com/dccvdkffu/image/upload/v1773742819/Picsart_26-03-17_11-05-57-578_lb0wyl.png', (res) => {
   const chunks: Buffer[] = [];
   res.on('data', (chunk) => chunks.push(chunk));
   res.on('end', () => {
