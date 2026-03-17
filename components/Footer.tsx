@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block mb-6 bg-white p-2 rounded-lg">
               <Image
-                src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773742819/Picsart_26-03-17_11-05-57-578_lb0wyl.png"
+                src="/logo.png"
                 alt="Omron Tech Pumps Logo"
                 width={300}
                 height={100}
