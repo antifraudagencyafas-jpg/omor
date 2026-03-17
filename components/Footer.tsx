@@ -13,9 +13,9 @@ export default function Footer() {
               <Image
                 src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773742819/Picsart_26-03-17_11-05-57-578_lb0wyl.png"
                 alt="Omron Tech Pumps Logo"
-                width={240}
-                height={80}
-                className="h-12 w-auto object-contain"
+                width={300}
+                height={100}
+                className="h-20 w-auto object-contain"
               />
             </Link>
             <p className="text-slate-400 mb-6 leading-relaxed">
