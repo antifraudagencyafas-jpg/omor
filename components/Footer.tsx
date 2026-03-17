@@ -11,11 +11,11 @@ export default function Footer() {
           <div>
             <Link href="/" className="inline-block mb-6 bg-white p-2 rounded-lg">
               <Image
-                src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773049630/Ommm_p2g9w8.jpg"
+                src="/logo.png"
                 alt="Omron Tech Pumps Logo"
-                width={240}
-                height={80}
-                className="h-12 w-auto object-contain"
+                width={300}
+                height={100}
+                className="h-20 w-auto object-contain"
               />
             </Link>
             <p className="text-slate-400 mb-6 leading-relaxed">

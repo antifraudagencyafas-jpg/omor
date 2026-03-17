@@ -1,12 +1,12 @@
-import https from 'https';
+import fs from 'fs';
+import path from 'path';
 
-https.get('https://res.cloudinary.com/dccvdkffu/image/upload/v1773049630/Ommm_p2g9w8.jpg', (res) => {
-  const chunks: Buffer[] = [];
-  res.on('data', (chunk) => chunks.push(chunk));
-  res.on('end', () => {
-    const buffer = Buffer.concat(chunks);
-    console.log('Image downloaded, size:', buffer.length);
-    // Let's just print the first few bytes to see if it's a valid JPEG
-    console.log(buffer.slice(0, 20));
-  });
-});
+try {
+  const logoPath = path.join(process.cwd(), 'public', 'logo.png');
+  const buffer = fs.readFileSync(logoPath);
+  console.log('Local logo loaded, size:', buffer.length);
+  // Let's just print the first few bytes to see if it's a valid PNG
+  console.log(buffer.slice(0, 20));
+} catch (error) {
+  console.error('Error reading local logo:', error);
+}
