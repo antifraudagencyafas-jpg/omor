@@ -34,38 +34,106 @@ export default function ContactPage() {
             <div className="lg:col-span-1 space-y-12">
               <div>
                 <h2 className="text-2xl font-bold text-slate-900 mb-8 border-l-4 border-[#ff6600] pl-4 uppercase tracking-tight">
-                  Direct Contact
+                  Our Global Offices
                 </h2>
-                <div className="space-y-6">
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <MapPin className="w-6 h-6 text-[#ff6600]" />
+
+                <div className="space-y-12">
+                  {/* Turkey Office */}
+                  <div className="space-y-6">
+                    <h3 className="text-lg font-bold text-slate-800 uppercase tracking-wide border-b border-slate-200 pb-2">Turkey Office</h3>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <MapPin className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600 leading-relaxed">
+                          Tunuslu Mahmut Pasa Cd. No: 10<br />
+                          Burhaniye, 34676<br />
+                          Uskudar/Istanbul, Turkiye
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="font-bold text-slate-800 mb-1">Office Location</h3>
-                      <p className="text-slate-600 leading-relaxed">
-                        Tunuslu Mahmut Pasa Cd. No: 10<br />
-                        Burhaniye, 34676<br />
-                        Uskudar/Istanbul, Turkiye
-                      </p>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <Phone className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600">+90 212 900 85 53</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <Mail className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600">sales@omrontechpumps.com</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <Phone className="w-6 h-6 text-[#ff6600]" />
+
+                  {/* European Headquarters */}
+                  <div className="space-y-6">
+                    <h3 className="text-lg font-bold text-slate-800 uppercase tracking-wide border-b border-slate-200 pb-2">European Headquarters</h3>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <MapPin className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="font-bold text-slate-800 mb-1">OMRON Tech Pumps</p>
+                        <p className="text-slate-600 leading-relaxed">
+                          Wegalaan 67-69, 2132 JD<br />
+                          Hoofddorp, Netherlands
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="font-bold text-slate-800 mb-1">Phone Number</h3>
-                      <p className="text-slate-600">+90 212 900 85 53</p>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <Phone className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600">+3197010238786</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <Mail className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600">nl.sales@omrontechpumps.com</p>
+                      </div>
                     </div>
                   </div>
-                  <div className="flex items-start">
-                    <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
-                      <Mail className="w-6 h-6 text-[#ff6600]" />
+
+                  {/* Corporate Headquarters */}
+                  <div className="space-y-6">
+                    <h3 className="text-lg font-bold text-slate-800 uppercase tracking-wide border-b border-slate-200 pb-2">Corporate Headquarters</h3>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <MapPin className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="font-bold text-slate-800 mb-1">OMRON Technology</p>
+                        <p className="text-slate-600 leading-relaxed">
+                          2895 Greenspoint Parkway, Suite 200<br />
+                          Hoffman Estates, IL 60169, USA
+                        </p>
+                      </div>
                     </div>
-                    <div>
-                      <h3 className="font-bold text-slate-800 mb-1">Email Address</h3>
-                      <p className="text-slate-600">sales@omrontechpumps.com</p>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <Phone className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600">+1 (575) 3336-629</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 rounded-lg bg-slate-100 flex items-center justify-center mr-4 flex-shrink-0">
+                        <Mail className="w-6 h-6 text-[#ff6600]" />
+                      </div>
+                      <div>
+                        <p className="text-slate-600">operations@omrontechpumps.com</p>
+                      </div>
                     </div>
                   </div>
                 </div>

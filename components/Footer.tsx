@@ -65,20 +65,58 @@ export default function Footer() {
           {/* Contact Info */}
           <div id="contact">
             <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">Contact Us</h3>
-            <ul className="space-y-4">
-              <li className="flex items-start">
-                <MapPin className="w-5 h-5 text-blue-500 mr-3 mt-1 flex-shrink-0" />
-                <span className="text-slate-400">Tunuslu Mahmut Pasa Cd. No: 10<br/>Burhaniye, 34676<br/>Uskudar/istanbul, Turkiye</span>
-              </li>
-              <li className="flex items-center">
-                <Phone className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
-                <span className="text-slate-400">+90 212 900 85 53</span>
-              </li>
-              <li className="flex items-center">
-                <Mail className="w-5 h-5 text-blue-500 mr-3 flex-shrink-0" />
-                <span className="text-slate-400">sales@omrontechpumps.com</span>
-              </li>
-            </ul>
+            <div className="space-y-6">
+              {/* TR Office */}
+              <ul className="space-y-3">
+                <li className="text-xs font-bold text-blue-500 uppercase tracking-widest">Turkey Office</li>
+                <li className="flex items-start">
+                  <MapPin className="w-4 h-4 text-blue-500 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">Tunuslu Mahmut Pasa Cd. No: 10, Uskudar/istanbul</span>
+                </li>
+                <li className="flex items-center">
+                  <Phone className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">+90 212 900 85 53</span>
+                </li>
+                <li className="flex items-center">
+                  <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">sales@omrontechpumps.com</span>
+                </li>
+              </ul>
+
+              {/* EU HQ */}
+              <ul className="space-y-3">
+                <li className="text-xs font-bold text-blue-500 uppercase tracking-widest">European HQ</li>
+                <li className="flex items-start">
+                  <MapPin className="w-4 h-4 text-blue-500 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">Wegalaan 67-69, 2132 JD Hoofddorp, Netherlands</span>
+                </li>
+                <li className="flex items-center">
+                  <Phone className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">+3197010238786</span>
+                </li>
+                <li className="flex items-center">
+                  <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">nl.sales@omrontechpumps.com</span>
+                </li>
+              </ul>
+
+              {/* US HQ */}
+              <ul className="space-y-3">
+                <li className="text-xs font-bold text-blue-500 uppercase tracking-widest">Corporate HQ</li>
+                <li className="flex items-start">
+                  <MapPin className="w-4 h-4 text-blue-500 mr-3 mt-1 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">2895 Greenspoint Parkway, Hoffman Estates, IL 60169</span>
+                </li>
+                <li className="flex items-center">
+                  <Phone className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">+1 (575) 3336-629</span>
+                </li>
+                <li className="flex items-center">
+                  <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
+                  <span className="text-slate-400 text-sm">operations@omrontechpumps.com</span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
 
