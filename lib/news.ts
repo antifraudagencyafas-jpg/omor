@@ -152,13 +152,19 @@ export async function getNewsDetail(slug: string): Promise<NewsDetail | null> {
 
     $contentEl.find('a').each((_, a) => {
       const href = $(a).attr('href');
-      if (href) {
-        if (href.startsWith('/news/') && href.endsWith('.html')) {
-          const internalSlug = href.split('/').pop()?.replace('.html', '');
-          $(a).attr('href', `/news/${internalSlug}`);
-        } else if (href.startsWith('/')) {
+      if (!href) return; // Keep named anchors or elements without href
+
+      if (href.startsWith('/news/') && href.endsWith('.html')) {
+        const internalSlug = href.split('/').pop()?.replace('.html', '');
+        $(a).attr('href', `/news/${internalSlug}`);
+      } else if ((href.startsWith('/') && !href.startsWith('//')) || href.startsWith('#')) {
+        // Keep internal links and fragments, making internal paths absolute as in original logic
+        if (href.startsWith('/')) {
           $(a).attr('href', makeAbsolute(href));
         }
+      } else {
+        // Unwrap external links (http, https, //, etc.)
+        $(a).replaceWith($(a).contents());
       }
     });
 
