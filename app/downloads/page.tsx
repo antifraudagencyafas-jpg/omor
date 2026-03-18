@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Download, FileText, FileArchive, FileImage } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Downloads',
+  description: 'Access product catalogs, technical specifications, and operation manuals for Omron Tech Pumps industrial solutions.',
+};
 
 export default function DownloadsPage() {
   const downloads = [

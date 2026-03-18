@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight, HelpCircle } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'FAQ',
+  description: 'Find answers to frequently asked questions about Omron Tech Pumps products, services, and industrial pump solutions.',
+};
 
 export default function FAQPage() {
   const faqs = [

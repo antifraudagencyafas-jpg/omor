@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Search, ChevronDown, ChevronRight, CheckCircle2 } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Water Pumps | Omron Tech Pumps',
+  description: 'High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Energy-efficient and durable.',
+};
 
 export default function WaterPumpsPage() {
   const products = [

@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIPQ9L4A7M Centrifugal Pump',
+  description: 'API standard overhung type horizontal centrifugal pump with integrated temperature sensor for real-time monitoring of corrosive media.',
+};
 
 export default function TIPQ9L4A7MPage() {
   return (

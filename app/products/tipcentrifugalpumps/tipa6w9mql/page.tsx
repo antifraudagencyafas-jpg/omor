@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIPA6W9MQL Temperature Controlled Pump',
+  description: 'Innovative centrifugal pump with a hollow sandwich structure for precise temperature control. Prevents crystallization in high-viscosity media.',
+};
 
 export default function TIPA6W9MQLPage() {
   return (

@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight, FileText } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Terms of Service',
+  description: 'Read the terms and conditions for using the Omron Tech Pumps website and our industrial pump services.',
+};
 
 export default function TermsPage() {
   return (

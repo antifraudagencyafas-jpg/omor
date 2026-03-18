@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIP8C2XKWR Centrifugal Pump',
+  description: 'High-performance API standard horizontal single-stage centrifugal pump for chemical synthesis and refining. Reliable transport for hazardous media.',
+};
 
 export default function TIP8C2XKWRPage() {
   return (

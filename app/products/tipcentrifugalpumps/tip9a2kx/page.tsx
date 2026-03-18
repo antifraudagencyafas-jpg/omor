@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIP9A2KX High Mount Centrifugal Pump',
+  description: 'High-performance TIP9A2KX horizontal centrifugal pump with excellent craftsmanship, minimal vibration, and strong stability for industrial use.',
+};
 
 export default function TIP9A2KXPage() {
   return (

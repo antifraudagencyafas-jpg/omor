@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'OTT Open Top Single Screw Pump',
+  description: 'High-viscosity open top single screw pump engineered for harsh industrial conditions. Stable, non-pulsating flow for abrasive media.',
+};
 
 export default function OTTPage() {
   return (

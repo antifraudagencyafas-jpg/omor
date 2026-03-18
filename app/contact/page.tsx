@@ -2,6 +2,12 @@ import Image from "next/image";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import MapSection from "@/components/MapSection";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Contact Us',
+  description: 'Get in touch with our global offices in Turkey, Netherlands, and USA for industrial pump solutions and support.',
+};
 
 export default function ContactPage() {
   return (

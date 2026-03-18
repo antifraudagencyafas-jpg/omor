@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight, ShieldCheck } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy',
+  description: 'Our commitment to protecting your privacy and ensuring your personal information is handled safely and responsibly.',
+};
 
 export default function PrivacyPage() {
   return (

@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIP4M2BRDL Vertical Centrifugal Pump',
+  description: 'High-performance overhung type vertical centrifugal pump for chemical processing. Features high concentricity, low vibration, and energy-saving hydraulic model.',
+};
 
 export default function TIP4M2BRDLPage() {
   return (

@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Search, ChevronDown, ChevronRight } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Screw Pumps | Omron Tech Pumps',
+  description: 'Industrial screw pumps designed for high-viscosity fluids in oil & gas, chemical, and marine applications.',
+};
 
 export default function ScrewPumpsPage() {
   const products = [
