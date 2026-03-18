@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'OWP7MQL8 Multistage Fire Pump',
+  description: 'Robust vertical multistage fire fighting centrifugal pump for industrial fire safety systems. High pressure, reliable water supply.',
+};
 
 export default function OWP7MQL8Page() {
   return (

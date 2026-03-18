@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIPX2C9W7A Vertical Processing Pump',
+  description: 'Compact vertical chemical process pump for limited space applications. Ideal for petrochemical, energy, and cryogenic engineering.',
+};
 
 export default function TIPX2C9W7APage() {
   return (

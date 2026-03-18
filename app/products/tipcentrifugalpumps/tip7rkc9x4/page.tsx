@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIP7RKC9X4 Centrifugal Slurry Pump',
+  description: 'High-efficiency anti-clogging centrifugal pump for transporting slurries containing impurities. Ideal for mining, chemical, and power industries.',
+};
 
 export default function TIP7RKC9X4Page() {
   return (

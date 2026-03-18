@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Search, ChevronDown, ChevronRight, CheckCircle2 } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Magnetic Drive Pumps | Omron Tech Pumps',
+  description: 'Sealless magnetic drive pumps for 100% leak-free operation. Safe handling of hazardous, toxic, and corrosive chemicals.',
+};
 
 export default function MagneticDrivePumpPage() {
   const products = [

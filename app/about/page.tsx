@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import { ChevronRight } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'About Us',
+  description: 'Learn about Omron Tech Pumps, a global leader in manufacturing industrial pumps with a commitment to quality, reliability, and technical innovation.',
+};
 
 export default function AboutPage() {
   return (

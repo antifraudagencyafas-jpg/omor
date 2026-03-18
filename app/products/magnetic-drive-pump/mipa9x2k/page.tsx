@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'MIPA9X2K Magnetic Pump',
+  description: '100% leak-free fluorine-lined magnetic pump for hazardous liquids. Pure F46 material lining and sealless technology for maximum safety.',
+};
 
 export default function MIPA9X2KPage() {
   return (

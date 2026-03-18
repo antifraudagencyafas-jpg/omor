@@ -3,9 +3,26 @@ import Link from "next/link";
 import { getNewsDetail } from "@/lib/news";
 import { notFound } from "next/navigation";
 import { ChevronRight, Calendar } from "lucide-react";
+import { Metadata } from 'next';
 
 interface Props {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { slug } = await params;
+  const news = await getNewsDetail(slug);
+
+  if (!news) {
+    return {
+      title: 'News Not Found',
+    };
+  }
+
+  return {
+    title: news.title,
+    description: news.content.substring(0, 155).replace(/<[^>]*>/g, '').trim() + '...',
+  };
 }
 
 export default async function NewsDetailPage({ params }: Props) {

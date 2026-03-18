@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowLeft, Search, ChevronDown, ChevronRight, List, Grid } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIP Centrifugal Pumps | Omron Tech Pumps',
+  description: 'High-performance TIP centrifugal pumps engineered for oil, gas, and chemical industries. Discover our overhung and between-bearing pump solutions.',
+};
 
 export default function TIPCentrifugalPumpsPage() {
   const products = [

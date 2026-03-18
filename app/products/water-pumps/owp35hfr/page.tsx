@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'OWP35HFR Multistage Vertical Pump',
+  description: 'High-efficiency vertical multistage stainless steel centrifugal pump for water supply, industrial pressurization, and water treatment.',
+};
 
 export default function OWP35HFRPage() {
   return (

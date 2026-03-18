@@ -33,7 +33,7 @@ export default function Hero() {
           >
             <Image
               src={src}
-              alt={`Industrial Pump Slide ${index + 1}`}
+              alt={`Advanced industrial pump solutions for ${index === 0 ? "oil & gas" : index === 1 ? "petrochemical" : "water treatment"} industries - Slide ${index + 1}`}
               fill
               sizes="100vw"
               className="object-cover"

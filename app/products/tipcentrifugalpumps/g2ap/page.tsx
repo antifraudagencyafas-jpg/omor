@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'G2AP Centrifugal Pump',
+  description: 'Efficient and reliable horizontal centrifugal pump for petrochemical processes. Features open/semi-open impellers and enhanced cavitation resistance.',
+};
 
 export default function G2APPage() {
   return (

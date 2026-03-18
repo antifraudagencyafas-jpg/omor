@@ -2,6 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { getNewsItems } from "@/lib/news";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'News & Updates',
+  description: 'Stay updated with the latest company news, industry developments, and technical innovations from Omron Tech Pumps.',
+};
 
 interface Props {
   searchParams: Promise<{ page?: string }>;

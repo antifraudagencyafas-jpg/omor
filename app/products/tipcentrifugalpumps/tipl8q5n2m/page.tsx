@@ -1,6 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'TIPL8Q5N2M Centrifugal Pump',
+  description: 'API OH1 standard horizontal centrifugal pump for complex chemical processes. Handles neutral or corrosive media and liquids with solid particles.',
+};
 
 export default function TIPL8Q5N2MPage() {
   return (

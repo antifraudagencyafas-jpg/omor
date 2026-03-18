@@ -2,6 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, ChevronRight } from "lucide-react";
 import solarProducts from "@/solar_products.json";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Products Catalog',
+  description: 'Explore our comprehensive range of industrial pumps including Centrifugal, Screw, Water, and Solar pumps.',
+};
 
 const categories = [
   {

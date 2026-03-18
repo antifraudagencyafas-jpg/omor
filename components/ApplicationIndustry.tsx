@@ -30,7 +30,7 @@ export default function ApplicationIndustry() {
               <div className="relative h-64 w-full overflow-hidden">
                 <Image
                   src={industry.image}
-                  alt={industry.name}
+                  alt={`${industry.name} industrial application facility using Omron Tech Pumps`}
                   fill
                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   className="object-cover group-hover:scale-110 transition-transform duration-700"

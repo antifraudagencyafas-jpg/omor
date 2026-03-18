@@ -3,9 +3,26 @@ import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import solarProducts from "@/solar_products.json";
 import { notFound } from "next/navigation";
+import { Metadata } from 'next';
 
 interface PageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const product = solarProducts.find((p) => p.slug === slug);
+
+  if (!product) {
+    return {
+      title: 'Product Not Found',
+    };
+  }
+
+  return {
+    title: product.title,
+    description: product.description.substring(0, 160),
+  };
 }
 
 export async function generateStaticParams() {

@@ -1,6 +1,12 @@
 import Link from "next/link";
 import Image from "next/image";
 import SendInquiry from "@/components/SendInquiry";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Send Inquiry',
+  description: 'Request a quote or technical information for Omron Tech Pumps industrial solutions.',
+};
 
 export default function InquiryPage() {
   return (
