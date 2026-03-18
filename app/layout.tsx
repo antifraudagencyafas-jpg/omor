@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://omrontechpumps.com',
+    url: 'https://omrontechpumps.nl',
     siteName: 'Omron Tech Pumps',
     title: 'Omron Tech Pumps | Industrial Pump Manufacturer',
     description: 'Global manufacturer of advanced industrial pump solutions for oil & gas, petrochemical, power generation and water treatment industries.',

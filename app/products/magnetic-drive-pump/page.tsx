@@ -4,7 +4,7 @@ import { ArrowLeft, Search, ChevronDown, ChevronRight, CheckCircle2 } from "luci
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Magnetic Drive Pumps | Omron Tech Pumps',
+  title: 'Magnetic Drive Pumps',
   description: 'Sealless magnetic drive pumps for 100% leak-free operation. Safe handling of hazardous, toxic, and corrosive chemicals.',
 };
 
