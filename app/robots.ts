@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://omrontechpumps.com/sitemap.xml',
+    sitemap: 'https://omrontechpumps.nl/sitemap.xml',
   };
 }
