@@ -13,3 +13,7 @@
 ## 2025-05-23 - [Handling external image hotlinking restrictions]
 **Learning:** Some third-party image hosts block requests from unauthorized referrers, causing 403 Forbidden errors when trying to display product images on a new site. This impacts visual completeness and Largest Contentful Paint (LCP).
 **Action:** Use `referrerPolicy="no-referrer"` in Next.js `Image` components to bypass these restrictions when displaying external assets like technical diagrams.
+
+## 2025-05-24 - [React Component Naming in Next.js]
+**Learning:** Next.js build processes (especially those using SWC or Babel) can fail with cryptic syntax errors when React components exported from page files use hyphens in their names (e.g., `OMR-HC280Page`). React components must follow PascalCase conventions.
+**Action:** Always use PascalCase for component definitions (e.g., `OMRHC280Page`) to ensure build-time stability and compatibility with standard JS identifiers.

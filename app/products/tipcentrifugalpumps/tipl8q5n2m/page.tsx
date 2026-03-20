@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIPL8Q5N2M Centrifugal Pump',
+  title: 'OMR-FC260 Centrifugal Pump',
   description: 'API OH1 standard horizontal centrifugal pump for complex chemical processes. Handles neutral or corrosive media and liquids with solid particles.',
 };
 
-export default function TIPL8Q5N2MPage() {
+export default function OMRFC260Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIPL8Q5N2MPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIPL8Q5N2M Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMR-FC260 Heavy-Duty Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIPL8Q5N2MPage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIPL8Q5N2MPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/4pvb-1.jpg"
-                    alt="TIPL8Q5N2M Horizontal Centrifugal Pump"
+                    alt="OMR-FC260 Heavy-Duty Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function TIPL8Q5N2MPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIPL8Q5N2M Horizontal Centrifugal Pump
+                  OMR-FC260 Heavy-Duty Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIPL8Q5N2M
+                  Model: OMR-FC260
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Manufactured in strict accordance with the TIP standard, the TIPL8Q5N2M series is designed for complex chemical technological processes. These high-performance centrifugal pumps are suitable for low or high temperatures, neutral or corrosive media, and liquids containing solid particles.
+                    Manufactured in strict accordance with the OMR standard, the OMR-FC260 series is designed for complex chemical technological processes. These high-performance centrifugal pumps are suitable for low or high temperatures, neutral or corrosive media, and liquids containing solid particles.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -128,7 +128,7 @@ export default function TIPL8Q5N2MPage() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The TIPL8Q5N2M features a horizontal single-stage single-suction design with a compact layout for easy maintenance. The back-pull-out design allows for internal service without disturbing suction or discharge piping.
+                The OMR-FC260 features a horizontal single-stage single-suction design with a compact layout for easy maintenance. The back-pull-out design allows for internal service without disturbing suction or discharge piping.
               </p>
 
               <ul className="space-y-4 text-slate-700 list-none pl-0 mb-8 border-l-2 border-slate-100 pl-6">
@@ -164,7 +164,7 @@ export default function TIPL8Q5N2MPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
-                    alt="TIPL8Q5N2M Chemical Flow Diagram"
+                    alt="OMR-FC260 Chemical Flow Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -175,7 +175,7 @@ export default function TIPL8Q5N2MPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIPL8Q5N2M",
+                  "OMR-FC260",
                   "Chemical Flow Pump",
                   "API OH1",
                   "Back-Pull-Out",

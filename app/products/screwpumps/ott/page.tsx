@@ -4,7 +4,7 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'OTT Open Top Single Screw Pump',
+  title: 'OMT-VS150 Open Top Single Screw Pump',
   description: 'High-viscosity open top single screw pump engineered for harsh industrial conditions. Stable, non-pulsating flow for abrasive media.',
 };
 
@@ -22,7 +22,7 @@ export default function OTTPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/screwpumps" className="hover:text-blue-600 transition-colors">Screw Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OTT Single Screw Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMT-VS150 Viscous Handling Single Screw Pump</span>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export default function OTTPage() {
               <ul className="divide-y divide-slate-100">
                 <li>
                   <Link href="/products/tipcentrifugalpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>TIP Centrifugal Pumps</span>
+                    <span>OMR Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>
@@ -62,12 +62,12 @@ export default function OTTPage() {
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/screwpumps/ott" className="block text-sm text-blue-600 font-medium">
-                          OTT Single Screw Pump
+                          OMT-VS150 Viscous Handling Single Screw Pump
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/screwpumps/gpt7mql8" className="block text-sm text-slate-500 hover:text-blue-600">
-                          GPT Single Screw Pump
+                          OMT-GP200 General Purpose Single Screw Pump
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function OTTPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg"
-                    alt="OTT Single Screw Pumps"
+                    alt="OMT-VS150 Viscous Handling Single Screw Pumps"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function OTTPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OTT SINGLE SCREW PUMP
+                  OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OTTA9X2K
+                  Model: OMT-VS150
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The OTT series is engineered for the harshest industrial conditions. Built with top-tier wear and corrosion-resistant materials, these single screw pumps deliver stable flow and quiet operation in complex environments.
+                    The OMT-VS150 series is engineered for the harshest industrial conditions. Built with top-tier wear and corrosion-resistant materials, these single screw pumps deliver stable flow and quiet operation in complex environments.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -128,7 +128,7 @@ export default function OTTPage() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                Omron Tech Pumps maintains strict quality management from raw material procurement through advanced assembly. Every OTT pump is tested under simulated extreme conditions before leaving the factory. The Open Top Type design is particularly effective for high-viscosity media that require easy access or feeding.
+                Omron Tech Pumps maintains strict quality management from raw material procurement through advanced assembly. Every OMT-VS150 pump is tested under simulated extreme conditions before leaving the factory. The Open Top Type design is particularly effective for high-viscosity media that require easy access or feeding.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Core Advantages</h3>
@@ -168,7 +168,7 @@ export default function OTTPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
                     src="https://www.teffiko.com/upload/8025/image/20250411/----4-04-979280.jpg"
-                    alt="OTT Single Screw Pump Structure"
+                    alt="OMT-VS150 Viscous Handling Single Screw Pump Structure"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -179,7 +179,7 @@ export default function OTTPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OTT Single Screw",
+                  "OMT-VS150 Single Screw",
                   "Open Top Type",
                   "Harsh Conditions",
                   "Wear Resistant",

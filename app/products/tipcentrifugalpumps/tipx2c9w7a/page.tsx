@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIPX2C9W7A Vertical Processing Pump',
+  title: 'OMC-VP450 Vertical Processing Pump',
   description: 'Compact vertical chemical process pump for limited space applications. Ideal for petrochemical, energy, and cryogenic engineering.',
 };
 
-export default function TIPX2C9W7APage() {
+export default function OMCVP450Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIPX2C9W7APage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIPX2C9W7A Chemical Vertical Processing Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-VP450 Vertical Process Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIPX2C9W7APage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIPX2C9W7APage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg"
-                    alt="TIPX2C9W7A Chemical Vertical Processing Pump"
+                    alt="OMC-VP450 Vertical Process Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,10 +104,10 @@ export default function TIPX2C9W7APage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIPX2C9W7A Chemical Vertical Processing Pump
+                  OMC-VP450 Vertical Process Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIPX2C9W7A
+                  Model: OMC-VP450
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
@@ -128,7 +128,7 @@ export default function TIPX2C9W7APage() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps TIP series cantilever vertical centrifugal pumps feature a compact vertical layout where the motor is directly connected to the pump body, reducing floor area by 60% compared to horizontal pumps.
+                The Omron Tech Pumps OMR series cantilever vertical centrifugal pumps feature a compact vertical layout where the motor is directly connected to the pump body, reducing floor area by 60% compared to horizontal pumps.
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
@@ -189,7 +189,7 @@ export default function TIPX2C9W7APage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIPX2C9W7A",
+                  "OMC-VP450",
                   "Vertical Processing Pump",
                   "Space-Saving Design",
                   "Cryogenic Engineering",

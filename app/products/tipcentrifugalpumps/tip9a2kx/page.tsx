@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIP9A2KX High Mount Centrifugal Pump',
-  description: 'High-performance TIP9A2KX horizontal centrifugal pump with excellent craftsmanship, minimal vibration, and strong stability for industrial use.',
+  title: 'OMC-HM650 High-Mount Horizontal Centrifugal Pump',
+  description: 'High-performance OMC-HM650 horizontal centrifugal pump with excellent craftsmanship, minimal vibration, and strong stability for industrial use.',
 };
 
-export default function TIP9A2KXPage() {
+export default function OMCHM650Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIP9A2KXPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIP9A2KXPage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIP9A2KXPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg"
-                    alt="TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP"
+                    alt="OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function TIP9A2KXPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP
+                  OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP9A2KX
+                  Model: OMC-HM650
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The Omron Tech Pumps TIP series of High Mount horizontal centrifugal pumps is a high-performance product developed by our company. Based on traditional High Mount Horizontal Centrifugal pumps, we have carefully considered the unique structural requirements during operation, integrated advanced structural concepts from home and abroad, and created it through extensive research and optimization.
+                    The Omron Tech Pumps OMR series of High Mount horizontal centrifugal pumps is a high-performance product developed by our company. Based on traditional High Mount Horizontal Centrifugal pumps, we have carefully considered the unique structural requirements during operation, integrated advanced structural concepts from home and abroad, and created it through extensive research and optimization.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -128,7 +128,7 @@ export default function TIP9A2KXPage() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-8">
-                The Omron Tech Pumps TIP series features excellent craftsmanship. The horizontal structure gives it a low center of gravity and uniform stress distribution. The High mount horizontal centrifugal pump shaft is connected and positioned precisely, resulting in minimal vibration, strong stability during operation, and convenient maintenance. Its hydraulic flow-through components adopt an advanced model, with an efficiency 5-8% higher than that of ordinary pumps, which can reduce enterprise costs.
+                The Omron Tech Pumps OMR series features excellent craftsmanship. The horizontal structure gives it a low center of gravity and uniform stress distribution. The High mount horizontal centrifugal pump shaft is connected and positioned precisely, resulting in minimal vibration, strong stability during operation, and convenient maintenance. Its hydraulic flow-through components adopt an advanced model, with an efficiency 5-8% higher than that of ordinary pumps, which can reduce enterprise costs.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
@@ -138,7 +138,7 @@ export default function TIP9A2KXPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh4-overhung-type-horizontal-centrifugal-pumps--2--940998.webp"
-                    alt="TIP9A2KX Schematic Diagram"
+                    alt="OMC-HM650 Schematic Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -182,7 +182,7 @@ export default function TIP9A2KXPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP9A2KX",
+                  "OMC-HM650",
                   "High Mount Centrifugal",
                   "Horizontal Pump",
                   "Chemical Industry",
