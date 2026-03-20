@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIP7RKC9X4 Centrifugal Slurry Pump',
+  title: 'OMC-SR750 Centrifugal Slurry Pump',
   description: 'High-efficiency anti-clogging centrifugal pump for transporting slurries containing impurities. Ideal for mining, chemical, and power industries.',
 };
 
-export default function TIP7RKC9X4Page() {
+export default function OMCSR750Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIP7RKC9X4Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIP7RKC9X4 Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-SR750 Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIP7RKC9X4Page() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIP7RKC9X4Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg"
-                    alt="TIP7RKC9X4 Horizontal Centrifugal Pump"
+                    alt="OMC-SR750 Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function TIP7RKC9X4Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIP7RKC9X4 Horizontal Centrifugal Pump
+                  OMC-SR750 Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP7RKC9X4
+                  Model: OMC-SR750
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Specifically designed for transporting slurries containing impurities such as solid particles and fibers, the TIP7RKC9X4 series is widely used in chemical, papermaking, mining, and power industries. It features high efficiency, minimal leakage, and exceptional anti-clogging performance.
+                    Specifically designed for transporting slurries containing impurities such as solid particles and fibers, the OMC-SR750 series is widely used in chemical, papermaking, mining, and power industries. It features high efficiency, minimal leakage, and exceptional anti-clogging performance.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -204,7 +204,7 @@ export default function TIP7RKC9X4Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP7RKC9X4",
+                  "OMC-SR750",
                   "Slurry Pump",
                   "Anti-Clogging",
                   "Large-Channel Impeller",

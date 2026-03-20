@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'OWP7MQL8 Multistage Fire Pump',
+  title: 'OMW-FF900 Multistage Fire-Fighting Centrifugal Pump',
   description: 'Robust vertical multistage fire fighting centrifugal pump for industrial fire safety systems. High pressure, reliable water supply.',
 };
 
-export default function OWP7MQL8Page() {
+export default function OMW7MQL8Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -22,7 +22,7 @@ export default function OWP7MQL8Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/water-pumps" className="hover:text-blue-600 transition-colors">Water Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OWP7MQL8 Multistage Fire Fighting Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMW-FF900 Multistage Fire-Fighting Centrifugal Pump</span>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export default function OWP7MQL8Page() {
               <ul className="divide-y divide-slate-100">
                 <li>
                   <Link href="/products/tipcentrifugalpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>TIP Centrifugal Pumps</span>
+                    <span>OMR Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>
@@ -68,12 +68,12 @@ export default function OWP7MQL8Page() {
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/water-pumps/owp35hfr" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OWP35HFR Multistage Vertical Pump
+                          OMW-VS800 Multistage Vertical Centrifugal Pump
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/water-pumps/owp7mql8" className="block text-sm text-blue-600 font-medium">
-                          OWP7MQL8 Multistage Fire Pump
+                          OMW-FF900 Multistage Fire-Fighting Centrifugal Pump
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function OWP7MQL8Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg"
-                    alt="OWP7MQL8 Multistage Fire Fighting Centrifugal Pumps"
+                    alt="OMW-FF900 Multistage Fire-Fighting Centrifugal Pumps"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function OWP7MQL8Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OWP7MQL8 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMP
+                  OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OWP7MQL8
+                  Model: OMW-FF900
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Integrating global fire protection standards, the OWP7MQL8 series features an innovative detachable vertical structure. It is designed to provide high-pressure water supply with maximum reliability and simplified maintenance.
+                    Integrating global fire protection standards, the OMW7MQL8 series features an innovative detachable vertical structure. It is designed to provide high-pressure water supply with maximum reliability and simplified maintenance.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -183,7 +183,7 @@ export default function OWP7MQL8Page() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
                     src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-fire-fighting-centrifugal-pump--2--276824.webp"
-                    alt="OWP7MQL8 Fire Pump Diagram"
+                    alt="OMW7MQL8 Fire Pump Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -194,7 +194,7 @@ export default function OWP7MQL8Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OWP7MQL8",
+                  "OMW7MQL8",
                   "Fire Fighting",
                   "Emergency Pumping",
                   "High Pressure Vertical",

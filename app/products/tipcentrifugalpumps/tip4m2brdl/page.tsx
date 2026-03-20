@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIP4M2BRDL Vertical Centrifugal Pump',
+  title: 'OMC-VC320 Vertical Chemical Centrifugal Pump',
   description: 'High-performance overhung type vertical centrifugal pump for chemical processing. Features high concentricity, low vibration, and energy-saving hydraulic model.',
 };
 
-export default function TIP4M2BRDLPage() {
+export default function OMCVC320Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIP4M2BRDLPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIP4M2BRDL Chemical Vertical Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-VC320 Chemical Vertical Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIP4M2BRDLPage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIP4M2BRDLPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg"
-                    alt="TIP4M2BRDL Chemical Vertical Centrifugal Pump"
+                    alt="OMC-VC320 Chemical Vertical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function TIP4M2BRDLPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIP4M2BRDL Chemical Vertical Centrifugal Pump
+                  OMC-VC320 Chemical Vertical Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP4M2BRDL
+                  Model: OMC-VC320
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The Omron Tech Pumps TIP series of Overhung Type Vertical Centrifugal Pumps is a high-performance product developed through repeated research and optimization. It has been specifically engineered to meet the unique structural requirements of chemical processing environments, ensuring high reliability and efficiency.
+                    The Omron Tech Pumps OMR series of Overhung Type Vertical Centrifugal Pumps is a high-performance product developed through repeated research and optimization. It has been specifically engineered to meet the unique structural requirements of chemical processing environments, ensuring high reliability and efficiency.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -183,7 +183,7 @@ export default function TIP4M2BRDLPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP4M2BRDL",
+                  "OMC-VC320",
                   "Vertical Centrifugal",
                   "Overhung Type",
                   "Chemical Vertical Pump",

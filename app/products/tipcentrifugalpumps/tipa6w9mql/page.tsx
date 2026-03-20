@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIPA6W9MQL Temperature Controlled Pump',
+  title: 'OMC-TS420 Temperature Controlled Pump',
   description: 'Innovative centrifugal pump with a hollow sandwich structure for precise temperature control. Prevents crystallization in high-viscosity media.',
 };
 
-export default function TIPA6W9MQLPage() {
+export default function OMCTS420Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIPA6W9MQLPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIPA6W9MQL Temperature Controller High Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-TS420 Temperature Controller High Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIPA6W9MQLPage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIPA6W9MQLPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg"
-                    alt="TIPA6W9MQL Temperature Controller High Centrifugal Pump"
+                    alt="OMC-TS420 Temperature Controller High Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function TIPA6W9MQLPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIPA6W9MQL Temperature Controller High Centrifugal Pump
+                  OMC-TS420 Temperature Controller High Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIPA6W9MQL
+                  Model: OMC-TS420
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    An innovative upgrade from traditional chemical pumps, the TIPA6W9MQL series features a hollow sandwich structure for precise temperature control. It is designed for transporting media that require constant temperature maintenance at their crystallization or freezing point.
+                    An innovative upgrade from traditional chemical pumps, the OMC-TS420 series features a hollow sandwich structure for precise temperature control. It is designed for transporting media that require constant temperature maintenance at their crystallization or freezing point.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -180,7 +180,7 @@ export default function TIPA6W9MQLPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1horizontal-centrifugal-pumps-for-heat-preservation--2--409967.webp"
-                    alt="TIPA6W9MQL Thermal Diagram"
+                    alt="OMC-TS420 Thermal Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -191,7 +191,7 @@ export default function TIPA6W9MQLPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIPA6W9MQL",
+                  "OMC-TS420",
                   "Heat Preservation",
                   "Temperature Control",
                   "Crystallization Prevention",

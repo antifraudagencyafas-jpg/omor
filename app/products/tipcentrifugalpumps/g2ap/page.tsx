@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'G2AP Centrifugal Pump',
+  title: 'OMR-HC280 Centrifugal Pump',
   description: 'Efficient and reliable horizontal centrifugal pump for petrochemical processes. Features open/semi-open impellers and enhanced cavitation resistance.',
 };
 
-export default function G2APPage() {
+export default function OMRHC280Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function G2APPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">G2AP Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMR-HC280 Horizontal Chemical Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function G2APPage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function G2APPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg"
-                    alt="G2AP Horizontal Centrifugal Pump"
+                    alt="OMR-HC280 Horizontal Chemical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function G2APPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  G2AP Horizontal Centrifugal Pump
+                  OMR-HC280 Horizontal Chemical Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: G2AP
+                  Model: OMR-HC280
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Specifically crafted for the intricate technological processes in the petrochemical field, the G2AP series is highly efficient and reliable. It features a foot-supported structure with open or semi-open impellers, designed for high-performance fluid transportation in demanding industrial environments.
+                    Specifically crafted for the intricate technological processes in the petrochemical field, the OMR-HC280 series is highly efficient and reliable. It features a foot-supported structure with open or semi-open impellers, designed for high-performance fluid transportation in demanding industrial environments.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -128,7 +128,7 @@ export default function G2APPage() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The G2AP series stands out with its meticulously engineered hydraulic performance. It solves usage and installation defects often found in standard process pumps. The increased inlet diameter reduces flow rate at the entry, significantly enhancing cavitation resistance. Wearing parts like rings and sleeves are easily replaceable, drastically reducing long-term maintenance costs.
+                The OMR-HC280 series stands out with its meticulously engineered hydraulic performance. It solves usage and installation defects often found in standard process pumps. The increased inlet diameter reduces flow rate at the entry, significantly enhancing cavitation resistance. Wearing parts like rings and sleeves are easily replaceable, drastically reducing long-term maintenance costs.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Industrial Application Fields</h3>
@@ -170,7 +170,7 @@ export default function G2APPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
-                    alt="G2AP Oil and Chemical Flow Diagram"
+                    alt="OMR-HC280 Oil and Chemical Flow Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -181,7 +181,7 @@ export default function G2APPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "G2AP",
+                  "OMR-HC280",
                   "Oil and Chemical Flow",
                   "Semi-Open Impeller",
                   "High Efficiency",

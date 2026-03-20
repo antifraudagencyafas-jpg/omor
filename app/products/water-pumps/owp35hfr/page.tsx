@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'OWP35HFR Multistage Vertical Pump',
+  title: 'OMW-VS800 Multistage Vertical Centrifugal Pump',
   description: 'High-efficiency vertical multistage stainless steel centrifugal pump for water supply, industrial pressurization, and water treatment.',
 };
 
-export default function OWP35HFRPage() {
+export default function OMW35HFRPage() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -22,7 +22,7 @@ export default function OWP35HFRPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/water-pumps" className="hover:text-blue-600 transition-colors">Water Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OWP35HFR Multistage Vertical Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMW-VS800 Multistage Vertical Centrifugal Pump</span>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export default function OWP35HFRPage() {
               <ul className="divide-y divide-slate-100">
                 <li>
                   <Link href="/products/tipcentrifugalpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>TIP Centrifugal Pumps</span>
+                    <span>OMR Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>
@@ -68,12 +68,12 @@ export default function OWP35HFRPage() {
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/water-pumps/owp35hfr" className="block text-sm text-blue-600 font-medium">
-                          OWP35HFR Multistage Vertical Pump
+                          OMW-VS800 Multistage Vertical Centrifugal Pump
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/water-pumps/owp7mql8" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OWP7MQL8 Multistage Fire Pump
+                          OMW-FF900 Multistage Fire-Fighting Centrifugal Pump
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function OWP35HFRPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg"
-                    alt="OWP35HFR Multistage Vertical Centrifugal Pump"
+                    alt="OMW-VS800 Multistage Vertical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function OWP35HFRPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMP
+                  OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OWP35HFR
+                  Model: OMW-VS800
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The OWP vertical multistage stainless steel centrifugal pump is a multi-functional product designed for high efficiency and energy conservation. This non-self-priming pump is compatible with standard motors and features a space-saving vertical structure where inlet and outlet are in a straight line at the bottom.
+                    The OMW vertical multistage stainless steel centrifugal pump is a multi-functional product designed for high efficiency and energy conservation. This non-self-priming pump is compatible with standard motors and features a space-saving vertical structure where inlet and outlet are in a straight line at the bottom.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -178,7 +178,7 @@ export default function OWP35HFRPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
                     src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-stainless-steel-centrifugal-pump--2--770423.webp"
-                    alt="OWP35HFR Vertical Multistage Diagram"
+                    alt="OMW35HFR Vertical Multistage Diagram"
                     fill 
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -189,7 +189,7 @@ export default function OWP35HFRPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OWP35HFR",
+                  "OMW35HFR",
                   "Vertical Multistage",
                   "Stainless Steel",
                   "Water Pressurization",

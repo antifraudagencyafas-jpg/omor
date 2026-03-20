@@ -16,7 +16,7 @@ const placeholderProducts = [
     link: "/products/tipcentrifugalpumps/tip9aq2kx"
   },
   { 
-    name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP", 
+    name: "OMC-SR750 HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
@@ -24,7 +24,7 @@ const placeholderProducts = [
     link: "/products/tipcentrifugalpumps/tip7rkc9x4"
   },
   { 
-    name: "OTT SINGLE SCREW PUMPS", 
+    name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
     materials: "Cast Iron, Bronze, Stainless Steel",
     dimensions: "1000mm x 600mm x 800mm",
@@ -32,7 +32,7 @@ const placeholderProducts = [
     link: "/products/screwpumps/ott"
   },
   { 
-    name: "GPT7MQL8 GPT SINGLE SCREW PUMPS", 
+    name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg",
     materials: "Cast Iron, Carbon Steel, Stainless Steel",
     dimensions: "1800mm x 700mm x 900mm",
@@ -40,7 +40,7 @@ const placeholderProducts = [
     link: "/products/screwpumps/gpt7mql8"
   },
   { 
-    name: "MIPA9X2K MAGNETIC PUMP", 
+    name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
     materials: "Polypropylene, ETFE, PFA lined",
     dimensions: "800mm x 400mm x 600mm",
@@ -48,7 +48,7 @@ const placeholderProducts = [
     link: "/products/magnetic-drive-pump/mipa9x2k"
   },
   { 
-    name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS", 
+    name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
     materials: "PTFE, PVDF, Hastelloy",
     dimensions: "900mm x 500mm x 700mm",

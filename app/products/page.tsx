@@ -11,17 +11,17 @@ export const metadata: Metadata = {
 
 const categories = [
   {
-    title: "TIP Centrifugal Pumps",
+    title: "OMR Centrifugal Pumps",
     href: "/products/tipcentrifugalpumps",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
-      { name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/tipcentrifugalpumps/tip9a2kx" },
-      { name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/tipcentrifugalpumps/tip7rkc9x4" },
-      { name: "TIP4M2BRDL CHEMICAL VERTICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/tipcentrifugalpumps/tip4m2brdl" },
-      { name: "TIPA6W9MQL TEMPERATURE CONTROLLER HIGH CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
-      { name: "TIPX2C9W7A CHEMICAL VERTICAL PROCESSING PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
-      { name: "G2AP HORIZONTAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
+      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/tipcentrifugalpumps/tip9a2kx" },
+      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/tipcentrifugalpumps/tip7rkc9x4" },
+      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/tipcentrifugalpumps/tip4m2brdl" },
+      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
+      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
+      { name: "OMR-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
     ]
   },
   {
@@ -30,8 +30,8 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-4_jl919r.jpg",
     description: "Positive displacement pumps ideal for high viscosity fluids. Our twin and multi-screw designs ensure smooth, pulsation-free flow for critical petrochemical and marine applications.",
     products: [
-      { name: "OTT SINGLE SCREW PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", href: "/products/screwpumps/ott" },
-      { name: "GPT7MQL8 GPT SINGLE SCREW PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg", href: "/products/screwpumps/gpt7mql8" },
+      { name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", href: "/products/screwpumps/ott" },
+      { name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg", href: "/products/screwpumps/gpt7mql8" },
     ]
   },
   {
@@ -40,8 +40,8 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image-1_yfttp1.jpg",
     description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
     products: [
-      { name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg", href: "/products/water-pumps/owp35hfr" },
-      { name: "OWP7MQL8 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMPS", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/water-pmp111_tskzi4.jpg", href: "/products/water-pumps/owp7mql8" },
+      { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg", href: "/products/water-pumps/owp35hfr" },
+      { name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/water-pmp111_tskzi4.jpg", href: "/products/water-pumps/owp7mql8" },
     ]
   },
   {
@@ -50,7 +50,7 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image_neo1zb.jpg",
     description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
     products: [
-      { name: "MIPA9X2K MAGNETIC PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg", href: "/products/magnetic-drive-pump/mipa9x2k" },
+      { name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg", href: "/products/magnetic-drive-pump/mipa9x2k" },
     ]
   },
   {
@@ -68,32 +68,32 @@ const categories = [
 
 const featuredProducts = [
   {
-    name: "OTP-C0IV3AIX XSTP HORIZONTAL SINGLE-STAGE CENTRIFUGAL PUMP",
+    name: "OMR-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
     image: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump.png",
     link: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump"
   },
   {
-    name: "TIP9A2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
     link: "/products/tipcentrifugalpumps/tip9a2kx"
   },
   {
-    name: "TIP7RKC9X4 HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
     link: "/products/tipcentrifugalpumps/tip7rkc9x4"
   },
   {
-    name: "OTT SINGLE SCREW PUMPS",
+    name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
     link: "/products/screwpumps/ott"
   },
   {
-    name: "MIPA9X2K MAGNETIC PUMP",
+    name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
     link: "/products/magnetic-drive-pump/mipa9x2k"
   },
   {
-    name: "OWP35HFR MULTISTAGE VERTICAL CENTRIFUGAL PUMPS",
+    name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
     link: "/products/water-pumps/owp35hfr"
   },

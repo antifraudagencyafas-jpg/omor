@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'GPT7MQL8 Single Screw Pump',
+  title: 'OMT-GP200 General Purpose Single Screw Pump',
   description: 'Powerful industrial single screw pump for high-viscosity sludge and corrosive chemical media. Stable flow rates and low energy consumption.',
 };
 
-export default function GPT7MQL8Page() {
+export default function OMTGP200Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -22,7 +22,7 @@ export default function GPT7MQL8Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/screwpumps" className="hover:text-blue-600 transition-colors">Screw Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">GPT7MQL8 GPT SINGLE SCREW PUMP</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP</span>
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export default function GPT7MQL8Page() {
               <ul className="divide-y divide-slate-100">
                 <li>
                   <Link href="/products/tipcentrifugalpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>TIP Centrifugal Pumps</span>
+                    <span>OMR Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>
@@ -62,12 +62,12 @@ export default function GPT7MQL8Page() {
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/screwpumps/ott" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OTT Single Screw Pump
+                          OMT-VS150 Viscous Handling Single Screw Pump
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/screwpumps/gpt7mql8" className="block text-sm text-blue-600 font-medium">
-                          GPT Single Screw Pump
+                          OMT-GP200 General Purpose Single Screw Pump
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function GPT7MQL8Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg"
-                    alt="GPT7MQL8 GPT Single Screw Pumps"
+                    alt="OMT-GP200 General Purpose Single Screw Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,10 +104,10 @@ export default function GPT7MQL8Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  GPT7MQL8 GPT SINGLE SCREW PUMPS
+                  OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: GPT7MQL8
+                  Model: OMT-GP200
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
@@ -128,7 +128,7 @@ export default function GPT7MQL8Page() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps GPT series is engineered for stable transportation without periodic pressure fluctuations. It is ideal for media ranging from 20,000 to 200,000 MPa·s and can handle solid content up to 60% with particle sizes up to 16mm.
+                The Omron Tech Pumps OMT-GP series is engineered for stable transportation without periodic pressure fluctuations. It is ideal for media ranging from 20,000 to 200,000 MPa·s and can handle solid content up to 60% with particle sizes up to 16mm.
               </p>
 
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 text-slate-700 list-none pl-0 mb-12">
@@ -169,7 +169,7 @@ export default function GPT7MQL8Page() {
               <h3 className="text-xl font-bold text-slate-800 mb-6 mt-12">Performance Parameter Tables</h3>
 
               <div className="mb-8">
-                <h4 className="font-bold text-slate-900 mb-3 text-sm">Selection of GPT-type pump with 6-pole motor (Standard)</h4>
+                <h4 className="font-bold text-slate-900 mb-3 text-sm">Selection of OMT-GP-type pump with 6-pole motor (Standard)</h4>
                 <div className="overflow-x-auto border border-slate-200 rounded-lg">
                   <table className="min-w-full divide-y divide-slate-200 text-xs">
                     <thead className="bg-slate-50">
@@ -184,12 +184,12 @@ export default function GPT7MQL8Page() {
                     </thead>
                     <tbody className="bg-white divide-y divide-slate-200">
                       {[
-                        ['GPT7MQL8-V15', '0.1', '0.6', '960', '0.55', 'transport PAM'],
-                        ['GPT7MQL8-V20', '0.4', '0.6', '960', '0.55', 'transport PAM'],
-                        ['GPT7MQL8-V35', '2.0', '0.6', '960', '1.5', 'Transport sludge'],
-                        ['GPT7MQL8-V40', '5.0', '0.6', '960', '2.2', 'Transport sludge'],
-                        ['GPT7MQL8-V50', '8.0', '0.6', '960', '3.0', 'Transport sludge'],
-                        ['GPT7MQL8-V60', '30.0', '0.6', '960', '11', 'Transport sludge']
+                        ['OMT-GP200-V15', '0.1', '0.6', '960', '0.55', 'transport PAM'],
+                        ['OMT-GP200-V20', '0.4', '0.6', '960', '0.55', 'transport PAM'],
+                        ['OMT-GP200-V35', '2.0', '0.6', '960', '1.5', 'Transport sludge'],
+                        ['OMT-GP200-V40', '5.0', '0.6', '960', '2.2', 'Transport sludge'],
+                        ['OMT-GP200-V50', '8.0', '0.6', '960', '3.0', 'Transport sludge'],
+                        ['OMT-GP200-V60', '30.0', '0.6', '960', '11', 'Transport sludge']
                       ].map((row, idx) => (
                         <tr key={idx}>
                           <td className="px-3 py-2 text-slate-700 border-r font-medium">{row[0]}</td>
@@ -206,7 +206,7 @@ export default function GPT7MQL8Page() {
               </div>
 
               <div className="mb-8">
-                <h4 className="font-bold text-slate-900 mb-3 text-sm">Selection of GPT-type with 8-pole motor (High-Voltage Stage 2)</h4>
+                <h4 className="font-bold text-slate-900 mb-3 text-sm">Selection of OMT-GP-type with 8-pole motor (High-Voltage Stage 2)</h4>
                 <div className="overflow-x-auto border border-slate-200 rounded-lg">
                   <table className="min-w-full divide-y divide-slate-200 text-xs">
                     <thead className="bg-slate-50 text-blue-600">
@@ -220,11 +220,11 @@ export default function GPT7MQL8Page() {
                     </thead>
                     <tbody className="bg-white divide-y divide-slate-200">
                       {[
-                        ['GPT25-2-V', '1.5', '1.2', '1.5', 'High-Voltage Sludge'],
-                        ['GPT30-2-V', '4.0', '1.2', '2.2', 'High-Voltage Sludge'],
-                        ['GPT40-2-V', '9.0', '1.2', '4.0', 'High-Voltage Sludge'],
-                        ['GPT60-2-V', '25.0', '1.2', '11', 'High-Voltage Sludge'],
-                        ['GPT70-2-V', '40.0', '1.2', '18.5', 'High-Voltage Sludge']
+                        ['OMT-GP25-2-V', '1.5', '1.2', '1.5', 'High-Voltage Sludge'],
+                        ['OMT-GP30-2-V', '4.0', '1.2', '2.2', 'High-Voltage Sludge'],
+                        ['OMT-GP40-2-V', '9.0', '1.2', '4.0', 'High-Voltage Sludge'],
+                        ['OMT-GP60-2-V', '25.0', '1.2', '11', 'High-Voltage Sludge'],
+                        ['OMT-GP70-2-V', '40.0', '1.2', '18.5', 'High-Voltage Sludge']
                       ].map((row, idx) => (
                         <tr key={idx}>
                           <td className="px-3 py-2 text-slate-700 border-r font-medium">{row[0]}</td>
@@ -242,7 +242,7 @@ export default function GPT7MQL8Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "GPT7MQL8",
+                  "OMT-GP200",
                   "Single Screw Pump",
                   "High Viscosity",
                   "Sludge Transport",

@@ -4,11 +4,11 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'TIP8C2XKWR Centrifugal Pump',
+  title: 'OMC-HT800 Centrifugal Pump',
   description: 'High-performance API standard horizontal single-stage centrifugal pump for chemical synthesis and refining. Reliable transport for hazardous media.',
 };
 
-export default function TIP8C2XKWRPage() {
+export default function OMCHT800Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -20,9 +20,9 @@ export default function TIP8C2XKWRPage() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">TIP Centrifugal Pumps</Link>
+          <Link href="/products/tipcentrifugalpumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">TIP8C2XKWR Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HT800 High-Temperature Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -50,18 +50,18 @@ export default function TIP8C2XKWRPage() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>TIP Centrifugal Pumps</span>
+                      <span>OMR Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Overhung Type Centrifugal Pumps
+                          OMR Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
                         <Link href="/products/tipcentrifugalpumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          TIP Between Bearing Type Centrifugal Pumps
+                          OMR Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,7 +95,7 @@ export default function TIP8C2XKWRPage() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/8pvb.jpg"
-                    alt="TIP8C2XKWR Horizontal Centrifugal Pump"
+                    alt="OMC-HT800 High-Temperature Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -104,14 +104,14 @@ export default function TIP8C2XKWRPage() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  TIP8C2XKWR Horizontal Centrifugal Pump
+                  OMC-HT800 High-Temperature Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: TIP8C2XKWR
+                  Model: OMC-HT800
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The TIP8C2XKWR series horizontal single-stage single-suction centrifugal pumps are high-performance tools for chemical synthesis, refining, and power generation. They strictly follow TIP standards to provide efficient transportation for both clean and particle-laden hazardous media.
+                    The OMC-HT800 series horizontal single-stage single-suction centrifugal pumps are high-performance tools for chemical synthesis, refining, and power generation. They strictly follow OMR standards to provide efficient transportation for both clean and particle-laden hazardous media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -128,7 +128,7 @@ export default function TIP8C2XKWRPage() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                With a robust foot-supported structure and a high-efficiency closed-type impeller, the TIP8C2XKWR ensures high head and stable operation across wide application ranges. The shaft seal is configurable for various hazardous environments, including packing, single/double mechanical, or tandem seals.
+                With a robust foot-supported structure and a high-efficiency closed-type impeller, the OMC-HT800 ensures high head and stable operation across wide application ranges. The shaft seal is configurable for various hazardous environments, including packing, single/double mechanical, or tandem seals.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Core Features</h3>
@@ -139,7 +139,7 @@ export default function TIP8C2XKWRPage() {
                 </div>
                 <div className="p-4 bg-slate-50 border border-slate-100 rounded shadow-sm">
                   <h4 className="font-bold text-slate-900 mb-2">Universal Components</h4>
-                  <p className="text-sm text-slate-600">Standardized design across the TIP series reduces inventory costs and downtime.</p>
+                  <p className="text-sm text-slate-600">Standardized design across the OMR series reduces inventory costs and downtime.</p>
                 </div>
               </div>
 
@@ -180,7 +180,7 @@ export default function TIP8C2XKWRPage() {
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
                     src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
-                    alt="TIP8C2XKWR Schematic Diagram"
+                    alt="OMC-HT800 Schematic Diagram"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -191,7 +191,7 @@ export default function TIP8C2XKWRPage() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "TIP8C2XKWR",
+                  "OMC-HT800",
                   "API OH1 Standard",
                   "Hazardous Media",
                   "Chemical Process",
