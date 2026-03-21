@@ -72,12 +72,12 @@ export default function SolarPumpsPage() {
               </h3>
               <ul className="divide-y divide-slate-200">
                 <li>
-                  <Link href="/products/tipcentrifugalpumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
+                  <Link href="/products/omr-centrifugal-pumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
                     OMR Centrifugal Pumps
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products/screwpumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
+                  <Link href="/products/screw-pumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
                     Screw Pumps
                   </Link>
                 </li>
@@ -87,7 +87,7 @@ export default function SolarPumpsPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products/magnetic-drive-pump" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
+                  <Link href="/products/magnetic-drive-pumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
                     Magnetic Drive Pump
                   </Link>
                 </li>
@@ -118,10 +118,10 @@ export default function SolarPumpsPage() {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "OMR-HC280 Horizontal Chemical Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", link: "/products/tipcentrifugalpumps/tip7rkc9x4" },
-                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/tipcentrifugalpumps/tip9a2kx" },
-                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
+                  { title: "OMR-HC280 Horizontal Chemical Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", link: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
