@@ -12,26 +12,26 @@ export const metadata: Metadata = {
 const categories = [
   {
     title: "OMR Centrifugal Pumps",
-    href: "/products/tipcentrifugalpumps",
+    href: "/products/omr-centrifugal-pumps",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
-      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/tipcentrifugalpumps/tip9a2kx" },
-      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/tipcentrifugalpumps/tip7rkc9x4" },
-      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/tipcentrifugalpumps/tip4m2brdl" },
-      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/tipcentrifugalpumps/tipa6w9mql" },
-      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/tipcentrifugalpumps/tipx2c9w7a" },
-      { name: "OMR-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/tipcentrifugalpumps/g2ap" },
+      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/omr-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
+      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/omr-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
+      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/omr-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
+      { name: "OMR-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump" },
     ]
   },
   {
     title: "Screw Pumps",
-    href: "/products/screwpumps",
+    href: "/products/screw-pumps",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-4_jl919r.jpg",
     description: "Positive displacement pumps ideal for high viscosity fluids. Our twin and multi-screw designs ensure smooth, pulsation-free flow for critical petrochemical and marine applications.",
     products: [
-      { name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", href: "/products/screwpumps/ott" },
-      { name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg", href: "/products/screwpumps/gpt7mql8" },
+      { name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", href: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" },
+      { name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg", href: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump" },
     ]
   },
   {
@@ -40,17 +40,17 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image-1_yfttp1.jpg",
     description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
     products: [
-      { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg", href: "/products/water-pumps/owp35hfr" },
-      { name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/water-pmp111_tskzi4.jpg", href: "/products/water-pumps/owp7mql8" },
+      { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg", href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump" },
+      { name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/water-pmp111_tskzi4.jpg", href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" },
     ]
   },
   {
     title: "Magnetic Drive Pump",
-    href: "/products/magnetic-drive-pump",
+    href: "/products/magnetic-drive-pumps",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image_neo1zb.jpg",
     description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
     products: [
-      { name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg", href: "/products/magnetic-drive-pump/mipa9x2k" },
+      { name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg", href: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump" },
     ]
   },
   {
@@ -75,27 +75,27 @@ const featuredProducts = [
   {
     name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
-    link: "/products/tipcentrifugalpumps/tip9a2kx"
+    link: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   {
     name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
-    link: "/products/tipcentrifugalpumps/tip7rkc9x4"
+    link: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
   {
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
-    link: "/products/screwpumps/ott"
+    link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump"
   },
   {
     name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
-    link: "/products/magnetic-drive-pump/mipa9x2k"
+    link: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump"
   },
   {
     name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
-    link: "/products/water-pumps/owp35hfr"
+    link: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
   },
 ];
 

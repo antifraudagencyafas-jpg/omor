@@ -8,12 +8,12 @@ import { motion, AnimatePresence } from "motion/react";
 
 const placeholderProducts = [
   { 
-    name: "TIP9AQ2KX HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMPS", 
+    name: "OMC-HM650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
     materials: "Stainless Steel 316, Duplex Stainless Steel, Titanium",
     dimensions: "1200mm x 800mm x 2100mm",
     performance: "Flow rate up to 500 m³/h, Head up to 250m",
-    link: "/products/tipcentrifugalpumps/tip9aq2kx"
+    link: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   { 
     name: "OMC-SR750 HORIZONTAL CENTRIFUGAL PUMP",
@@ -21,7 +21,7 @@ const placeholderProducts = [
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
     performance: "Flow rate up to 1200 m³/h, Head up to 300m",
-    link: "/products/tipcentrifugalpumps/tip7rkc9x4"
+    link: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
   { 
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
@@ -29,7 +29,7 @@ const placeholderProducts = [
     materials: "Cast Iron, Bronze, Stainless Steel",
     dimensions: "1000mm x 600mm x 800mm",
     performance: "Flow rate up to 300 m³/h, Head up to 150m",
-    link: "/products/screwpumps/ott"
+    link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump"
   },
   { 
     name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP",
@@ -37,7 +37,7 @@ const placeholderProducts = [
     materials: "Cast Iron, Carbon Steel, Stainless Steel",
     dimensions: "1800mm x 700mm x 900mm",
     performance: "Flow rate up to 2000 m³/h, Pressure up to 100 bar",
-    link: "/products/screwpumps/gpt7mql8"
+    link: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump"
   },
   { 
     name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
@@ -45,7 +45,7 @@ const placeholderProducts = [
     materials: "Polypropylene, ETFE, PFA lined",
     dimensions: "800mm x 400mm x 600mm",
     performance: "Flow rate up to 100 m³/h, Head up to 80m",
-    link: "/products/magnetic-drive-pump/mipa9x2k"
+    link: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump"
   },
   { 
     name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
@@ -53,7 +53,7 @@ const placeholderProducts = [
     materials: "PTFE, PVDF, Hastelloy",
     dimensions: "900mm x 500mm x 700mm",
     performance: "Flow rate up to 150 m³/h, Head up to 100m",
-    link: "/products/water-pumps/owp35hfr"
+    link: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
   },
 ];
 

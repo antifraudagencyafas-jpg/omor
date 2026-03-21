@@ -81,13 +81,13 @@ export default async function SolarPumpDetailPage({ params }: PageProps) {
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
-                  <Link href="/products/tipcentrifugalpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                  <Link href="/products/omr-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
                     <span>OMR Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products/screwpumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                  <Link href="/products/screw-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
                     <span>Screw Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
@@ -99,7 +99,7 @@ export default async function SolarPumpDetailPage({ params }: PageProps) {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products/magnetic-drive-pump" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                  <Link href="/products/magnetic-drive-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
                     <span>Magnetic Drive Pump</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
@@ -134,10 +134,10 @@ export default async function SolarPumpDetailPage({ params }: PageProps) {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "OMR-HC280 HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/tipcentrifugalpumps/g2ap" },
-                  { title: "OMC-HT800 Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/tipcentrifugalpumps/tip8c2xkwr" },
-                  { title: "OMC-HP500 HIGH-PRESSURE HORIZONTAL CENTRIFUGAL PUMP.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/tipcentrifugalpumps/tipq9l4a7m" },
-                  { title: "OMT-VS150 SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screwpumps/ott" }
+                  { title: "OMR-HC280 HORIZONTAL CENTRIFUGAL PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump" },
+                  { title: "OMC-HT800 Horizontal Centrifugal", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/9pvb-1_qqbrcy.jpg", link: "/products/omr-centrifugal-pumps/omc-ht800-high-temperature-horizontal-centrifugal-pump" },
+                  { title: "OMC-HP500 HIGH-PRESSURE HORIZONTAL CENTRIFUGAL PUMP.", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/4pvb-1_yb3gk4.jpg", link: "/products/omr-centrifugal-pumps/omc-hp500-high-pressure-horizontal-centrifugal-pump" },
+                  { title: "OMT-VS150 SINGLE SCREW PUMPS", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">

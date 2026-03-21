@@ -1,26 +1,26 @@
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowLeft, Search, ChevronDown, ChevronRight, CheckCircle2 } from "lucide-react";
+import { ArrowLeft, Search, ChevronDown, ChevronRight } from "lucide-react";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Water Pumps | Omron Tech Pumps',
-  description: 'High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Energy-efficient and durable.',
+  title: 'Screw Pumps | Omron Tech Pumps',
+  description: 'Industrial screw pumps designed for high-viscosity fluids in oil & gas, chemical, and marine applications.',
 };
 
-export default function WaterPumpsPage() {
+export default function ScrewPumpsPage() {
   const products = [
     {
-      name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
-      image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
-      description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
-      href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
+      name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
+      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg",
+      description: "OMT-VS150 Viscous Handling Single Screw Pump are designed for handling highly viscous and non-flowing materials. They feature an open hopper with a coupling rod and an auger to force the material into the pumping elements.",
+      href: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump"
     },
     {
-      name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP",
-      image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/water-pmp111_tskzi4.jpg",
-      description: "Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations.",
-      href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump"
+      name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP",
+      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg",
+      description: "General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications, including the transfer of liquids with varying viscosities, containing solids, or requiring gentle handling.",
+      href: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump"
     }
   ];
 
@@ -30,8 +30,8 @@ export default function WaterPumpsPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image-1_yfttp1.jpg"
-            alt="Water Pumps Background"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-4_jl919r.jpg"
+            alt="Screw Pumps Background"
             fill
             className="object-cover"
             priority
@@ -40,7 +40,7 @@ export default function WaterPumpsPage() {
           <div className="absolute inset-0 bg-slate-900/60"></div>
         </div>
         <div className="relative z-10 text-center px-4">
-          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Water Pumps</h1>
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">Screw Pumps</h1>
           <div className="w-24 h-1 bg-blue-500 mx-auto"></div>
         </div>
       </section>
@@ -52,32 +52,40 @@ export default function WaterPumpsPage() {
 
         <div className="prose prose-lg prose-slate max-w-none mb-12">
           <p className="text-lg leading-relaxed mb-8">
-            High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.
+            Omron Tech Pumps specializes in the R & D, production, and sales of screw pumps and other pump equipment. It has been deeply involved in this field for many years. Thanks to its profound technical accumulation and innovative spirit, these products enjoy a good reputation in the pump industry. The company has a professional R & D team, advanced production equipment, and a strict quality inspection system. It is committed to enhancing their performance, providing high - quality ones to global customers, and meeting the fluid transportation needs of various industries.
           </p>
 
-          <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Key Features</h2>
-          <ul className="space-y-3 mb-8">
-            {[
-              "High hydraulic efficiency",
-              "Durable cast iron or stainless steel construction",
-              "Low life-cycle costs",
-              "Available in single and multi-stage configurations",
-              "Optimized for continuous duty"
-            ].map((feature, idx) => (
-              <li key={idx} className="flex items-start text-slate-700">
-                <CheckCircle2 className="w-5 h-5 text-blue-600 mr-3 flex-shrink-0 mt-0.5" />
-                <span>{feature}</span>
-              </li>
-            ))}
-          </ul>
+          <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Working Principle and Characteristics of Screw Pumps</h2>
+          <p className="text-lg leading-relaxed mb-8">
+            Screw pumps are positive - displacement pumps that operate by the meshing and rotation of screws. During operation, sealed cavities are formed in the pump chamber. These cavities move axially as the screws rotate. The cavities at the inlet end expand to suck in liquid, and the cavities at the outlet end shrink to discharge the liquid, achieving smooth and continuous transportation. This gives screw pumps stable flow rates, low pressure pulsation, strong self - priming capabilities, and the ability to transport a variety of fluids.
+          </p>
 
-          <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Technical Specifications</h2>
-          <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 text-lg">
-              <div><span className="font-semibold text-slate-700">Capacity:</span> Up to 5000 m³/h</div>
-              <div><span className="font-semibold text-slate-700">Head:</span> Up to 300 m</div>
-              <div><span className="font-semibold text-slate-700">Temperature:</span> Up to 120°C</div>
-              <div><span className="font-semibold text-slate-700">Applications:</span> Clean water, wastewater</div>
+          <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Application Fields of Screw Pumps</h2>
+          
+          <div className="space-y-6">
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-blue-700 mb-3">Oil and Gas Industry</h3>
+              <p className="text-slate-700">In oil extraction, screw pumps are used to transport high - viscosity crude oil and for oilfield water injection. When processing natural gas, they transport condensate with impurities to ensure production.</p>
+            </div>
+
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-blue-700 mb-3">Chemical Industry</h3>
+              <p className="text-slate-700">Screw pumps are used to transport corrosive, high - viscosity, or solid - containing chemical raw materials and products, meeting the requirements of high - precision and stable transportation.</p>
+            </div>
+
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-blue-700 mb-3">Food and Beverage Industry</h3>
+              <p className="text-slate-700">Single - screw pumps gently transport sauces, dairy products, etc., to ensure food quality.</p>
+            </div>
+
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-blue-700 mb-3">Marine Industry</h3>
+              <p className="text-slate-700">Screw pumps are used for fuel oil and lubricating oil transportation and sewage discharge on ships, ensuring the operation of ship equipment.</p>
+            </div>
+
+            <div className="bg-slate-50 p-6 rounded-xl border border-slate-100">
+              <h3 className="text-xl font-bold text-blue-700 mb-3">Sewage Treatment Industry</h3>
+              <p className="text-slate-700">Screw pumps transport sewage and sludge, facilitating the sewage treatment process.</p>
             </div>
           </div>
         </div>
@@ -111,29 +119,29 @@ export default function WaterPumpsPage() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/products/screw-pumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
-                    Screw Pumps
-                  </Link>
-                </li>
-                <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium cursor-pointer list-none">
-                      <span>Water Pumps</span>
+                      <span>Screw Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP
+                          OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP
                         </Link>
                       </li>
                       <li>
                         <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP
+                          OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP
                         </Link>
                       </li>
                     </ul>
                   </details>
+                </li>
+                <li>
+                  <Link href="/products/water-pumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
+                    Water Pumps
+                  </Link>
                 </li>
                 <li>
                   <Link href="/products/magnetic-drive-pumps" className="block px-6 py-3 text-slate-700 hover:bg-slate-50 hover:text-[#0047b3] transition-colors font-medium">
