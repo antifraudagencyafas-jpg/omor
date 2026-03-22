@@ -4,6 +4,7 @@ import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import solarProducts from "@/solar_products.json";
 import { notFound } from "next/navigation";
 import { Metadata } from 'next';
+import ProductInquiry from "@/components/ProductInquiry";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -221,6 +222,8 @@ export default async function SolarPumpDetailPage({ params }: PageProps) {
                 </Link>
               ))}
             </div>
+
+            <ProductInquiry />
           </div>
         </div>
       </div>

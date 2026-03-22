@@ -3,7 +3,6 @@
 import { useState } from "react";
 
 const requestTypes = [
-  "Price List",
   "Products info",
   "Technical inquiry",
   "Become a distributor",
@@ -11,10 +10,14 @@ const requestTypes = [
 ];
 
 export default function ContactForm() {
-  const [requestType, setRequestType] = useState("Price List");
+  const [requestType, setRequestType] = useState("Products info");
 
   return (
-    <form className="max-w-4xl mx-auto bg-white p-8 md:p-12 shadow-sm border border-gray-100">
+    <form
+      action="https://formspree.io/f/xwvrdbqw"
+      method="POST"
+      className="max-w-4xl mx-auto bg-white p-8 md:p-12 shadow-sm border border-gray-100"
+    >
       <div className="space-y-8">
         {/* Request Type */}
         <div className="flex flex-col md:flex-row md:items-center">
@@ -49,6 +52,7 @@ export default function ContactForm() {
             <input
               type="text"
               id="name"
+              name="name"
               required
               className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors"
             />
@@ -64,6 +68,7 @@ export default function ContactForm() {
             <input
               type="text"
               id="company"
+              name="company"
               required
               className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors"
             />
@@ -79,6 +84,7 @@ export default function ContactForm() {
             <input
               type="email"
               id="email"
+              name="email"
               required
               className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors"
             />
@@ -94,6 +100,7 @@ export default function ContactForm() {
             <input
               type="tel"
               id="phone"
+              name="phone"
               required
               className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors"
             />
@@ -109,6 +116,7 @@ export default function ContactForm() {
             <input
               type="text"
               id="country"
+              name="country"
               required
               className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors"
             />
@@ -123,6 +131,7 @@ export default function ContactForm() {
           <div className="w-full md:w-3/4">
             <textarea
               id="message"
+              name="message"
               required
               rows={6}
               className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors resize-none"
