@@ -74,6 +74,8 @@
 
 /* Hide top banner but keep widget */
 .goog-te-banner-frame,
+.goog-te-banner-frame.skiptranslate,
+iframe.skiptranslate,
 #goog-gt-tt,
 .goog-te-balloon-frame,
 .goog-tooltip,
