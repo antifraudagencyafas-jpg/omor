@@ -15,8 +15,7 @@ export default function SendInquiry() {
           For inquiries about TIP centrifugal pumps, screw pumps, or single suction twin screw pump, please leave your details and we will be in touch within 24 hours.
         </p>
         <div className="text-gray-400 mb-12 space-y-2">
-          <p>Email: <a href="mailto:sales@omrontechpumps.com" className="text-blue-400 hover:underline">sales@omrontechpumps.com</a> | Phone: <a href="tel:+902129008553" className="text-blue-400 hover:underline">+90 212 900 85 53</a></p>
-          <p>Tunuslu Mahmut Pasa Cd. No: 10 Burhaniye, 34676 Uskudar/Istanbul, Turkiye</p>
+          <p>Email: <a href="mailto:sales@omrontechpumps.com" className="text-blue-400 hover:underline">sales@omrontechpumps.com</a></p>
         </div>
         
         <div className="text-left">

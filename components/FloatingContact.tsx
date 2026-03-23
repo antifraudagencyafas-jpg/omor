@@ -4,7 +4,7 @@ export default function FloatingContact() {
   return (
     <div className="fixed right-6 bottom-6 flex flex-col space-y-4 z-50">
       <a 
-        href="https://wa.me/902129008553" 
+        href="https://wa.me/3197010238786"
         target="_blank" 
         rel="noopener noreferrer"
         className="w-14 h-14 bg-green-500 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-green-600 hover:scale-110 transition-all duration-300 group relative"
