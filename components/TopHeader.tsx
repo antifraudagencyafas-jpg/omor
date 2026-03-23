@@ -1,4 +1,5 @@
-import { Phone, Mail, Globe } from "lucide-react";
+import { Phone, Mail } from "lucide-react";
+import LanguageSwitcher from "./LanguageSwitcher";
 
 export default function TopHeader() {
   return (
@@ -13,10 +14,7 @@ export default function TopHeader() {
           <span>sales@omrontechpumps.com</span>
         </div>
       </div>
-      <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors cursor-pointer">
-        <Globe className="w-4 h-4 text-white" />
-        <span>Language (EN)</span>
-      </div>
+      <LanguageSwitcher />
     </div>
   );
 }

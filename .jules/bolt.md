@@ -17,3 +17,7 @@
 ## 2025-05-24 - [React Component Naming in Next.js]
 **Learning:** Next.js build processes (especially those using SWC or Babel) can fail with cryptic syntax errors when React components exported from page files use hyphens in their names (e.g., `OMR-HC280Page`). React components must follow PascalCase conventions.
 **Action:** Always use PascalCase for component definitions (e.g., `OMRHC280Page`) to ensure build-time stability and compatibility with standard JS identifiers.
+
+## 2025-05-25 - [Integrating Google Translate with SEO Best Practices]
+**Learning:** When defaulting a site to a specific language (e.g., Dutch), it's critical to update both the HTML `lang` attribute for SEO and use client-side mechanisms (like the `googtrans` cookie) to force the translation tool to match. Google Translate's auto-injected UI can also cause hydration mismatches in Next.js, making `suppressHydrationWarning` on the `<html>` tag a useful defensive measure.
+**Action:** Always align `lang` metadata with the default translation tool settings and use hydration suppressors where dynamic client-side translation tools are present.
