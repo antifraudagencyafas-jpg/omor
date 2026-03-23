@@ -12,7 +12,7 @@ export default function SendInquiry() {
         </h2>
         <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
         <p className="text-lg text-gray-300 mb-6 leading-relaxed max-w-3xl mx-auto">
-          For inquiries about TIP centrifugal pumps, screw pumps, single suction twin screw pump or price list, please leave your details and we will be in touch within 24 hours.
+          For inquiries about TIP centrifugal pumps, screw pumps, or single suction twin screw pump, please leave your details and we will be in touch within 24 hours.
         </p>
         <div className="text-gray-400 mb-12 space-y-2">
           <p>Email: <a href="mailto:sales@omrontechpumps.com" className="text-blue-400 hover:underline">sales@omrontechpumps.com</a> | Phone: <a href="tel:+902129008553" className="text-blue-400 hover:underline">+90 212 900 85 53</a></p>

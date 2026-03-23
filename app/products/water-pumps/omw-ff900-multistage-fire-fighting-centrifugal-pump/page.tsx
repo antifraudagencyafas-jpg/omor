@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Search, ChevronDown, ChevronRight, Home } from "lucide-react";
 import { Metadata } from 'next';
+import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
   title: 'OMW-FF900 Multistage Fire-Fighting Centrifugal Pump',
@@ -213,6 +214,9 @@ export default function OMW7MQL8Page() {
           </div>
         </div>
       </div>
+      <div className="max-w-7xl mx-auto px-4 md:px-8">
+            <ProductInquiry />
+          </div>
     </main>
   );
 }
