@@ -1,11 +1,11 @@
 import Image from "next/image";
 
 const industries = [
-  { name: "Power Generation", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/1-44182_ddco8y.webp" },
-  { name: "Petrochemical", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/3-404688_dk1ifc.webp" },
-  { name: "Oil & Gas", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/2-295272_xgrn0a.webp" },
-  { name: "Paper Industry", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/4-863873_z5s8kq.webp" },
-  { name: "Steel Industry", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/5-2344_r1x7tx.webp" },
+  { name: "Energieopwekking", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/1-44182_ddco8y.webp" },
+  { name: "Petrochemie", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/3-404688_dk1ifc.webp" },
+  { name: "Olie & Gas", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/2-295272_xgrn0a.webp" },
+  { name: "Papierindustrie", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/4-863873_z5s8kq.webp" },
+  { name: "Staalindustrie", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/5-2344_r1x7tx.webp" },
   { name: "Marine", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/6-84758_moxf17.webp" },
 ];
 
@@ -14,10 +14,10 @@ export default function ApplicationIndustry() {
     <section className="py-20 bg-gray-50" id="applications">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Application Industry</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Toepassingsindustrieën</h2>
           <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
           <p className="mt-6 text-slate-600 max-w-2xl mx-auto">
-            Our pumps are designed to meet the rigorous demands of various industrial applications worldwide.
+            Onze pompen zijn ontworpen om te voldoen aan de strenge eisen van verschillende industriële toepassingen wereldwijd.
           </p>
         </div>
 

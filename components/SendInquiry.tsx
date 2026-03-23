@@ -8,11 +8,11 @@ export default function SendInquiry() {
       
       <div className="max-w-6xl mx-auto px-4 md:px-8 relative z-10 text-center">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-6 uppercase tracking-wider">
-          GET A FREE QUOTE
+          ONTVANG EEN GRATIS OFFERTE
         </h2>
         <div className="w-20 h-1 bg-blue-500 mx-auto mb-8"></div>
         <p className="text-lg text-gray-300 mb-6 leading-relaxed max-w-3xl mx-auto">
-          For inquiries about TIP centrifugal pumps, screw pumps, or single suction twin screw pump, please leave your details and we will be in touch within 24 hours.
+          Voor vragen over OMR centrifugaalpompen, schroefpompen of andere industriële pompoplossingen, laat uw gegevens achter en wij nemen binnen 24 uur contact met u op.
         </p>
         <div className="text-gray-400 mb-12 space-y-2">
           <p>Email: <a href="mailto:sales@omrontechpumps.com" className="text-blue-400 hover:underline">sales@omrontechpumps.com</a> | Phone: <a href="tel:+902129008553" className="text-blue-400 hover:underline">+90 212 900 85 53</a></p>

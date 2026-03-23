@@ -50,27 +50,27 @@ export default function Hero() {
       <div className="relative z-20 max-w-7xl mx-auto px-4 md:px-8 w-full">
         <div className="max-w-3xl">
           <div className="inline-block px-3 py-1 bg-blue-600/20 border border-blue-500/30 text-blue-300 rounded-full text-sm font-semibold tracking-wider uppercase mb-6">
-            Global Manufacturer
+            Wereldwijde Fabrikant
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-white leading-tight mb-6">
-            Advanced Industrial <br className="hidden md:block" />
-            <span className="text-blue-500">Pump Solutions</span>
+            Geavanceerde Industriële <br className="hidden md:block" />
+            <span className="text-blue-500">Pompoplossingen</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-300 mb-10 leading-relaxed max-w-2xl">
-            Reliable high-performance pumps for oil & gas, petrochemical, power generation and water treatment industries.
+            Betrouwbare hoogwaardige pompen voor de olie- en gassector, petrochemie, energieopwekking en waterbehandelingsindustrieën.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link
               href="/products"
               className="px-8 py-4 bg-blue-600 text-white font-semibold rounded hover:bg-blue-700 transition-colors text-center shadow-lg shadow-blue-600/30"
             >
-              View Products
+              Bekijk Producten
             </Link>
             <Link
               href="/contact"
               className="px-8 py-4 bg-white/10 text-white font-semibold rounded hover:bg-white/20 transition-colors text-center backdrop-blur-sm border border-white/20"
             >
-              Contact Us
+              Contact
             </Link>
           </div>
         </div>

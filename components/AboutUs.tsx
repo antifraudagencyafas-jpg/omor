@@ -4,10 +4,10 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 // BOLT: Moved static features outside component to prevent re-allocation on re-renders
 const features = [
-  "Over 20 years of engineering expertise",
-  "Global manufacturer and supplier",
-  "ISO 9001 Certified Quality Management",
-  "Customized fluid transfer solutions",
+  "Meer dan 20 jaar technische expertise",
+  "Wereldwijde fabrikant en leverancier",
+  "ISO 9001 Gecertificeerd Kwaliteitsmanagement",
+  "Op maat gemaakte vloeistofoverdrachtoplossingen",
 ];
 
 export default function AboutUs() {
@@ -15,7 +15,7 @@ export default function AboutUs() {
     <section id="about" className="py-16 bg-[#f8f9fa]">
       <div className="max-w-7xl mx-auto px-4 md:px-8 mb-10">
         <h2 className="text-3xl md:text-4xl font-bold text-slate-800 text-center">
-          About Us
+          Over Ons
         </h2>
       </div>
       
@@ -23,16 +23,16 @@ export default function AboutUs() {
         {/* Left Content */}
         <div className="w-full lg:w-1/2 p-8 md:p-12 lg:p-16 flex flex-col justify-center">
           <h3 className="text-2xl md:text-3xl font-medium text-[#004b9a] mb-4">
-            About OmronTechPumps
+            Over OmronTechPumps
           </h3>
           <div className="w-12 h-1 bg-[#004b9a] mb-8"></div>
           
           <div className="border-r-2 border-gray-100 pr-6 mb-8">
             <p className="text-slate-600 leading-relaxed mb-4">
-              <strong className="text-[#004b9a] uppercase">OmronTechPumps</strong> is a global manufacturer specializing in centrifugal pumps, screw pumps, and industrial fluid transfer systems with over 20 years of engineering expertise.
+              <strong className="text-[#004b9a] uppercase">OmronTechPumps</strong> is een wereldwijde fabrikant die gespecialiseerd is in centrifugaalpompen, schroefpompen en industriële vloeistofoverdrachtsystemen met meer dan 20 jaar technische expertise.
             </p>
             <p className="text-slate-600 leading-relaxed mb-6">
-              We are committed to providing reliable, high-performance pumping solutions for the most demanding environments. Our state-of-the-art manufacturing facilities and rigorous quality control ensure that every pump we deliver meets the highest international standards.
+              Wij streven ernaar om betrouwbare, hoogwaardige pompoplossingen te bieden voor de meest veeleisende omgevingen. Onze hypermoderne productiefaciliteiten en strikte kwaliteitscontrole zorgen ervoor dat elke pomp die wij leveren voldoet aan de hoogste internationale normen.
             </p>
             <ul className="space-y-2">
               {features.map((feature, index) => (
@@ -48,7 +48,7 @@ export default function AboutUs() {
             href="/about"
             className="inline-flex items-center px-6 py-3 bg-[#004b9a] text-white font-medium rounded-full hover:bg-blue-800 transition-colors w-fit"
           >
-            View More <ArrowRight className="ml-2 w-4 h-4" />
+            Bekijk Meer <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </div>
 

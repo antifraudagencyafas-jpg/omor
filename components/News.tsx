@@ -13,11 +13,11 @@ export default async function News() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex flex-col md:flex-row justify-between items-end mb-12">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">News</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">Nieuws</h2>
             <div className="w-20 h-1 bg-blue-600"></div>
           </div>
           <Link href="/news" className="hidden md:flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-            View All News <ArrowRight className="ml-2 w-4 h-4" />
+            Alle Nieuws Bekijken <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </div>
 
@@ -38,7 +38,7 @@ export default async function News() {
                 <div className="p-6 md:p-8 flex-grow flex flex-col justify-center">
                   <div className="flex items-center space-x-4 mb-3">
                     <span className="inline-block px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold uppercase rounded">
-                      Company
+                      Bedrijf
                     </span>
                     <div className="flex items-center text-slate-500 text-sm font-medium">
                       <Calendar className="w-4 h-4 mr-2" />
@@ -52,7 +52,7 @@ export default async function News() {
                     {item.description}
                   </p>
                   <Link href={item.link} className="inline-flex items-center text-blue-600 font-medium hover:underline w-max">
-                    Read More <ArrowRight className="ml-1 w-4 h-4" />
+                    Lees Meer <ArrowRight className="ml-1 w-4 h-4" />
                   </Link>
                 </div>
                 <div className="relative h-48 md:h-auto md:w-64 flex-shrink-0 overflow-hidden">
@@ -71,7 +71,7 @@ export default async function News() {
         
         <div className="mt-8 text-center md:hidden">
           <Link href="/news" className="inline-flex items-center text-blue-600 font-semibold hover:text-blue-800 transition-colors">
-            View All News <ArrowRight className="ml-2 w-4 h-4" />
+            Alle Nieuws Bekijken <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </div>
       </div>
