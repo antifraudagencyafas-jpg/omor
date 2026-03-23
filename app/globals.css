@@ -73,7 +73,6 @@
 }
 
 /* Hide top banner but keep widget */
-body > .skiptranslate,
 .goog-te-banner-frame,
 #goog-gt-tt,
 .goog-te-balloon-frame,
@@ -90,6 +89,11 @@ body > .skiptranslate,
 #google_translate_element .skiptranslate {
   display: inline-block !important;
   visibility: visible !important;
+}
+
+/* Ensure the translation dropdown itself remains visible and clickable */
+.VIpgJd-ZVi9od-ORHb-nS-bgv {
+  z-index: 10000 !important;
 }
 
 body {
