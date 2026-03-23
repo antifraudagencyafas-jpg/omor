@@ -122,7 +122,7 @@ export default function MagneticDrivePumpPage() {
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP
                         </Link>
                       </li>
