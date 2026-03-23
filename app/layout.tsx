@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Omron Tech Pumps' }],
   creator: 'Omron Tech Pumps',
   publisher: 'Omron Tech Pumps',
+  other: {
+    google: 'notranslate',
+  },
   robots: {
     index: true,
     follow: true,
