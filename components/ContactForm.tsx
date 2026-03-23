@@ -129,22 +129,6 @@ export default function ContactForm() {
             </div>
           </div>
 
-          {/* Phone */}
-          <div className="flex flex-col md:flex-row md:items-center">
-            <label htmlFor="phone" className="w-full md:w-1/4 font-bold text-slate-800 mb-2 md:mb-0">
-              * Phone :
-            </label>
-            <div className="w-full md:w-3/4">
-              <input
-                type="tel"
-                id="phone"
-                name="phone"
-                required
-                className="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:border-[#ff6600] transition-colors"
-              />
-            </div>
-          </div>
-
           {/* Country */}
           <div className="flex flex-col md:flex-row md:items-center">
             <label htmlFor="country" className="w-full md:w-1/4 font-bold text-slate-800 mb-2 md:mb-0">
