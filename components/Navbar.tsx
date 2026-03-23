@@ -8,12 +8,12 @@ import { Menu, X } from "lucide-react";
 // BOLT: Moved static navLinks outside component to prevent re-allocation on scroll-triggered re-renders
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "About Us", href: "/about" },
-  { name: "Products", href: "/products" },
-  { name: "News", href: "/news" },
+  { name: "Over Ons", href: "/about" },
+  { name: "Producten", href: "/products" },
+  { name: "Nieuws", href: "/news" },
   { name: "Downloads", href: "/downloads" },
-  { name: "Send Inquiry", href: "/inquiry" },
-  { name: "Contact Us", href: "/contact" },
+  { name: "Aanvraag Verzenden", href: "/inquiry" },
+  { name: "Contact", href: "/contact" },
 ];
 
 export default function Navbar() {

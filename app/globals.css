@@ -87,8 +87,7 @@
 }
 
 #google_translate_element .skiptranslate {
-  display: inline-block !important;
-  visibility: visible !important;
+  display: none !important;
 }
 
 /* Ensure the translation dropdown itself remains visible and clickable */

@@ -8,51 +8,51 @@ import { motion, AnimatePresence } from "motion/react";
 
 const placeholderProducts = [
   { 
-    name: "OMC-HM650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-HM650 HORIZONTALE CENTRIFUGAALPOMP (HOGE MONTAGE)",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
-    materials: "Stainless Steel 316, Duplex Stainless Steel, Titanium",
+    materials: "Roestvrij staal 316, Duplex roestvrij staal, Titanium",
     dimensions: "1200mm x 800mm x 2100mm",
-    performance: "Flow rate up to 500 m³/h, Head up to 250m",
+    performance: "Debiet tot 500 m³/u, Opvoerhoogte tot 250m",
     link: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   { 
-    name: "OMC-SR750 HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR750 HORIZONTALE CENTRIFUGAALPOMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
-    materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
+    materials: "Koolstofstaal, Roestvrij staal 316, Legering 20",
     dimensions: "1500mm x 900mm x 1100mm",
-    performance: "Flow rate up to 1200 m³/h, Head up to 300m",
+    performance: "Debiet tot 1200 m³/u, Opvoerhoogte tot 300m",
     link: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
   { 
-    name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
+    name: "OMT-VS150 ENKELVOUDIGE SCHROEFPOMP VOOR VISCOZE VLOEISTOFFEN",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg",
-    materials: "Cast Iron, Bronze, Stainless Steel",
+    materials: "Gietijzer, Brons, Roestvrij staal",
     dimensions: "1000mm x 600mm x 800mm",
-    performance: "Flow rate up to 300 m³/h, Head up to 150m",
+    performance: "Debiet tot 300 m³/u, Opvoerhoogte tot 150m",
     link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump"
   },
   { 
-    name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP",
+    name: "OMT-GP200 ENKELVOUDIGE SCHROEFPOMP VOOR ALGEMENE DOELEINDEN",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068081/11pvb-1_muod94.jpg",
-    materials: "Cast Iron, Carbon Steel, Stainless Steel",
+    materials: "Gietijzer, Koolstofstaal, Roestvrij staal",
     dimensions: "1800mm x 700mm x 900mm",
-    performance: "Flow rate up to 2000 m³/h, Pressure up to 100 bar",
+    performance: "Debiet tot 2000 m³/u, Druk tot 100 bar",
     link: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump"
   },
   { 
-    name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
+    name: "OMD-MS250 ASLOZE MAGNEETGEKOPPELDE POMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
-    materials: "Polypropylene, ETFE, PFA lined",
+    materials: "Polypropyleen, ETFE, PFA-gevoerd",
     dimensions: "800mm x 400mm x 600mm",
-    performance: "Flow rate up to 100 m³/h, Head up to 80m",
+    performance: "Debiet tot 100 m³/u, Opvoerhoogte tot 80m",
     link: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump"
   },
   { 
-    name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
+    name: "OMW-VS800 MEERTRAPS VERTICALE CENTRIFUGAALPOMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068082/12pvb-1_yb8ggy.jpg",
     materials: "PTFE, PVDF, Hastelloy",
     dimensions: "900mm x 500mm x 700mm",
-    performance: "Flow rate up to 150 m³/h, Head up to 100m",
+    performance: "Debiet tot 150 m³/u, Opvoerhoogte tot 100m",
     link: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
   },
 ];
@@ -81,9 +81,9 @@ export default function FeaturedProducts() {
     <section id="products" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#004b9a] mb-4">Featured Products</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#004b9a] mb-4">Aanbevolen Producten</h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-            Explore our range of high-performance industrial pumps engineered for reliability and efficiency.
+            Ontdek ons assortiment hoogwaardige industriële pompen, ontworpen voor betrouwbaarheid en efficiëntie.
           </p>
         </div>
 
@@ -157,7 +157,7 @@ export default function FeaturedProducts() {
             href="/products"
             className="inline-flex items-center px-6 py-3 bg-slate-900 text-white font-semibold rounded hover:bg-slate-800 transition-colors"
           >
-            View All Products
+            Bekijk Alle Producten
             <ArrowRight className="ml-2 w-4 h-4" />
           </Link>
         </div>
@@ -198,7 +198,7 @@ export default function FeaturedProducts() {
               
               <div className="w-full md:w-1/2 p-8 md:p-12">
                 <div className="inline-block px-3 py-1 bg-blue-50 text-blue-600 text-xs font-bold uppercase tracking-wider rounded mb-4">
-                  Product Specification
+                  Productspecificatie
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6">
                   {selectedProduct.name}
@@ -206,17 +206,17 @@ export default function FeaturedProducts() {
                 
                 <div className="space-y-6">
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 border-b border-slate-200 pb-2">Materials</h4>
+                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 border-b border-slate-200 pb-2">Materialen</h4>
                     <p className="text-slate-600">{selectedProduct.materials}</p>
                   </div>
                   
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 border-b border-slate-200 pb-2">Dimensions</h4>
+                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 border-b border-slate-200 pb-2">Afmetingen</h4>
                     <p className="text-slate-600">{selectedProduct.dimensions}</p>
                   </div>
                   
                   <div>
-                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 border-b border-slate-200 pb-2">Performance Curves</h4>
+                    <h4 className="text-sm font-bold text-slate-900 uppercase tracking-wider mb-2 border-b border-slate-200 pb-2">Prestatiecurves</h4>
                     <p className="text-slate-600">{selectedProduct.performance}</p>
                   </div>
                 </div>
@@ -227,14 +227,14 @@ export default function FeaturedProducts() {
                     onClick={() => setSelectedProduct(null)}
                     className="flex-1 bg-white border border-blue-600 text-blue-600 text-center py-3 rounded font-semibold hover:bg-blue-50 transition-colors"
                   >
-                    View Details
+                    Details Bekijken
                   </Link>
                   <Link 
                     href="/inquiry" 
                     onClick={() => setSelectedProduct(null)}
                     className="flex-1 bg-blue-600 text-white text-center py-3 rounded font-semibold hover:bg-blue-700 transition-colors"
                   >
-                    Request Quote
+                    Offerte Aanvragen
                   </Link>
                 </div>
               </div>

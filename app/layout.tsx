@@ -8,11 +8,11 @@ import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Omron Tech Pumps | Industrial Pump Manufacturer',
+    default: 'Omron Tech Pumps | Fabrikant van Industriële Pompen',
     template: '%s | Omron Tech Pumps'
   },
-  description: 'Global manufacturer of advanced industrial pump solutions for oil & gas, petrochemical, power generation and water treatment industries.',
-  keywords: ['industrial pumps', 'centrifugal pumps', 'solar pumps', 'screw pumps', 'magnetic drive pumps', 'water pumps', 'Omron Tech Pumps'],
+  description: 'Wereldwijde fabrikant van geavanceerde industriële pompoplossingen voor de olie- en gassector, petrochemie, energieopwekking en waterbehandelingsindustrieën.',
+  keywords: ['industriële pompen', 'centrifugaalpompen', 'zonne-energie pompen', 'schroefpompen', 'magneetgekoppelde pompen', 'waterpompen', 'Omron Tech Pumps'],
   authors: [{ name: 'Omron Tech Pumps' }],
   creator: 'Omron Tech Pumps',
   publisher: 'Omron Tech Pumps',
@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   },
   openGraph: {
     type: 'website',
-    locale: 'en_US',
+    locale: 'nl_NL',
     url: 'https://omrontechpumps.com',
     siteName: 'Omron Tech Pumps',
-    title: 'Omron Tech Pumps | Industrial Pump Manufacturer',
-    description: 'Global manufacturer of advanced industrial pump solutions for oil & gas, petrochemical, power generation and water treatment industries.',
+    title: 'Omron Tech Pumps | Fabrikant van Industriële Pompen',
+    description: 'Wereldwijde fabrikant van geavanceerde industriële pompoplossingen voor de olie- en gassector, petrochemie, energieopwekking en waterbehandelingsindustrieën.',
     images: [
       {
         url: 'https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250320141352135874_1_ivmu32.webp',
@@ -41,8 +41,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Omron Tech Pumps | Industrial Pump Manufacturer',
-    description: 'Global manufacturer of advanced industrial pump solutions for oil & gas, petrochemical, power generation and water treatment industries.',
+    title: 'Omron Tech Pumps | Fabrikant van Industriële Pompen',
+    description: 'Wereldwijde fabrikant van geavanceerde industriële pompoplossingen voor de olie- en gassector, petrochemie, energieopwekking en waterbehandelingsindustrieën.',
     images: ['https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250320141352135874_1_ivmu32.webp'],
   },
 };
