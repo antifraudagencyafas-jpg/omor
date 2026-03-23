@@ -123,12 +123,12 @@ export default function WaterPumpsPage() {
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP
                         </Link>
                       </li>

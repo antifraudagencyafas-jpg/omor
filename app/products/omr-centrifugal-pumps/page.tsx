@@ -153,13 +153,13 @@ export default function OMRCentrifugalPumpsPage() {
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          OMR Overhung Type Centrifugal Pumps
+                        <Link href="/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                          OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          OMR Between Bearing Type Centrifugal Pumps
+                        <Link href="/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                          OMR-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP
                         </Link>
                       </li>
                     </ul>

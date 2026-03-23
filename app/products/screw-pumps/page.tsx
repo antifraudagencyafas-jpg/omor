@@ -126,12 +126,12 @@ export default function ScrewPumpsPage() {
                     </summary>
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                        <Link href="/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
                           OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP
                         </Link>
                       </li>
