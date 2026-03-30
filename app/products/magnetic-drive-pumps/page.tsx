@@ -12,7 +12,7 @@ export default function MagneticDrivePumpPage() {
   const products = [
     {
       name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
-      image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068034/smmm_otfbm0.jpg",
+      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg",
       description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
       href: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump"
     }
@@ -24,7 +24,7 @@ export default function MagneticDrivePumpPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image_neo1zb.jpg"
+            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
             alt="Magnetic Drive Pumps Background"
             fill
             className="object-cover"
@@ -139,10 +139,10 @@ export default function MagneticDrivePumpPage() {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
-                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
-                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068038/10pvb-1_azicqu.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
+                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">
