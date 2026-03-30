@@ -17,7 +17,7 @@ export default function SolarPumpsPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078721/image-2_mx5ywi.jpg"
             alt="Solar Pumps Background"
             fill
             className="object-cover"
