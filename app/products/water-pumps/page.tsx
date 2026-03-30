@@ -12,13 +12,13 @@ export default function WaterPumpsPage() {
   const products = [
     {
       name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
-      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg",
+      image: "/assets/uploads/11pvb-1.jpg",
       description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
       href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
     },
     {
       name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP",
-      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg",
+      image: "/assets/uploads/water-pmp111.jpg",
       description: "Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations.",
       href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump"
     }
@@ -30,7 +30,7 @@ export default function WaterPumpsPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
+            src="/assets/uploads/Ommm.jpg"
             alt="Water Pumps Background"
             fill
             className="object-cover"
@@ -150,10 +150,10 @@ export default function WaterPumpsPage() {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
-                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
-                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
+                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "/assets/uploads/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "/assets/uploads/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "/assets/uploads/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "/assets/uploads/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">

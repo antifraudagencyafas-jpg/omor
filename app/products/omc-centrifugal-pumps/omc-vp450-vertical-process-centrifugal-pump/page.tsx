@@ -95,7 +95,7 @@ export default function OMCVP450Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg"
+                    src="/assets/uploads/3pvb-1.jpg"
                     alt="OMC-VP450 Vertical Process Centrifugal Pump"
                     fill
                     className="object-contain p-4"

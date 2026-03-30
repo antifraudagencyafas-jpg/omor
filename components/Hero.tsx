@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 const images = [
-  "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250320141352135874_1_ivmu32.webp",
-  "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250319084500382198_1_pfbco3.webp",
-  "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250319085506860625_1_xyu8bs.webp"
+  "/assets/cloudinary/20250320141352135874_1_ivmu32.webp",
+  "/assets/cloudinary/20250319084500382198_1_pfbco3.webp",
+  "/assets/cloudinary/20250319085506860625_1_xyu8bs.webp"
 ];
 
 export default function Hero() {

@@ -62,7 +62,7 @@ export default async function NewsPage({ searchParams }: Props) {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/2025012217051166860_jvtran.webp"
+            src="/assets/cloudinary/2025012217051166860_jvtran.webp"
             alt="News Background"
             fill
             className="object-cover"

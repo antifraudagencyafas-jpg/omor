@@ -95,7 +95,7 @@ export default function OMCHP500Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg"
+                    src="/assets/uploads/smmm.jpg"
                     alt="OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor"
                     fill
                     className="object-contain p-4"
@@ -165,7 +165,7 @@ export default function OMCHP500Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh2-overhung-type-horizontal-centrifugal-pumps--2--698125.webp"
+                    src="/assets/teffiko/api-oh2-overhung-type-horizontal-centrifugal-pumps--2--698125.webp"
                     alt="OMC-HP500 Structure Diagram"
                     fill
                     className="object-contain"
@@ -180,7 +180,7 @@ export default function OMCHP500Page() {
                   <div key={i} className="border border-slate-200 rounded p-2 bg-white">
                     <div className="relative aspect-[4/3] w-full">
                       <Image
-                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/ys${i}.jpg`}
+                        src={`/assets/uploads/ys${i}.jpg`}
                         alt={`Parameter Chart ${i}`}
                         fill
                         className="object-contain"

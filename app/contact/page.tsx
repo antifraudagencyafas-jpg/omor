@@ -16,7 +16,7 @@ export default function ContactPage() {
       <section className="relative py-32 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/20250122170452478778_mt4egy.webp"
+            src="/assets/cloudinary/20250122170452478778_mt4egy.webp"
             alt="Contact Background"
             fill
             className="object-cover"
@@ -73,7 +73,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">sales@omrontechpumps.com</p>
+                        <p className="text-slate-600">sales@omrontechpumps.nl</p>
                       </div>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">nl.sales@omrontechpumps.com</p>
+                        <p className="text-slate-600">nl.sales@omrontechpumps.nl</p>
                       </div>
                     </div>
                   </div>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">operations@omrontechpumps.com</p>
+                        <p className="text-slate-600">operations@omrontechpumps.nl</p>
                       </div>
                     </div>
                   </div>

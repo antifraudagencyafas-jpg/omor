@@ -16,7 +16,7 @@ export default function FloatingContact() {
       </a>
       
       <a 
-        href="mailto:sales@omrontechpumps.com" 
+        href="mailto:sales@omrontechpumps.nl"
         className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 hover:scale-110 transition-all duration-300 group relative"
       >
         <Mail className="w-7 h-7" />

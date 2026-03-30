@@ -13,44 +13,44 @@ const categories = [
   {
     title: "OMC Centrifugal Pumps",
     href: "/products/omc-centrifugal-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
+    image: "/assets/uploads/1pvb-2.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
-      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
-      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
-      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
-      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
-      { name: "OMC-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
+      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "/assets/uploads/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "/assets/uploads/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "/assets/uploads/2pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
+      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "/assets/uploads/6pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
+      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "/assets/uploads/3pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
+      { name: "OMC-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "/assets/uploads/7pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
     ]
   },
   {
     title: "Screw Pumps",
     href: "/products/screw-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg",
+    image: "/assets/uploads/9pvb-1.jpg",
     description: "Positive displacement pumps ideal for high viscosity fluids. Our twin and multi-screw designs ensure smooth, pulsation-free flow for critical petrochemical and marine applications.",
     products: [
-      { name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", href: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" },
-      { name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg", href: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump" },
+      { name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP", image: "/assets/uploads/9pvb-1.jpg", href: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" },
+      { name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP", image: "/assets/uploads/10pvb-1.jpg", href: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump" },
     ]
   },
   {
     title: "Water Pumps",
     href: "/products/water-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg",
+    image: "/assets/uploads/11pvb-1.jpg",
     description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
     products: [
-      { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg", href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump" },
-      { name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg", href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" },
+      { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "/assets/uploads/11pvb-1.jpg", href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump" },
+      { name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP", image: "/assets/uploads/water-pmp111.jpg", href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" },
     ]
   },
   {
     title: "Magnetic Drive Pump",
     href: "/products/magnetic-drive-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg",
+    image: "/assets/uploads/12pvb-1.jpg",
     description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
     products: [
-      { name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg", href: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump" },
+      { name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP", image: "/assets/uploads/12pvb-1.jpg", href: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump" },
     ]
   },
   {
@@ -74,27 +74,27 @@ const featuredProducts = [
   },
   {
     name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
+    image: "/assets/uploads/1pvb-2.jpg",
     link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   {
     name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
+    image: "/assets/uploads/5pvb-1.jpg",
     link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
   {
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg",
+    image: "/assets/uploads/9pvb-1.jpg",
     link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump"
   },
   {
     name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg",
+    image: "/assets/uploads/12pvb-1.jpg",
     link: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump"
   },
   {
     name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg",
+    image: "/assets/uploads/11pvb-1.jpg",
     link: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
   },
 ];
@@ -106,7 +106,7 @@ export default function ProductsPage() {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
+            src="/assets/uploads/Ommm.jpg"
             alt="Products Background"
             fill
             className="object-cover"

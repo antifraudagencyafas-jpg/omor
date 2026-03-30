@@ -95,7 +95,7 @@ export default function OMCSR750Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg"
+                    src="/assets/uploads/5pvb-1.jpg"
                     alt="OMC-SR750 Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -136,7 +136,7 @@ export default function OMCSR750Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/6]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250411/twsp-02-165817.jpg"
+                    src="/assets/teffiko/twsp-02-165817.jpg"
                     alt="Model Significance"
                     fill
                     className="object-contain"
@@ -149,7 +149,7 @@ export default function OMCSR750Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-no-clogging-slurry--3--537469.webp"
+                    src="/assets/teffiko/api-oh1-horizontal-centrifugal-pumps-for-no-clogging-slurry--3--537469.webp"
                     alt="Structural Diagram"
                     fill
                     className="object-contain"

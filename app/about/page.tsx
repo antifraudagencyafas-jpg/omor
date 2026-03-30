@@ -15,7 +15,7 @@ export default function AboutPage() {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/20250122170452478778_mt4egy.webp"
+            src="/assets/cloudinary/20250122170452478778_mt4egy.webp"
             alt="About Us Background"
             fill
             className="object-cover"
@@ -87,7 +87,7 @@ export default function AboutPage() {
               </p>
               <div className="mt-8 relative w-full h-[400px] md:h-[500px] rounded-lg overflow-hidden shadow-lg">
                 <Image
-                  src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773048328/about-36351_i2hvjj.jpg"
+                  src="/assets/cloudinary/about-36351_i2hvjj.jpg"
                   alt="Omron Tech Pumps Facility"
                   fill
                   sizes="(max-width: 1024px) 100vw, 75vw"

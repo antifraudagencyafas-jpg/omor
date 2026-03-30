@@ -15,7 +15,7 @@ export default function SendInquiry() {
           For inquiries about OMC centrifugal pumps, screw pumps, or single suction twin screw pump, please leave your details and we will be in touch within 24 hours.
         </p>
         <div className="text-gray-400 mb-12 space-y-2">
-          <p>Email: <a href="mailto:sales@omrontechpumps.com" className="text-blue-400 hover:underline">sales@omrontechpumps.com</a></p>
+          <p>Email: <a href="mailto:sales@omrontechpumps.nl" className="text-blue-400 hover:underline">sales@omrontechpumps.nl</a></p>
         </div>
         
         <div className="text-left">
