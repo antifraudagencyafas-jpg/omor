@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-HP500 Centrifugal Pump',
-  description: 'API standard overhung type horizontal centrifugal pump with integrated temperature sensor for real-time monitoring of corrosive media.',
+  title: 'OMC-SR750 Centrifugal Slurry Pump',
+  description: 'High-efficiency anti-clogging centrifugal pump for transporting slurries containing impurities. Ideal for mining, chemical, and power industries.',
 };
 
-export default function OMCHP500Page() {
+export default function OMCSR750Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -21,9 +21,9 @@ export default function OMCHP500Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/omr-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
+          <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-SR750 Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -51,18 +51,18 @@ export default function OMCHP500Page() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>OMR Centrifugal Pumps</span>
+                      <span>OMC Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products/omr-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OMR Overhung Type Centrifugal Pumps
+                        <Link href="/products/omc-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
+                          OMC Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products/omr-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OMR Between Bearing Type Centrifugal Pumps
+                        <Link href="/products/omc-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
+                          OMC Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,8 +95,8 @@ export default function OMCHP500Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg"
-                    alt="OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg"
+                    alt="OMC-SR750 Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMCHP500Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor
+                  OMC-SR750 Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-HP500
+                  Model: OMC-SR750
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Redefining industry benchmarks for reliability and efficiency, the OMC-HP500 overhung type horizontal centrifugal pump series is engineered for strict compliance with international standards. It is specifically designed for high-stakes scenarios in the petrochemical industry, energy extraction, and the transportation of highly corrosive media.
+                    Specifically designed for transporting slurries containing impurities such as solid particles and fibers, the OMC-SR750 series is widely used in chemical, papermaking, mining, and power industries. It features high efficiency, minimal leakage, and exceptional anti-clogging performance.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -129,44 +129,15 @@ export default function OMCHP500Page() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                This pump features a single-stage, single-suction, radial partial volute structure. It is equipped with an integrated Temperature Sensor for real-time monitoring of fluid conditions. It can transport inorganic and organic acids like nitric, sulfuric, and phosphoric acid across a wide range of temperatures.
+                The impeller adopts a large-channel structure with wide, smooth flow passages and optimized blades, greatly reducing clogging risks. The pump body is constructed from wear-resistant and corrosion-resistant materials. The shaft seal is available in both mechanical and packing forms to extend equipment service life.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Industrial Applications</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm text-slate-700 mb-12">
-                <div>
-                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Petrochemical & Refining</h4>
-                  <p>Crude oil distillation, catalytic cracking, hydro-refining, and intermediate product transfer (ethylene, propylene, benzene, xylene).</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Coal Processing</h4>
-                  <p>Coal-to-liquid, coal-to-gas, and coal-to-methanol processes, involving coal slurry and syngas conveyance.</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Power Industry</h4>
-                  <p>Boiler make-up water, condensate systems, and desulfurization/denigration process slurries.</p>
-                </div>
-                <div>
-                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Pulp & Paper</h4>
-                  <p>Raw material conveyance from storage to workshops and qualified pulp delivery to the headbox.</p>
-                </div>
-              </div>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Operating Conditions</h3>
-              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li><span className="font-bold">Flow Rate:</span> 3 - 2600 m³/h</li>
-                <li><span className="font-bold">Head:</span> 4 - 250 m</li>
-                <li><span className="font-bold">Pressure:</span> Up to 5.0 MPa</li>
-                <li><span className="font-bold">Temperature:</span> -20°C to 450°C</li>
-                <li><span className="font-bold">Speed:</span> 2950 / 1450 rpm</li>
-              </ul>
-
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Model Significance & Operating Conditions</h3>
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/10]">
+                <div className="relative w-full max-w-2xl aspect-[16/6]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh2-overhung-type-horizontal-centrifugal-pumps--2--698125.webp"
-                    alt="OMC-HP500 Structure Diagram"
+                    src="https://www.teffiko.com/upload/8025/image/20250411/twsp-02-165817.jpg"
+                    alt="Model Significance"
                     fill
                     className="object-contain"
                     referrerPolicy="no-referrer"
@@ -174,32 +145,72 @@ export default function OMCHP500Page() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameters</h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
-                {[1, 2, 3, 4, 5, 6].map((i) => (
-                  <div key={i} className="border border-slate-200 rounded p-2 bg-white">
-                    <div className="relative aspect-[4/3] w-full">
-                      <Image
-                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/ys${i}.jpg`}
-                        alt={`Parameter Chart ${i}`}
-                        fill
-                        className="object-contain"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                  </div>
-                ))}
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Structural Diagram</h3>
+              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-no-clogging-slurry--3--537469.webp"
+                    alt="Structural Diagram"
+                    fill
+                    className="object-contain"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6 mt-12">Performance Parameter Table (1450 r/min)</h3>
+              <div className="overflow-x-auto border border-slate-200 rounded-lg mb-12">
+                <table className="min-w-full divide-y divide-slate-200 text-xs text-center">
+                  <thead className="bg-slate-50">
+                    <tr>
+                      <th className="px-3 py-3 text-left font-bold text-slate-900 border-r">Pump model</th>
+                      <th colSpan={3} className="px-3 py-2 font-bold text-slate-900 border-b border-r">Flow (Q) m³/h</th>
+                      <th colSpan={3} className="px-3 py-2 font-bold text-slate-900 border-b border-r">Head (H) m</th>
+                      <th colSpan={3} className="px-3 py-2 font-bold text-slate-900 border-b">Power (kW)</th>
+                    </tr>
+                    <tr className="bg-slate-50/50">
+                      <th className="px-3 py-2 border-r">SG/Density</th>
+                      <th className="px-2 py-2 border-r">1.0</th>
+                      <th className="px-2 py-2 border-r">1.35</th>
+                      <th className="px-2 py-2 border-r">1.85</th>
+                      <th className="px-2 py-2 border-r">1.0</th>
+                      <th className="px-2 py-2 border-r">1.35</th>
+                      <th className="px-2 py-2 border-r">1.85</th>
+                      <th className="px-2 py-2 border-r">1.0</th>
+                      <th className="px-2 py-2 border-r">1.35</th>
+                      <th className="px-2 py-2">1.85</th>
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white divide-y divide-slate-200">
+                    {[
+                      ['50OMC6.3-12.5', '3.75', '6.30', '7.50', '12.9', '12.5', '12.0', '1.1', '1.1', '1.5'],
+                      ['50OMC6.3-20', '3.75', '6.30', '7.50', '20.5', '20.0', '19.6', '2.2', '2.2', '3.0'],
+                      ['65OMC12-12.5', '7.50', '12.5', '15.0', '13.3', '12.5', '11.9', '1.5', '2.2', '2.2'],
+                      ['65OMC12-20', '7.50', '12.5', '15.0', '20.3', '20.0', '19.6', '2.2', '3', '4'],
+                      ['80OMC25-12.5', '15.0', '25.0', '30.0', '13.5', '12.5', '11.5', '2.2', '3', '4'],
+                      ['80OMC25-20', '15.0', '25.0', '30.0', '21.0', '20.0', '19.0', '4', '5.5', '7.5'],
+                      ['100OMC50-20', '30.0', '50.0', '60.0', '22.0', '20.0', '18.5', '5.5', '7.5', '11']
+                    ].map((row, idx) => (
+                      <tr key={idx}>
+                        <td className="px-3 py-2 text-left text-slate-700 border-r font-medium">{row[0]}</td>
+                        {row.slice(1).map((cell, cIdx) => (
+                          <td key={cIdx} className="px-2 py-2 text-slate-600 border-r last:border-r-0">{cell}</td>
+                        ))}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-HP500",
-                  "Temperature Sensor",
-                  "Monitoring Integrated",
-                  "API Standard",
-                  "High Temperature Pump",
-                  "Chemical Processing"
+                  "OMC-SR750",
+                  "Slurry Pump",
+                  "Anti-Clogging",
+                  "Large-Channel Impeller",
+                  "Mining Industry",
+                  "Industrial Waste Management"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 

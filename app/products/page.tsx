@@ -11,17 +11,17 @@ export const metadata: Metadata = {
 
 const categories = [
   {
-    title: "OMR Centrifugal Pumps",
-    href: "/products/omr-centrifugal-pumps",
+    title: "OMC Centrifugal Pumps",
+    href: "/products/omc-centrifugal-pumps",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
-      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
-      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/omr-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
-      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/omr-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
-      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/omr-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
-      { name: "OMR-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump" },
+      { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+      { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
+      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
+      { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/omc-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
+      { name: "OMC-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
     ]
   },
   {
@@ -68,19 +68,19 @@ const categories = [
 
 const featuredProducts = [
   {
-    name: "OMR-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
+    name: "OMC-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
     image: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump.png",
-    link: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump"
+    link: "/products/solar-pumps/omc-es200-horizontal-end-suction-centrifugal-pump"
   },
   {
     name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
-    link: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
+    link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   {
     name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
-    link: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
+    link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
   {
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description: 'High-viscosity open top single screw pump engineered for harsh industrial conditions. Stable, non-pulsating flow for abrasive media.',
 };
 
-export default function OTTPage() {
+export default function OMTVS150Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -49,8 +49,8 @@ export default function OTTPage() {
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
-                  <Link href="/products/omr-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>OMR Centrifugal Pumps</span>
+                  <Link href="/products/omc-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                    <span>OMC Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>

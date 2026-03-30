@@ -49,8 +49,8 @@ export default function OMTGP200Page() {
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
-                  <Link href="/products/omr-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>OMR Centrifugal Pumps</span>
+                  <Link href="/products/omc-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                    <span>OMC Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>
@@ -145,7 +145,7 @@ export default function OMTGP200Page() {
                   <div className="relative w-full aspect-[16/10]">
                     <Image
                       src="https://www.teffiko.com/upload/8025/image/20250411/----4-04-979280.jpg"
-                      alt="GPT Single-screw Pump Structure 1"
+                      alt="OMT Single-screw Pump Structure 1"
                       fill
                       className="object-contain"
                       referrerPolicy="no-referrer"
@@ -157,7 +157,7 @@ export default function OMTGP200Page() {
                   <div className="relative w-full aspect-[16/10]">
                     <Image
                       src="https://www.teffiko.com/upload/8025/image/20250411/----4-05-4444.jpg"
-                      alt="GPT Single-screw Pump Structure 2"
+                      alt="OMT Single-screw Pump Structure 2"
                       fill
                       className="object-contain"
                       referrerPolicy="no-referrer"

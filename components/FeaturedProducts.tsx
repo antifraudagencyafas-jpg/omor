@@ -8,20 +8,20 @@ import { motion, AnimatePresence } from "motion/react";
 
 const placeholderProducts = [
   { 
-    name: "OMC-HM650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/1pvb_owmqqf.jpg",
     materials: "Stainless Steel 316, Duplex Stainless Steel, Titanium",
     dimensions: "1200mm x 800mm x 2100mm",
     performance: "Flow rate up to 500 m³/h, Head up to 250m",
-    link: "/products/omr-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
+    link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   { 
-    name: "OMC-SR750 HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068037/5pvb-1_u8up3x.jpg",
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
     performance: "Flow rate up to 1200 m³/h, Head up to 300m",
-    link: "/products/omr-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
+    link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
   { 
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",

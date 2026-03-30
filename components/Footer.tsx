@@ -54,10 +54,10 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">Products</h3>
             <ul className="space-y-3">
-              <li><Link href="/products/omr-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Centrifugal Pumps</Link></li>
+              <li><Link href="/products/omc-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Centrifugal Pumps</Link></li>
               <li><Link href="/products/screw-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Screw Pumps</Link></li>
               <li><Link href="/products/magnetic-drive-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Magnetic Drive Pumps</Link></li>
-              <li><Link href="/products/omr-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Chemical Process Pumps</Link></li>
+              <li><Link href="/products/omc-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Chemical Process Pumps</Link></li>
               <li><Link href="/products/water-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Vertical Pumps</Link></li>
             </ul>
           </div>
