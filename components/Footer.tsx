@@ -54,7 +54,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-bold text-white mb-6 uppercase tracking-wider">Products</h3>
             <ul className="space-y-3">
-              <li><Link href="/products/omr-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Centrifugal Pumps</Link></li>
+              <li><Link href="/products/omr-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">OMR Centrifugal Pumps</Link></li>
               <li><Link href="/products/screw-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Screw Pumps</Link></li>
               <li><Link href="/products/magnetic-drive-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Magnetic Drive Pumps</Link></li>
               <li><Link href="/products/omr-centrifugal-pumps" className="text-slate-400 hover:text-blue-500 transition-colors">Chemical Process Pumps</Link></li>
@@ -120,7 +120,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Bomt-vs150-viscous-handling-single-screw-pumpom Bar */}
+        {/* Bottom Bar */}
         <div className="pt-8 border-t border-slate-800 text-center md:text-left flex flex-col md:flex-row justify-between items-center">
           <p className="text-slate-500 text-sm mb-4 md:mb-0">
             &copy; {new Date().getFullYear()} OmronTechPumps. All Rights Reserved.

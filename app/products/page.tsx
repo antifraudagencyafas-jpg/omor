@@ -21,7 +21,7 @@ const categories = [
       { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/2pvb_gizzu2.jpg", href: "/products/omr-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
       { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/6pvb-1_b4dpty.jpg", href: "/products/omr-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
       { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068035/3pvb_abw4ed.jpg", href: "/products/omr-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
-      { name: "OMR-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump" },
+      { name: "OMC-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773068036/7pvb-1_pevpt0.jpg", href: "/products/omr-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
     ]
   },
   {

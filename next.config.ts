@@ -58,9 +58,9 @@ const nextConfig: NextConfig = {
       { source: '/products/tipcentrifugalpumps/tip4m2brdl', destination: '/products/omr-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump', permanent: true },
       { source: '/products/tipcentrifugalpumps/tipa6w9mql', destination: '/products/omr-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump', permanent: true },
       { source: '/products/tipcentrifugalpumps/tipx2c9w7a', destination: '/products/omr-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump', permanent: true },
-      { source: '/products/tipcentrifugalpumps/g2ap', destination: '/products/omr-centrifugal-pumps/omr-hc280-horizontal-chemical-centrifugal-pump', permanent: true },
+      { source: '/products/tipcentrifugalpumps/g2ap', destination: '/products/omr-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump', permanent: true },
       { source: '/products/tipcentrifugalpumps/tipq9l4a7m', destination: '/products/omr-centrifugal-pumps/omc-hp500-high-pressure-horizontal-centrifugal-pump', permanent: true },
-      { source: '/products/tipcentrifugalpumps/tipl8q5n2m', destination: '/products/omr-centrifugal-pumps/omr-fc260-heavy-duty-horizontal-centrifugal-pump', permanent: true },
+      { source: '/products/tipcentrifugalpumps/tipl8q5n2m', destination: '/products/omr-centrifugal-pumps/omc-fc260-heavy-duty-horizontal-centrifugal-pump', permanent: true },
       { source: '/products/tipcentrifugalpumps/tip8c2xkwr', destination: '/products/omr-centrifugal-pumps/omc-ht800-high-temperature-horizontal-centrifugal-pump', permanent: true },
 
       // Screw Pumps Detail
@@ -84,15 +84,22 @@ const nextConfig: NextConfig = {
       { source: '/products/solar-pumps/xcm-self-priming-stainless-steel-multistage-centrifugal-pump', destination: '/products/solar-pumps/omrp-spm400-self-priming-stainless-multistage-pump', permanent: true },
       { source: '/products/solar-pumps/xbd-leg-horizontal-split-double-suction-fire-fighting-pump', destination: '/products/solar-pumps/omrp-hsc500-horizontal-split-case-double-suction-fire-pump', permanent: true },
 
-      // Intermediate Solar Pump Redirects (from OMR/OMS/OMF to OMRP)
+      // Intermediate Solar Pump Redirects (from OMC/OMS/OMF/OMR to OMRP)
+      { source: '/products/solar-pumps/omc-es200-horizontal-end-suction-centrifugal-pump', destination: '/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/omc-cs150-standard-close-coupled-centrifugal-pump', destination: '/products/solar-pumps/omrp-cs150-standard-close-coupled-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/omc-hb180-horizontal-booster-centrifugal-pump-60hz', destination: '/products/solar-pumps/omrp-hb180-horizontal-booster-centrifugal-pump-60hz', permanent: true },
+      { source: '/products/solar-pumps/omc-sp220-self-priming-centrifugal-pump', destination: '/products/solar-pumps/omrp-sp220-self-priming-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/omc-pb160-pressure-booster-centrifugal-pump', destination: '/products/solar-pumps/omrp-pb160-pressure-booster-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/oms-vs350-vertical-stainless-steel-multistage-pump', destination: '/products/solar-pumps/omrp-vs350-vertical-stainless-steel-multistage-pump', permanent: true },
+      { source: '/products/solar-pumps/oms-spm400-self-priming-stainless-multistage-pump', destination: '/products/solar-pumps/omrp-spm400-self-priming-stainless-multistage-pump', permanent: true },
+      { source: '/products/solar-pumps/omf-hsc500-horizontal-split-case-double-suction-fire-pump', destination: '/products/solar-pumps/omrp-hsc500-horizontal-split-case-double-suction-fire-pump', permanent: true },
       { source: '/products/solar-pumps/omr-es200-horizontal-end-suction-centrifugal-pump', destination: '/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump', permanent: true },
       { source: '/products/solar-pumps/omr-cs150-standard-close-coupled-centrifugal-pump', destination: '/products/solar-pumps/omrp-cs150-standard-close-coupled-centrifugal-pump', permanent: true },
-      { source: '/products/solar-pumps/oms-hb180-horizontal-booster-centrifugal-pump-60hz', destination: '/products/solar-pumps/omrp-hb180-horizontal-booster-centrifugal-pump-60hz', permanent: true },
       { source: '/products/solar-pumps/omr-sp220-self-priming-centrifugal-pump', destination: '/products/solar-pumps/omrp-sp220-self-priming-centrifugal-pump', permanent: true },
-      { source: '/products/solar-pumps/oms-pb160-pressure-booster-centrifugal-pump', destination: '/products/solar-pumps/omrp-pb160-pressure-booster-centrifugal-pump', permanent: true },
-      { source: '/products/solar-pumps/omf-vs350-vertical-stainless-steel-multistage-pump', destination: '/products/solar-pumps/omrp-vs350-vertical-stainless-steel-multistage-pump', permanent: true },
-      { source: '/products/solar-pumps/omf-spm400-self-priming-stainless-multistage-pump', destination: '/products/solar-pumps/omrp-spm400-self-priming-stainless-multistage-pump', permanent: true },
       { source: '/products/solar-pumps/omr-hsc500-horizontal-split-case-double-suction-fire-pump', destination: '/products/solar-pumps/omrp-hsc500-horizontal-split-case-double-suction-fire-pump', permanent: true },
+
+      // Legacy Centrifugal Redirects (to OMR)
+      { source: '/products/omc-centrifugal-pumps', destination: '/products/omr-centrifugal-pumps', permanent: true },
     ];
   },
   webpack: (config, {dev}) => {
