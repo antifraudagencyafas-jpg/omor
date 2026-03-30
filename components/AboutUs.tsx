@@ -55,7 +55,7 @@ export default function AboutUs() {
         {/* Right Image */}
         <div className="w-full lg:w-1/2 relative min-h-[400px] lg:min-h-auto">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773048328/about-36351_i2hvjj.jpg"
+            src="/assets/cloudinary/about-36351_i2hvjj.jpg"
             alt="Omron Tech Pumps industrial manufacturing facility and office building"
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"

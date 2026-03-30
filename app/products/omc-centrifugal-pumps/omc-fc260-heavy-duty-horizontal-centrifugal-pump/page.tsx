@@ -95,7 +95,7 @@ export default function OMCFC260Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/4pvb-1.jpg"
+                    src="/assets/uploads/4pvb-1.jpg"
                     alt="OMC-FC260 Heavy-Duty Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -164,7 +164,7 @@ export default function OMCFC260Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
+                    src="/assets/teffiko/api-oh1-horizontal-centrifugal-pumps-for-chemical-flow--2--404959.webp"
                     alt="OMC-FC260 Chemical Flow Diagram"
                     fill 
                     className="object-contain"

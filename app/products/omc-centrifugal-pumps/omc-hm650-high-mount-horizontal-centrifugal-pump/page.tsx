@@ -95,7 +95,7 @@ export default function OMCHM650Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg"
+                    src="/assets/uploads/1pvb-2.jpg"
                     alt="OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP"
                     fill
                     className="object-contain p-4"
@@ -138,7 +138,7 @@ export default function OMCHM650Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh4-overhung-type-horizontal-centrifugal-pumps--2--940998.webp"
+                    src="/assets/teffiko/api-oh4-overhung-type-horizontal-centrifugal-pumps--2--940998.webp"
                     alt="OMC-HM650 Schematic Diagram"
                     fill
                     className="object-contain"
@@ -169,7 +169,7 @@ export default function OMCHM650Page() {
                   <div key={i} className="border border-slate-200 rounded-lg p-2 bg-white">
                     <div className="relative w-full aspect-[4/3]">
                       <Image
-                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/${img}.jpg`}
+                        src={`/assets/uploads/${img}.jpg`}
                         alt={`Performance Parameter ${i+1}`}
                         fill
                         className="object-contain"

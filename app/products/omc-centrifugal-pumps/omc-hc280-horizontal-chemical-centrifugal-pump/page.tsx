@@ -95,7 +95,7 @@ export default function OMCHC280Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg"
+                    src="/assets/uploads/7pvb-1.jpg"
                     alt="OMC-HC280 Horizontal Chemical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -170,7 +170,7 @@ export default function OMCHC280Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
+                    src="/assets/teffiko/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
                     alt="OMC-HC280 Oil and Chemical Flow Diagram"
                     fill
                     className="object-contain"

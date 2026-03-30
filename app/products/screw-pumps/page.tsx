@@ -12,13 +12,13 @@ export default function ScrewPumpsPage() {
   const products = [
     {
       name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
-      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg",
+      image: "/assets/uploads/9pvb-1.jpg",
       description: "OMT-VS150 Viscous Handling Single Screw Pump are designed for handling highly viscous and non-flowing materials. They feature an open hopper with a coupling rod and an auger to force the material into the pumping elements.",
       href: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump"
     },
     {
       name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP",
-      image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg",
+      image: "/assets/uploads/10pvb-1.jpg",
       description: "General Purpose Type Single Screw Pumps are versatile pumps suitable for a wide range of applications, including the transfer of liquids with varying viscosities, containing solids, or requiring gentle handling.",
       href: "/products/screw-pumps/omt-gp200-general-purpose-single-screw-pump"
     }
@@ -30,7 +30,7 @@ export default function ScrewPumpsPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
+            src="/assets/uploads/Ommm.jpg"
             alt="Screw Pumps Background"
             fill
             className="object-cover"
@@ -158,10 +158,10 @@ export default function ScrewPumpsPage() {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
-                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
-                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
+                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "/assets/uploads/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "/assets/uploads/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "/assets/uploads/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "/assets/uploads/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">

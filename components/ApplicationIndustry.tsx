@@ -1,12 +1,12 @@
 import Image from "next/image";
 
 const industries = [
-  { name: "Power Generation", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/1-44182_ddco8y.webp" },
-  { name: "Petrochemical", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/3-404688_dk1ifc.webp" },
-  { name: "Oil & Gas", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/2-295272_xgrn0a.webp" },
-  { name: "Paper Industry", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/4-863873_z5s8kq.webp" },
-  { name: "Steel Industry", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046010/5-2344_r1x7tx.webp" },
-  { name: "Marine", image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/6-84758_moxf17.webp" },
+  { name: "Power Generation", image: "/assets/cloudinary/1-44182_ddco8y.webp" },
+  { name: "Petrochemical", image: "/assets/cloudinary/3-404688_dk1ifc.webp" },
+  { name: "Oil & Gas", image: "/assets/cloudinary/2-295272_xgrn0a.webp" },
+  { name: "Paper Industry", image: "/assets/cloudinary/4-863873_z5s8kq.webp" },
+  { name: "Steel Industry", image: "/assets/cloudinary/5-2344_r1x7tx.webp" },
+  { name: "Marine", image: "/assets/cloudinary/6-84758_moxf17.webp" },
 ];
 
 export default function ApplicationIndustry() {

@@ -9,7 +9,7 @@ import { motion, AnimatePresence } from "motion/react";
 const placeholderProducts = [
   { 
     name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
+    image: "/assets/uploads/1pvb-2.jpg",
     materials: "Stainless Steel 316, Duplex Stainless Steel, Titanium",
     dimensions: "1200mm x 800mm x 2100mm",
     performance: "Flow rate up to 500 m³/h, Head up to 250m",
@@ -17,7 +17,7 @@ const placeholderProducts = [
   },
   { 
     name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
+    image: "/assets/uploads/5pvb-1.jpg",
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
     performance: "Flow rate up to 1200 m³/h, Head up to 300m",
@@ -25,7 +25,7 @@ const placeholderProducts = [
   },
   { 
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg",
+    image: "/assets/uploads/9pvb-1.jpg",
     materials: "Cast Iron, Bronze, Stainless Steel",
     dimensions: "1000mm x 600mm x 800mm",
     performance: "Flow rate up to 300 m³/h, Head up to 150m",
@@ -33,7 +33,7 @@ const placeholderProducts = [
   },
   { 
     name: "OMT-GP200 GENERAL PURPOSE SINGLE SCREW PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg",
+    image: "/assets/uploads/10pvb-1.jpg",
     materials: "Cast Iron, Carbon Steel, Stainless Steel",
     dimensions: "1800mm x 700mm x 900mm",
     performance: "Flow rate up to 2000 m³/h, Pressure up to 100 bar",
@@ -41,7 +41,7 @@ const placeholderProducts = [
   },
   { 
     name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg",
+    image: "/assets/uploads/12pvb-1.jpg",
     materials: "Polypropylene, ETFE, PFA lined",
     dimensions: "800mm x 400mm x 600mm",
     performance: "Flow rate up to 100 m³/h, Head up to 80m",
@@ -49,7 +49,7 @@ const placeholderProducts = [
   },
   { 
     name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg",
+    image: "/assets/uploads/11pvb-1.jpg",
     materials: "PTFE, PVDF, Hastelloy",
     dimensions: "900mm x 500mm x 700mm",
     performance: "Flow rate up to 150 m³/h, Head up to 100m",

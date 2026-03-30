@@ -95,7 +95,7 @@ export default function OMTGP200Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/10pvb-1.jpg"
+                    src="/assets/uploads/10pvb-1.jpg"
                     alt="OMT-GP200 General Purpose Single Screw Pump"
                     fill
                     className="object-contain p-4"
@@ -144,7 +144,7 @@ export default function OMTGP200Page() {
                 <div className="border border-slate-200 rounded-lg p-4 bg-white flex flex-col items-center">
                   <div className="relative w-full aspect-[16/10]">
                     <Image
-                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-04-979280.jpg"
+                      src="/assets/teffiko/----4-04-979280.jpg"
                       alt="OMT Single-screw Pump Structure 1"
                       fill
                       className="object-contain"
@@ -156,7 +156,7 @@ export default function OMTGP200Page() {
                 <div className="border border-slate-200 rounded-lg p-4 bg-white flex flex-col items-center">
                   <div className="relative w-full aspect-[16/10]">
                     <Image
-                      src="https://www.teffiko.com/upload/8025/image/20250411/----4-05-4444.jpg"
+                      src="/assets/teffiko/----4-05-4444.jpg"
                       alt="OMT Single-screw Pump Structure 2"
                       fill
                       className="object-contain"

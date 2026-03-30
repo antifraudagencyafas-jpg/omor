@@ -15,7 +15,7 @@ export default function PrivacyPage() {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/20250122170452478778_mt4egy.webp"
+            src="/assets/cloudinary/20250122170452478778_mt4egy.webp"
             alt="Privacy Policy Background"
             fill
             className="object-cover"
@@ -127,8 +127,8 @@ export default function PrivacyPage() {
                 </p>
                 <div className="bg-slate-50 p-6 rounded-lg border border-slate-200">
                   <p className="font-bold text-slate-900">Omron Tech Pumps</p>
-                  <p>Email: sales@omrontechpumps.com</p>
-                  <p>Website: www.omrontechpumps.com</p>
+                  <p>Email: sales@omrontechpumps.nl</p>
+                  <p>Website: www.omrontechpumps.nl</p>
                 </div>
               </div>
             </div>

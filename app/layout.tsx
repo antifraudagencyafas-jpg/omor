@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://omrontechpumps.nl'),
   title: {
     default: 'Omron Tech Pumps | Industrial Pump Manufacturer',
     template: '%s | Omron Tech Pumps'
@@ -20,16 +21,22 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: 'google-site-verification-placeholder', // User should replace this with their actual code
+  },
+  alternates: {
+    canonical: 'https://omrontechpumps.nl',
+  },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://omrontechpumps.com',
+    url: 'https://omrontechpumps.nl',
     siteName: 'Omron Tech Pumps',
     title: 'Omron Tech Pumps | Industrial Pump Manufacturer',
     description: 'Global manufacturer of advanced industrial pump solutions for oil & gas, petrochemical, power generation and water treatment industries.',
     images: [
       {
-        url: 'https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250320141352135874_1_ivmu32.webp',
+        url: '/assets/cloudinary/20250320141352135874_1_ivmu32.webp',
         width: 1200,
         height: 630,
         alt: 'Omron Tech Pumps Industrial Solutions',
@@ -40,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Omron Tech Pumps | Industrial Pump Manufacturer',
     description: 'Global manufacturer of advanced industrial pump solutions for oil & gas, petrochemical, power generation and water treatment industries.',
-    images: ['https://res.cloudinary.com/dccvdkffu/image/upload/v1773046009/20250320141352135874_1_ivmu32.webp'],
+    images: ['/assets/cloudinary/20250320141352135874_1_ivmu32.webp'],
   },
 };
 

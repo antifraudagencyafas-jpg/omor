@@ -95,7 +95,7 @@ export default function OMCVC320Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg"
+                    src="/assets/uploads/2pvb-2.jpg"
                     alt="OMC-VC320 Chemical Vertical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
@@ -160,7 +160,7 @@ export default function OMCVC320Page() {
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
                   <div className="relative w-full aspect-[4/3]">
                     <Image
-                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Capture1.jpg"
+                      src="/assets/uploads/Capture1.jpg"
                       alt="Performance Parameter 1"
                       fill
                       className="object-contain"
@@ -171,7 +171,7 @@ export default function OMCVC320Page() {
                 <div className="border border-slate-200 rounded-lg p-2 bg-white">
                   <div className="relative w-full aspect-[4/3]">
                     <Image
-                      src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Capture2.jpg"
+                      src="/assets/uploads/Capture2.jpg"
                       alt="Performance Parameter 2"
                       fill
                       className="object-contain"

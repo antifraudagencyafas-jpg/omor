@@ -37,7 +37,7 @@ export default function FAQPage() {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/20250122170502393543_klwhny.webp"
+            src="/assets/cloudinary/20250122170502393543_klwhny.webp"
             alt="FAQ Background"
             fill
             className="object-cover"
