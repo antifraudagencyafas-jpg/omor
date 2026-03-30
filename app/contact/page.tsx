@@ -65,7 +65,7 @@ export default function ContactPage() {
                         <Phone className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">+31 97010 238786</p>
+                        <p className="text-slate-600">+90 212 900 85 53</p>
                       </div>
                     </div>
                     <div className="flex items-start">

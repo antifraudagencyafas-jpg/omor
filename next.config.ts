@@ -75,11 +75,11 @@ const nextConfig: NextConfig = {
       { source: '/products/magnetic-drive-pump/mipa9x2k', destination: '/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump', permanent: true },
 
       // Solar Pumps Detail
-      { source: '/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump', destination: '/products/solar-pumps/omr-es200-horizontal-end-suction-centrifugal-pump', permanent: true },
-      { source: '/products/solar-pumps/xst-standard-centrifugal-pump', destination: '/products/solar-pumps/omr-cs150-standard-close-coupled-centrifugal-pump', permanent: true },
-      { source: '/products/solar-pumps/xmcm-centrifugal-pump-60hz', destination: '/products/solar-pumps/omr-hb180-horizontal-booster-centrifugal-pump-60hz', permanent: true },
-      { source: '/products/solar-pumps/xhsm-self-priming-centrifugal-pump', destination: '/products/solar-pumps/omr-sp220-self-priming-centrifugal-pump', permanent: true },
-      { source: '/products/solar-pumps/xgm-centrifugal-pump', destination: '/products/solar-pumps/omr-pb160-pressure-booster-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump', destination: '/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/xst-standard-centrifugal-pump', destination: '/products/solar-pumps/omrp-cs150-standard-close-coupled-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/xmcm-centrifugal-pump-60hz', destination: '/products/solar-pumps/omrp-hb180-horizontal-booster-centrifugal-pump-60hz', permanent: true },
+      { source: '/products/solar-pumps/xhsm-self-priming-centrifugal-pump', destination: '/products/solar-pumps/omrp-sp220-self-priming-centrifugal-pump', permanent: true },
+      { source: '/products/solar-pumps/xgm-centrifugal-pump', destination: '/products/solar-pumps/omrp-pb160-pressure-booster-centrifugal-pump', permanent: true },
       { source: '/products/solar-pumps/xcm-stainless-steel-multistage-centrifugal-pump', destination: '/products/solar-pumps/oms-vs350-vertical-stainless-steel-multistage-pump', permanent: true },
       { source: '/products/solar-pumps/xcm-self-priming-stainless-steel-multistage-centrifugal-pump', destination: '/products/solar-pumps/oms-spm400-self-priming-stainless-multistage-pump', permanent: true },
       { source: '/products/solar-pumps/xbd-leg-horizontal-split-double-suction-fire-fighting-pump', destination: '/products/solar-pumps/omf-hsc500-horizontal-split-case-double-suction-fire-pump', permanent: true },

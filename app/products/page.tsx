@@ -68,9 +68,9 @@ const categories = [
 
 const featuredProducts = [
   {
-    name: "OMR-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
+    name: "OMRP-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
     image: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump.png",
-    link: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump"
+    link: "/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump"
   },
   {
     name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
