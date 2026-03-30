@@ -10,25 +10,27 @@ export const metadata: Metadata = {
 
 export default function FAQPage() {
   const faqs = [
-    { q: "Can you send your staff to install the equipment for us?", a: "Yes ,we can." },
-    { q: "Can I only buy some spare parts from you?", a: "Yes,you can." },
+    { q: "Can you send your staff to install the equipment for us?", a: "Yes, we can." },
+    { q: "Can I only buy some spare parts from you?", a: "Yes, you can." },
     { q: "Will you will attend the fair to show your products?", a: "Yes, we attend ADIPEC each year." },
     { q: "How long it takes you to provide the designing options for us?", a: "We need one week." },
     { q: "What is your products standardization?", a: "API Standard." },
     { q: "Can you can design the equipment according to our size?", a: "Yes, we can design pumps according to our clients' request." },
     { q: "How many years have your company made this kind of equipment?", a: "More than 20 years." },
-    { q: "Which certificate do you have for your equipment?", a: "ISO, CE, API,ATEX" },
+    { q: "Which certificate do you have for your equipment?", a: "ISO, CE, API, ATEX" },
     { q: "How many staffs do you have in your factory?", a: "About 35." },
     { q: "How can I to be your agent in my country?", a: "We will check confirm your business and performance." },
     { q: "Do you have any agent in our country?", a: "At present there is not agent in your country." },
-    { q: "Do you have any real project pictures of the equipment?", a: "Sure, we have." },
     { q: "Where is your factory located?", a: "Our factory is located at Istanbul, Turkey." },
     { q: "Do you provide free spare parts?", a: "Yes, we do, but main spareparts should be paid." },
     { q: "Do you have detailed and professional installation manual?", a: "Yes, we have" },
-    { q: "If OEM is acceptable?", a: "NO ACCEPT." },
+    { q: "If OEM is acceptable?", a: "YES ACCEPT." },
     { q: "Do you provide sample? Free or charge?", a: "The sample should be charged." },
-    { q: "Are you a trading company or a manufacturer?", a: "We are a pump manufacturer." },
-    { q: "How long is your delivery time?", a: "It depand on the order details." }
+    { q: "Are you a trading company or a manufacturer?", a: "We are a pump manufacturer not a trading company." },
+    { q: "How long is your delivery time?", a: "It depand on the order details." },
+    { q: "What is your return policy?", a: "Customers may return item within 7-14 days of receiving the order. The product must be unused and in it's original condition. The item must be in the original packaging." },
+    { q: "Refunds", a: "Refunds are processed within 3-7 business days through the original payment method" },
+    { q: "Return Shipping", a: "Customers may be responsible for return shipping cost unless the item arrived defective or incorrect." }
   ];
 
   return (
@@ -37,7 +39,7 @@ export default function FAQPage() {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/20250122170502393543_klwhny.webp"
+            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
             alt="FAQ Background"
             fill
             className="object-cover"
