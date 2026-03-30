@@ -39,12 +39,12 @@ export default function SolarPumpsPage() {
 
         <div className="prose prose-lg prose-slate max-w-none mb-12">
           <p className="text-lg leading-relaxed mb-8">
-            Omron Tech Pumps offers advanced Centrifugal Pump systems designed to provide reliable water supply for industrial and agricultural applications. Our centrifugal pumps are engineered for high efficiency, durability, and minimal maintenance, making them ideal for irrigation, water supply, and pressure boosting.
+            Omron Tech Pumps offers advanced Solar Pump systems designed to provide reliable water supply for industrial and agricultural applications. Our solar pumps are engineered for high efficiency, durability, and minimal maintenance, making them ideal for irrigation, water supply, and pressure boosting.
           </p>
 
-          <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Why Choose Our Centrifugal Pumps?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mt-12 mb-6">Why Choose Our Solar Pumps?</h2>
           <p className="text-lg leading-relaxed mb-8">
-            Our centrifugal pumps provide exceptional performance and reliability. Designed with high-quality materials and precision engineering, they ensure long-lasting service and efficient water transport for a wide range of demanding environments.
+            Our solar pumps provide exceptional performance and reliability. Designed with high-quality materials and precision engineering, they ensure long-lasting service and efficient water transport for a wide range of demanding environments.
           </p>
         </div>
 
