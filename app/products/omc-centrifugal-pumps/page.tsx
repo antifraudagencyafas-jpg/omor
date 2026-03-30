@@ -72,7 +72,7 @@ export default function OMCCentrifugalPumpsPage() {
       <section className="relative h-[400px] flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg"
             alt="OMC Centrifugal Pumps Background"
             fill
             className="object-cover"

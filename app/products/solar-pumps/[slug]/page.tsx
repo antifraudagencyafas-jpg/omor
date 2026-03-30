@@ -135,10 +135,10 @@ export default async function SolarPumpDetailPage({ params }: PageProps) {
               </h3>
               <div className="p-4 space-y-4">
                 {[
-                  { title: "OMC-HC280 HORIZONTAL CENTRIFUGAL PUMPS", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
-                  { title: "OMC-HT800 Horizontal Centrifugal", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/8pvb.jpg", link: "/products/omc-centrifugal-pumps/omc-ht800-high-temperature-horizontal-centrifugal-pump" },
-                  { title: "OMC-HP500 HIGH-PRESSURE HORIZONTAL CENTRIFUGAL PUMP.", img: "https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg", link: "/products/omc-centrifugal-pumps/omc-hp500-high-pressure-horizontal-centrifugal-pump" },
-                  { title: "OMT-VS150 SINGLE SCREW PUMPS", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
+                  { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-HM650 High-Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+                  { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group bg-white/50 p-2 rounded hover:bg-white transition-colors">
                     <div className="relative w-16 h-16 bg-white border border-slate-100 rounded overflow-hidden flex-shrink-0">

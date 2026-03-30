@@ -13,7 +13,7 @@ const categories = [
   {
     title: "OMC Centrifugal Pumps",
     href: "/products/omc-centrifugal-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
       { name: "OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
@@ -27,7 +27,7 @@ const categories = [
   {
     title: "Screw Pumps",
     href: "/products/screw-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-4_jl919r.jpg",
     description: "Positive displacement pumps ideal for high viscosity fluids. Our twin and multi-screw designs ensure smooth, pulsation-free flow for critical petrochemical and marine applications.",
     products: [
       { name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", href: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" },
@@ -37,7 +37,7 @@ const categories = [
   {
     title: "Water Pumps",
     href: "/products/water-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image-1_yfttp1.jpg",
     description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
     products: [
       { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg", href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump" },
@@ -47,7 +47,7 @@ const categories = [
   {
     title: "Magnetic Drive Pump",
     href: "/products/magnetic-drive-pumps",
-    image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078720/image_neo1zb.jpg",
     description: "Sealless pump technology providing 100% leak-free operation. The perfect solution for safely handling hazardous, toxic, or highly corrosive chemicals without environmental risk.",
     products: [
       { name: "OMD-MS250 SEALLESS MAGNETIC DRIVE PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/12pvb-1.jpg", href: "/products/magnetic-drive-pumps/omd-ms250-sealless-magnetic-drive-pump" },
@@ -56,7 +56,7 @@ const categories = [
   {
     title: "Solar Pumps",
     href: "/products/solar-pumps",
-    image: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump.png",
+    image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078721/image-2_mx5ywi.jpg",
     description: "Eco-friendly solar-powered pumping solutions for remote locations, agriculture, and sustainable water management systems. Reliable operation independent of the grid.",
     products: solarProducts.map(p => ({
       name: p.name,
@@ -69,7 +69,7 @@ const categories = [
 const featuredProducts = [
   {
     name: "OMRP-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
-    image: "/products/solar-pumps/xstp-horizontal-single-stage-centrifugal-pump.png",
+    image: "https://www.leopump.com/upload/6122/image/20191217/horizontal-single-stage-centrifugal-pump-xstp--1--701777.png",
     link: "/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump"
   },
   {
@@ -106,7 +106,7 @@ export default function ProductsPage() {
       <section className="relative py-24 border-b border-slate-200 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <Image
-            src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/Ommm.jpg"
+            src="https://res.cloudinary.com/dccvdkffu/image/upload/v1773056911/20250122170520906241_oz9huo.webp"
             alt="Products Background"
             fill
             className="object-cover"
