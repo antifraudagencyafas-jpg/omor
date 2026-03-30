@@ -15,5 +15,5 @@
 **Action:** Use `referrerPolicy="no-referrer"` in Next.js `Image` components to bypass these restrictions when displaying external assets like technical diagrams.
 
 ## 2025-05-24 - [React Component Naming in Next.js]
-**Learning:** Next.js build processes (especially those using SWC or Babel) can fail with cryptic syntax errors when React components exported from page files use hyphens in their names (e.g., `OMR-HC280Page`). React components must follow PascalCase conventions.
+**Learning:** Next.js build processes (especially those using SWC or Babel) can fail with cryptic syntax errors when React components exported from page files use hyphens in their names (e.g., `OMC-HC280Page`). React components must follow PascalCase conventions.
 **Action:** Always use PascalCase for component definitions (e.g., `OMRHC280Page`) to ensure build-time stability and compatibility with standard JS identifiers.

@@ -49,8 +49,8 @@ export default function OMDMS250Page() {
               </h3>
               <ul className="divide-y divide-slate-100">
                 <li>
-                  <Link href="/products/omr-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
-                    <span>OMR Centrifugal Pumps</span>
+                  <Link href="/products/omc-centrifugal-pumps" className="flex items-center justify-between px-6 py-3 text-slate-600 hover:bg-slate-50 hover:text-blue-600 transition-colors font-medium">
+                    <span>OMC Centrifugal Pumps</span>
                     <ChevronRight className="w-4 h-4" />
                   </Link>
                 </li>

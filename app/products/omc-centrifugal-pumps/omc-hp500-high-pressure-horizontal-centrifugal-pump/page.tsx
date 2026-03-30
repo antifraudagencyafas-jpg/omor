@@ -5,11 +5,11 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-VP450 Vertical Processing Pump',
-  description: 'Compact vertical chemical process pump for limited space applications. Ideal for petrochemical, energy, and cryogenic engineering.',
+  title: 'OMC-HP500 Centrifugal Pump',
+  description: 'API standard overhung type horizontal centrifugal pump with integrated temperature sensor for real-time monitoring of corrosive media.',
 };
 
-export default function OMCVP450Page() {
+export default function OMCHP500Page() {
   return (
     <main className="min-h-screen bg-white font-sans text-slate-900 pt-24">
       {/* Breadcrumb */}
@@ -21,9 +21,9 @@ export default function OMCVP450Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <Link href="/products/omr-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMR Centrifugal Pumps</Link>
+          <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-VP450 Vertical Process Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor</span>
         </div>
       </div>
 
@@ -51,18 +51,18 @@ export default function OMCVP450Page() {
                 <li>
                   <details className="group" open>
                     <summary className="flex items-center justify-between px-6 py-3 bg-blue-600 text-white font-medium cursor-pointer list-none">
-                      <span>OMR Centrifugal Pumps</span>
+                      <span>OMC Centrifugal Pumps</span>
                       <ChevronDown className="w-4 h-4 transition-transform group-open:rotate-180" />
                     </summary>
                     <ul className="bg-white px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
-                        <Link href="/products/omr-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OMR Overhung Type Centrifugal Pumps
+                        <Link href="/products/omc-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
+                          OMC Overhung Type Centrifugal Pumps
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products/omr-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OMR Between Bearing Type Centrifugal Pumps
+                        <Link href="/products/omc-centrifugal-pumps" className="block text-sm text-slate-500 hover:text-blue-600">
+                          OMC Between Bearing Type Centrifugal Pumps
                         </Link>
                       </li>
                     </ul>
@@ -95,8 +95,8 @@ export default function OMCVP450Page() {
               <div className="w-full md:w-1/2">
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
-                    src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg"
-                    alt="OMC-VP450 Vertical Process Centrifugal Pump"
+                    src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg"
+                    alt="OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMCVP450Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-VP450 Vertical Process Centrifugal Pump
+                  OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-VP450
+                  Model: OMC-HP500
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    TIP chemical vertical process pumps are specifically designed for vertical installation scenarios with limited space and high-reliability requirements. They are applicable in fields such as petrochemical, energy, and cryogenic engineering, and are suitable for transporting clean or slightly contaminated media.
+                    Redefining industry benchmarks for reliability and efficiency, the OMC-HP500 overhung type horizontal centrifugal pump series is engineered for strict compliance with international standards. It is specifically designed for high-stakes scenarios in the petrochemical industry, energy extraction, and the transportation of highly corrosive media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -129,73 +129,77 @@ export default function OMCVP450Page() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The Omron Tech Pumps OMR series cantilever vertical centrifugal pumps feature a compact vertical layout where the motor is directly connected to the pump body, reducing floor area by 60% compared to horizontal pumps.
+                This pump features a single-stage, single-suction, radial partial volute structure. It is equipped with an integrated Temperature Sensor for real-time monitoring of fluid conditions. It can transport inorganic and organic acids like nitric, sulfuric, and phosphoric acid across a wide range of temperatures.
               </p>
 
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-2">Impeller Design</h4>
-                  <p className="text-sm text-slate-600 leading-relaxed">Single-suction radial closed structure with replaceable wear rings for cost-effective maintenance.</p>
+              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Industrial Applications</h3>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 text-sm text-slate-700 mb-12">
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Petrochemical & Refining</h4>
+                  <p>Crude oil distillation, catalytic cracking, hydro-refining, and intermediate product transfer (ethylene, propylene, benzene, xylene).</p>
                 </div>
-                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-2">Pump Body</h4>
-                  <p className="text-sm text-slate-600 leading-relaxed">Radially split with restricted gasket sealing. Double-volute design for bodies over 80mm.</p>
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Coal Processing</h4>
+                  <p>Coal-to-liquid, coal-to-gas, and coal-to-methanol processes, involving coal slurry and syngas conveyance.</p>
                 </div>
-                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-2">Bearings</h4>
-                  <p className="text-sm text-slate-600 leading-relaxed">Grease lubricated with easy-access filling cups on the bearing cover.</p>
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Power Industry</h4>
+                  <p>Boiler make-up water, condensate systems, and desulfurization/denigration process slurries.</p>
                 </div>
-                <div className="bg-slate-50 p-4 rounded-lg border border-slate-100">
-                  <h4 className="font-bold text-slate-900 mb-2">Shaft Seal</h4>
-                  <p className="text-sm text-slate-600 leading-relaxed">Flexible selection of packing seals or mechanical seals based on conditions.</p>
+                <div>
+                  <h4 className="font-bold text-slate-900 border-b border-slate-100 pb-1 mb-2">Pulp & Paper</h4>
+                  <p>Raw material conveyance from storage to workshops and qualified pulp delivery to the headbox.</p>
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
-              <ul className="space-y-4 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">1. Cryogenic Factories:</span> Transporting liquid ammonia and nitrogen with high sealing performance.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">2. Coal Mining:</span> Handling corrosive mine water and coal washing processes.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">3. Power Plants:</span> Boiler water make-up and desulfurization/denitration systems.</li>
-                <li className="flex items-start"><span className="mr-2 text-blue-600 font-bold">4. Marine Industry:</span> Offshore platforms and seawater desalination plants.</li>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Operating Conditions</h3>
+              <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-2 text-slate-700 list-none pl-0 mb-12">
+                <li><span className="font-bold">Flow Rate:</span> 3 - 2600 m³/h</li>
+                <li><span className="font-bold">Head:</span> 4 - 250 m</li>
+                <li><span className="font-bold">Pressure:</span> Up to 5.0 MPa</li>
+                <li><span className="font-bold">Temperature:</span> -20°C to 450°C</li>
+                <li><span className="font-bold">Speed:</span> 2950 / 1450 rpm</li>
               </ul>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Working Conditions</h3>
-              <div className="overflow-x-auto">
-                <table className="min-w-full border-collapse border border-slate-200">
-                  <tbody className="text-sm text-slate-700">
-                    <tr>
-                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold w-48">Flow Rate</td>
-                      <td className="border border-slate-200 px-4 py-2">2 - 2600 m³/h</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Head</td>
-                      <td className="border border-slate-200 px-4 py-2">0 - 250 m</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Max Pressure</td>
-                      <td className="border border-slate-200 px-4 py-2">≤ 2.5 MPa</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Temperature</td>
-                      <td className="border border-slate-200 px-4 py-2">-20°C to 250°C</td>
-                    </tr>
-                    <tr>
-                      <td className="border border-slate-200 bg-slate-50 px-4 py-2 font-bold">Max Speed</td>
-                      <td className="border border-slate-200 px-4 py-2">2900 rpm</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
+              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
+                <div className="relative w-full max-w-2xl aspect-[16/10]">
+                  <Image
+                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh2-overhung-type-horizontal-centrifugal-pumps--2--698125.webp"
+                    alt="OMC-HP500 Structure Diagram"
+                    fill
+                    className="object-contain"
+                    referrerPolicy="no-referrer"
+                  />
+                </div>
+              </div>
+
+              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameters</h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-12">
+                {[1, 2, 3, 4, 5, 6].map((i) => (
+                  <div key={i} className="border border-slate-200 rounded p-2 bg-white">
+                    <div className="relative aspect-[4/3] w-full">
+                      <Image
+                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/ys${i}.jpg`}
+                        alt={`Parameter Chart ${i}`}
+                        fill
+                        className="object-contain"
+                        referrerPolicy="no-referrer"
+                      />
+                    </div>
+                  </div>
+                ))}
               </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-VP450",
-                  "Vertical Processing Pump",
-                  "Space-Saving Design",
-                  "Cryogenic Engineering",
-                  "Chemical Fiber Industry",
-                  "Compact Pump"
+                  "OMC-HP500",
+                  "Temperature Sensor",
+                  "Monitoring Integrated",
+                  "API Standard",
+                  "High Temperature Pump",
+                  "Chemical Processing"
                 ].map((tag, idx) => (
                   <span
                     key={idx} 
