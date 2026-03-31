@@ -6,8 +6,8 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-HM650 High-Mount Horizontal Centrifugal Pump',
-  description: 'High-performance OMC-HM650 horizontal centrifugal pump with excellent craftsmanship, minimal vibration, and strong stability for industrial use.',
+  title: 'OMC-HM 650 High-Mount Horizontal Centrifugal Pump',
+  description: 'High-performance OMC-HM 650 horizontal centrifugal pump with excellent craftsmanship, minimal vibration, and strong stability for industrial use.',
 };
 
 export default function OMCHM650Page() {
@@ -24,7 +24,7 @@ export default function OMCHM650Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
         </div>
       </div>
 
@@ -97,7 +97,7 @@ export default function OMCHM650Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg"
-                    alt="OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP"
+                    alt="OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -106,10 +106,10 @@ export default function OMCHM650Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-HM650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP
+                  OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-HM650
+                  Model: OMC-HM 650
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
@@ -133,20 +133,7 @@ export default function OMCHM650Page() {
                 The Omron Tech Pumps OMC series features excellent craftsmanship. The horizontal structure gives it a low center of gravity and uniform stress distribution. The High mount horizontal centrifugal pump shaft is connected and positioned precisely, resulting in minimal vibration, strong stability during operation, and convenient maintenance. Its hydraulic flow-through components adopt an advanced model, with an efficiency 5-8% higher than that of ordinary pumps, which can reduce enterprise costs.
               </p>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Schematic Diagram</h3>
-              <p className="text-slate-700 mb-6 uppercase text-sm font-semibold">Api Oh4 Overhung Type Horizontal Centrifugal Pump</p>
 
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/10]">
-                  <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh4-overhung-type-horizontal-centrifugal-pumps--2--940998.webp"
-                    alt="OMC-HM650 Schematic Diagram"
-                    fill
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Application Areas</h3>
               <p className="text-slate-700 mb-4 font-medium italic">
@@ -237,27 +224,11 @@ export default function OMCHM650Page() {
                 </table>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-6">Performance Parameter Diagram</h3>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-                {['p1c-1', 'p3c-1'].map((img, i) => (
-                  <div key={i} className="border border-slate-200 rounded-lg p-4 bg-white shadow-md">
-                    <div className="relative w-full aspect-[4/3]">
-                      <Image
-                        src={`https://omrontechpumps.com/sitepad-data/uploads/2026/01/${img}.jpg`}
-                        alt={`Performance Curve ${i + 1}`}
-                        fill
-                        className="object-contain"
-                        referrerPolicy="no-referrer"
-                      />
-                    </div>
-                  </div>
-                ))}
-              </div>
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-HM650",
+                  "OMC-HM 650",
                   "High Mount Centrifugal",
                   "Horizontal Pump",
                   "Chemical Industry",

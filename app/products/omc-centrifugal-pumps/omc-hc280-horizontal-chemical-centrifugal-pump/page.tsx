@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-HC280 Centrifugal Pump',
+  title: 'OMC-HC 280 Centrifugal Pump',
   description: 'Efficient and reliable horizontal centrifugal pump for petrochemical processes. Features open/semi-open impellers and enhanced cavitation resistance.',
 };
 
@@ -23,7 +23,7 @@ export default function OMCHC280Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-HC280 Horizontal Chemical Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HC 280 Horizontal Chemical Centrifugal Pump</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export default function OMCHC280Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg"
-                    alt="OMC-HC280 Horizontal Chemical Centrifugal Pump"
+                    alt="OMC-HC 280 Horizontal Chemical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMCHC280Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-HC280 Horizontal Chemical Centrifugal Pump
+                  OMC-HC 280 Horizontal Chemical Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-HC280
+                  Model: OMC-HC 280
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Specifically crafted for the intricate technological processes in the petrochemical field, the OMC-HC280 series is highly efficient and reliable. It features a foot-supported structure with open or semi-open impellers, designed for high-performance fluid transportation in demanding industrial environments.
+                    Specifically crafted for the intricate technological processes in the petrochemical field, the OMC-HC 280 series is highly efficient and reliable. It features a foot-supported structure with open or semi-open impellers, designed for high-performance fluid transportation in demanding industrial environments.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -129,7 +129,7 @@ export default function OMCHC280Page() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                The OMC-HC280 series stands out with its meticulously engineered hydraulic performance. It solves usage and installation defects often found in standard process pumps. The increased inlet diameter reduces flow rate at the entry, significantly enhancing cavitation resistance. Wearing parts like rings and sleeves are easily replaceable, drastically reducing long-term maintenance costs.
+                The OMC-HC 280 series stands out with its meticulously engineered hydraulic performance. It solves usage and installation defects often found in standard process pumps. The increased inlet diameter reduces flow rate at the entry, significantly enhancing cavitation resistance. Wearing parts like rings and sleeves are easily replaceable, drastically reducing long-term maintenance costs.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Industrial Application Fields</h3>
@@ -166,23 +166,12 @@ export default function OMCHC280Page() {
                 </div>
               </div>
 
-              <h3 className="text-xl font-bold text-slate-800 mb-4">Centrifugal Pump Diagram</h3>
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/10]">
-                  <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250321/api-oh1-horizontal-centrifugal-pumps-for-oil-and-chemical-flow--2--903872.webp"
-                    alt="OMC-HC280 Oil and Chemical Flow Diagram"
-                    fill
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
-                </div>
-              </div>
+
 
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-HC280",
+                  "OMC-HC 280",
                   "Oil and Chemical Flow",
                   "Semi-Open Impeller",
                   "High Efficiency",
