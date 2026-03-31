@@ -133,15 +133,35 @@ export default function OMCSR750Page() {
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-8">Model Significance & Operating Conditions</h3>
-              <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
-                <div className="relative w-full max-w-2xl aspect-[16/6]">
-                  <Image
-                    src="https://www.teffiko.com/upload/8025/image/20250411/twsp-02-165817.jpg"
-                    alt="Model Significance"
-                    fill
-                    className="object-contain"
-                    referrerPolicy="no-referrer"
-                  />
+
+              <div className="bg-slate-50 p-6 rounded-lg border border-slate-200 my-8">
+                <div className="flex flex-wrap items-center justify-center gap-4 mb-8 text-2xl font-bold text-blue-600 tracking-widest">
+                  <span className="border-b-2 border-blue-600 pb-1">100</span>
+                  <span className="border-b-2 border-blue-600 pb-1 uppercase">OMC</span>
+                  <span className="border-b-2 border-blue-600 pb-1">50</span>
+                  <span className="text-slate-400">-</span>
+                  <span className="border-b-2 border-blue-600 pb-1">20</span>
+                  <span className="border-b-2 border-blue-600 pb-1 uppercase">A</span>
+                  <span className="border-b-2 border-blue-600 pb-1 uppercase">B</span>
+                </div>
+
+                <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-slate-700 list-none pl-0">
+                  <li className="flex items-start"><span className="w-12 flex-shrink-0 font-bold text-blue-600">100</span> <span>Pump inlet diameter</span></li>
+                  <li className="flex items-start"><span className="w-12 flex-shrink-0 font-bold text-blue-600">OMC</span> <span>Non-clogging slurry pump</span></li>
+                  <li className="flex items-start"><span className="w-12 flex-shrink-0 font-bold text-blue-600">50</span> <span>Pump flow</span></li>
+                  <li className="flex items-start"><span className="w-12 flex-shrink-0 font-bold text-blue-600">20</span> <span>Pump head</span></li>
+                  <li className="flex items-start"><span className="w-12 flex-shrink-0 font-bold text-blue-600">A</span> <span>The impeller has been cut for the first time</span></li>
+                  <li className="flex items-start"><span className="w-12 flex-shrink-0 font-bold text-blue-600">B</span> <span>The impeller has been cut for the second time</span></li>
+                </ul>
+
+                <div className="mt-8 pt-6 border-t border-slate-200">
+                  <h4 className="text-lg font-bold text-slate-800 mb-4">Operating Conditions</h4>
+                  <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3 text-slate-700 list-none pl-0">
+                    <li className="flex items-center gap-2"><span className="w-2 h-2 bg-blue-600 rounded-full"></span> <strong>Flow rate:</strong> 6-800 m³/h</li>
+                    <li className="flex items-center gap-2"><span className="w-2 h-2 bg-blue-600 rounded-full"></span> <strong>Head:</strong> 12-60 m</li>
+                    <li className="flex items-center gap-2"><span className="w-2 h-2 bg-blue-600 rounded-full"></span> <strong>Temperature:</strong> Below 110°C</li>
+                    <li className="flex items-center gap-2"><span className="w-2 h-2 bg-blue-600 rounded-full"></span> <strong>Concentration:</strong> Below 6%</li>
+                  </ul>
                 </div>
               </div>
 
