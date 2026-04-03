@@ -73,7 +73,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">sales@omrontechpumps.com</p>
+                        <p className="text-slate-600">sales@omrontechpumps.nl</p>
                       </div>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">nl.sales@omrontechpumps.com</p>
+                        <p className="text-slate-600">export@omrontechpumps.com</p>
                       </div>
                     </div>
                   </div>
