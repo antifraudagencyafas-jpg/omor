@@ -15,15 +15,24 @@ export default function FloatingContact() {
         </span>
       </a>
       
-      <a 
-        href="mailto:sales@omrontechpumps.com" 
-        className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 hover:scale-110 transition-all duration-300 group relative"
-      >
-        <Mail className="w-7 h-7" />
-        <span className="absolute right-full mr-4 bg-slate-900 text-white text-sm px-3 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">
-          Email Us
-        </span>
-      </a>
+      <div className="relative group flex flex-col items-end">
+        <button
+          className="w-14 h-14 bg-blue-600 text-white rounded-full flex items-center justify-center shadow-lg hover:bg-blue-700 hover:scale-110 transition-all duration-300 relative"
+        >
+          <Mail className="w-7 h-7" />
+        </button>
+        <div className="absolute right-full mr-4 bottom-0 flex flex-col space-y-2 opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none group-hover:pointer-events-auto">
+          <a href="mailto:sales@omrontechpumps.nl" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
+            Turkey: sales@omrontechpumps.nl
+          </a>
+          <a href="mailto:operations@omrontechpumps.com" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
+            USA: operations@omrontechpumps.com
+          </a>
+          <a href="mailto:export@omrontechpumps.com" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
+            NL: export@omrontechpumps.com
+          </a>
+        </div>
+      </div>
     </div>
   );
 }

@@ -10,7 +10,7 @@ export default function TopHeader() {
         </div>
         <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
           <Mail className="w-4 h-4 text-white" />
-          <span>sales@omrontechpumps.com</span>
+          <span>sales@omrontechpumps.nl</span>
         </div>
       </div>
       <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors cursor-pointer">
