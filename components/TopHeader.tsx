@@ -8,22 +8,9 @@ export default function TopHeader() {
           <Phone className="w-4 h-4 text-white" />
           <span>+3197010238786</span>
         </div>
-        <div className="flex flex-wrap items-center gap-x-6 gap-y-1">
-          <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
-            <Mail className="w-4 h-4 text-white" />
-            <span className="font-semibold text-xs uppercase tracking-tight text-blue-100 mr-1">TR:</span>
-            <span>sales@omrontechpumps.nl</span>
-          </div>
-          <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
-            <Mail className="w-4 h-4 text-white" />
-            <span className="font-semibold text-xs uppercase tracking-tight text-blue-100 mr-1">USA:</span>
-            <span>operations@omrontechpumps.com</span>
-          </div>
-          <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
-            <Mail className="w-4 h-4 text-white" />
-            <span className="font-semibold text-xs uppercase tracking-tight text-blue-100 mr-1">NL:</span>
-            <span>export@omrontechpumps.com</span>
-          </div>
+        <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors">
+          <Mail className="w-4 h-4 text-white" />
+          <span>sales@omrontechpumps.nl</span>
         </div>
       </div>
       <div className="flex items-center space-x-2 hover:text-blue-200 transition-colors cursor-pointer">

@@ -131,7 +131,7 @@ export default function ContactPage() {
                         <Phone className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">+1 (575) 3336-629</p>
+                        <p className="text-slate-600">+1 (217) 604-7442</p>
                       </div>
                     </div>
                     <div className="flex items-start">
