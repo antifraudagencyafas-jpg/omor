@@ -6,7 +6,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-HM 650 High-Mount Horizontal Centrifugal Pump',
+  title: 'OMC-HM 650 High Mount Horizontal Centrifugal Pump',
   description: 'High-performance OMC-HM 650 horizontal centrifugal pump with excellent craftsmanship, minimal vibration, and strong stability for industrial use.',
 };
 
@@ -24,7 +24,7 @@ export default function OMCHM650Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP</span>
         </div>
       </div>
 
@@ -97,7 +97,7 @@ export default function OMCHM650Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg"
-                    alt="OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP"
+                    alt="OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -106,7 +106,7 @@ export default function OMCHM650Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP
+                  OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: OMC-HM 650
