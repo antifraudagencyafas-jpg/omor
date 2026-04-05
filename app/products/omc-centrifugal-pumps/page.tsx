@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function OMCCentrifugalPumpsPage() {
   const products = [
     {
-      name: "OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+      name: "OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
       description: "The Omron Tech Pumps OMC series of OMC-HM 650 high mount horizontal centrifugal pumps is a high-performance product developed by our company. Based on traditional centrifugal pumps, we have integrated advanced structural concepts to create an ideal choice for stable production in demanding industrial processes.",
       href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
@@ -154,7 +154,7 @@ export default function OMCCentrifugalPumpsPage() {
                     <ul className="bg-slate-50 px-6 py-3 space-y-3 border-t border-slate-100">
                       <li>
                         <Link href="/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP
+                          OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP
                         </Link>
                       </li>
                       <li>
@@ -192,7 +192,7 @@ export default function OMCCentrifugalPumpsPage() {
                 {[
                   { title: "OMC-HC 280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
                   { title: "OMC-SR 750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
-                  { title: "OMC-HM 650 High-Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+                  { title: "OMC-HM 650 High Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
                   { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (
                   <Link href={np.link} key={i} className="flex items-center gap-4 group">

@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "motion/react";
 
 const placeholderProducts = [
   { 
-    name: "OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
     materials: "Stainless Steel 316, Duplex Stainless Steel, Titanium",
     dimensions: "1200mm x 800mm x 2100mm",

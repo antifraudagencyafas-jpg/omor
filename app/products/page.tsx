@@ -16,7 +16,7 @@ const categories = [
     image: "https://res.cloudinary.com/dccvdkffu/image/upload/v1773078719/image-3_qfrjwx.jpg",
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
-      { name: "OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
+      { name: "OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
       { name: "OMC-SR 750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
       { name: "OMC-VC 320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
       { name: "OMC-TS 420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
@@ -73,7 +73,7 @@ const featuredProducts = [
     link: "/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump"
   },
   {
-    name: "OMC-HM 650 HIGH-MOUNT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
     link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
