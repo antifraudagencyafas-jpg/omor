@@ -16,7 +16,7 @@ const placeholderProducts = [
     link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   { 
-    name: "OMC-SR 750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR 750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",

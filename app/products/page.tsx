@@ -17,7 +17,7 @@ const categories = [
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
       { name: "OMC-HM 650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-      { name: "OMC-SR 750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+      { name: "OMC-SR 750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
       { name: "OMC-VC 320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
       { name: "OMC-TS 420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
       { name: "OMC-VP 450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
@@ -78,7 +78,7 @@ const featuredProducts = [
     link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   {
-    name: "OMC-SR 750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR 750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
     link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
   },
