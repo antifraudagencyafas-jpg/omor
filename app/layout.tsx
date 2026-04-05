@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { Analytics } from '@vercel/analytics/next';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://omrontechpumps.nl'),
   title: {
     default: 'Omron Tech Pumps | Industrial Pump Manufacturer',
     template: '%s | Omron Tech Pumps'
@@ -16,6 +17,9 @@ export const metadata: Metadata = {
   authors: [{ name: 'Omron Tech Pumps' }],
   creator: 'Omron Tech Pumps',
   publisher: 'Omron Tech Pumps',
+  alternates: {
+    canonical: '/',
+  },
   robots: {
     index: true,
     follow: true,
@@ -46,7 +50,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang="nl" className="scroll-smooth">
       <body suppressHydrationWarning className="min-h-screen bg-white font-sans text-slate-900">
         <TopHeader />
         <Navbar />
