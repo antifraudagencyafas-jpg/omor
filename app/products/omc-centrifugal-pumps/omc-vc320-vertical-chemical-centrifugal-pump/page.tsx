@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-VC 320 Vertical Chemical Centrifugal Pump',
+  title: 'OMC-VC320 Vertical Chemical Centrifugal Pump',
   description: 'High-performance overhung type vertical centrifugal pump for chemical processing. Features high concentricity, low vibration, and energy-saving hydraulic model.',
 };
 
@@ -23,7 +23,7 @@ export default function OMCVC320Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-VC 320 Chemical Vertical Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-VC320 Chemical Vertical Centrifugal Pump</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export default function OMCVC320Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg"
-                    alt="OMC-VC 320 Chemical Vertical Centrifugal Pump"
+                    alt="OMC-VC320 Chemical Vertical Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,10 +105,10 @@ export default function OMCVC320Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-VC 320 Chemical Vertical Centrifugal Pump
+                  OMC-VC320 Chemical Vertical Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-VC 320
+                  Model: OMC-VC320
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
@@ -161,7 +161,7 @@ export default function OMCVC320Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-VC 320",
+                  "OMC-VC320",
                   "Vertical Centrifugal",
                   "Overhung Type",
                   "Chemical Vertical Pump",

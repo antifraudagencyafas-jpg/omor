@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-HP 500 Centrifugal Pump',
+  title: 'OMC-HP500 Centrifugal Pump',
   description: 'API standard overhung type horizontal centrifugal pump with integrated temperature sensor for real-time monitoring of corrosive media.',
 };
 
@@ -23,7 +23,7 @@ export default function OMCHP500Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-HP 500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export default function OMCHP500Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg"
-                    alt="OMC-HP 500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor"
+                    alt="OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMCHP500Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-HP 500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor
+                  OMC-HP500 High-Pressure Horizontal Centrifugal Pump with Temperature Sensor
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-HP 500
+                  Model: OMC-HP500
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Redefining industry benchmarks for reliability and efficiency, the OMC-HP 500 overhung type horizontal centrifugal pump series is engineered for strict compliance with international standards. It is specifically designed for high-stakes scenarios in the petrochemical industry, energy extraction, and the transportation of highly corrosive media.
+                    Redefining industry benchmarks for reliability and efficiency, the OMC-HP500 overhung type horizontal centrifugal pump series is engineered for strict compliance with international standards. It is specifically designed for high-stakes scenarios in the petrochemical industry, energy extraction, and the transportation of highly corrosive media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -183,7 +183,7 @@ export default function OMCHP500Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-HP 500",
+                  "OMC-HP500",
                   "Temperature Sensor",
                   "Monitoring Integrated",
                   "API Standard",

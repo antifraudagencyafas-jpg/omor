@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-VP 450 Vertical Processing Pump',
+  title: 'OMC-VP450 Vertical Processing Pump',
   description: 'Compact vertical chemical process pump for limited space applications. Ideal for petrochemical, energy, and cryogenic engineering.',
 };
 
@@ -23,7 +23,7 @@ export default function OMCVP450Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-VP 450 Vertical Process Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-VP450 Vertical Process Centrifugal Pump</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export default function OMCVP450Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg"
-                    alt="OMC-VP 450 Vertical Process Centrifugal Pump"
+                    alt="OMC-VP450 Vertical Process Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,10 +105,10 @@ export default function OMCVP450Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-VP 450 Vertical Process Centrifugal Pump
+                  OMC-VP450 Vertical Process Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-VP 450
+                  Model: OMC-VP450
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
@@ -190,7 +190,7 @@ export default function OMCVP450Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-VP 450",
+                  "OMC-VP450",
                   "Vertical Processing Pump",
                   "Space-Saving Design",
                   "Cryogenic Engineering",
