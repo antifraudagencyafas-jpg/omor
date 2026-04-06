@@ -165,7 +165,7 @@ export default function OMDMS250Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250407/fluoroplastic-corrosion resistant-magnetic-pump--2--126988.webp"
+                    src="https://www.teffiko.com/upload/8025/image/20250407/fluoroplastic-corrosion-resistant-magnetic-pump--2--126988.webp"
                     alt="OMD-MS250 Sealless Magnetic Drive Pump Structure"
                     fill 
                     className="object-contain"

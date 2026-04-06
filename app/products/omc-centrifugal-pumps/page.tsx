@@ -13,26 +13,26 @@ export default function OMCCentrifugalPumpsPage() {
     {
       name: "OMC-HM650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg",
-      description: "The Omron Tech Pumps OMC series of OMC-HM650 high mount horizontal centrifugal pumps is a high performance product developed by our company. Based on traditional centrifugal pumps, we have integrated advanced structural concepts to create an ideal choice for stable production in demanding industrial processes.",
+      description: "The Omron Tech Pumps OMC series of OMC-HM650 high mount horizontal centrifugal pumps is a high-performance product developed by our company. Based on traditional centrifugal pumps, we have integrated advanced structural concepts to create an ideal choice for stable production in demanding industrial processes.",
       href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
     },
     {
       name: "OMC-SR750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
       description: "Specifically designed for transporting slurries containing impurities such as solid particles and fibers. It features high efficiency, minimal leakage, and exceptional anti-clogging performance for chemical, mining, and power industries.",
-      href: "/products/omc-centrifugal-pumps/omc-sr750-slurry resistant-horizontal-centrifugal-pump"
+      href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
     },
     {
       name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg",
-      description: "A high performance overhung type vertical centrifugal pump engineered for chemical processing. It features a flange-connected shaft and high-efficiency hydraulic model, ensuring stable operation under complex corrosive conditions.",
+      description: "A high-performance overhung type vertical centrifugal pump engineered for chemical processing. It features a flange-connected shaft and high-efficiency hydraulic model, ensuring stable operation under complex corrosive conditions.",
       href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump"
     },
     {
       name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg",
       description: "OMC Horizontal Centrifugal Pumps For Heat Preservation for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in Omron Tech Pumps series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise tempera control, ensuring efficient and stable transportation, and demonstrating excellent performance under cor working conditions, thus facilitating the smooth o DeFNDG of chemical production processes. We adhere to the principle of putting customers first, providing professional selection advice and customized services, making every effort to maintain equipment stability. Our prices are also highly competitive, allowing you to obtain high - quality products at an affordable cost.",
-      href: "/products/omc-centrifugal-pumps/omc-ts420-temperature sensor-horizontal-centrifugal-pump"
+      href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump"
     },
     {
       name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP",
@@ -50,19 +50,19 @@ export default function OMCCentrifugalPumpsPage() {
       name: "OMC-HP500 HIGH PRESSURE HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2026/01/smmm.jpg",
       description: "As a global leader in industrial fluid technology Omron Tech Pumps has newly launched the OMC-HP500 overhung type horizontal centrifugal pumps series. This series is centered around strict compliance with the international standard of the American Petroleum Institute. It is specifically designed for scenarios in petrochemical industry, energy extraction, and transportation of highly corrosive media, redefining the industry benchmark for reliability and efficiency.",
-      href: "/products/omc-centrifugal-pumps/omc-hp500-high pressure-horizontal-centrifugal-pump"
+      href: "/products/omc-centrifugal-pumps/omc-hp500-high-pressure-horizontal-centrifugal-pump"
     },
     {
       name: "OMC-FC260 HEAVY DUTY HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/4pvb-1.jpg",
       description: "As a global leader in industrial fluid technology Omron Tech Pumps has newly launched the OMC-FC260 overhung type horizontal centrifugal pumps series. This series is centered around strict compliance with the international standard of the American Petroleum Institute. It is specifically designed for scenarios in petrochemical industry, energy extraction, and transportation of highly corrosive media, redefining the industry benchmark for reliability and efficiency.",
-      href: "/products/omc-centrifugal-pumps/omc-fc260-heavy duty-horizontal-centrifugal-pump"
+      href: "/products/omc-centrifugal-pumps/omc-fc260-heavy-duty-horizontal-centrifugal-pump"
     },
     {
       name: "OMC-HT800 HIGH TEMPERATURE HORIZONTAL CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/8pvb.jpg",
       description: "OMC Horizontal Centrifugal Pumps For Heat Preserva for Heat Preservation, the innovative upgrade from chemical pumps, are crafted by Omron Tech Pumps. The pumps in Omron Tech Pumps series feature ingenious designs. Their hollow sandwich structure is compatible with a variety of insulating media, enabling precise temperature control, ensuring efficient and stable transportation, and demonstrating excellent performance under complex working conditions, thus facilitating the smooth operation of chemical production processes. We adhere to the principle of putting customers first, providing professional selection advice and customized services, making every effort to maintain equipment stability. Our prices are also highly competitive, allowing you to obtain high - quality products at an affordable cost.",
-      href: "/products/omc-centrifugal-pumps/omc-ht800-high pressure-horizontal-centrifugal-pump"
+      href: "/products/omc-centrifugal-pumps/omc-ht800-high-temperature-horizontal-centrifugal-pump"
     }
   ];
 
@@ -191,7 +191,7 @@ export default function OMCCentrifugalPumpsPage() {
               <div className="p-4 space-y-4">
                 {[
                   { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
-                  { title: "OMC-SR750 Slurry Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
                   { title: "OMC-HM650 High Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
                   { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (

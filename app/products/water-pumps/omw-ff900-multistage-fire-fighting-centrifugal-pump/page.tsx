@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMW-FF900 Multistage Fire Fighting Centrifugal Pump',
+  title: 'OMW-FF900 Multistage Fire-Fighting Centrifugal Pump',
   description: 'Robust vertical multistage fire fighting centrifugal pump for industrial fire safety systems. High pressure, reliable water supply.',
 };
 
@@ -23,7 +23,7 @@ export default function OMW7MQL8Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/water-pumps" className="hover:text-blue-600 transition-colors">Water Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMW-FF900 Multistage Fire Fighting Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMW-FF900 Multistage Fire-Fighting Centrifugal Pump</span>
         </div>
       </div>
 
@@ -73,8 +73,8 @@ export default function OMW7MQL8Page() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products/water-pumps/omw-ff900-multistage-fire fighting-centrifugal-pump" className="block text-sm text-blue-600 font-medium">
-                          OMW-FF900 Multistage Fire Fighting Centrifugal Pump
+                        <Link href="/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" className="block text-sm text-blue-600 font-medium">
+                          OMW-FF900 Multistage Fire-Fighting Centrifugal Pump
                         </Link>
                       </li>
                     </ul>
@@ -96,7 +96,7 @@ export default function OMW7MQL8Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg"
-                    alt="OMW-FF900 Multistage Fire Fighting Centrifugal Pumps"
+                    alt="OMW-FF900 Multistage Fire-Fighting Centrifugal Pumps"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMW7MQL8Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMW-FF900 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMP
+                  OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
                   Model: OMW-FF900
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Integrating global fire protection standards, the OMW7MQL8 series features an innovative detachable vertical structure. It is designed to provide high pressure water supply with maximum reliability and simplified maintenance.
+                    Integrating global fire protection standards, the OMW7MQL8 series features an innovative detachable vertical structure. It is designed to provide high-pressure water supply with maximum reliability and simplified maintenance.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -135,7 +135,7 @@ export default function OMW7MQL8Page() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-12">
                 <div className="p-4 bg-slate-50 border border-slate-200 rounded">
                   <h4 className="font-bold text-slate-900 mb-1">Fire Safety Compliant</h4>
-                  <p className="text-sm text-slate-600">Strictly adheres to international fire fighting pressurization standards.</p>
+                  <p className="text-sm text-slate-600">Strictly adheres to international fire-fighting pressurization standards.</p>
                 </div>
                 <div className="p-4 bg-slate-50 border border-slate-200 rounded">
                   <h4 className="font-bold text-slate-900 mb-1">Pipeline Design</h4>
@@ -145,8 +145,8 @@ export default function OMW7MQL8Page() {
 
               <h3 className="text-xl font-bold text-slate-800 mb-4">Main Applications</h3>
               <ul className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-2 text-slate-700 list-none pl-0 mb-12">
-                <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> Industrial Fire Fighting Systems</li>
-                <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> High Rise Parallel Water Supply</li>
+                <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> Industrial Fire-Fighting Systems</li>
+                <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> High-Rise Parallel Water Supply</li>
                 <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> Boiler Feed Water Systems</li>
                 <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> High Pressure Cleaning Liquids</li>
               </ul>
@@ -183,7 +183,7 @@ export default function OMW7MQL8Page() {
               <div className="my-8 border border-slate-200 rounded-lg p-4 bg-white flex justify-center">
                 <div className="relative w-full max-w-2xl aspect-[16/10]">
                   <Image 
-                    src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-fire fighting-centrifugal-pump--2--276824.webp"
+                    src="https://www.teffiko.com/upload/8025/image/20250407/vertical-multistage-fire-fighting-centrifugal-pump--2--276824.webp"
                     alt="OMW7MQL8 Fire Pump Diagram"
                     fill 
                     className="object-contain"
