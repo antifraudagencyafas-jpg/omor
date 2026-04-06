@@ -16,12 +16,12 @@ const placeholderProducts = [
     link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   { 
-    name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
     materials: "Carbon Steel, Stainless Steel 316, Alloy 20",
     dimensions: "1500mm x 900mm x 1100mm",
     performance: "Flow rate up to 1200 m³/h, Head up to 300m",
-    link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
+    link: "/products/omc-centrifugal-pumps/omc-sr750-slurry resistant-horizontal-centrifugal-pump"
   },
   { 
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
@@ -83,7 +83,7 @@ export default function FeaturedProducts() {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-[#004b9a] mb-4">Featured Products</h2>
           <p className="mt-4 text-slate-600 max-w-2xl mx-auto">
-            Explore our range of high-performance industrial pumps engineered for reliability and efficiency.
+            Explore our range of high performance industrial pumps engineered for reliability and efficiency.
           </p>
         </div>
 

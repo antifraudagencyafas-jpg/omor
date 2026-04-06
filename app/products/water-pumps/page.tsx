@@ -17,10 +17,10 @@ export default function WaterPumpsPage() {
       href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump"
     },
     {
-      name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP",
+      name: "OMW-FF900 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMP",
       image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg",
       description: "Reliable and robust fire fighting centrifugal pumps designed to meet stringent safety standards. Ensures high pressure and consistent water flow for critical emergency situations.",
-      href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump"
+      href: "/products/water-pumps/omw-ff900-multistage-fire fighting-centrifugal-pump"
     }
   ];
 
@@ -61,7 +61,7 @@ export default function WaterPumpsPage() {
               "High hydraulic efficiency",
               "Durable cast iron or stainless steel construction",
               "Low life-cycle costs",
-              "Available in single and multi-stage configurations",
+              "Available in single and multi stage configurations",
               "Optimized for continuous duty"
             ].map((feature, idx) => (
               <li key={idx} className="flex items-start text-slate-700">
@@ -128,8 +128,8 @@ export default function WaterPumpsPage() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
-                          OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP
+                        <Link href="/products/water-pumps/omw-ff900-multistage-fire fighting-centrifugal-pump" className="block text-sm text-slate-600 hover:text-[#0047b3]">
+                          OMW-FF900 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMP
                         </Link>
                       </li>
                     </ul>
@@ -151,7 +151,7 @@ export default function WaterPumpsPage() {
               <div className="p-4 space-y-4">
                 {[
                   { title: "OMC-HC280 Horizontal Chemical Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
-                  { title: "OMC-SR750 Slurry-Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+                  { title: "OMC-SR750 Slurry Resistant Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", link: "/products/omc-centrifugal-pumps/omc-sr750-slurry resistant-horizontal-centrifugal-pump" },
                   { title: "OMC-HM650 High Mount Horizontal Centrifugal Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
                   { title: "OMT-VS150 Viscous Handling Single Screw Pump", img: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/9pvb-1.jpg", link: "/products/screw-pumps/omt-vs150-viscous-handling-single-screw-pump" }
                 ].map((np, i) => (

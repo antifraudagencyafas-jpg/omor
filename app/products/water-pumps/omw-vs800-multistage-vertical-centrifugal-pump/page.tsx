@@ -73,8 +73,8 @@ export default function OMW35HFRPage() {
                         </Link>
                       </li>
                       <li>
-                        <Link href="/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" className="block text-sm text-slate-500 hover:text-blue-600">
-                          OMW-FF900 Multistage Fire-Fighting Centrifugal Pump
+                        <Link href="/products/water-pumps/omw-ff900-multistage-fire fighting-centrifugal-pump" className="block text-sm text-slate-500 hover:text-blue-600">
+                          OMW-FF900 Multistage Fire Fighting Centrifugal Pump
                         </Link>
                       </li>
                     </ul>
@@ -112,7 +112,7 @@ export default function OMW35HFRPage() {
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The OMW vertical multistage stainless steel centrifugal pump is a multi-functional product designed for high efficiency and energy conservation. This non-self-priming pump is compatible with standard motors and features a space-saving vertical structure where inlet and outlet are in a straight line at the bottom.
+                    The OMW vertical multistage stainless steel centrifugal pump is a multi-functional product designed for high efficiency and energy conservation. This non-self priming pump is compatible with standard motors and features a space-saving vertical structure where inlet and outlet are in a straight line at the bottom.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -138,7 +138,7 @@ export default function OMW35HFRPage() {
                   <li>Water plant filtration and zoned supply</li>
                   <li>High-rise building water pressurization</li>
                   <li>Industrial process water & cleaning systems</li>
-                  <li>Fire-fighting and high-pressure flushing</li>
+                  <li>Fire-fighting and high pressure flushing</li>
                 </ul>
                 <ul className="list-disc pl-5 space-y-2">
                   <li>Boiler feed water & condensate systems</li>

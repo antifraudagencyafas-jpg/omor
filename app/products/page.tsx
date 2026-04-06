@@ -17,9 +17,9 @@ const categories = [
     description: "Engineered for high flow rates and continuous operation. These robust centrifugal pumps deliver exceptional reliability in transferring low viscosity fluids across various industrial processes.",
     products: [
       { name: "OMC-HM650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/1pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump" },
-      { name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump" },
+      { name: "OMC-SR750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-sr750-slurry resistant-horizontal-centrifugal-pump" },
       { name: "OMC-VC320 VERTICAL CHEMICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/2pvb-2.jpg", href: "/products/omc-centrifugal-pumps/omc-vc320-vertical-chemical-centrifugal-pump" },
-      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature-sensor-horizontal-centrifugal-pump" },
+      { name: "OMC-TS420 TEMPERATURE SENSOR HORIZONTAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/6pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-ts420-temperature sensor-horizontal-centrifugal-pump" },
       { name: "OMC-VP450 VERTICAL PROCESS CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/3pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-vp450-vertical-process-centrifugal-pump" },
       { name: "OMC-HC280 HORIZONTAL CHEMICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/7pvb-1.jpg", href: "/products/omc-centrifugal-pumps/omc-hc280-horizontal-chemical-centrifugal-pump" },
     ]
@@ -41,7 +41,7 @@ const categories = [
     description: "High-capacity water transport solutions for industrial cooling, municipal supply, and wastewater management. Designed for maximum energy efficiency and minimal maintenance.",
     products: [
       { name: "OMW-VS800 MULTISTAGE VERTICAL CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/11pvb-1.jpg", href: "/products/water-pumps/omw-vs800-multistage-vertical-centrifugal-pump" },
-      { name: "OMW-FF900 MULTISTAGE FIRE-FIGHTING CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg", href: "/products/water-pumps/omw-ff900-multistage-fire-fighting-centrifugal-pump" },
+      { name: "OMW-FF900 MULTISTAGE FIRE FIGHTING CENTRIFUGAL PUMP", image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/water-pmp111.jpg", href: "/products/water-pumps/omw-ff900-multistage-fire fighting-centrifugal-pump" },
     ]
   },
   {
@@ -68,9 +68,9 @@ const categories = [
 
 const featuredProducts = [
   {
-    name: "OMRP-ES200 HORIZONTAL END-SUCTION CENTRIFUGAL PUMP",
+    name: "OMRP-ES200 HORIZONTAL END SUCTION CENTRIFUGAL PUMP",
     image: "https://www.leopump.com/upload/6122/image/20191217/horizontal-single-stage-centrifugal-pump-xstp--1--701777.png",
-    link: "/products/solar-pumps/omrp-es200-horizontal-end-suction-centrifugal-pump"
+    link: "/products/solar-pumps/omrp-es200-horizontal-end suction-centrifugal-pump"
   },
   {
     name: "OMC-HM650 HIGH MOUNT HORIZONTAL CENTRIFUGAL PUMP",
@@ -78,9 +78,9 @@ const featuredProducts = [
     link: "/products/omc-centrifugal-pumps/omc-hm650-high-mount-horizontal-centrifugal-pump"
   },
   {
-    name: "OMC-SR750 SLURRY-RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
+    name: "OMC-SR750 SLURRY RESISTANT HORIZONTAL CENTRIFUGAL PUMP",
     image: "https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg",
-    link: "/products/omc-centrifugal-pumps/omc-sr750-slurry-resistant-horizontal-centrifugal-pump"
+    link: "/products/omc-centrifugal-pumps/omc-sr750-slurry resistant-horizontal-centrifugal-pump"
   },
   {
     name: "OMT-VS150 VISCOUS HANDLING SINGLE SCREW PUMP",
@@ -118,7 +118,7 @@ export default function ProductsPage() {
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-6">Industrial Pump Products</h1>
           <div className="w-24 h-1 bg-blue-500 mx-auto mb-8"></div>
           <p className="text-lg text-gray-200 max-w-3xl mx-auto leading-relaxed">
-            OmronTechPumps manufactures high-performance pumps engineered for the most demanding industrial applications. Our advanced pumping solutions are trusted globally across oil & gas, petrochemical, marine, steel, power generation, and water treatment sectors.
+            OmronTechPumps manufactures high performance pumps engineered for the most demanding industrial applications. Our advanced pumping solutions are trusted globally across oil & gas, petrochemical, marine, steel, power generation, and water treatment sectors.
           </p>
         </div>
       </section>
