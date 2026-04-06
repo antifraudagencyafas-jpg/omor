@@ -96,7 +96,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
-                  <span className="text-slate-400 text-sm">export@omrontechpumps.com</span>
+                  <span className="text-slate-400 text-sm">export@omrontechpumps.nl</span>
                 </li>
               </ul>
 
@@ -113,7 +113,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
-                  <span className="text-slate-400 text-sm">operations@omrontechpumps.com</span>
+                  <span className="text-slate-400 text-sm">operations@omrontechpumps.nl</span>
                 </li>
               </ul>
             </div>
