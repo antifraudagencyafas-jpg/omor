@@ -148,7 +148,7 @@ export default function OMW7MQL8Page() {
                 <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> Industrial Fire-Fighting Systems</li>
                 <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> High-Rise Parallel Water Supply</li>
                 <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> Boiler Feed Water Systems</li>
-                <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> High-Pressure Cleaning Liquids</li>
+                <li className="flex items-start"><span className="mr-2 text-red-600 font-bold">●</span> High Pressure Cleaning Liquids</li>
               </ul>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4">Operating Conditions</h3>

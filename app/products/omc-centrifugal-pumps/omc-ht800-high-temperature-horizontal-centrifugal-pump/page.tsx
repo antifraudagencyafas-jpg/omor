@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-HT 800 Centrifugal Pump',
+  title: 'OMC-HT800 Centrifugal Pump',
   description: 'High-performance API standard horizontal single-stage centrifugal pump for chemical synthesis and refining. Reliable transport for hazardous media.',
 };
 
@@ -23,7 +23,7 @@ export default function OMCHT800Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-HT 800 High-Temperature Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-HT800 High Temperature Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export default function OMCHT800Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/8pvb.jpg"
-                    alt="OMC-HT 800 High-Temperature Horizontal Centrifugal Pump"
+                    alt="OMC-HT800 High Temperature Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMCHT800Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-HT 800 High-Temperature Horizontal Centrifugal Pump
+                  OMC-HT800 High Temperature Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-HT 800
+                  Model: OMC-HT800
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    The OMC-HT 800 series horizontal single-stage single-suction centrifugal pumps are high-performance tools for chemical synthesis, refining, and power generation. They strictly follow OMC standards to provide efficient transportation for both clean and particle-laden hazardous media.
+                    The OMC-HT800 series horizontal single-stage single-suction centrifugal pumps are high-performance tools for chemical synthesis, refining, and power generation. They strictly follow OMC standards to provide efficient transportation for both clean and particle-laden hazardous media.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -129,7 +129,7 @@ export default function OMCHT800Page() {
             <div className="prose prose-slate max-w-none">
               <h3 className="text-xl font-bold text-slate-800 mb-4">Product Description</h3>
               <p className="text-slate-700 leading-relaxed mb-6">
-                With a robust foot-supported structure and a high-efficiency closed-type impeller, the OMC-HT 800 ensures high head and stable operation across wide application ranges. The shaft seal is configurable for various hazardous environments, including packing, single/double mechanical, or tandem seals.
+                With a robust foot-supported structure and a high-efficiency closed-type impeller, the OMC-HT800 ensures high head and stable operation across wide application ranges. The shaft seal is configurable for various hazardous environments, including packing, single/double mechanical, or tandem seals.
               </p>
 
               <h3 className="text-xl font-bold text-slate-800 mb-4 mt-12">Core Features</h3>
@@ -181,7 +181,7 @@ export default function OMCHT800Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-HT 800",
+                  "OMC-HT800",
                   "API OH1 Standard",
                   "Hazardous Media",
                   "Chemical Process",

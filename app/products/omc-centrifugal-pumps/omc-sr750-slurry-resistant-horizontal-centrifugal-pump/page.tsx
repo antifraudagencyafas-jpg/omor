@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 import ProductInquiry from "@/components/ProductInquiry";
 
 export const metadata: Metadata = {
-  title: 'OMC-SR 750 Centrifugal Slurry Pump',
+  title: 'OMC-SR750 Centrifugal Slurry Pump',
   description: 'High-efficiency anti-clogging centrifugal pump for transporting slurries containing impurities. Ideal for mining, chemical, and power industries.',
 };
 
@@ -23,7 +23,7 @@ export default function OMCSR750Page() {
           <ChevronRight className="w-4 h-4 mx-2" />
           <Link href="/products/omc-centrifugal-pumps" className="hover:text-blue-600 transition-colors">OMC Centrifugal Pumps</Link>
           <ChevronRight className="w-4 h-4 mx-2" />
-          <span className="text-slate-900 font-medium truncate uppercase">OMC-SR 750 Horizontal Centrifugal Pump</span>
+          <span className="text-slate-900 font-medium truncate uppercase">OMC-SR750 Horizontal Centrifugal Pump</span>
         </div>
       </div>
 
@@ -96,7 +96,7 @@ export default function OMCSR750Page() {
                 <div className="relative aspect-square bg-white border border-slate-200 rounded-lg overflow-hidden flex items-center justify-center p-4">
                   <Image 
                     src="https://omrontechpumps.com/sitepad-data/uploads/2025/12/5pvb-1.jpg"
-                    alt="OMC-SR 750 Horizontal Centrifugal Pump"
+                    alt="OMC-SR750 Horizontal Centrifugal Pump"
                     fill
                     className="object-contain p-4"
                     referrerPolicy="no-referrer"
@@ -105,14 +105,14 @@ export default function OMCSR750Page() {
               </div>
               <div className="w-full md:w-1/2 flex flex-col">
                 <h1 className="text-2xl md:text-3xl font-bold text-slate-800 mb-4 uppercase leading-tight border-l-4 border-blue-600 pl-4">
-                  OMC-SR 750 Horizontal Centrifugal Pump
+                  OMC-SR750 Horizontal Centrifugal Pump
                 </h1>
                 <p className="text-slate-600 font-medium mb-4">
-                  Model: OMC-SR 750
+                  Model: OMC-SR750
                 </p>
                 <div className="text-slate-600 text-sm leading-relaxed space-y-4 mb-8">
                   <p>
-                    Specifically designed for transporting slurries containing impurities such as solid particles and fibers, the OMC-SR 750 series is widely used in chemical, papermaking, mining, and power industries. It features high efficiency, minimal leakage, and exceptional anti-clogging performance.
+                    Specifically designed for transporting slurries containing impurities such as solid particles and fibers, the OMC-SR750 series is widely used in chemical, papermaking, mining, and power industries. It features high efficiency, minimal leakage, and exceptional anti-clogging performance.
                   </p>
                 </div>
                 <div className="mt-auto">
@@ -212,7 +212,7 @@ export default function OMCSR750Page() {
               {/* Tags */}
               <div className="flex flex-wrap gap-2 mt-12 pt-8 border-t border-slate-200">
                 {[
-                  "OMC-SR 750",
+                  "OMC-SR750",
                   "Slurry Pump",
                   "Anti-Clogging",
                   "Large-Channel Impeller",
