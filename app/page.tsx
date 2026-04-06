@@ -7,8 +7,11 @@ import News from "@/components/News";
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Advanced Industrial Pump Solutions',
-  description: 'Global manufacturer of high-performance industrial pumps for oil & gas, petrochemical, and water treatment. Discover our centrifugal, solar, and screw pumps.',
+  title: 'Omron Tech Pumps | Geavanceerde Industriële Pompoplossingen',
+  description: 'Wereldwijde fabrikant van hoogwaardige industriële pompen voor olie en gas, petrochemie en waterzuivering. Ontdek onze centrifugale, zonne- en schroefpompen.',
+  alternates: {
+    canonical: '/',
+  },
 };
 
 export default function Home() {
