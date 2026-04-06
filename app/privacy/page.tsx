@@ -129,8 +129,8 @@ export default function PrivacyPage() {
                   <p className="font-bold text-slate-900">Omron Tech Pumps</p>
                   <div className="space-y-1">
                     <p>Turkey: sales@omrontechpumps.nl</p>
-                    <p>USA: operations@omrontechpumps.com</p>
-                    <p>Netherlands: export@omrontechpumps.com</p>
+                    <p>USA: operations@omrontechpumps.nl</p>
+                    <p>Netherlands: export@omrontechpumps.nl</p>
                   </div>
                   <p className="mt-2 text-sm text-slate-500 italic">Website: www.omrontechpumps.nl</p>
                 </div>

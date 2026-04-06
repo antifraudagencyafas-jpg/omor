@@ -25,11 +25,11 @@ export default function FloatingContact() {
           <a href="mailto:sales@omrontechpumps.nl" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
             Turkey: sales@omrontechpumps.nl
           </a>
-          <a href="mailto:operations@omrontechpumps.com" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
-            USA: operations@omrontechpumps.com
+          <a href="mailto:operations@omrontechpumps.nl" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
+            USA: operations@omrontechpumps.nl
           </a>
-          <a href="mailto:export@omrontechpumps.com" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
-            NL: export@omrontechpumps.com
+          <a href="mailto:export@omrontechpumps.nl" className="bg-slate-900 text-white text-xs px-3 py-2 rounded hover:bg-blue-600 transition-colors whitespace-nowrap">
+            NL: export@omrontechpumps.nl
           </a>
         </div>
       </div>
