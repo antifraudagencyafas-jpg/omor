@@ -79,7 +79,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
-                  <span className="text-slate-400 text-sm">sales@omrontechpumps.nl</span>
+                  <a href="mailto:sales@omrontechpumps.nl" className="text-slate-400 text-sm hover:text-blue-500 transition-colors">sales@omrontechpumps.nl</a>
                 </li>
               </ul>
 
@@ -96,7 +96,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
-                  <span className="text-slate-400 text-sm">export@omrontechpumps.com</span>
+                  <a href="mailto:export@omrontechpumps.nl" className="text-slate-400 text-sm hover:text-blue-500 transition-colors">export@omrontechpumps.nl</a>
                 </li>
               </ul>
 
@@ -113,7 +113,7 @@ export default function Footer() {
                 </li>
                 <li className="flex items-center">
                   <Mail className="w-4 h-4 text-blue-500 mr-3 flex-shrink-0" />
-                  <span className="text-slate-400 text-sm">operations@omrontechpumps.com</span>
+                  <a href="mailto:operations@omrontechpumps.nl" className="text-slate-400 text-sm hover:text-blue-500 transition-colors">operations@omrontechpumps.nl</a>
                 </li>
               </ul>
             </div>

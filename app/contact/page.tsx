@@ -73,7 +73,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">sales@omrontechpumps.nl</p>
+                        <a href="mailto:sales@omrontechpumps.nl" className="text-slate-600 hover:text-[#ff6600] transition-colors">sales@omrontechpumps.nl</a>
                       </div>
                     </div>
                   </div>
@@ -106,7 +106,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">export@omrontechpumps.com</p>
+                        <a href="mailto:export@omrontechpumps.nl" className="text-slate-600 hover:text-[#ff6600] transition-colors">export@omrontechpumps.nl</a>
                       </div>
                     </div>
                   </div>
@@ -139,7 +139,7 @@ export default function ContactPage() {
                         <Mail className="w-6 h-6 text-[#ff6600]" />
                       </div>
                       <div>
-                        <p className="text-slate-600">operations@omrontechpumps.com</p>
+                        <a href="mailto:operations@omrontechpumps.nl" className="text-slate-600 hover:text-[#ff6600] transition-colors">operations@omrontechpumps.nl</a>
                       </div>
                     </div>
                   </div>
